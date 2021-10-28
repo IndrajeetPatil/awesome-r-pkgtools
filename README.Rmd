@@ -287,6 +287,10 @@ Thank the contributors or maintainers of packages you rely on.
 
 - `{cpp11}`: <https://cpp11.r-lib.org/index.html>
 
+## Python
+
+- `{reticulate}`: <https://cran.r-project.org/web/packages/reticulate/index.html>
+
 ## Rust
 
 - `{hellorust}`: <https://github.com/r-rust/hellorust>
