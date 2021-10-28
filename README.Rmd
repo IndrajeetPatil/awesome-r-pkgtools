@@ -127,6 +127,8 @@ Tools (including their hard dependencies) useful across all stages of package de
 
 - `{roxytest}`: <https://github.com/mikldk/roxytest> (inline `{testthat}` tests with `{roxygen2}`)
 
+- `{exampletestr}`: <https://rorynolan.github.io/exampletestr/> (tests based on package examples)
+
 - `{shinytest}`: <https://rstudio.github.io/shinytest/> (testing Shiny apps)
 
 - `{testdown}`: <https://github.com/ThinkR-open/testdown> (turn `{testthat}` results into a `{bookdown}` project)

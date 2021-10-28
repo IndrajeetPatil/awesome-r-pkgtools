@@ -146,6 +146,9 @@ package development.
 -   `{roxytest}`: <https://github.com/mikldk/roxytest> (inline
     `{testthat}` tests with `{roxygen2}`)
 
+-   `{exampletestr}`: <https://rorynolan.github.io/exampletestr/> (tests
+    based on package examples)
+
 -   `{shinytest}`: <https://rstudio.github.io/shinytest/> (testing Shiny
     apps)
 
