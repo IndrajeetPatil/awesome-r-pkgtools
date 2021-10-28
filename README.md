@@ -365,6 +365,7 @@ Thank the contributors or maintainers of packages you rely on.
 
 -   `{htmltools}`:
     <https://rstudio.github.io/htmltools/reference/index.html#section-html-dependencies>
+-   `{packer}`: <https://packer.john-coene.com>
 
 ## Julia
 
