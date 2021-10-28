@@ -3,7 +3,7 @@
 
 A curated list of awesome tools to assist R 📦 development.
 
-N.B.:
+Note before:
 
 -   Not all tools are available on [CRAN](https://cran.r-project.org/);
     some might be available only via GitHub or GitLab.
@@ -37,24 +37,24 @@ package development.
 -   `{rcompendium}`: <https://frbcesab.github.io/rcompendium/>
 
 -   `{fusen}`: <https://thinkr-open.github.io/fusen/>
+    (`{rmarkdown}`-based)
 
-# Naming package and functions 🧸
+-   `{pkgverse}`: <https://pkgverse.mikewk.com/> (for package universe)
+
+# Naming things 🧸
 
 -   `{available}`:
-    <https://cran.r-project.org/web/packages/available/index.html>
-    (check if a package name is available to use)
+    <https://cran.r-project.org/web/packages/available/index.html> (to
+    check if a package name is available to use)
 
--   `{collidr}`: <https://cran.r-project.org/web/packages/collidr/>
-    (check for namespace collisions)
+-   `{collidr}`: <https://cran.r-project.org/web/packages/collidr/> (to
+    check for namespace collisions)
 
 # Documentation 📚
 
 ## Manual
 
 -   `{roxygen2}`: <https://roxygen2.r-lib.org/>
-
--   `{docreview}`: <https://thisisnic.github.io/docreview/> (to check
-    quality of docs)
 
 -   `{Rd2roxygen}`:
     <https://cran.r-project.org/web/packages/Rd2roxygen/index.html> (in
@@ -78,7 +78,7 @@ package development.
     Rd docs to a human-readable list)
 
 -   `roxygen2Comment`: <https://github.com/csgillespie/roxygen2Comment>
-    (An Rstudio addin for adding and remove `{roxygen2}` comment)
+    (Rstudio addin for adding and remove `{roxygen2}` comment)
 
 ## Vignettes
 
@@ -86,7 +86,11 @@ package development.
 
 -   `{rmarkdown}`: <https://rmarkdown.rstudio.com/>
 
-## Lifecycle:
+-   `{prettydoc}`:
+    <https://cran.rstudio.com/web/packages/prettydoc/index.html>
+    (creates lightweight yet pretty vignettes)
+
+## Lifecycle
 
 -   `{lifecycle}`: <https://lifecycle.r-lib.org/index.html>
 
@@ -97,6 +101,31 @@ package development.
 
 -   `{gitdown}`: <https://github.com/ThinkR-open/gitdown> (software
     changes as a gitbook)
+
+## Badges and stickers
+
+-   `{badger}`:
+    <https://cran.r-project.org/web/packages/badger/index.html>
+
+-   `{hexSticker}`:
+    <https://cran.r-project.org/web/packages/hexSticker/index.html>
+
+-   `hexwall`: <https://github.com/mitchelloharawild/hexwall> (to create
+    a wall of hexstickers)
+
+## Presentation
+
+-   `{xaringan}`: <https://github.com/yihui/xaringan>
+
+# Documentation quality ✒️
+
+-   `{docreview}`: <https://thisisnic.github.io/docreview/> (to check
+    quality of docs)
+
+-   `{spelling}`: <https://docs.ropensci.org/spelling/> (to spell check)
+
+-   `{gramr}`: <https://github.com/jasdumas/gramr> (for grammar
+    suggestions)
 
 # Unit testing 🧪
 
@@ -143,10 +172,10 @@ package development.
 
 ## Code coverage
 
--   `{covr}`: <https://covr.r-lib.org/> (compute code coverage)
+-   `{covr}`: <https://covr.r-lib.org/> (computes code coverage)
 
--   `{covrpage}`: <https://yonicd.github.io/covrpage/> (summary `README`
-    of code coverage and corresponding tests)
+-   `{covrpage}`: <https://yonicd.github.io/covrpage/> (provides summary
+    `README` of code coverage and corresponding tests)
 
 ## Lint detection
 
@@ -162,19 +191,22 @@ package development.
 
 -   `{dupree}`: <https://github.com/russHyde/dupree>
 
-## Lines of code
+## Benchmarking and profiling
 
--   `{cloc}`: <https://github.com/hrbrmstr/cloc>
-
-## Profiling
+-   `{bench}`:
+    <https://cran.r-project.org/web/packages/bench/index.html>
 
 -   `{profvis}`:
     <https://cran.r-project.org/web/packages/profvis/index.html>
 
+## Lines of code
+
+-   `{cloc}`: <https://github.com/hrbrmstr/cloc>
+
 # Formatting R code 🧽
 
 -   `{styler}`: <https://styler.r-lib.org/> (especially relevant if you
-    follow tidyverse style guide)
+    follow `{tidyverse}` style guide)
 
 -   `{formatR}`: <https://yihui.org/formatr/>
 
@@ -208,6 +240,9 @@ package development.
 
 # CRAN submission and status 📬
 
+-   `{rhub}`: <https://cran.r-project.org/web/packages/rhub/index.html>
+    (to run `R CMD check` on CRAN architectures)
+
 -   `{checkhelper}`: <https://thinkr-open.github.io/checkhelper/>
     (submission help)
 
@@ -217,9 +252,9 @@ package development.
 
 -   `{urlchecker}`: <https://github.com/r-lib/urlchecker> (URL checks)
 
-# Usage 📇
+# Usage 🙈
 
--   `{packageRank}`: <https://r-hub.github.io/cranlogs/> (computing CRAN
+-   `{cranlogs}`: <https://r-hub.github.io/cranlogs/> (computing CRAN
     download counts)
 
 -   `{packageRank}`:
@@ -245,8 +280,7 @@ continuous deployment
 
 -   `{debugme}`: <https://github.com/r-lib/debugme>
 
--   `{flow}`: <https://moodymudskipper.github.io/flow/> (function logic
-    as a flow diagram)
+-   `{debugr}`:<https://cran.r-project.org/web/packages/debugr/>
 
 # Input validation 🔬
 
@@ -255,14 +289,10 @@ continuous deployment
 -   `{assertthat}`:
     <https://cran.r-project.org/web/packages/assertthat/index.html>
 
+-   `{assertive}`: <https://www.r-pkg.org/pkg/assertive>
+
 -   `{pkgcond}`: <https://github.com/RDocTaskForce/pkgcond> (better
     error messages for package users)
-
-# Spellcheck and grammar ✒️
-
--   `{spelling}`: <https://docs.ropensci.org/spelling/>
-
--   `{gramr}`: <https://github.com/jasdumas/gramr>
 
 # Package metadata 🖨
 
@@ -281,7 +311,7 @@ continuous deployment
 
 -   `{sessioninfo}`: <https://github.com/r-lib/sessioninfo>
 
-# Reverse dependency checks 📡
+# Reverse dependency checks 📡⚰️
 
 -   `{revdepcheck}`: <https://r-lib.github.io/revdepcheck/>
 
@@ -291,16 +321,14 @@ continuous deployment
 
 -   `{usethat}`: <https://tidylab.github.io/usethat/>
 
-# Gratitude 🙏
+# Gratitude 🙏💌
+
+Thank the contributors or maintainers of packages you rely on.
 
 -   `{thankr}`:
     <https://cran.r-project.org/web/packages/thankr/index.html>
 
 -   `{allcontributors}`: <https://docs.ropensci.org/allcontributors/>
-
-# Creating package universe 🌌
-
--   `{pkgverse}`: <https://pkgverse.mikewk.com/>
 
 # Integration with other languages 🔗
 
@@ -330,7 +358,7 @@ continuous deployment
 
 # Sundry 🗒
 
--   `{TODOr}`: <https://github.com/dokato/todor> (RStudio add-in to list
+-   `{TODOr}`: <https://github.com/dokato/todor> (RStudio addin to list
     things that you need to do or change)
 
 -   `{prefixer}`: <https://github.com/dreamRs/prefixer> (prefix function
