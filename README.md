@@ -80,6 +80,13 @@ package development.
 -   `roxygen2Comment`: <https://github.com/csgillespie/roxygen2Comment>
     (Rstudio addin for adding and remove `{roxygen2}` comment)
 
+## Math in manual
+
+-   `{katex}`: <https://docs.ropensci.org/katex/>
+
+-   `{mathjaxr}`:
+    <https://cran.r-project.org/web/packages/mathjaxr/index.html>
+
 ## Vignettes
 
 -   `{knitr}`: <https://yihui.org/knitr/>
