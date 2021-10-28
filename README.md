@@ -134,11 +134,25 @@ can.
 
 -   `{revdepcheck}`: <https://r-lib.github.io/revdepcheck/>
 
-# Using C++
-
 # Creating package universe
 
 -   `{pkgverse}`: <https://pkgverse.mikewk.com/>
+
+# Integration with other languages
+
+## C++
+
+-   `{Rcpp}`: <https://cran.r-project.org/web/packages/Rcpp/index.html>
+
+-   `{cpp11}`: <https://cpp11.r-lib.org/index.html>
+
+## Rust
+
+-   `{hellorust}`: <https://github.com/r-rust/hellorust>
+
+## .NET Framework
+
+-   `{rClr}`: : <https://github.com/rdotnet/rClr>
 
 # TO-DOs
 
