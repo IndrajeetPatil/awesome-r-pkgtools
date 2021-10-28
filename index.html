@@ -605,6 +605,7 @@ body {
 <p>Note that not all resources are available on CRAN. I have also included tools which are available only via GitHub or GitLab.</p>
 <p>If you wish to suggest any additional resources, please make a PR request here:</p>
 <p><a href="https://github.com/IndrajeetPatil/awesome-r-pkgtools">https://github.com/IndrajeetPatil/awesome-r-pkgtools</a></p>
+<p>Please note that the <code>awesome-r-pkgtools</code> project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 <h1 id="swiss-army-knives">Swiss Army knives</h1>
 <p>These package contain tools that are useful across all stages of package development, from the beginning to the end.</p>
 <ul>
@@ -614,7 +615,12 @@ body {
 <h1 id="documentation">Documentation</h1>
 <h2 id="manual">Manual</h2>
 <ul>
-<li><code>{roxygen2}</code>: <a href="https://roxygen2.r-lib.org/">https://roxygen2.r-lib.org/</a></li>
+<li><p><code>{roxygen2}</code>: <a href="https://roxygen2.r-lib.org/">https://roxygen2.r-lib.org/</a></p></li>
+<li><p><code>{Rd2roxygen}</code>: <a href="https://cran.r-project.org/web/packages/Rd2roxygen/index.html">https://cran.r-project.org/web/packages/Rd2roxygen/index.html</a> (in case you inherit a project where documentation was not written using <code>{roxygen2}</code>)</p></li>
+<li><p><code>{sinew}</code>: <a href="https://yonicd.github.io/sinew/">https://yonicd.github.io/sinew/</a> (generate <code>{roxygen2}</code> skeletons)</p></li>
+<li><p><code>{roclang}</code>: <a href="https://cran.r-project.org/web/packages/roclang/">https://cran.r-project.org/web/packages/roclang/</a> (helpers for diffusing of content across function documentation)</p></li>
+<li><p><code>{roxygen2md}</code>: <a href="https://roxygen2md.r-lib.org/">https://roxygen2md.r-lib.org/</a> (using Markdown syntax in package documentation)</p></li>
+<li><p><code>roxygen2Comment</code>: <a href="https://github.com/csgillespie/roxygen2Comment">https://github.com/csgillespie/roxygen2Comment</a> (An Rstudio addin for adding and remove <code>{roxygen2}</code> comment)</p></li>
 </ul>
 <h2 id="vignettes">Vignettes</h2>
 <ul>
@@ -631,6 +637,11 @@ body {
 <li><p><code>{tinytest}</code>: <a href="https://cran.r-project.org/web/packages/tinytest/index.html">https://cran.r-project.org/web/packages/tinytest/index.html</a></p></li>
 <li><p><code>{vdiffr}</code>: <a href="https://vdiffr.r-lib.org/">https://vdiffr.r-lib.org/</a> (visual regression testing)</p></li>
 </ul>
+<h1 id="code-coverage">Code coverage:</h1>
+<ul>
+<li><p><code>{covr}</code>: <a href="https://covr.r-lib.org/">https://covr.r-lib.org/</a></p></li>
+<li><p><code>{covrpage}</code>: <a href="https://yonicd.github.io/covrpage/">https://yonicd.github.io/covrpage/</a> ( summary <code>README</code> of code coverage)</p></li>
+</ul>
 <h1 id="cicd">CI/CD</h1>
 <blockquote>
 <p>“In software engineering, CI/CD or CICD is the combined practices of continuous integration and either continuous delivery or continuous deployment.”</p>
@@ -641,8 +652,11 @@ body {
 </ul>
 <h1 id="good-practices">Good practices</h1>
 <p>Not needed, but a <strong>really good idea</strong> to follow as many of them as you can.</p>
+<h2 id="general">General</h2>
+<ul>
+<li><code>{goodpractice}</code>: <a href="http://mangothecat.github.io/goodpractice/">http://mangothecat.github.io/goodpractice/</a> (Swiss army knife for good practices)</li>
+</ul>
 <h2 id="formatting-r-code">Formatting R code</h2>
-<p>These packages can help you adopt a consistent coding style guide and format the code accordingly.</p>
 <ul>
 <li><p><code>{styler}</code>: <a href="https://styler.r-lib.org/">https://styler.r-lib.org/</a> (especially relevant if you follow tidyverse style guide)</p></li>
 <li><p><code>{formatR}</code>: <a href="https://yihui.org/formatr/">https://yihui.org/formatr/</a></p></li>
@@ -655,6 +669,10 @@ body {
 <ul>
 <li><code>{spelling}</code>: <a href="https://docs.ropensci.org/spelling/">https://docs.ropensci.org/spelling/</a></li>
 </ul>
+<h2 id="link-rot">Link rot</h2>
+<ul>
+<li><code>{urlchecker}</code>: <a href="https://github.com/r-lib/urlchecker">https://github.com/r-lib/urlchecker</a> (Run CRAN URL checks)</li>
+</ul>
 <h2 id="package-metadata">Package metadata</h2>
 <ul>
 <li><p><code>{codemetar}</code>: <a href="https://docs.ropensci.org/codemetar/">https://docs.ropensci.org/codemetar/</a></p></li>
@@ -664,16 +682,15 @@ body {
 <ul>
 <li><code>{revdepcheck}</code>: <a href="https://r-lib.github.io/revdepcheck/">https://r-lib.github.io/revdepcheck/</a></li>
 </ul>
+<h1 id="creating-package-universe">Creating package universe</h1>
+<ul>
+<li><code>{pkgverse}</code>: <a href="https://pkgverse.mikewk.com/">https://pkgverse.mikewk.com/</a></li>
+</ul>
 <h1 id="to-dos">TO-DOs</h1>
 <p>Tools to keep track of things that you need to do in the future releases.</p>
 <ul>
 <li><code>{TODOr}</code>: <a href="https://github.com/dokato/todor">https://github.com/dokato/todor</a> (RStudio add-in)</li>
 </ul>
-<h1 id="code-of-conduct">Code of Conduct</h1>
-<p>Please note that the <code>awesome-r-pkgtools</code> project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
-<h1 id="suggestions">Suggestions</h1>
-<p>If you wish to suggest any additional resources, please make a PR request here:</p>
-<p><a href="https://github.com/IndrajeetPatil/awesome-r-pkgtools">https://github.com/IndrajeetPatil/awesome-r-pkgtools</a></p>
 
 </body>
 </html>
