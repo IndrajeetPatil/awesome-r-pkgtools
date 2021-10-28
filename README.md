@@ -1,15 +1,18 @@
 
-# Introduction
+# Awesome R package development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/)
 
-A curated list of awesome resources for R package development.
+A curated list of awesome tools for R package development. Inspired by
+awesome-… stuff.
 
-Note that not all resources are available on CRAN. I have also included
-tools which are available only via GitHub or GitLab.
+N.B.:
 
-If you wish to suggest any additional resources, please make a PR
-request here:
+-   Not all tools are available on CRAN; some might be available only
+    via GitHub or GitLab.
+-   Only tools helpful for package development are included, and not
+    other resources like books, talks, presentations, etc.
 
-<https://github.com/IndrajeetPatil/awesome-r-pkgtools>
+If you wish to suggest any additional tools, please make a PR request
+here: <https://github.com/IndrajeetPatil/awesome-r-pkgtools>
 
 Please note that the `awesome-r-pkgtools` project is released with a
 [Contributor Code of
@@ -24,6 +27,10 @@ development, from the beginning to the end.
 -   `{devtools}`: <https://devtools.r-lib.org/>
 
 -   `{usethis}`: <https://usethis.r-lib.org/>
+
+# Package skeletons
+
+-   `{pkgkitten}`: <https://dirk.eddelbuettel.com/code/pkgkitten.html>
 
 # Documentation
 
@@ -126,6 +133,8 @@ can.
 # Reverse dependency checks
 
 -   `{revdepcheck}`: <https://r-lib.github.io/revdepcheck/>
+
+# Using C++
 
 # Creating package universe
 
