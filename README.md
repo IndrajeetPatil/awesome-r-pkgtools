@@ -109,6 +109,9 @@ package development.
 -   `{gitdown}`: <https://github.com/ThinkR-open/gitdown> (software
     changes as a gitbook)
 
+-   `{altdoc}`: <https://altdoc.etiennebacher.com/> (use docute or
+    docsify to create a static website for package documentation)
+
 ## Badges and stickers
 
 -   `{badger}`:
