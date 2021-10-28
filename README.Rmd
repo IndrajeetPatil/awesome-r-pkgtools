@@ -1,6 +1,8 @@
 ---
 output: 
   github_document:
+    #toc: TRUE
+    #toc_depth: 1
     keep_html: TRUE
 ---
 
