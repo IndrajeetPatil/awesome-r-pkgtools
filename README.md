@@ -204,6 +204,8 @@ package development.
 -   `{oysteR}`: <https://sonatype-nexus-community.github.io/oysteR/>
     (secure package against insecure dependencies)
 
+-   `{attachment}`: <https://github.com/ThinkR-open/attachment>
+
 # CRAN submission and status 📬
 
 -   `{checkhelper}`: <https://thinkr-open.github.io/checkhelper/>
@@ -234,6 +236,10 @@ continuous deployment
 
 -   `r-appveyor`: <https://github.com/krlmlr/r-appveyor> (for
     [AppVeyor](https://www.appveyor.com/))
+
+-   `{tic}`: <https://docs.ropensci.org/tic/> (for [Circle
+    CI](https://circleci.com/) and [GitHub
+    Actions](https://github.com/features/actions))
 
 # Debugging 🔭
 
@@ -272,6 +278,8 @@ continuous deployment
 -   `{pkgattrs}`: <https://rich-iannone.github.io/pkgattrs/>
 
 -   `{foreman}`: <https://github.com/yonicd/foreman>
+
+-   `{sessioninfo}`: <https://github.com/r-lib/sessioninfo>
 
 # Reverse dependency checks 📡
 

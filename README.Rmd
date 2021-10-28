@@ -172,6 +172,8 @@ Tools (including their hard dependencies) useful across all stages of package de
 
 - `{oysteR}`: <https://sonatype-nexus-community.github.io/oysteR/> (secure package against insecure dependencies)
 
+- `{attachment}`: <https://github.com/ThinkR-open/attachment>
+
 # CRAN submission and status 📬
 
 - `{checkhelper}`: <https://thinkr-open.github.io/checkhelper/> (submission help)
@@ -193,6 +195,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 - `actions`: <https://github.com/r-lib/actions> (for [GitHub Actions](https://github.com/features/actions))
 
 - `r-appveyor`: <https://github.com/krlmlr/r-appveyor> (for [AppVeyor](https://www.appveyor.com/)) 
+
+- `{tic}`: <https://docs.ropensci.org/tic/> (for [Circle CI](https://circleci.com/) and [GitHub Actions](https://github.com/features/actions))
 
 # Debugging 🔭
 
@@ -227,6 +231,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 - `{pkgattrs}`: <https://rich-iannone.github.io/pkgattrs/>
 
 - `{foreman}`: <https://github.com/yonicd/foreman>
+
+- `{sessioninfo}`: <https://github.com/r-lib/sessioninfo>
 
 # Reverse dependency checks 📡
 
