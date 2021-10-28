@@ -34,6 +34,15 @@ package development.
 
 -   `{rcompendium}`: <https://frbcesab.github.io/rcompendium/>
 
+# Naming package and functions
+
+-   `{available}`:
+    <https://cran.r-project.org/web/packages/available/index.html>
+    (check if a package name is available to use)
+
+-   `{collidr}`: <https://cran.r-project.org/web/packages/collidr/>
+    (check for namespace collisions)
+
 # Documentation
 
 ## Manual
@@ -50,6 +59,10 @@ package development.
 
 -   `{roclang}`: <https://cran.r-project.org/web/packages/roclang/>
     (helpers for diffusing of content across function documentation)
+
+-   `{Rdpack}`:
+    <https://cran.r-project.org/web/packages/Rdpack/index.html> (for
+    inserting references, figures, and evaluated examples in Rd docs)
 
 -   `{roxygen2md}`: <https://roxygen2md.r-lib.org/> (using Markdown
     syntax in package documentation)
@@ -68,7 +81,11 @@ package development.
 
 ## Website
 
--   `{pkgdown}`: <https://pkgdown.r-lib.org/>
+-   `{pkgdown}`: <https://pkgdown.r-lib.org/> (static website for
+    package documentation)
+
+-   `{gitdown}`: <https://github.com/ThinkR-open/gitdown> (software
+    changes as a gitbook)
 
 # Unit testing
 
@@ -76,11 +93,24 @@ package development.
 
 -   `{vdiffr}`: <https://vdiffr.r-lib.org/> (visual regression testing)
 
+-   `{roxytest}`: <https://github.com/mikldk/roxytest> (inline
+    `{testthat}` tests with `{roxygen2}`)
+
+-   `{shinytest}`: <https://rstudio.github.io/shinytest/> (testing Shiny
+    apps)
+
+-   `{testdown}`: <https://github.com/ThinkR-open/testdown> (turn
+    `{testthat}` results into a `{bookdown}` project)
+
 -   `{tinytest}`:
     <https://cran.r-project.org/web/packages/tinytest/index.html>
 
 -   `{testit}`:
     <https://cran.rstudio.com/web/packages/testit/index.html>
+
+-   `{testthis}`: <https://cran.r-project.org/web/packages/testthis/>
+
+-   `{xpectr}`: <https://github.com/LudvigOlsen/xpectr>
 
 -   `{unitizer}`:
     <https://cran.r-project.org/web/packages/unitizer/index.html>
@@ -92,8 +122,8 @@ package development.
 
 -   `{covr}`: <https://covr.r-lib.org/>
 
--   `{covrpage}`: <https://yonicd.github.io/covrpage/> ( summary
-    `README` of code coverage)
+-   `{covrpage}`: <https://yonicd.github.io/covrpage/> (summary `README`
+    of code coverage)
 
 # CI/CD
 
@@ -111,24 +141,41 @@ package development.
 
 -   `{containerit}`: <https://o2r.info/containerit/>
 
-# Good practices
-
-Not needed, but a **really good idea** to follow as many of them as you
-can.
-
-## General
-
--   `{goodpractice}`: <http://mangothecat.github.io/goodpractice/>
-    (Swiss army knife for good practices)
-
-## Formatting R code
+# Formatting R code
 
 -   `{styler}`: <https://styler.r-lib.org/> (especially relevant if you
     follow tidyverse style guide)
 
 -   `{formatR}`: <https://yihui.org/formatr/>
 
-## Detecting lints
+-   `AlignAssign`: <https://github.com/seasmith/AlignAssign> (RStudio
+    addin)
+
+# Debugging
+
+-   `{debugme}`: <https://github.com/r-lib/debugme>
+
+-   `{flow}`: <https://moodymudskipper.github.io/flow/> (function logic
+    as a flow diagram)
+
+# Dependencies
+
+-   `{deepdep}`:
+    <https://cran.r-project.org/web/packages/deepdep/index.html> (to
+    visualise and explore package dependencies)
+
+-   `{itdepends}`: <https://github.com/r-lib/itdepends> (to assess
+    usage, measure weights, visualize proportions, and assist removal of
+    dependencies)
+
+# Code analysis
+
+## General
+
+-   `{goodpractice}`: <http://mangothecat.github.io/goodpractice/>
+    (Swiss army knife for good practices)
+
+## Lint detection
 
 -   `{lintr}`: <https://github.com/jimhester/lintr> (static code
     analysis)
@@ -136,26 +183,44 @@ can.
 -   `{roger}`:
     <https://cran.r-project.org/web/packages/roger/index.html>
 
-## Detecting similar code
+-   `{cleanr}`:
+    <https://cran.r-project.org/web/packages/cleanr/index.html>
+
+## Code similarity
 
 -   `{dupree}`: <https://github.com/russHyde/dupree>
 
-## Spellcheck
+## Lines of code
+
+-   `{cloc}`: <https://github.com/hrbrmstr/cloc>
+
+# Input validation
+
+-   `{checkmate}`: <https://mllg.github.io/checkmate/> (argument checks)
+
+# Spellcheck and grammar
 
 -   `{spelling}`: <https://docs.ropensci.org/spelling/>
 
-## Link rot
+-   `{gramr}`: <https://github.com/jasdumas/gramr>
+
+# Link rot
 
 -   `{urlchecker}`: <https://github.com/r-lib/urlchecker> (Run CRAN URL
     checks)
 
-## Package metadata
+# Package metadata
 
 -   `{codemetar}`: <https://docs.ropensci.org/codemetar/>
 
 -   `{pkgapi}`: <https://github.com/r-lib/pkgapi>
 
+-   `{packagemetrics}`: <https://github.com/sfirke/packagemetrics> (for
+    comparing among packages)
+
 -   `{pkgattrs}`: <https://rich-iannone.github.io/pkgattrs/>
+
+-   `{foreman}`: <https://github.com/yonicd/foreman>
 
 # Reverse dependency checks
 
@@ -179,11 +244,21 @@ can.
 
 ## .NET Framework
 
--   `{rClr}`: : <https://github.com/rdotnet/rClr>
+-   `{rClr}`: <https://github.com/rdotnet/rClr>
 
-# TO-DOs
+# Sundry
 
-Tools to keep track of things that you need to do in the future
-releases.
+-   `{TODOr}`: <https://github.com/dokato/todor> (RStudio add-in to list
+    things that you need to do or change)
 
--   `{TODOr}`: <https://github.com/dokato/todor> (RStudio add-in)
+-   `{prefixer}`: <https://github.com/dreamRs/prefixer> (prefix function
+    with their namespace )
+
+-   `{gitignore}`:
+    <https://cran.r-project.org/web/packages/gitignore/index.html> (to
+    fetch gitignore templates)
+
+# Gratitude
+
+-   `{thankr}`:
+    <https://cran.r-project.org/web/packages/thankr/index.html>
