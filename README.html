@@ -609,15 +609,16 @@ body {
 </ul>
 <p>If you wish to suggest any additional tools, please make a PR request here: <a href="https://github.com/IndrajeetPatil/awesome-r-pkgtools">https://github.com/IndrajeetPatil/awesome-r-pkgtools</a></p>
 <p>Please note that the <code>awesome-r-pkgtools</code> project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
-<h1 id="swiss-army-knives">Swiss Army knives</h1>
-<p>These package contain tools that are useful across all stages of package development, from the beginning to the end.</p>
+<h1 id="swiss-army-knives">Swiss army knives</h1>
+<p>Tools (including their hard dependencies) useful across all stages of package development.</p>
 <ul>
 <li><p><code>{devtools}</code>: <a href="https://devtools.r-lib.org/">https://devtools.r-lib.org/</a></p></li>
 <li><p><code>{usethis}</code>: <a href="https://usethis.r-lib.org/">https://usethis.r-lib.org/</a></p></li>
 </ul>
 <h1 id="package-skeletons">Package skeletons</h1>
 <ul>
-<li><code>{pkgkitten}</code>: <a href="https://dirk.eddelbuettel.com/code/pkgkitten.html">https://dirk.eddelbuettel.com/code/pkgkitten.html</a></li>
+<li><p><code>{pkgkitten}</code>: <a href="https://dirk.eddelbuettel.com/code/pkgkitten.html">https://dirk.eddelbuettel.com/code/pkgkitten.html</a></p></li>
+<li><p><code>{rcompendium}</code>: <a href="https://frbcesab.github.io/rcompendium/">https://frbcesab.github.io/rcompendium/</a></p></li>
 </ul>
 <h1 id="documentation">Documentation</h1>
 <h2 id="manual">Manual</h2>
@@ -627,6 +628,7 @@ body {
 <li><p><code>{sinew}</code>: <a href="https://yonicd.github.io/sinew/">https://yonicd.github.io/sinew/</a> (generate <code>{roxygen2}</code> skeletons)</p></li>
 <li><p><code>{roclang}</code>: <a href="https://cran.r-project.org/web/packages/roclang/">https://cran.r-project.org/web/packages/roclang/</a> (helpers for diffusing of content across function documentation)</p></li>
 <li><p><code>{roxygen2md}</code>: <a href="https://roxygen2md.r-lib.org/">https://roxygen2md.r-lib.org/</a> (using Markdown syntax in package documentation)</p></li>
+<li><p><code>{rd2list}</code>: <a href="https://github.com/coolbutuseless/rd2list">https://github.com/coolbutuseless/rd2list</a> (converts Rd docs to a human-readable list)</p></li>
 <li><p><code>roxygen2Comment</code>: <a href="https://github.com/csgillespie/roxygen2Comment">https://github.com/csgillespie/roxygen2Comment</a> (An Rstudio addin for adding and remove <code>{roxygen2}</code> comment)</p></li>
 </ul>
 <h2 id="vignettes">Vignettes</h2>
@@ -641,8 +643,11 @@ body {
 <h1 id="unit-testing">Unit testing</h1>
 <ul>
 <li><p><code>{testthat}</code>: <a href="https://testthat.r-lib.org/">https://testthat.r-lib.org/</a></p></li>
-<li><p><code>{tinytest}</code>: <a href="https://cran.r-project.org/web/packages/tinytest/index.html">https://cran.r-project.org/web/packages/tinytest/index.html</a></p></li>
 <li><p><code>{vdiffr}</code>: <a href="https://vdiffr.r-lib.org/">https://vdiffr.r-lib.org/</a> (visual regression testing)</p></li>
+<li><p><code>{tinytest}</code>: <a href="https://cran.r-project.org/web/packages/tinytest/index.html">https://cran.r-project.org/web/packages/tinytest/index.html</a></p></li>
+<li><p><code>{testit}</code>: <a href="https://cran.rstudio.com/web/packages/testit/index.html">https://cran.rstudio.com/web/packages/testit/index.html</a></p></li>
+<li><p><code>{unitizer}</code>: <a href="https://cran.r-project.org/web/packages/unitizer/index.html">https://cran.r-project.org/web/packages/unitizer/index.html</a></p></li>
+<li><p><code>{r-hedgehog}</code>: <a href="https://github.com/hedgehogqa/r-hedgehog">https://github.com/hedgehogqa/r-hedgehog</a> (property based testing)</p></li>
 </ul>
 <h1 id="code-coverage">Code coverage:</h1>
 <ul>
@@ -657,6 +662,10 @@ body {
 <li><p><code>actions</code>: <a href="https://github.com/r-lib/actions">https://github.com/r-lib/actions</a> (for <a href="https://github.com/features/actions">GitHub Actions</a>)</p></li>
 <li><p><code>r-appveyor</code>: <a href="https://github.com/krlmlr/r-appveyor">https://github.com/krlmlr/r-appveyor</a> (for <a href="https://www.appveyor.com/">AppVeyor</a>)</p></li>
 </ul>
+<h1 id="docker-container">Docker container</h1>
+<ul>
+<li><code>{containerit}</code>: <a href="https://o2r.info/containerit/">https://o2r.info/containerit/</a></li>
+</ul>
 <h1 id="good-practices">Good practices</h1>
 <p>Not needed, but a <strong>really good idea</strong> to follow as many of them as you can.</p>
 <h2 id="general">General</h2>
@@ -670,7 +679,12 @@ body {
 </ul>
 <h2 id="detecting-lints">Detecting lints</h2>
 <ul>
-<li><code>{lintr}</code>: <a href="https://github.com/jimhester/lintr">https://github.com/jimhester/lintr</a> (static code analysis)</li>
+<li><p><code>{lintr}</code>: <a href="https://github.com/jimhester/lintr">https://github.com/jimhester/lintr</a> (static code analysis)</p></li>
+<li><p><code>{roger}</code>: <a href="https://cran.r-project.org/web/packages/roger/index.html">https://cran.r-project.org/web/packages/roger/index.html</a></p></li>
+</ul>
+<h2 id="detecting-similar-code">Detecting similar code</h2>
+<ul>
+<li><code>{dupree}</code>: <a href="https://github.com/russHyde/dupree">https://github.com/russHyde/dupree</a></li>
 </ul>
 <h2 id="spellcheck">Spellcheck</h2>
 <ul>
@@ -684,6 +698,7 @@ body {
 <ul>
 <li><p><code>{codemetar}</code>: <a href="https://docs.ropensci.org/codemetar/">https://docs.ropensci.org/codemetar/</a></p></li>
 <li><p><code>{pkgapi}</code>: <a href="https://github.com/r-lib/pkgapi">https://github.com/r-lib/pkgapi</a></p></li>
+<li><p><code>{pkgattrs}</code>: <a href="https://rich-iannone.github.io/pkgattrs/">https://rich-iannone.github.io/pkgattrs/</a></p></li>
 </ul>
 <h1 id="reverse-dependency-checks">Reverse dependency checks</h1>
 <ul>

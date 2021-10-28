@@ -27,9 +27,9 @@ If you wish to suggest any additional tools, please make a PR request here:
 
 Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
-# Swiss Army knives
+# Swiss army knives
 
-These package contain tools that are useful across all stages of package development, from the beginning to the end.
+Tools (including their hard dependencies) useful across all stages of package development.
 
 - `{devtools}`: <https://devtools.r-lib.org/>
 
@@ -37,7 +37,9 @@ These package contain tools that are useful across all stages of package develop
 
 # Package skeletons
 
-- `{pkgkitten}`:  <https://dirk.eddelbuettel.com/code/pkgkitten.html>
+- `{pkgkitten}`: <https://dirk.eddelbuettel.com/code/pkgkitten.html>
+
+- `{rcompendium}`: <https://frbcesab.github.io/rcompendium/>
 
 # Documentation
 
@@ -52,6 +54,8 @@ These package contain tools that are useful across all stages of package develop
 - `{roclang}`: <https://cran.r-project.org/web/packages/roclang/> (helpers for diffusing of content across function documentation)
 
 - `{roxygen2md}`: <https://roxygen2md.r-lib.org/> (using Markdown syntax in package documentation)
+
+- `{rd2list}`: <https://github.com/coolbutuseless/rd2list> (converts Rd docs to a human-readable list)
 
 - `roxygen2Comment`: <https://github.com/csgillespie/roxygen2Comment> (An Rstudio addin for adding and remove `{roxygen2}` comment)
 
@@ -69,9 +73,15 @@ These package contain tools that are useful across all stages of package develop
 
 - `{testthat}`: <https://testthat.r-lib.org/>
 
+- `{vdiffr}`: <https://vdiffr.r-lib.org/> (visual regression testing)
+
 - `{tinytest}`: <https://cran.r-project.org/web/packages/tinytest/index.html>
 
-- `{vdiffr}`: <https://vdiffr.r-lib.org/> (visual regression testing)
+- `{testit}`: <https://cran.rstudio.com/web/packages/testit/index.html>
+
+- `{unitizer}`: <https://cran.r-project.org/web/packages/unitizer/index.html>
+
+- `{r-hedgehog}`: <https://github.com/hedgehogqa/r-hedgehog> (property based testing)
 
 # Code coverage:
 
@@ -86,6 +96,10 @@ These package contain tools that are useful across all stages of package develop
 - `actions`: <https://github.com/r-lib/actions> (for [GitHub Actions](https://github.com/features/actions))
 
 - `r-appveyor`: <https://github.com/krlmlr/r-appveyor> (for [AppVeyor](https://www.appveyor.com/)) 
+
+# Docker container
+
+- `{containerit}`: <https://o2r.info/containerit/>
 
 # Good practices
 
@@ -105,6 +119,12 @@ Not needed, but a **really good idea** to follow as many of them as you can.
 
 - `{lintr}`: <https://github.com/jimhester/lintr> (static code analysis)
 
+- `{roger}`: <https://cran.r-project.org/web/packages/roger/index.html>
+
+## Detecting similar code
+
+- `{dupree}`: <https://github.com/russHyde/dupree>
+
 ## Spellcheck
 
 - `{spelling}`: <https://docs.ropensci.org/spelling/>
@@ -118,6 +138,8 @@ Not needed, but a **really good idea** to follow as many of them as you can.
 - `{codemetar}`: <https://docs.ropensci.org/codemetar/>
 
 - `{pkgapi}`: <https://github.com/r-lib/pkgapi>
+
+- `{pkgattrs}`: <https://rich-iannone.github.io/pkgattrs/>
 
 # Reverse dependency checks
 
