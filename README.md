@@ -97,6 +97,9 @@ package development.
     <https://cran.rstudio.com/web/packages/prettydoc/index.html>
     (creates lightweight yet pretty vignettes)
 
+-   `{learnr}`: <https://rstudio.github.io/learnr/> (interactive
+    tutorials)
+
 ## Lifecycle
 
 -   `{lifecycle}`: <https://lifecycle.r-lib.org/index.html>
