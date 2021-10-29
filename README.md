@@ -216,7 +216,9 @@ package development.
 
 -   `{cloc}`: <https://github.com/hrbrmstr/cloc>
 
-# Formatting R code 🧽
+# Formatting 🧽
+
+## R code
 
 -   `{styler}`: <https://styler.r-lib.org/> (especially relevant if you
     follow `{tidyverse}` style guide)
@@ -225,6 +227,10 @@ package development.
 
 -   `AlignAssign`: <https://github.com/seasmith/AlignAssign> (RStudio
     addin)
+
+## Markdown documents
+
+-   `{stylermd}`: <https://github.com/lorenzwalthert/stylermd>
 
 # Dependencies ⚖️
 
@@ -389,3 +395,6 @@ Thank the contributors or maintainers of packages you rely on.
 
 -   `{touchstone}`: <https://lorenzwalthert.github.io/touchstone/>
     (benchmarking pull requests)
+
+-   `{precommit}`: <https://lorenzwalthert.github.io/precommit/>
+    (pre-commit hooks)

@@ -185,13 +185,19 @@ Tools (including their hard dependencies) useful across all stages of package de
 
 - `{cloc}`: <https://github.com/hrbrmstr/cloc>
 
-# Formatting R code 🧽
+# Formatting 🧽
+
+## R code
 
 - `{styler}`: <https://styler.r-lib.org/> (especially relevant if you follow `{tidyverse}` style guide)
 
 - `{formatR}`: <https://yihui.org/formatr/>
 
 - `AlignAssign`: <https://github.com/seasmith/AlignAssign> (RStudio addin)
+
+## Markdown documents
+
+- `{stylermd}`: <https://github.com/lorenzwalthert/stylermd>
 
 # Dependencies ⚖️
 
@@ -323,3 +329,5 @@ Thank the contributors or maintainers of packages you rely on.
 - `{gitignore}`: <https://cran.r-project.org/web/packages/gitignore/index.html> (to fetch gitignore templates)
 
 - `{touchstone}`: <https://lorenzwalthert.github.io/touchstone/> (benchmarking pull requests)
+
+- `{precommit}`: <https://lorenzwalthert.github.io/precommit/> (pre-commit hooks)
