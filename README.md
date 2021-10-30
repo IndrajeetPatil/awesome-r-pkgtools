@@ -39,7 +39,11 @@ package development.
 -   `{fusen}`: <https://thinkr-open.github.io/fusen/>
     (`{rmarkdown}`-based)
 
--   `{pkgverse}`: <https://pkgverse.mikewk.com/> (for package universe)
+-   `{pkgverse}`: <https://pkgverse.mikewk.com/> (for package
+    meta-verse)
+
+-   `{metamakr}`: <https://github.com/jdtrat/metamakr> (for package
+    meta-verse)
 
 # Naming things 🧸
 
