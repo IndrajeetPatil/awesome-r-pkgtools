@@ -211,6 +211,11 @@ package development.
 
 -   `{dupree}`: <https://github.com/russHyde/dupree>
 
+-   `{rscc}`: <https://cran.r-project.org/web/packages/rscc/index.html>
+
+-   `{SimilaR}`:
+    <https://cran.r-project.org/web/packages/SimilaR/index.html>
+
 ## Benchmarking and profiling
 
 -   `{bench}`:
