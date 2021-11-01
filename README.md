@@ -190,6 +190,10 @@ package development.
 -   `{goodpractice}`: <http://mangothecat.github.io/goodpractice/>
     (Swiss army knife for good practices)
 
+-   `{pkgcheck}`: <https://docs.ropensci.org/pkgcheck/> (checks if
+    package follows good practices recommended for packages in the
+    [`rOpenSci`](https://ropensci.org/) ecosystem)
+
 ## Code coverage
 
 -   `{covr}`: <https://covr.r-lib.org/> (computes code coverage)
