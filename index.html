@@ -610,11 +610,12 @@ body {
 <p>If you wish to suggest any additional tools, please make a PR request or raise an issue here: <a href="https://github.com/IndrajeetPatil/awesome-r-pkgtools">https://github.com/IndrajeetPatil/awesome-r-pkgtools</a></p>
 <p>Please note that the <code>awesome-r-pkgtools</code> project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 <h1 id="swiss-army-knives-">Swiss army knives 🛠</h1>
-<p>Tools (including their hard dependencies) useful across all stages of package development.</p>
+<p>Tools useful across all stages of package development (some of these are meta-packages and their component packages are also included in respective sections for the sake of completeness).</p>
 <ul>
 <li><p><code>{devtools}</code>: <a href="https://devtools.r-lib.org/">https://devtools.r-lib.org/</a></p></li>
 <li><p><code>{usethis}</code>: <a href="https://usethis.r-lib.org/">https://usethis.r-lib.org/</a></p></li>
-<li><p><code>{pacs}</code> : <a href="https://polkas.github.io/pacs/index.html">https://polkas.github.io/pacs/index.html</a></p></li>
+<li><p><code>{packager}</code>: <a href="https://cran.r-project.org/web/packages/packager/index.html">https://cran.r-project.org/web/packages/packager/index.html</a></p></li>
+<li><p><code>{pacs}</code>: <a href="https://polkas.github.io/pacs/index.html">https://polkas.github.io/pacs/index.html</a></p></li>
 </ul>
 <h1 id="package-skeletons-">Package skeletons 💀</h1>
 <ul>
@@ -629,13 +630,21 @@ body {
 <li><p><code>{available}</code>: <a href="https://cran.r-project.org/web/packages/available/index.html">https://cran.r-project.org/web/packages/available/index.html</a> (to check if a package name is available to use)</p></li>
 <li><p><code>{collidr}</code>: <a href="https://cran.r-project.org/web/packages/collidr/">https://cran.r-project.org/web/packages/collidr/</a> (to check for namespace collisions)</p></li>
 </ul>
+<h1 id="working-with-package-components">Working with package components</h1>
+<ul>
+<li><p><code>{rprojroot}</code>: <a href="https://rprojroot.r-lib.org/">https://rprojroot.r-lib.org/</a> (accessing files w.r.t. package root directory)</p></li>
+<li><p><code>{desc}</code>: <a href="https://github.com/r-lib/desc#readme">https://github.com/r-lib/desc#readme</a> (manipulating <code>DESCRIPTION</code> files)</p></li>
+<li><p><code>{withr}</code>: <a href="https://withr.r-lib.org/">https://withr.r-lib.org/</a> (to manage package side effects by safely and temporarily modifying global states)</p></li>
+<li><p><code>{pkgload}</code>: <a href="https://r-lib.github.io/pkgload/">https://r-lib.github.io/pkgload/</a> (to simulate the process of installing and loading a package)</p></li>
+<li><p><code>{pkgbuild}</code>: <a href="https://cran.r-project.org/web/packages/pkgbuild/index.html">https://cran.r-project.org/web/packages/pkgbuild/index.html</a> (to find tools needed to build packages)</p></li>
+</ul>
 <h1 id="documentation-">Documentation 📚</h1>
 <h2 id="manual">Manual</h2>
 <ul>
 <li><p><code>{roxygen2}</code>: <a href="https://roxygen2.r-lib.org/">https://roxygen2.r-lib.org/</a></p></li>
 <li><p><code>{Rd2roxygen}</code>: <a href="https://cran.r-project.org/web/packages/Rd2roxygen/index.html">https://cran.r-project.org/web/packages/Rd2roxygen/index.html</a> (in case you inherit a project where documentation was not written using <code>{roxygen2}</code>)</p></li>
 <li><p><code>{sinew}</code>: <a href="https://yonicd.github.io/sinew/">https://yonicd.github.io/sinew/</a> (generate <code>{roxygen2}</code> skeletons)</p></li>
-<li><p><code>{roclang}</code>: <a href="https://cran.r-project.org/web/packages/roclang/">https://cran.r-project.org/web/packages/roclang/</a> (helpers for diffusing of content across function documentation)</p></li>
+<li><p><code>{roclang}</code>: <a href="https://cran.r-project.org/web/packages/roclang/">https://cran.r-project.org/web/packages/roclang/</a> (helpers for diffusing content across function documentation)</p></li>
 <li><p><code>{Rdpack}</code>: <a href="https://cran.r-project.org/web/packages/Rdpack/index.html">https://cran.r-project.org/web/packages/Rdpack/index.html</a> (for inserting references, figures, and evaluated examples in Rd docs)</p></li>
 <li><p><code>{roxygen2md}</code>: <a href="https://roxygen2md.r-lib.org/">https://roxygen2md.r-lib.org/</a> (using Markdown syntax in package documentation)</p></li>
 <li><p><code>{rd2list}</code>: <a href="https://github.com/coolbutuseless/rd2list">https://github.com/coolbutuseless/rd2list</a> (converts Rd docs to a human-readable list)</p></li>
@@ -673,6 +682,10 @@ body {
 <ul>
 <li><code>{xaringan}</code>: <a href="https://github.com/yihui/xaringan">https://github.com/yihui/xaringan</a></li>
 </ul>
+<h2 id="book">Book</h2>
+<ul>
+<li><code>{bookdown}</code>: <a href="https://pkgs.rstudio.com/bookdown/">https://pkgs.rstudio.com/bookdown/</a></li>
+</ul>
 <h1 id="documentation-quality-️">Documentation quality ✒️</h1>
 <ul>
 <li><p><code>{docreview}</code>: <a href="https://thisisnic.github.io/docreview/">https://thisisnic.github.io/docreview/</a> (to check quality of docs)</p></li>
@@ -684,12 +697,14 @@ body {
 <li><p><code>{testthat}</code>: <a href="https://testthat.r-lib.org/">https://testthat.r-lib.org/</a></p></li>
 <li><p><code>{vdiffr}</code>: <a href="https://vdiffr.r-lib.org/">https://vdiffr.r-lib.org/</a> (visual regression testing)</p></li>
 <li><p><code>{mockthat}</code>: <a href="https://nbenn.github.io/mockthat/">https://nbenn.github.io/mockthat/</a> (function mocking for unit testing to third-party packages)</p></li>
+<li><p><code>{mockr}</code>: <a href="https://krlmlr.github.io/mockr/">https://krlmlr.github.io/mockr/</a></p></li>
 <li><p><code>{roxytest}</code>: <a href="https://github.com/mikldk/roxytest">https://github.com/mikldk/roxytest</a> (inline <code>{testthat}</code> tests with <code>{roxygen2}</code>)</p></li>
 <li><p><code>{exampletestr}</code>: <a href="https://rorynolan.github.io/exampletestr/">https://rorynolan.github.io/exampletestr/</a> (tests based on package examples)</p></li>
 <li><p><code>{shinytest}</code>: <a href="https://rstudio.github.io/shinytest/">https://rstudio.github.io/shinytest/</a> (testing Shiny apps)</p></li>
 <li><p><code>{testdown}</code>: <a href="https://github.com/ThinkR-open/testdown">https://github.com/ThinkR-open/testdown</a> (turn <code>{testthat}</code> results into a <code>{bookdown}</code> project)</p></li>
 <li><p><code>{autotest}</code>: <a href="https://docs.ropensci.org/autotest/">https://docs.ropensci.org/autotest/</a></p></li>
 <li><p><code>{tinytest}</code>: <a href="https://cran.r-project.org/web/packages/tinytest/index.html">https://cran.r-project.org/web/packages/tinytest/index.html</a></p></li>
+<li><p><code>{RUnit}</code>: <a href="https://cran.r-project.org/web/packages/RUnit/index.html">https://cran.r-project.org/web/packages/RUnit/index.html</a></p></li>
 <li><p><code>{testit}</code>: <a href="https://cran.rstudio.com/web/packages/testit/index.html">https://cran.rstudio.com/web/packages/testit/index.html</a></p></li>
 <li><p><code>{testthis}</code>: <a href="https://cran.r-project.org/web/packages/testthis/">https://cran.r-project.org/web/packages/testthis/</a></p></li>
 <li><p><code>{xpectr}</code>: <a href="https://github.com/LudvigOlsen/xpectr">https://github.com/LudvigOlsen/xpectr</a></p></li>
@@ -699,6 +714,7 @@ body {
 <h1 id="code-analysis-">Code analysis 🗂⏱</h1>
 <h2 id="general">General</h2>
 <ul>
+<li><p><code>{codetools}</code>: <a href="https://cran.r-project.org/web/packages/codetools/index.html">https://cran.r-project.org/web/packages/codetools/index.html</a></p></li>
 <li><p><code>{goodpractice}</code>: <a href="http://mangothecat.github.io/goodpractice/">http://mangothecat.github.io/goodpractice/</a> (Swiss army knife for good practices)</p></li>
 <li><p><code>{pkgcheck}</code>: <a href="https://docs.ropensci.org/pkgcheck/">https://docs.ropensci.org/pkgcheck/</a> (checks if package follows good practices recommended for packages in the <a href="https://ropensci.org/"><code>rOpenSci</code></a> ecosystem)</p></li>
 </ul>
@@ -712,6 +728,10 @@ body {
 <li><p><code>{lintr}</code>: <a href="https://github.com/jimhester/lintr">https://github.com/jimhester/lintr</a></p></li>
 <li><p><code>{roger}</code>: <a href="https://cran.r-project.org/web/packages/roger/index.html">https://cran.r-project.org/web/packages/roger/index.html</a></p></li>
 <li><p><code>{cleanr}</code>: <a href="https://cran.r-project.org/web/packages/cleanr/index.html">https://cran.r-project.org/web/packages/cleanr/index.html</a></p></li>
+</ul>
+<h2 id="code-complexity">Code complexity:</h2>
+<ul>
+<li><code>{cyclocomp}</code>: <a href="https://cran.r-project.org/web/packages/cyclocomp/index.html">https://cran.r-project.org/web/packages/cyclocomp/index.html</a></li>
 </ul>
 <h2 id="code-similarity">Code similarity</h2>
 <ul>
@@ -749,8 +769,9 @@ body {
 <li><p><code>{oysteR}</code>: <a href="https://sonatype-nexus-community.github.io/oysteR/">https://sonatype-nexus-community.github.io/oysteR/</a> (secure package against insecure dependencies)</p></li>
 <li><p><code>{attachment}</code>: <a href="https://github.com/ThinkR-open/attachment">https://github.com/ThinkR-open/attachment</a></p></li>
 </ul>
-<h1 id="cran-submission-and-status-">CRAN submission and status 📬</h1>
+<h1 id="cran-checks-submission-and-status-">CRAN checks, submission, and status 📬</h1>
 <ul>
+<li><p><code>{rcmdcheck}</code>: <a href="https://r-lib.github.io/rcmdcheck/">https://r-lib.github.io/rcmdcheck/</a> (run <code>R CMD check</code> form R programmatically)</p></li>
 <li><p><code>{rhub}</code>: <a href="https://cran.r-project.org/web/packages/rhub/index.html">https://cran.r-project.org/web/packages/rhub/index.html</a> (to run <code>R CMD check</code> on CRAN architectures)</p></li>
 <li><p><code>{checkhelper}</code>: <a href="https://thinkr-open.github.io/checkhelper/">https://thinkr-open.github.io/checkhelper/</a> (submission help)</p></li>
 <li><p><code>{foghorn}</code>: <a href="https://cran.r-project.org/web/packages/foghorn/index.html">https://cran.r-project.org/web/packages/foghorn/index.html</a> (check results and submission portal status)</p></li>

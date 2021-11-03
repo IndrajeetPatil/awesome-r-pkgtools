@@ -21,14 +21,18 @@ By contributing to this project, you agree to abide by its terms.
 
 # Swiss army knives 🛠
 
-Tools (including their hard dependencies) useful across all stages of
-package development.
+Tools useful across all stages of package development (some of these are
+meta-packages and their component packages are also included in
+respective sections for the sake of completeness).
 
 -   `{devtools}`: <https://devtools.r-lib.org/>
 
 -   `{usethis}`: <https://usethis.r-lib.org/>
 
--   `{pacs}` : <https://polkas.github.io/pacs/index.html>
+-   `{packager}`:
+    <https://cran.r-project.org/web/packages/packager/index.html>
+
+-   `{pacs}`: <https://polkas.github.io/pacs/index.html>
 
 # Package skeletons 💀
 
@@ -54,6 +58,24 @@ package development.
 -   `{collidr}`: <https://cran.r-project.org/web/packages/collidr/> (to
     check for namespace collisions)
 
+# Working with package components
+
+-   `{rprojroot}`: <https://rprojroot.r-lib.org/> (accessing files
+    w.r.t. package root directory)
+
+-   `{desc}`: <https://github.com/r-lib/desc#readme> (manipulating
+    `DESCRIPTION` files)
+
+-   `{withr}`: <https://withr.r-lib.org/> (to manage package side
+    effects by safely and temporarily modifying global states)
+
+-   `{pkgload}`: <https://r-lib.github.io/pkgload/> (to simulate the
+    process of installing and loading a package)
+
+-   `{pkgbuild}`:
+    <https://cran.r-project.org/web/packages/pkgbuild/index.html> (to
+    find tools needed to build packages)
+
 # Documentation 📚
 
 ## Manual
@@ -69,7 +91,7 @@ package development.
     skeletons)
 
 -   `{roclang}`: <https://cran.r-project.org/web/packages/roclang/>
-    (helpers for diffusing of content across function documentation)
+    (helpers for diffusing content across function documentation)
 
 -   `{Rdpack}`:
     <https://cran.r-project.org/web/packages/Rdpack/index.html> (for
@@ -134,6 +156,10 @@ package development.
 
 -   `{xaringan}`: <https://github.com/yihui/xaringan>
 
+## Book
+
+-   `{bookdown}`: <https://pkgs.rstudio.com/bookdown/>
+
 # Documentation quality ✒️
 
 -   `{docreview}`: <https://thisisnic.github.io/docreview/> (to check
@@ -153,6 +179,8 @@ package development.
 -   `{mockthat}`: <https://nbenn.github.io/mockthat/> (function mocking
     for unit testing to third-party packages)
 
+-   `{mockr}`: <https://krlmlr.github.io/mockr/>
+
 -   `{roxytest}`: <https://github.com/mikldk/roxytest> (inline
     `{testthat}` tests with `{roxygen2}`)
 
@@ -170,6 +198,9 @@ package development.
 -   `{tinytest}`:
     <https://cran.r-project.org/web/packages/tinytest/index.html>
 
+-   `{RUnit}`:
+    <https://cran.r-project.org/web/packages/RUnit/index.html>
+
 -   `{testit}`:
     <https://cran.rstudio.com/web/packages/testit/index.html>
 
@@ -186,6 +217,9 @@ package development.
 # Code analysis 🗂⏱
 
 ## General
+
+-   `{codetools}`:
+    <https://cran.r-project.org/web/packages/codetools/index.html>
 
 -   `{goodpractice}`: <http://mangothecat.github.io/goodpractice/>
     (Swiss army knife for good practices)
@@ -210,6 +244,11 @@ package development.
 
 -   `{cleanr}`:
     <https://cran.r-project.org/web/packages/cleanr/index.html>
+
+## Code complexity:
+
+-   `{cyclocomp}`:
+    <https://cran.r-project.org/web/packages/cyclocomp/index.html>
 
 ## Code similarity
 
@@ -273,7 +312,10 @@ package development.
 
 -   `{attachment}`: <https://github.com/ThinkR-open/attachment>
 
-# CRAN submission and status 📬
+# CRAN checks, submission, and status 📬
+
+-   `{rcmdcheck}`: <https://r-lib.github.io/rcmdcheck/> (run
+    `R CMD check` form R programmatically)
 
 -   `{rhub}`: <https://cran.r-project.org/web/packages/rhub/index.html>
     (to run `R CMD check` on CRAN architectures)
