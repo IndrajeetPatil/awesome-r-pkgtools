@@ -353,6 +353,11 @@ continuous deployment
     CI](https://circleci.com/) and [GitHub
     Actions](https://github.com/features/actions))
 
+# Validation frameworks
+
+-   `{valtools}`: <https://phuse-org.github.io/valtools/index.html> (in
+    clinical research and drug development)
+
 # Debugging 🔭
 
 -   `{debugme}`: <https://github.com/r-lib/debugme>
