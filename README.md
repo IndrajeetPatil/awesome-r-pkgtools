@@ -397,6 +397,9 @@ continuous deployment
 
 -   `{revdepcheck}`: <https://r-lib.github.io/revdepcheck/>
 
+-   `{xfun}`: <https://yihui.org/xfun/> (specifically,
+    `xfun::rev_check()`)
+
 # Docker container 🛍
 
 -   `{containerit}`: <https://o2r.info/containerit/>
