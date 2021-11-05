@@ -353,6 +353,9 @@ continuous deployment
     CI](https://circleci.com/) and [GitHub
     Actions](https://github.com/features/actions))
 
+-   `{jenkins}`: <https://docs.ropensci.org/jenkins/> (for [Jenkins
+    CI](https://www.jenkins.io/))
+
 # Validation frameworks
 
 -   `{valtools}`: <https://phuse-org.github.io/valtools/index.html> (in
