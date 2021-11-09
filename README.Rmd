@@ -107,10 +107,6 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - `{learnr}`: <https://rstudio.github.io/learnr/> (interactive tutorials)
 
-## Lifecycle
-
-- `{lifecycle}`: <https://lifecycle.r-lib.org/index.html>
-
 ## Website
 
 - `{pkgdown}`: <https://pkgdown.r-lib.org/> (static website for package documentation)
@@ -118,6 +114,14 @@ Tools useful across all stages of package development (some of these are meta-pa
 - `{gitdown}`: <https://github.com/ThinkR-open/gitdown> (software changes as a gitbook)
 
 - `{altdoc}`: <https://altdoc.etiennebacher.com/> (use docute or docsify to create a static website for package documentation)
+
+## Translation
+
+- `{potools}`: <https://github.com/MichaelChirico/potools>
+
+## Lifecycle
+
+- `{lifecycle}`: <https://lifecycle.r-lib.org/index.html>
 
 ## Badges and stickers
 

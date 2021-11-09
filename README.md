@@ -126,10 +126,6 @@ respective sections for the sake of completeness).
 -   `{learnr}`: <https://rstudio.github.io/learnr/> (interactive
     tutorials)
 
-## Lifecycle
-
--   `{lifecycle}`: <https://lifecycle.r-lib.org/index.html>
-
 ## Website
 
 -   `{pkgdown}`: <https://pkgdown.r-lib.org/> (static website for
@@ -140,6 +136,14 @@ respective sections for the sake of completeness).
 
 -   `{altdoc}`: <https://altdoc.etiennebacher.com/> (use docute or
     docsify to create a static website for package documentation)
+
+## Translation
+
+-   `{potools}`: <https://github.com/MichaelChirico/potools>
+
+## Lifecycle
+
+-   `{lifecycle}`: <https://lifecycle.r-lib.org/index.html>
 
 ## Badges and stickers
 
