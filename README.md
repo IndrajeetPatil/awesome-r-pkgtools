@@ -383,6 +383,8 @@ continuous deployment
 -   `{pkgcond}`: <https://github.com/RDocTaskForce/pkgcond> (better
     error messages for package users)
 
+-   `{dreamerr}`: <https://github.com/lrberge/dreamerr>
+
 # Package metadata 🖨
 
 -   `{codemetar}`: <https://docs.ropensci.org/codemetar/>
