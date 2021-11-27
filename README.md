@@ -233,7 +233,7 @@ respective sections for the sake of completeness).
 
 -   [`{cleanr}`](https://cran.r-project.org/web/packages/cleanr/index.html)
 
-## Code complexity:
+## Code complexity
 
 -   [`{cyclocomp}`](https://cran.r-project.org/web/packages/cyclocomp/index.html)
 

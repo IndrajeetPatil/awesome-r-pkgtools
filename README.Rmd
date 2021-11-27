@@ -204,7 +204,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cleanr}`](https://cran.r-project.org/web/packages/cleanr/index.html)
 
-## Code complexity:
+## Code complexity
 
 - [`{cyclocomp}`](https://cran.r-project.org/web/packages/cyclocomp/index.html)
 
