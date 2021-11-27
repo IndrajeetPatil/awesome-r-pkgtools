@@ -363,6 +363,8 @@ continuous deployment
 
 -   [`{codemetar}`](https://docs.ropensci.org/codemetar)
 
+-   [`{cffr}`](https://docs.ropensci.org/cffr)
+
 -   [`{pkgapi}`](https://github.com/r-lib/pkgapi)
 
 -   [`{packagemetrics}`](https://github.com/sfirke/packagemetrics) (for
