@@ -27,9 +27,9 @@ By contributing to this project, you agree to abide by its terms.
 ⚠️⚠️ <b>Note Before</b> ⚠️⚠️
 </p>
 
-Please change only the `README.Rmd` and/or `README.md` document, if you
-are not using **the latest** release of
-[pandoc](https://github.com/jgm/pandoc/releases).
+If you are not using **the latest** release of
+[pandoc](https://github.com/jgm/pandoc/releases), please change only the
+`README.Rmd` and/or `README.md` document.
 
 ------------------------------------------------------------------------
 
