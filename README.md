@@ -1,10 +1,4 @@
 
-<style>
-#nb {
-  text-align: center;
-}
-</style>
-
 # Awesome R package development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/)
 
 A curated list of awesome tools to assist R 📦 development.
@@ -29,11 +23,9 @@ By contributing to this project, you agree to abide by its terms.
 
 ------------------------------------------------------------------------
 
-<div id="nb">
-
-⚠️⚠️ **Note Before** ⚠️⚠️
-
-</div>
+<p align="center">
+⚠️⚠️ <b>Note Before</b> ⚠️⚠️
+</p>
 
 Please change only the `README.Rmd` and/or `README.md` document, if you
 are not using **the latest** release of

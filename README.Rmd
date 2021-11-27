@@ -15,11 +15,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-<style>
-#nb {
+```{css, echo=FALSE}
+div nb {
   text-align: center;
 }
-</style>
+```
 
 
 # Awesome R package development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/) 
@@ -39,7 +39,7 @@ Please note that the `awesome-r-pkgtools` project is released with a [Contributo
 
 ---
 
-<div id="nb"> ⚠️⚠️  **Note Before**  ⚠️⚠️ </div>
+<p align="center"> ⚠️⚠️  <b>Note Before</b>  ⚠️⚠️ </p>
 
 Please change only the `README.Rmd` and/or `README.md` document, if you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases).
 
