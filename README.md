@@ -1,4 +1,10 @@
 
+<style>
+#nb {
+  text-align: center;
+}
+</style>
+
 # Awesome R package development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/)
 
 A curated list of awesome tools to assist R 📦 development.
@@ -10,6 +16,8 @@ Note before:
 -   Only **tools** helpful for package development are included, and not
     other resources (like books, talks, presentations, etc.).
 
+# Contributing
+
 If you wish to suggest any additional tools, please make a PR request or
 raise an issue
 [here](https://github.com/IndrajeetPatil/awesome-r-pkgtools).
@@ -18,6 +26,20 @@ Please note that the `awesome-r-pkgtools` project is released with a
 [Contributor Code of
 Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
 By contributing to this project, you agree to abide by its terms.
+
+------------------------------------------------------------------------
+
+<div id="nb">
+
+⚠️⚠️ **Note Before** ⚠️⚠️
+
+</div>
+
+Please change only the `README.Rmd` and/or `README.md` document, if you
+are not using **the latest** release of
+[pandoc](https://github.com/jgm/pandoc/releases).
+
+------------------------------------------------------------------------
 
 # Swiss army knives 🛠
 
