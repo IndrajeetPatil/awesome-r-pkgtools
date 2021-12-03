@@ -62,6 +62,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{metamakr}`](https://github.com/jdtrat/metamakr) (for package meta-verse)
 
+# shiny developpement
+
+- [`{golem}`](https://github.com/ThinkR-open/golem) (framework for building shiny applications)
+
+
 # Naming things 🧸
 
 - [`{available}`](https://cran.r-project.org/web/packages/available/index.html) (to check if a package name is available to use)
