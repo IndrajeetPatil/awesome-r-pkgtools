@@ -61,7 +61,7 @@ respective sections for the sake of completeness).
 -   [`{metamakr}`](https://github.com/jdtrat/metamakr) (for package
     meta-verse)
 
-# shiny developpement
+# Shiny applications development
 
 -   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
     building shiny applications)
@@ -146,8 +146,9 @@ respective sections for the sake of completeness).
 -   [`{gitdown}`](https://github.com/ThinkR-open/gitdown) (software
     changes as a gitbook)
 
--   [`{altdoc}`](https://altdoc.etiennebacher.com) (use docute or
-    docsify to create a static website for package documentation)
+-   [`{altdoc}`](https://altdoc.etiennebacher.com) (use
+    [docute](https://docute.org/) or [docsify](https://docsify.js.org/)
+    to create a static website for package documentation)
 
 ## Translation
 
