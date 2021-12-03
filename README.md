@@ -61,6 +61,11 @@ respective sections for the sake of completeness).
 -   [`{metamakr}`](https://github.com/jdtrat/metamakr) (for package
     meta-verse)
 
+# shiny developpement
+
+-   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
+    building shiny applications)
+
 # Naming things 🧸
 
 -   [`{available}`](https://cran.r-project.org/web/packages/available/index.html)
