@@ -53,6 +53,9 @@ respective sections for the sake of completeness).
 
 -   [`{rcompendium}`](https://frbcesab.github.io/rcompendium)
 
+-   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
+    building shiny applications)
+
 -   [`{fusen}`](https://thinkr-open.github.io/fusen)
     (`{rmarkdown}`-based)
 
@@ -60,11 +63,6 @@ respective sections for the sake of completeness).
 
 -   [`{metamakr}`](https://github.com/jdtrat/metamakr) (for package
     meta-verse)
-
-# Shiny applications development
-
--   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
-    building shiny applications)
 
 # Naming things 🧸
 
@@ -152,11 +150,14 @@ respective sections for the sake of completeness).
 
 ## Translation
 
--   [`{potools}`](https://github.com/MichaelChirico/potools)
+-   [`{potools}`](https://github.com/MichaelChirico/potools) (for
+    translating messages and checking the “health” of the messaging
+    corpus)
 
 ## Lifecycle
 
--   [`{lifecycle}`](https://lifecycle.r-lib.org/index.html)
+-   [`{lifecycle}`](https://lifecycle.r-lib.org/index.html) (to manage
+    the life cycle of exported functions)
 
 ## Badges and stickers
 
@@ -247,7 +248,8 @@ respective sections for the sake of completeness).
 
 ## Lint detection
 
--   [`{lintr}`](https://github.com/jimhester/lintr)
+-   [`{lintr}`](https://github.com/jimhester/lintr) (static code
+    analysis)
 
 -   [`{roger}`](https://cran.r-project.org/web/packages/roger/index.html)
 
@@ -256,6 +258,7 @@ respective sections for the sake of completeness).
 ## Code complexity
 
 -   [`{cyclocomp}`](https://cran.r-project.org/web/packages/cyclocomp/index.html)
+    (to index the complexity of a function)
 
 ## Code similarity
 
@@ -355,6 +358,11 @@ continuous deployment
 -   [`{jenkins}`](https://docs.ropensci.org/jenkins) (for [Jenkins
     CI](https://www.jenkins.io/))
 
+# Build systems
+
+-   [`{fakemake}`](https://cran.r-project.org/web/packages/fakemake/index.html)
+    (to mock Unix Make build system in case it is unavailable)
+
 # Validation frameworks
 
 -   [`{valtools}`](https://phuse-org.github.io/valtools/index.html) (in
@@ -413,7 +421,7 @@ continuous deployment
 
 # Gratitude 🙏💌
 
-Thank the contributors or maintainers of packages you rely on.
+To thank the contributors or maintainers of packages you rely on.
 
 -   [`{thankr}`](https://cran.r-project.org/web/packages/thankr/index.html)
 
@@ -426,6 +434,8 @@ Thank the contributors or maintainers of packages you rely on.
 -   [`{Rcpp}`](https://cran.r-project.org/web/packages/Rcpp/index.html)
 
 -   [`{cpp11}`](https://cpp11.r-lib.org/index.html)
+
+-   [`{memtools}`](https://memtools.r-lib.org/) (to solve memory leaks)
 
 ## Python
 
