@@ -34,7 +34,7 @@ Please note that the `awesome-r-pkgtools` project is released with a [Contributo
 
 <p align="center"> ⚠️⚠️  <b>Note Before</b>  ⚠️⚠️ </p>
 
-If you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases), please change only the `README.Rmd` and/or `README.md` document.
+If you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases), please change only the `README.Rmd` document.
 
 ---
 

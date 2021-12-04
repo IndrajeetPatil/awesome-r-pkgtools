@@ -29,7 +29,7 @@ By contributing to this project, you agree to abide by its terms.
 
 If you are not using **the latest** release of
 [pandoc](https://github.com/jgm/pandoc/releases), please change only the
-`README.Rmd` and/or `README.md` document.
+`README.Rmd` document.
 
 ------------------------------------------------------------------------
 
