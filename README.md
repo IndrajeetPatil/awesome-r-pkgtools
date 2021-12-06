@@ -358,6 +358,14 @@ continuous deployment
 -   [`{jenkins}`](https://docs.ropensci.org/jenkins) (for [Jenkins
     CI](https://www.jenkins.io/))
 
+# Security/Privacy 👮
+
+-   [`{digest}`](https://cran.r-project.org/web/packages/digest/index.html)
+
+-   [`{hash}`](https://cran.r-project.org/web/packages/hash/index.html)
+
+-   [`{gpg}`](https://cran.r-project.org/web/packages/gpg/index.html)
+
 # Build systems
 
 -   [`{fakemake}`](https://cran.r-project.org/web/packages/fakemake/index.html)
