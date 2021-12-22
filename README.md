@@ -186,6 +186,10 @@ respective sections for the sake of completeness).
 -   [`{gramr}`](https://github.com/jasdumas/gramr) (for grammar
     suggestions)
 
+# Package change tracking and versioning
+
+-   [`{fledge}`](https://cynkra.github.io/fledge/index.html)
+
 # Unit testing 🧪
 
 -   [`{testthat}`](https://testthat.r-lib.org)
