@@ -310,6 +310,9 @@ respective sections for the sake of completeness).
 -   [`{DependenciesGraphs}`](https://github.com/datastorm-open/DependenciesGraphs)
     (to visualize package dependencies)
 
+-   [`{pkgnet}`](https://uptake.github.io/pkgnet/index.html)(build a
+    graph representation of a package and its dependencies)
+
 -   [`{functiondepends}`](https://cran.r-project.org/web/packages/functiondepends)
 
 -   [`{pkgndep}`](https://cran.r-project.org/web/packages/pkgndep)

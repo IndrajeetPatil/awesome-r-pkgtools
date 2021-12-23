@@ -264,6 +264,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{DependenciesGraphs}`](https://github.com/datastorm-open/DependenciesGraphs) (to visualize package dependencies)
 
+- [`{pkgnet}`](https://uptake.github.io/pkgnet/index.html)(build a graph representation of a package and its dependencies)
+
 - [`{functiondepends}`](https://cran.r-project.org/web/packages/functiondepends)
 
 - [`{pkgndep}`](https://cran.r-project.org/web/packages/pkgndep) (checks the heaviness of the packages used)
