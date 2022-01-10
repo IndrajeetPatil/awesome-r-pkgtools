@@ -180,6 +180,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{testdown}`](https://github.com/ThinkR-open/testdown) (turn `{testthat}` results into a `{bookdown}` project)
 
+- [`{httptest}`](https://enpiar.com/r/httptest/) (a test environment for HTTP requests in R)
+
+- [`{httptest2}`](https://enpiar.com/httptest2/) (the same for `{httr2}` package)
+
 - [`{autotest}`](https://docs.ropensci.org/autotest)
 
 - [`{tinytest}`](https://cran.r-project.org/web/packages/tinytest/index.html)
