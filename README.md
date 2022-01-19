@@ -56,6 +56,9 @@ respective sections for the sake of completeness).
 -   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
     building shiny applications)
 
+-   [`{leprechaun}`](https://leprechaun.opifex.org/#/) (leaner framework
+    for building shiny applications)
+
 -   [`{fusen}`](https://thinkr-open.github.io/fusen)
     (`{rmarkdown}`-based)
 
