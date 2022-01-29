@@ -374,6 +374,9 @@ continuous deployment
 -   [`{jenkins}`](https://docs.ropensci.org/jenkins) (for [Jenkins
     CI](https://www.jenkins.io/))
 
+-   [`{cronR}`](https://github.com/bnosac/cronR) (to schedule R
+    scripts/processes with the cron scheduler)
+
 # Security/Privacy 👮
 
 -   [`{digest}`](https://cran.r-project.org/web/packages/digest/index.html)
