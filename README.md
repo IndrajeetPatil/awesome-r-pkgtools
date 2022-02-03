@@ -501,3 +501,6 @@ To thank the contributors or maintainers of packages you rely on.
 
 -   [`{precommit}`](https://lorenzwalthert.github.io/precommit)
     (pre-commit hooks)
+
+-   [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html)
+    (helpers for packages dealing with database connections)
