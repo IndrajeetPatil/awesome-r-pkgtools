@@ -72,8 +72,11 @@ respective sections for the sake of completeness).
 -   [`{available}`](https://cran.r-project.org/web/packages/available/index.html)
     (to check if a package name is available to use)
 
--   [`{collidr}`](https://cran.r-project.org/web/packages/collidr) (to
-    check for namespace collisions)
+-   [`{collidr}`](https://cran.r-project.org/web/packages/collidr/index.html)
+    (to check for namespace collisions)
+
+-   [`{changer}`](https://cran.r-project.org/web/packages/changer/index.html)
+    (to change the name of an existing R package)
 
 # Working with package components
 
