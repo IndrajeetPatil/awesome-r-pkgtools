@@ -95,6 +95,11 @@ respective sections for the sake of completeness).
 -   [`{pkgbuild}`](https://cran.r-project.org/web/packages/pkgbuild/index.html)
     (to find tools needed to build packages)
 
+# Package management tools
+
+-   [`{pkgcache}`](https://cran.r-project.org/web/packages/pkgcache/index.html)
+    (to cache ‘CRAN’-like metadata and packages)
+
 # Documentation 📚
 
 ## Manual
@@ -311,6 +316,9 @@ respective sections for the sake of completeness).
 -   [`{stylermd}`](https://github.com/lorenzwalthert/stylermd)
 
 # Dependencies ⚖️
+
+-   [`{pkgdepends}`](https://cran.r-project.org/web/packages/pkgdepends/index.html)
+    (to find recursive dependencies of from various sources)
 
 -   [`{deepdep}`](https://cran.r-project.org/web/packages/deepdep/index.html)
     (to visualize and explore package dependencies)

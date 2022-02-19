@@ -86,6 +86,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pkgbuild}`](https://cran.r-project.org/web/packages/pkgbuild/index.html) (to find tools needed to build packages)
 
+# Package management tools
+
+- [`{pkgcache}`](https://cran.r-project.org/web/packages/pkgcache/index.html) (to cache 'CRAN'-like metadata and packages)
+
 # Documentation 📚
 
 ## Manual
@@ -265,6 +269,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{stylermd}`](https://github.com/lorenzwalthert/stylermd)
 
 # Dependencies ⚖️
+
+- [`{pkgdepends}`](https://cran.r-project.org/web/packages/pkgdepends/index.html) (to find recursive dependencies of from various sources)
 
 - [`{deepdep}`](https://cran.r-project.org/web/packages/deepdep/index.html) (to visualize and explore package dependencies)
 
