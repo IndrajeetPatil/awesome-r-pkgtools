@@ -187,6 +187,10 @@ respective sections for the sake of completeness).
 
 -   [`{bookdown}`](https://pkgs.rstudio.com/bookdown)
 
+## News
+
+-   [`{newsmd}`](https://cran.r-project.org/web/packages/newsmd/index.html)
+
 # Documentation quality ✒️
 
 -   [`{docreview}`](https://thisisnic.github.io/docreview) (to check
