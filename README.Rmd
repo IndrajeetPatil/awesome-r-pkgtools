@@ -440,3 +440,7 @@ To thank the contributors or maintainers of packages you rely on.
 - [`{precommit}`](https://lorenzwalthert.github.io/precommit) (pre-commit hooks)
 
 - [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html) (helpers for packages dealing with database connections)
+
+## Code of Conduct
+
+Please note that the awesome-r-pkgtools project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
