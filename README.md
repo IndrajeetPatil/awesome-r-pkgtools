@@ -225,6 +225,9 @@ respective sections for the sake of completeness).
 -   [`{shinytest}`](https://rstudio.github.io/shinytest) (testing Shiny
     apps)
 
+-   [`{shinytest2}`](https://rstudio.github.io/shinytest2) (testing
+    Shiny apps using a headless Chromium web browser)
+
 -   [`{testdown}`](https://github.com/ThinkR-open/testdown) (turn
     `{testthat}` results into a `{bookdown}` project)
 
@@ -519,3 +522,10 @@ To thank the contributors or maintainers of packages you rely on.
 
 -   [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html)
     (helpers for packages dealing with database connections)
+
+## Code of Conduct
+
+Please note that the awesome-r-pkgtools project is released with a
+[Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.

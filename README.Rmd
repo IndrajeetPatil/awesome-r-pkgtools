@@ -190,6 +190,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{shinytest}`](https://rstudio.github.io/shinytest) (testing Shiny apps)
 
+- [`{shinytest2}`](https://rstudio.github.io/shinytest2) (testing Shiny apps using a headless Chromium web browser)
+
 - [`{testdown}`](https://github.com/ThinkR-open/testdown) (turn `{testthat}` results into a `{bookdown}` project)
 
 - [`{httptest}`](https://enpiar.com/r/httptest/) (a test environment for HTTP requests in R)
