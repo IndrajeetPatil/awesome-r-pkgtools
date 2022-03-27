@@ -9,6 +9,8 @@ Note before:
     some might be available only via GitHub or GitLab.
 -   Only **tools** helpful for package development are included, and not
     other resources (like books, talks, presentations, etc.).
+-   Tools which are part of publicly archived/retired GitHub
+    repositories are not included.
 
 # Contributing
 
@@ -541,7 +543,10 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html)
     (helpers for packages dealing with database connections)
 
-## Code of Conduct
+-   [`{winch}`](https://r-prof.github.io/winch/) (provides stack traces
+    for call chains that cross between R and C/C++ function calls)
+
+# Code of Conduct
 
 Please note that the awesome-r-pkgtools project is released with a
 [Contributor Code of
