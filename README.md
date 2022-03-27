@@ -300,12 +300,16 @@ respective sections for the sake of completeness).
 
 -   [`{cloc}`](https://github.com/hrbrmstr/cloc)
 
-# Code performance
+# Code performance ⏱️
 
 ## Benchmarking
 
--   [`{bench}`](https://cran.r-project.org/web/packages/bench/index.html)
-    (high precision benchmarks for R expressions)
+-   [`{bench}`](https://bench.r-lib.org/) (provides high precision
+    benchmarks for R expressions)
+
+-   [`{microbenchmark}`](https://cran.r-project.org/web/packages/microbenchmark/index.html)
+    (provides infrastructure to accurately measure and compare the
+    execution time of R expressions)
 
 ## Profiling
 
@@ -476,14 +480,6 @@ continuous deployment
 
 -   [`{usethat}`](https://tidylab.github.io/usethat)
 
-# Gratitude 🙏💌
-
-To thank the contributors or maintainers of packages you rely on.
-
--   [`{thankr}`](https://cran.r-project.org/web/packages/thankr/index.html)
-
--   [`{allcontributors}`](https://docs.ropensci.org/allcontributors)
-
 # Integration with other languages 🔗
 
 ## C++
@@ -515,10 +511,20 @@ To thank the contributors or maintainers of packages you rely on.
 
 -   [`{JuliaCall}`](https://non-contradiction.github.io/JuliaCall/index.html)
 
-# Sundry 🗒
+# Gratitude 🙏💌
+
+To thank the contributors or maintainers of packages you rely on.
+
+-   [`{thankr}`](https://cran.r-project.org/web/packages/thankr/index.html)
+
+-   [`{allcontributors}`](https://docs.ropensci.org/allcontributors)
+
+# Upkeep 🧹
 
 -   [`{TODOr}`](https://github.com/dokato/todor) (RStudio addin to list
     things that you need to do or change)
+
+# Sundry 🗒
 
 -   [`{prefixer}`](https://github.com/dreamRs/prefixer) (prefix function
     with their namespace )
