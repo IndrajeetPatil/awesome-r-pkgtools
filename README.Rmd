@@ -250,15 +250,23 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{SimilaR}`](https://cran.r-project.org/web/packages/SimilaR/index.html)
 
-## Benchmarking and profiling 
-
-- [`{bench}`](https://cran.r-project.org/web/packages/bench/index.html)
-
-- [`{profvis}`](https://cran.r-project.org/web/packages/profvis/index.html)
-
 ## Lines of code
 
 - [`{cloc}`](https://github.com/hrbrmstr/cloc)
+
+# Code performance
+
+## Benchmarking
+
+- [`{bench}`](https://cran.r-project.org/web/packages/bench/index.html) (high precision benchmarks for R expressions)
+
+## Profiling
+
+- [`{profvis}`](https://cran.r-project.org/web/packages/profvis/index.html) (to profile and visualize profiling data)
+
+- [`{proffer}`](https://r-prof.github.io/proffer/) (to create friendlier, faster visualizations for profiling data)
+
+- [`{jointprof}`](https://r-prof.github.io/jointprof/) (to profile packages with native code in C, C++, Fortran, etc.)
 
 # Formatting 🧽
 
