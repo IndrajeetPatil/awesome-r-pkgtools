@@ -269,6 +269,10 @@ respective sections for the sake of completeness).
     package follows good practices recommended for packages in the
     [`rOpenSci`](https://ropensci.org/) ecosystem)
 
+-   [`{rchk}`](https://github.com/kalibera/rchk) (provides several
+    bug-finding tools that look for memory protection errors in C source
+    code using R API)
+
 ## Code coverage
 
 -   [`{covr}`](https://covr.r-lib.org) (computes code coverage)
