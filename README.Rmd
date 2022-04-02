@@ -231,7 +231,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## General
 
-- [`{codetools}`](https://cran.r-project.org/web/packages/codetools/index.html)
+- [`{codetools}`](https://cran.r-project.org/web/packages/codetools/index.html) (code analysis tools for R)
 
 - [`{goodpractice}`](http://mangothecat.github.io/goodpractice) (Swiss army knife for good practices)
 
@@ -249,9 +249,9 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{lintr}`](https://github.com/jimhester/lintr) (static code analysis)
 
-- [`{roger}`](https://cran.r-project.org/web/packages/roger/index.html)
+- [`{roger}`](https://cran.r-project.org/web/packages/roger/index.html) (provides tools for grading the coding style and documentation of R scripts)
 
-- [`{cleanr}`](https://cran.r-project.org/web/packages/cleanr/index.html)
+- [`{cleanr}`](https://cran.r-project.org/web/packages/cleanr/index.html) (tests code for some of the most common code layout flaws)
 
 ## Code complexity
 
@@ -259,15 +259,15 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## Code similarity
 
-- [`{dupree}`](https://github.com/russHyde/dupree)
+- [`{dupree}`](https://github.com/russHyde/dupree) (identifies code blocks that have a high level of similarity within a set of R files)
 
-- [`{rscc}`](https://cran.r-project.org/web/packages/rscc/index.html)
+- [`{rscc}`](https://cran.r-project.org/web/packages/rscc/index.html) (provides source code similarity evaluation by variable/function names)
 
-- [`{SimilaR}`](https://cran.r-project.org/web/packages/SimilaR/index.html)
+- [`{SimilaR}`](https://cran.r-project.org/web/packages/SimilaR/index.html) (quantifies the similarity of the code-base of R functions by means of program dependence graphs)
 
 ## Lines of code
 
-- [`{cloc}`](https://github.com/hrbrmstr/cloc)
+- [`{cloc}`](https://github.com/hrbrmstr/cloc) (counts blank lines, comment lines, and physical lines of source code in source files)
 
 # Code performance ⏱️
 
@@ -287,17 +287,13 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 # Formatting 🧽
 
-## R code
+- [`{styler}`](https://styler.r-lib.org) (to format code according to style guide)
 
-- [`{styler}`](https://styler.r-lib.org) (especially relevant if you follow `{tidyverse}` style guide)
+- [`{stylermd}`](https://github.com/lorenzwalthert/stylermd) (to format text in Markdown documents)
 
-- [`{formatR}`](https://yihui.org/formatr)
+- [`{formatR}`](https://yihui.org/formatr) (to format R source code)
 
-- [`AlignAssign`](https://github.com/seasmith/AlignAssign) (RStudio addin)
-
-## Markdown documents
-
-- [`{stylermd}`](https://github.com/lorenzwalthert/stylermd)
+- [`AlignAssign`](https://github.com/seasmith/AlignAssign) (RStudio addin that aligns the assignment operators within a highlighted area)
 
 # Dependencies ⚖️
 
