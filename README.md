@@ -209,14 +209,21 @@ respective sections for the sake of completeness).
 
 # Unit testing 🧪
 
--   [`{testthat}`](https://testthat.r-lib.org)
+## General
 
--   [`{vdiffr}`](https://vdiffr.r-lib.org) (visual regression testing)
+-   [`{testthat}`](https://testthat.r-lib.org) (a testing framework for
+    R that is easy to learn and use; also provides snapshot testing)
 
--   [`{mockthat}`](https://nbenn.github.io/mockthat) (function mocking
-    for unit testing to third-party packages)
+-   [`{tinytest}`](https://cran.r-project.org/web/packages/tinytest/index.html)
+    (zero-dependency unit testing framework that installs tests with the
+    package)
 
--   [`{mockr}`](https://krlmlr.github.io/mockr)
+-   [`{RUnit}`](https://cran.r-project.org/web/packages/RUnit/index.html)
+    (a standard Unit Testing framework, with additional code inspection
+    and report generation tools)
+
+-   [`{testit}`](https://cran.rstudio.com/web/packages/testit/index.html)
+    (a simple package for testing R packages)
 
 -   [`{roxytest}`](https://github.com/mikldk/roxytest) (inline
     `{testthat}` tests with `{roxygen2}`)
@@ -224,14 +231,25 @@ respective sections for the sake of completeness).
 -   [`{exampletestr}`](https://rorynolan.github.io/exampletestr) (tests
     based on package examples)
 
+-   [`{unitizer}`](https://cran.r-project.org/web/packages/unitizer/index.html)
+    (simplifies regression tests by comparing objects produced by test
+    code with earlier versions of those same objects)
+
+-   [`{r-hedgehog}`](https://github.com/hedgehogqa/r-hedgehog) (property
+    based testing)
+
+-   [`{autotest}`](https://docs.ropensci.org/autotest) (automatic
+    mutation testing of R packages)
+
+## Shiny applications
+
 -   [`{shinytest}`](https://rstudio.github.io/shinytest) (testing Shiny
     apps)
 
 -   [`{shinytest2}`](https://rstudio.github.io/shinytest2) (testing
     Shiny apps using a headless Chromium web browser)
 
--   [`{testdown}`](https://github.com/ThinkR-open/testdown) (turn
-    `{testthat}` results into a `{bookdown}` project)
+## Web applications
 
 -   [`{httptest}`](https://enpiar.com/r/httptest/) (a test environment
     for HTTP requests in R)
@@ -239,22 +257,28 @@ respective sections for the sake of completeness).
 -   [`{httptest2}`](https://enpiar.com/httptest2/) (the same for
     `{httr2}` package)
 
--   [`{autotest}`](https://docs.ropensci.org/autotest)
+## Visual regression testing
 
--   [`{tinytest}`](https://cran.r-project.org/web/packages/tinytest/index.html)
+-   [`{vdiffr}`](https://vdiffr.r-lib.org) (visual regression testing)
 
--   [`{RUnit}`](https://cran.r-project.org/web/packages/RUnit/index.html)
+## Mock testing
 
--   [`{testit}`](https://cran.rstudio.com/web/packages/testit/index.html)
+-   [`{mockthat}`](https://nbenn.github.io/mockthat) (function mocking
+    for unit testing to third-party packages)
+
+-   [`{mockr}`](https://krlmlr.github.io/mockr)
+
+-   [`{testdown}`](https://github.com/ThinkR-open/testdown) (turn
+    `{testthat}` results into a `{bookdown}` project)
+
+## Helpers for testing frameworks
 
 -   [`{testthis}`](https://cran.r-project.org/web/packages/testthis)
+    (RStudio addins for working with files that contain tests)
 
--   [`{xpectr}`](https://github.com/LudvigOlsen/xpectr)
-
--   [`{unitizer}`](https://cran.r-project.org/web/packages/unitizer/index.html)
-
--   [`{r-hedgehog}`](https://github.com/hedgehogqa/r-hedgehog) (property
-    based testing)
+-   [`{xpectr}`](https://github.com/LudvigOlsen/xpectr) (builds unit
+    tests with the `{testthat}` package by providing tools for
+    generating expectations)
 
 # Code analysis 🗂⏱
 
