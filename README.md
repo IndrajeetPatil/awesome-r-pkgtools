@@ -139,9 +139,12 @@ respective sections for the sake of completeness).
 
 ## Vignettes
 
--   [`{knitr}`](https://yihui.org/knitr)
+-   [`{knitr}`](https://yihui.org/knitr) (a general-purpose tool for
+    dynamic report generation to be used as a vignette builder for R
+    package vignettes)
 
--   [`{rmarkdown}`](https://rmarkdown.rstudio.com)
+-   [`{rmarkdown}`](https://rmarkdown.rstudio.com) (to convert R
+    Markdown documents to a variety of formats)
 
 -   [`{prettydoc}`](https://cran.rstudio.com/web/packages/prettydoc/index.html)
     (creates lightweight yet pretty vignettes)
@@ -175,23 +178,34 @@ respective sections for the sake of completeness).
 ## Badges and stickers
 
 -   [`{badger}`](https://cran.r-project.org/web/packages/badger/index.html)
+    (query information and generate badges for using in `README` and
+    `GitHub Pages`)
 
 -   [`{hexSticker}`](https://cran.r-project.org/web/packages/hexSticker/index.html)
+    (helper functions for creating reproducible hexagon sticker purely
+    in R)
 
 -   [`hexwall`](https://github.com/mitchelloharawild/hexwall) (to create
     a wall of hexstickers)
 
 ## Presentation
 
--   [`{xaringan}`](https://github.com/yihui/xaringan)
+-   [`{xaringan}`](https://github.com/yihui/xaringan) (an R Markdown
+    output format for `remark.js` slides)
 
 ## Book
 
--   [`{bookdown}`](https://pkgs.rstudio.com/bookdown)
+-   [`{bookdown}`](https://pkgs.rstudio.com/bookdown) (authoring
+    framework for books and technical documents with R Markdown)
 
-## News
+## Change log and versioning
+
+-   [`{fledge}`](https://cynkra.github.io/fledge/index.html)
+    (streamlines the process of updating change logs and versioning R
+    packages developed in git repositories)
 
 -   [`{newsmd}`](https://cran.r-project.org/web/packages/newsmd/index.html)
+    (utilities to add updates to the `NEWS.md` file)
 
 # Documentation quality ✒️
 
@@ -202,10 +216,6 @@ respective sections for the sake of completeness).
 
 -   [`{gramr}`](https://github.com/jasdumas/gramr) (for grammar
     suggestions)
-
-# Package change tracking and versioning
-
--   [`{fledge}`](https://cynkra.github.io/fledge/index.html)
 
 # Unit testing 🧪
 
