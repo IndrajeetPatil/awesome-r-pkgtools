@@ -52,8 +52,10 @@ respective sections for the sake of completeness).
 # Package skeletons 💀
 
 -   [`{pkgkitten}`](https://dirk.eddelbuettel.com/code/pkgkitten.html)
+    (useful for creating new packages for R)
 
--   [`{rcompendium}`](https://frbcesab.github.io/rcompendium)
+-   [`{rcompendium}`](https://frbcesab.github.io/rcompendium) (to make
+    the creation of R package/research compendium easier)
 
 -   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
     building shiny applications)
@@ -106,7 +108,8 @@ respective sections for the sake of completeness).
 
 ## Manual
 
--   [`{roxygen2}`](https://roxygen2.r-lib.org)
+-   [`{roxygen2}`](https://roxygen2.r-lib.org) (to generate R package
+    documentation from inline R comments)
 
 -   [`{Rd2roxygen}`](https://cran.r-project.org/web/packages/Rd2roxygen/index.html)
     (in case you inherit a project where documentation was not written
@@ -131,11 +134,14 @@ respective sections for the sake of completeness).
 -   [`roxygen2Comment`](https://github.com/csgillespie/roxygen2Comment)
     (Rstudio addin for adding and remove `{roxygen2}` comment)
 
-## Math in manual
+## Math in package manual
 
--   [`{katex}`](https://docs.ropensci.org/katex)
+-   [`{katex}`](https://docs.ropensci.org/katex) (to convert latex math
+    expressions to HTML for use in package manual pages)
 
 -   [`{mathjaxr}`](https://cran.r-project.org/web/packages/mathjaxr/index.html)
+    (provides ‘MathJax’ and macros to enable its use within `Rd` files
+    for rendering equations in the HTML help files)
 
 ## Vignettes
 
@@ -149,8 +155,8 @@ respective sections for the sake of completeness).
 -   [`{prettydoc}`](https://cran.rstudio.com/web/packages/prettydoc/index.html)
     (creates lightweight yet pretty vignettes)
 
--   [`{learnr}`](https://rstudio.github.io/learnr) (interactive
-    tutorials)
+-   [`{learnr}`](https://rstudio.github.io/learnr) (to turn any R
+    Markdown document into an interactive tutorial)
 
 ## Website
 
@@ -277,7 +283,8 @@ respective sections for the sake of completeness).
 -   [`{mockthat}`](https://nbenn.github.io/mockthat) (function mocking
     for unit testing to third-party packages)
 
--   [`{mockr}`](https://krlmlr.github.io/mockr)
+-   [`{mockr}`](https://krlmlr.github.io/mockr) (allows mocking
+    functions in the package under test)
 
 -   [`{testdown}`](https://github.com/ThinkR-open/testdown) (turn
     `{testthat}` results into a `{bookdown}` project)
@@ -379,7 +386,7 @@ respective sections for the sake of completeness).
 # Formatting 🧽
 
 -   [`{styler}`](https://styler.r-lib.org) (to format code according to
-    style guide)
+    a style guide)
 
 -   [`{stylermd}`](https://github.com/lorenzwalthert/stylermd) (to
     format text in Markdown documents)
@@ -405,20 +412,21 @@ respective sections for the sake of completeness).
 -   [`{DependenciesGraphs}`](https://github.com/datastorm-open/DependenciesGraphs)
     (to visualize package dependencies)
 
--   [`{pkgnet}`](https://uptake.github.io/pkgnet/index.html)(build a
+-   [`{pkgnet}`](https://uptake.github.io/pkgnet/index.html) (to build a
     graph representation of a package and its dependencies)
 
 -   [`{functiondepends}`](https://cran.r-project.org/web/packages/functiondepends)
-    (find functions in an unstructured directory and explore their
+    (to find functions in an unstructured directory and explore their
     dependencies)
 
 -   [`{pkgndep}`](https://cran.r-project.org/web/packages/pkgndep)
     (checks the heaviness of the packages used)
 
--   [`{oysteR}`](https://sonatype-nexus-community.github.io/oysteR)
-    (secure package against insecure dependencies)
+-   [`{oysteR}`](https://sonatype-nexus-community.github.io/oysteR) (to
+    secure package against insecure dependencies)
 
--   [`{attachment}`](https://github.com/ThinkR-open/attachment)
+-   [`{attachment}`](https://github.com/ThinkR-open/attachment) (to deal
+    with package dependencies during package development)
 
 # CRAN checks, submission, and status 📬
 
@@ -560,6 +568,16 @@ continuous deployment
 -   [`{xfun}`](https://yihui.org/xfun) (specifically,
     `xfun::rev_check()`)
 
+# Gratitude 🙏💌
+
+To thank the contributors or maintainers of packages you rely on.
+
+-   [`{thankr}`](https://cran.r-project.org/web/packages/thankr/index.html)
+    (to find out who maintains the packages you are using)
+
+-   [`{allcontributors}`](https://docs.ropensci.org/allcontributors) (to
+    help acknowledge all contributions)
+
 # Docker container 🛍
 
 -   [`{containerit}`](https://o2r.info/containerit) (to package R
@@ -599,14 +617,6 @@ continuous deployment
 ## Julia
 
 -   [`{JuliaCall}`](https://non-contradiction.github.io/JuliaCall/index.html)
-
-# Gratitude 🙏💌
-
-To thank the contributors or maintainers of packages you rely on.
-
--   [`{thankr}`](https://cran.r-project.org/web/packages/thankr/index.html)
-
--   [`{allcontributors}`](https://docs.ropensci.org/allcontributors)
 
 # Upkeep 🧹
 

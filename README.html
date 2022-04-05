@@ -640,8 +640,10 @@ respective sections for the sake of completeness).</p>
 </ul>
 <h1 id="package-skeletons-">Package skeletons 💀</h1>
 <ul>
-<li><p><a href="https://dirk.eddelbuettel.com/code/pkgkitten.html"><code>{pkgkitten}</code></a></p></li>
-<li><p><a href="https://frbcesab.github.io/rcompendium"><code>{rcompendium}</code></a></p></li>
+<li><p><a href="https://dirk.eddelbuettel.com/code/pkgkitten.html"><code>{pkgkitten}</code></a>
+(useful for creating new packages for R)</p></li>
+<li><p><a href="https://frbcesab.github.io/rcompendium"><code>{rcompendium}</code></a>
+(to make the creation of R package/research compendium easier)</p></li>
 <li><p><a href="https://github.com/ThinkR-open/golem"><code>{golem}</code></a>
 (framework for building shiny applications)</p></li>
 <li><p><a href="https://leprechaun.opifex.org/#/"><code>{leprechaun}</code></a>
@@ -685,7 +687,8 @@ simulate the process of installing and loading a package)</p></li>
 <h1 id="documentation-">Documentation 📚</h1>
 <h2 id="manual">Manual</h2>
 <ul>
-<li><p><a href="https://roxygen2.r-lib.org"><code>{roxygen2}</code></a></p></li>
+<li><p><a href="https://roxygen2.r-lib.org"><code>{roxygen2}</code></a>
+(to generate R package documentation from inline R comments)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/Rd2roxygen/index.html"><code>{Rd2roxygen}</code></a>
 (in case you inherit a project where documentation was not written using
 <code>{roxygen2}</code>)</p></li>
@@ -704,10 +707,14 @@ Markdown syntax in package documentation)</p></li>
 (Rstudio addin for adding and remove <code>{roxygen2}</code>
 comment)</p></li>
 </ul>
-<h2 id="math-in-manual">Math in manual</h2>
+<h2 id="math-in-package-manual">Math in package manual</h2>
 <ul>
-<li><p><a href="https://docs.ropensci.org/katex"><code>{katex}</code></a></p></li>
-<li><p><a href="https://cran.r-project.org/web/packages/mathjaxr/index.html"><code>{mathjaxr}</code></a></p></li>
+<li><p><a href="https://docs.ropensci.org/katex"><code>{katex}</code></a> (to
+convert latex math expressions to HTML for use in package manual
+pages)</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/mathjaxr/index.html"><code>{mathjaxr}</code></a>
+(provides ‘MathJax’ and macros to enable its use within <code>Rd</code>
+files for rendering equations in the HTML help files)</p></li>
 </ul>
 <h2 id="vignettes">Vignettes</h2>
 <ul>
@@ -718,8 +725,8 @@ vignette builder for R package vignettes)</p></li>
 convert R Markdown documents to a variety of formats)</p></li>
 <li><p><a href="https://cran.rstudio.com/web/packages/prettydoc/index.html"><code>{prettydoc}</code></a>
 (creates lightweight yet pretty vignettes)</p></li>
-<li><p><a href="https://rstudio.github.io/learnr"><code>{learnr}</code></a>
-(interactive tutorials)</p></li>
+<li><p><a href="https://rstudio.github.io/learnr"><code>{learnr}</code></a> (to
+turn any R Markdown document into an interactive tutorial)</p></li>
 </ul>
 <h2 id="website">Website</h2>
 <ul>
@@ -831,7 +838,8 @@ regression testing)</li>
 <ul>
 <li><p><a href="https://nbenn.github.io/mockthat"><code>{mockthat}</code></a>
 (function mocking for unit testing to third-party packages)</p></li>
-<li><p><a href="https://krlmlr.github.io/mockr"><code>{mockr}</code></a></p></li>
+<li><p><a href="https://krlmlr.github.io/mockr"><code>{mockr}</code></a>
+(allows mocking functions in the package under test)</p></li>
 <li><p><a href="https://github.com/ThinkR-open/testdown"><code>{testdown}</code></a>
 (turn <code>{testthat}</code> results into a <code>{bookdown}</code>
 project)</p></li>
@@ -924,7 +932,7 @@ create friendlier, faster visualizations for profiling data)</p></li>
 <h1 id="formatting-">Formatting 🧽</h1>
 <ul>
 <li><p><a href="https://styler.r-lib.org"><code>{styler}</code></a> (to
-format code according to style guide)</p></li>
+format code according to a style guide)</p></li>
 <li><p><a href="https://github.com/lorenzwalthert/stylermd"><code>{stylermd}</code></a>
 (to format text in Markdown documents)</p></li>
 <li><p><a href="https://yihui.org/formatr"><code>{formatR}</code></a>
@@ -944,16 +952,18 @@ area)</p></li>
 removal of dependencies)</p></li>
 <li><p><a href="https://github.com/datastorm-open/DependenciesGraphs"><code>{DependenciesGraphs}</code></a>
 (to visualize package dependencies)</p></li>
-<li><p><a href="https://uptake.github.io/pkgnet/index.html"><code>{pkgnet}</code></a>(build
-a graph representation of a package and its dependencies)</p></li>
+<li><p><a href="https://uptake.github.io/pkgnet/index.html"><code>{pkgnet}</code></a>
+(to build a graph representation of a package and its
+dependencies)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/functiondepends"><code>{functiondepends}</code></a>
-(find functions in an unstructured directory and explore their
+(to find functions in an unstructured directory and explore their
 dependencies)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/pkgndep"><code>{pkgndep}</code></a>
 (checks the heaviness of the packages used)</p></li>
 <li><p><a href="https://sonatype-nexus-community.github.io/oysteR"><code>{oysteR}</code></a>
-(secure package against insecure dependencies)</p></li>
-<li><p><a href="https://github.com/ThinkR-open/attachment"><code>{attachment}</code></a></p></li>
+(to secure package against insecure dependencies)</p></li>
+<li><p><a href="https://github.com/ThinkR-open/attachment"><code>{attachment}</code></a>
+(to deal with package dependencies during package development)</p></li>
 </ul>
 <h1 id="cran-checks-submission-and-status-">CRAN checks, submission, and
 status 📬</h1>
@@ -1071,6 +1081,14 @@ unpacking, interrogating and subsetting R packages)</p></li>
 <li><p><a href="https://yihui.org/xfun"><code>{xfun}</code></a>
 (specifically, <code>xfun::rev_check()</code>)</p></li>
 </ul>
+<h1 id="gratitude-">Gratitude 🙏💌</h1>
+<p>To thank the contributors or maintainers of packages you rely on.</p>
+<ul>
+<li><p><a href="https://cran.r-project.org/web/packages/thankr/index.html"><code>{thankr}</code></a>
+(to find out who maintains the packages you are using)</p></li>
+<li><p><a href="https://docs.ropensci.org/allcontributors"><code>{allcontributors}</code></a>
+(to help acknowledge all contributions)</p></li>
+</ul>
 <h1 id="docker-container-">Docker container 🛍</h1>
 <ul>
 <li><p><a href="https://o2r.info/containerit"><code>{containerit}</code></a> (to
@@ -1109,12 +1127,6 @@ languages 🔗</h1>
 <h2 id="julia">Julia</h2>
 <ul>
 <li><a href="https://non-contradiction.github.io/JuliaCall/index.html"><code>{JuliaCall}</code></a></li>
-</ul>
-<h1 id="gratitude-">Gratitude 🙏💌</h1>
-<p>To thank the contributors or maintainers of packages you rely on.</p>
-<ul>
-<li><p><a href="https://cran.r-project.org/web/packages/thankr/index.html"><code>{thankr}</code></a></p></li>
-<li><p><a href="https://docs.ropensci.org/allcontributors"><code>{allcontributors}</code></a></p></li>
 </ul>
 <h1 id="upkeep-">Upkeep 🧹</h1>
 <ul>
