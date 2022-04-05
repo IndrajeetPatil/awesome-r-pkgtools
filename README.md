@@ -409,6 +409,8 @@ respective sections for the sake of completeness).
     graph representation of a package and its dependencies)
 
 -   [`{functiondepends}`](https://cran.r-project.org/web/packages/functiondepends)
+    (find functions in an unstructured directory and explore their
+    dependencies)
 
 -   [`{pkgndep}`](https://cran.r-project.org/web/packages/pkgndep)
     (checks the heaviness of the packages used)
@@ -420,27 +422,28 @@ respective sections for the sake of completeness).
 
 # CRAN checks, submission, and status 📬
 
--   [`{rcmdcheck}`](https://r-lib.github.io/rcmdcheck) (run
+-   [`{rcmdcheck}`](https://r-lib.github.io/rcmdcheck) (to run
     `R CMD check` form R programmatically)
 
 -   [`{rhub}`](https://cran.r-project.org/web/packages/rhub/index.html)
     (to run `R CMD check` on CRAN architectures)
 
--   [`{checkhelper}`](https://thinkr-open.github.io/checkhelper)
-    (submission help)
+-   [`{checkhelper}`](https://thinkr-open.github.io/checkhelper) (to
+    help avoid problems with CRAN submissions)
 
 -   [`{foghorn}`](https://cran.r-project.org/web/packages/foghorn/index.html)
-    (check results and submission portal status)
+    (to check for results and submission portal status)
 
--   [`{urlchecker}`](https://github.com/r-lib/urlchecker) (URL checks)
+-   [`{urlchecker}`](https://github.com/r-lib/urlchecker) (to checks for
+    URL rot)
 
 # Usage 🙈
 
--   [`{cranlogs}`](https://r-hub.github.io/cranlogs) (computing CRAN
+-   [`{cranlogs}`](https://r-hub.github.io/cranlogs) (for computing CRAN
     download counts)
 
 -   [`{packageRank}`](https://cran.r-project.org/web/packages/packageRank/index.html)
-    (visualizing CRAN download counts)
+    (for visualizing CRAN download counts)
 
 # CI/CD 📟
 
@@ -466,10 +469,14 @@ continuous deployment
 # Security/Privacy 👮
 
 -   [`{digest}`](https://cran.r-project.org/web/packages/digest/index.html)
+    (for the creation of hash digests of arbitrary R objects)
 
 -   [`{hash}`](https://cran.r-project.org/web/packages/hash/index.html)
+    (implements a data structure similar to hashes in Perl and
+    dictionaries in Python but with a purposefully R flavor)
 
 -   [`{gpg}`](https://cran.r-project.org/web/packages/gpg/index.html)
+    (GNU privacy guard for R)
 
 # Build systems
 
