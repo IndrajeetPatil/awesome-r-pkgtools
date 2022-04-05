@@ -212,7 +212,8 @@ respective sections for the sake of completeness).
 -   [`{docreview}`](https://thisisnic.github.io/docreview) (to check
     quality of docs)
 
--   [`{spelling}`](https://docs.ropensci.org/spelling) (to spell check)
+-   [`{spelling}`](https://docs.ropensci.org/spelling) (to check for
+    spelling mistakes)
 
 -   [`{gramr}`](https://github.com/jasdumas/gramr) (for grammar
     suggestions)
@@ -361,6 +362,9 @@ respective sections for the sake of completeness).
     (provides infrastructure to accurately measure and compare the
     execution time of R expressions)
 
+-   [`{touchstone}`](https://lorenzwalthert.github.io/touchstone)
+    (benchmarking pull requests)
+
 ## Profiling
 
 -   [`{profvis}`](https://cran.r-project.org/web/packages/profvis/index.html)
@@ -479,54 +483,84 @@ continuous deployment
 
 # Debugging 🔭
 
--   [`{debugme}`](https://github.com/r-lib/debugme)
+-   [`{debugme}`](https://github.com/r-lib/debugme) (provides helpers to
+    specify debug messages as special string constants, and control
+    debugging of packages via environment variables)
 
--   [`{debugr}`](https://cran.r-project.org/web/packages/debugr)
+-   [`{debugr}`](https://cran.r-project.org/web/packages/debugr) (tools
+    to print out the value of R objects/expressions while running an R
+    script)
+
+-   [`{winch}`](https://r-prof.github.io/winch/) (provides stack traces
+    for call chains that cross between R and C/C++ function calls)
 
 # Input validation 🔬
 
--   [`{checkmate}`](https://mllg.github.io/checkmate) (argument checks)
+-   [`{checkmate}`](https://mllg.github.io/checkmate) (fast and
+    versatile argument checks)
 
 -   [`{assertthat}`](https://cran.r-project.org/web/packages/assertthat/index.html)
+    (to declare the pre and post conditions that you code should satisfy
+    and to produce friendly error messages)
 
--   [`{assertive}`](https://www.r-pkg.org/pkg/assertive)
+-   [`{assertive}`](https://www.r-pkg.org/pkg/assertive) (provides
+    readable check functions to ensure code integrity)
 
 -   [`{pkgcond}`](https://github.com/RDocTaskForce/pkgcond) (better
     error messages for package users)
 
--   [`{dreamerr}`](https://github.com/lrberge/dreamerr)
+-   [`{dreamerr}`](https://github.com/lrberge/dreamerr) (a simple and
+    intuitive, yet powerful and flexible, way to check the arguments
+    passed to a function and to offer informative error messages)
 
 # Package metadata 🖨
 
--   [`{codemetar}`](https://docs.ropensci.org/codemetar)
+-   [`{codemetar}`](https://docs.ropensci.org/codemetar) (provides
+    utilities to generate, parse, and modify `codemeta.jsonld` files
+    automatically for R packages)
 
--   [`{cffr}`](https://docs.ropensci.org/cffr)
+-   [`{codemeta}`](https://docs.ropensci.org/codemeta) (a leaner version
+    of `{codemetar}`)
 
--   [`{pkgapi}`](https://github.com/r-lib/pkgapi)
+-   [`{cffr}`](https://docs.ropensci.org/cffr) (provides utilities to
+    generate, parse, modify and validate `CITATION.cff` files
+    automatically for R packages)
+
+-   [`{pkgapi}`](https://github.com/r-lib/pkgapi) (to create the map of
+    function calls in a package)
 
 -   [`{packagemetrics}`](https://github.com/sfirke/packagemetrics) (for
     comparing among packages)
 
 -   [`{devtoolbox}`](https://martinctc.github.io/devtoolbox/index.html)
+    (to create a summary report for R package and to extract dependency
+    statistics in a tidy data frame)
 
--   [`{pkgattrs}`](https://rich-iannone.github.io/pkgattrs)
+-   [`{pkgattrs}`](https://rich-iannone.github.io/pkgattrs) (useful for
+    getting information on the contents of any R package)
 
--   [`{foreman}`](https://github.com/yonicd/foreman)
+-   [`{foreman}`](https://github.com/yonicd/foreman) (for unpacking,
+    interrogating and subsetting R packages)
 
--   [`{sessioninfo}`](https://github.com/r-lib/sessioninfo)
+-   [`{sessioninfo}`](https://r-lib.github.io/sessioninfo/) (to include
+    R session information)
 
 # Reverse dependency checks 📡⚰️
 
--   [`{revdepcheck}`](https://r-lib.github.io/revdepcheck)
+-   [`{revdepcheck}`](https://r-lib.github.io/revdepcheck) (for
+    automated, isolated, reverse dependency checking)
 
 -   [`{xfun}`](https://yihui.org/xfun) (specifically,
     `xfun::rev_check()`)
 
 # Docker container 🛍
 
--   [`{containerit}`](https://o2r.info/containerit)
+-   [`{containerit}`](https://o2r.info/containerit) (to package R
+    script/session/workspace and all dependencies as a `Docker`
+    container by generating a suitable `Dockerfile`)
 
--   [`{usethat}`](https://tidylab.github.io/usethat)
+-   [`{usethat}`](https://tidylab.github.io/usethat) (to automate
+    analytic project setup tasks)
 
 # Integration with other languages 🔗
 
@@ -580,17 +614,11 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{gitignore}`](https://cran.r-project.org/web/packages/gitignore/index.html)
     (to fetch gitignore templates)
 
--   [`{touchstone}`](https://lorenzwalthert.github.io/touchstone)
-    (benchmarking pull requests)
-
 -   [`{precommit}`](https://lorenzwalthert.github.io/precommit)
     (pre-commit hooks)
 
 -   [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html)
     (helpers for packages dealing with database connections)
-
--   [`{winch}`](https://r-prof.github.io/winch/) (provides stack traces
-    for call chains that cross between R and C/C++ function calls)
 
 # Code of Conduct
 

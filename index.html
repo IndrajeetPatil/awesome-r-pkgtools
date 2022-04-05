@@ -777,7 +777,7 @@ packages developed in git repositories)</p></li>
 <li><p><a href="https://thisisnic.github.io/docreview"><code>{docreview}</code></a>
 (to check quality of docs)</p></li>
 <li><p><a href="https://docs.ropensci.org/spelling"><code>{spelling}</code></a>
-(to spell check)</p></li>
+(to check for spelling mistakes)</p></li>
 <li><p><a href="https://github.com/jasdumas/gramr"><code>{gramr}</code></a> (for
 grammar suggestions)</p></li>
 </ul>
@@ -909,6 +909,8 @@ source files)</li>
 <li><p><a href="https://cran.r-project.org/web/packages/microbenchmark/index.html"><code>{microbenchmark}</code></a>
 (provides infrastructure to accurately measure and compare the execution
 time of R expressions)</p></li>
+<li><p><a href="https://lorenzwalthert.github.io/touchstone"><code>{touchstone}</code></a>
+(benchmarking pull requests)</p></li>
 </ul>
 <h2 id="profiling">Profiling</h2>
 <ul>
@@ -1004,41 +1006,73 @@ schedule R scripts/processes with the cron scheduler)</p></li>
 </ul>
 <h1 id="debugging-">Debugging 🔭</h1>
 <ul>
-<li><p><a href="https://github.com/r-lib/debugme"><code>{debugme}</code></a></p></li>
-<li><p><a href="https://cran.r-project.org/web/packages/debugr"><code>{debugr}</code></a></p></li>
+<li><p><a href="https://github.com/r-lib/debugme"><code>{debugme}</code></a>
+(provides helpers to specify debug messages as special string constants,
+and control debugging of packages via environment variables)</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/debugr"><code>{debugr}</code></a>
+(tools to print out the value of R objects/expressions while running an
+R script)</p></li>
+<li><p><a href="https://r-prof.github.io/winch/"><code>{winch}</code></a>
+(provides stack traces for call chains that cross between R and C/C++
+function calls)</p></li>
 </ul>
 <h1 id="input-validation-">Input validation 🔬</h1>
 <ul>
 <li><p><a href="https://mllg.github.io/checkmate"><code>{checkmate}</code></a>
-(argument checks)</p></li>
-<li><p><a href="https://cran.r-project.org/web/packages/assertthat/index.html"><code>{assertthat}</code></a></p></li>
-<li><p><a href="https://www.r-pkg.org/pkg/assertive"><code>{assertive}</code></a></p></li>
+(fast and versatile argument checks)</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/assertthat/index.html"><code>{assertthat}</code></a>
+(to declare the pre and post conditions that you code should satisfy and
+to produce friendly error messages)</p></li>
+<li><p><a href="https://www.r-pkg.org/pkg/assertive"><code>{assertive}</code></a>
+(provides readable check functions to ensure code integrity)</p></li>
 <li><p><a href="https://github.com/RDocTaskForce/pkgcond"><code>{pkgcond}</code></a>
 (better error messages for package users)</p></li>
-<li><p><a href="https://github.com/lrberge/dreamerr"><code>{dreamerr}</code></a></p></li>
+<li><p><a href="https://github.com/lrberge/dreamerr"><code>{dreamerr}</code></a>
+(a simple and intuitive, yet powerful and flexible, way to check the
+arguments passed to a function and to offer informative error
+messages)</p></li>
 </ul>
 <h1 id="package-metadata-">Package metadata 🖨</h1>
 <ul>
-<li><p><a href="https://docs.ropensci.org/codemetar"><code>{codemetar}</code></a></p></li>
-<li><p><a href="https://docs.ropensci.org/cffr"><code>{cffr}</code></a></p></li>
-<li><p><a href="https://github.com/r-lib/pkgapi"><code>{pkgapi}</code></a></p></li>
+<li><p><a href="https://docs.ropensci.org/codemetar"><code>{codemetar}</code></a>
+(provides utilities to generate, parse, and modify
+<code>codemeta.jsonld</code> files automatically for R
+packages)</p></li>
+<li><p><a href="https://docs.ropensci.org/codemeta"><code>{codemeta}</code></a> (a
+leaner version of <code>{codemetar}</code>)</p></li>
+<li><p><a href="https://docs.ropensci.org/cffr"><code>{cffr}</code></a>
+(provides utilities to generate, parse, modify and validate
+<code>CITATION.cff</code> files automatically for R packages)</p></li>
+<li><p><a href="https://github.com/r-lib/pkgapi"><code>{pkgapi}</code></a> (to
+create the map of function calls in a package)</p></li>
 <li><p><a href="https://github.com/sfirke/packagemetrics"><code>{packagemetrics}</code></a>
 (for comparing among packages)</p></li>
-<li><p><a href="https://martinctc.github.io/devtoolbox/index.html"><code>{devtoolbox}</code></a></p></li>
-<li><p><a href="https://rich-iannone.github.io/pkgattrs"><code>{pkgattrs}</code></a></p></li>
-<li><p><a href="https://github.com/yonicd/foreman"><code>{foreman}</code></a></p></li>
-<li><p><a href="https://github.com/r-lib/sessioninfo"><code>{sessioninfo}</code></a></p></li>
+<li><p><a href="https://martinctc.github.io/devtoolbox/index.html"><code>{devtoolbox}</code></a>
+(to create a summary report for R package and to extract dependency
+statistics in a tidy data frame)</p></li>
+<li><p><a href="https://rich-iannone.github.io/pkgattrs"><code>{pkgattrs}</code></a>
+(useful for getting information on the contents of any R
+package)</p></li>
+<li><p><a href="https://github.com/yonicd/foreman"><code>{foreman}</code></a> (for
+unpacking, interrogating and subsetting R packages)</p></li>
+<li><p><a href="https://r-lib.github.io/sessioninfo/"><code>{sessioninfo}</code></a>
+(to include R session information)</p></li>
 </ul>
 <h1 id="reverse-dependency-checks-️">Reverse dependency checks 📡⚰️</h1>
 <ul>
-<li><p><a href="https://r-lib.github.io/revdepcheck"><code>{revdepcheck}</code></a></p></li>
+<li><p><a href="https://r-lib.github.io/revdepcheck"><code>{revdepcheck}</code></a>
+(for automated, isolated, reverse dependency checking)</p></li>
 <li><p><a href="https://yihui.org/xfun"><code>{xfun}</code></a>
 (specifically, <code>xfun::rev_check()</code>)</p></li>
 </ul>
 <h1 id="docker-container-">Docker container 🛍</h1>
 <ul>
-<li><p><a href="https://o2r.info/containerit"><code>{containerit}</code></a></p></li>
-<li><p><a href="https://tidylab.github.io/usethat"><code>{usethat}</code></a></p></li>
+<li><p><a href="https://o2r.info/containerit"><code>{containerit}</code></a> (to
+package R script/session/workspace and all dependencies as a
+<code>Docker</code> container by generating a suitable
+<code>Dockerfile</code>)</p></li>
+<li><p><a href="https://tidylab.github.io/usethat"><code>{usethat}</code></a> (to
+automate analytic project setup tasks)</p></li>
 </ul>
 <h1 id="integration-with-other-languages-">Integration with other
 languages 🔗</h1>
@@ -1087,15 +1121,10 @@ languages 🔗</h1>
 (prefix function with their namespace )</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/gitignore/index.html"><code>{gitignore}</code></a>
 (to fetch gitignore templates)</p></li>
-<li><p><a href="https://lorenzwalthert.github.io/touchstone"><code>{touchstone}</code></a>
-(benchmarking pull requests)</p></li>
 <li><p><a href="https://lorenzwalthert.github.io/precommit"><code>{precommit}</code></a>
 (pre-commit hooks)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/DIZutils/index.html"><code>{DIZutils}</code></a>
 (helpers for packages dealing with database connections)</p></li>
-<li><p><a href="https://r-prof.github.io/winch/"><code>{winch}</code></a>
-(provides stack traces for call chains that cross between R and C/C++
-function calls)</p></li>
 </ul>
 <h1 id="code-of-conduct">Code of Conduct</h1>
 <p>Please note that the awesome-r-pkgtools project is released with a <a href="https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html">Contributor
