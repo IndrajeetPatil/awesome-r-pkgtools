@@ -99,6 +99,11 @@ respective sections for the sake of completeness).
 -   [`{pkgbuild}`](https://cran.r-project.org/web/packages/pkgbuild/index.html)
     (to find tools needed to build packages)
 
+# Package configuration
+
+-   [`{config}`](https://rstudio.github.io/config/) (to manage
+    environment specific configuration values)
+
 # Package management tools
 
 -   [`{pkgcache}`](https://cran.r-project.org/web/packages/pkgcache/index.html)
