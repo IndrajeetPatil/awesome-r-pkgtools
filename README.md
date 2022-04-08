@@ -321,6 +321,9 @@ respective sections for the sake of completeness).
     bug-finding tools that look for memory protection errors in C source
     code using R API)
 
+-   [`{sourcetools}`](https://cran.r-project.org/web/packages/sourcetools/index.html)
+    (tools for reading, tokenizing, and parsing R code)
+
 ## Code coverage
 
 -   [`{covr}`](https://covr.r-lib.org) (computes code coverage)
@@ -636,6 +639,9 @@ To thank the contributors or maintainers of packages you rely on.
 
 -   [`{prefixer}`](https://github.com/dreamRs/prefixer) (prefix function
     with their namespace )
+
+-   [`{rstudioapi}`](https://rstudio.github.io/rstudioapi/)(to
+    conditionally access the RStudio API from CRAN packages)
 
 -   [`{gitignore}`](https://cran.r-project.org/web/packages/gitignore/index.html)
     (to fetch gitignore templates)
