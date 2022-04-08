@@ -514,6 +514,10 @@ continuous deployment
 -   [`{winch}`](https://r-prof.github.io/winch/) (provides stack traces
     for call chains that cross between R and C/C++ function calls)
 
+-   [`{flow}`](https://moodymudskipper.github.io/flow/) (to visualize as
+    flow diagrams the logic of functions, expressions, or scripts, which
+    can ease debugging)
+
 # Input validation 🔬
 
 -   [`{checkmate}`](https://mllg.github.io/checkmate) (fast and
