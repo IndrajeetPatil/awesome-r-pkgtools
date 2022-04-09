@@ -237,6 +237,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{goodpractice}`](http://mangothecat.github.io/goodpractice) (Swiss army knife for good practices)
 
+- [`{inteRgrate}`](https://github.com/jumpingrivers/inteRgrate) (provides an opinionated set of rules for R package development)
+
 - [`{pkgcheck}`](https://docs.ropensci.org/pkgcheck) (checks if package follows good practices recommended for packages in the [`rOpenSci`](https://ropensci.org/) ecosystem)
 
 - [`{rchk}`](https://github.com/kalibera/rchk) (provides several bug-finding tools that look for memory protection errors in C source code using R API)

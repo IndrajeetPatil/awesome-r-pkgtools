@@ -313,6 +313,9 @@ respective sections for the sake of completeness).
 -   [`{goodpractice}`](http://mangothecat.github.io/goodpractice) (Swiss
     army knife for good practices)
 
+-   [`{inteRgrate}`](https://github.com/jumpingrivers/inteRgrate)
+    (provides an opinionated set of rules for R package development)
+
 -   [`{pkgcheck}`](https://docs.ropensci.org/pkgcheck) (checks if
     package follows good practices recommended for packages in the
     [`rOpenSci`](https://ropensci.org/) ecosystem)
