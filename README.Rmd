@@ -303,6 +303,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`AlignAssign`](https://github.com/seasmith/AlignAssign) (RStudio addin that aligns the assignment operators within a highlighted area)
 
+- [`{snakecase}`](https://tazinho.github.io/snakecase/) (helpful for having consistent case while naming objects in the package)
+
 # Dependencies ⚖️
 
 - [`{pkgdepends}`](https://cran.r-project.org/web/packages/pkgdepends/index.html) (to find recursive dependencies of from various sources)

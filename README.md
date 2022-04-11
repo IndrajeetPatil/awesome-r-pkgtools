@@ -408,6 +408,9 @@ respective sections for the sake of completeness).
     addin that aligns the assignment operators within a highlighted
     area)
 
+-   [`{snakecase}`](https://tazinho.github.io/snakecase/) (helpful for
+    having consistent case while naming objects in the package)
+
 # Dependencies ⚖️
 
 -   [`{pkgdepends}`](https://cran.r-project.org/web/packages/pkgdepends/index.html)
