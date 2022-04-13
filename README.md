@@ -467,6 +467,9 @@ respective sections for the sake of completeness).
 -   [`{packageRank}`](https://cran.r-project.org/web/packages/packageRank/index.html)
     (for visualizing CRAN download counts)
 
+-   [`{dlstats}`](https://guangchuangyu.github.io/dlstats/) (provides
+    download statistics for packages)
+
 # CI/CD 📟
 
 CI/CD: continuous integration and either continuous delivery or
