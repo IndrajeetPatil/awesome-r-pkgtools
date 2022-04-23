@@ -63,6 +63,9 @@ respective sections for the sake of completeness).
 -   [`{leprechaun}`](https://leprechaun.opifex.org/#/) (leaner framework
     for building shiny applications)
 
+-   [`{rhino}`](https://appsilon.github.io/rhino/) (a framework to build
+    high quality, enterprise-grade Shiny apps at speed)
+
 -   [`{fusen}`](https://thinkr-open.github.io/fusen)
     (`{rmarkdown}`-based)
 
