@@ -627,6 +627,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 ## Rust
 
+-   [`{cargo}`](https://cran.r-project.org/web/packages/cargo/index.html)
+
 -   [`{hellorust}`](https://github.com/r-rust/hellorust)
 
 ## .NET Framework
