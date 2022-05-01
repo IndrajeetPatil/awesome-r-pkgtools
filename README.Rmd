@@ -57,6 +57,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{rcompendium}`](https://frbcesab.github.io/rcompendium) (to make the creation of R package/research compendium easier)
 
+- [`{skeletor}`](https://github.com/nealrichardson/skeletor) (An R Package Skeleton Generator)
+
+## Shiny
+
 - [`{golem}`](https://github.com/ThinkR-open/golem) (framework for building shiny applications)
 
 - [`{leprechaun}`](https://leprechaun.opifex.org/#/) (leaner framework for building shiny applications)
@@ -64,6 +68,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{rhino}`](https://appsilon.github.io/rhino/) (a framework to build high quality, enterprise-grade Shiny apps at speed)
 
 - [`{fusen}`](https://thinkr-open.github.io/fusen) (`{rmarkdown}`-based)
+
+## Meta-packages
 
 - [`{pkgverse}`](https://pkgverse.mikewk.com) (for package meta-verse)
 

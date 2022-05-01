@@ -57,6 +57,11 @@ respective sections for the sake of completeness).
 -   [`{rcompendium}`](https://frbcesab.github.io/rcompendium) (to make
     the creation of R package/research compendium easier)
 
+-   [`{skeletor}`](https://github.com/nealrichardson/skeletor) (An R
+    Package Skeleton Generator)
+
+## Shiny
+
 -   [`{golem}`](https://github.com/ThinkR-open/golem) (framework for
     building shiny applications)
 
@@ -68,6 +73,8 @@ respective sections for the sake of completeness).
 
 -   [`{fusen}`](https://thinkr-open.github.io/fusen)
     (`{rmarkdown}`-based)
+
+## Meta-packages
 
 -   [`{pkgverse}`](https://pkgverse.mikewk.com) (for package meta-verse)
 
