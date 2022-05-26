@@ -147,7 +147,7 @@ respective sections for the sake of completeness).
     Rd docs to a human-readable list)
 
 -   [`{pasteAsComment}`](https://cran.r-project.org/web/packages/pasteAsComment/index.html)
-    (for pasting copied code as roxygen comment)
+    (RStudio addin for pasting copied code as roxygen comment)
 
 -   [`roxygen2Comment`](https://github.com/csgillespie/roxygen2Comment)
     (Rstudio addin for adding and remove `{roxygen2}` comment)
