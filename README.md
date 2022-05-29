@@ -294,7 +294,12 @@ respective sections for the sake of completeness).
 
 ## Visual regression testing
 
--   [`{vdiffr}`](https://vdiffr.r-lib.org) (visual regression testing)
+-   [`{vdiffr}`](https://vdiffr.r-lib.org) (for visual regression
+    testing with `{testthat}`)
+
+-   [`{gdiff}`](https://cran.r-project.org/web/packages/gdiff/index.html)
+    (for performing graphical difference different package or R
+    versions)
 
 ## Mock testing
 
