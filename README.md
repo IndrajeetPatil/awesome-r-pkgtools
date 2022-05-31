@@ -345,6 +345,9 @@ respective sections for the sake of completeness).
 -   [`{sourcetools}`](https://cran.r-project.org/web/packages/sourcetools/index.html)
     (tools for reading, tokenizing, and parsing R code)
 
+-   [`{precommit}`](https://lorenzwalthert.github.io/precommit) (git
+    hooks for common tasks like formatting files, spell checking, etc.)
+
 ## Code coverage
 
 -   [`{covr}`](https://covr.r-lib.org) (computes code coverage)
@@ -674,9 +677,6 @@ To thank the contributors or maintainers of packages you rely on.
 
 -   [`{gitignore}`](https://cran.r-project.org/web/packages/gitignore/index.html)
     (to fetch gitignore templates)
-
--   [`{precommit}`](https://lorenzwalthert.github.io/precommit)
-    (pre-commit hooks)
 
 -   [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html)
     (helpers for packages dealing with database connections)
