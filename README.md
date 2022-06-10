@@ -140,8 +140,11 @@ respective sections for the sake of completeness).
     (for inserting references, figures, and evaluated examples in Rd
     docs)
 
--   [`{roxygen2md}`](https://roxygen2md.r-lib.org) (using Markdown
-    syntax in package documentation)
+-   [`{roxygen2md}`](https://roxygen2md.r-lib.org) (to allow Markdown
+    syntax usage in `{roxygen2}` documentation)
+
+-   [`{rd2markdown}`](https://github.com/Genentech/rd2markdown) (to
+    convert `.Rd` package documentation files into markdown files)
 
 -   [`{rd2list}`](https://github.com/coolbutuseless/rd2list) (converts
     Rd docs to a human-readable list)
@@ -152,7 +155,7 @@ respective sections for the sake of completeness).
 -   [`roxygen2Comment`](https://github.com/csgillespie/roxygen2Comment)
     (Rstudio addin for adding and remove `{roxygen2}` comment)
 
-## Math in package manual
+## Math rendering in the manual
 
 -   [`{katex}`](https://docs.ropensci.org/katex) (to convert latex math
     expressions to HTML for use in package manual pages)
@@ -276,6 +279,12 @@ respective sections for the sake of completeness).
 -   [`{autotest}`](https://docs.ropensci.org/autotest) (automatic
     mutation testing of R packages)
 
+## Markdown documents
+
+-   [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown
+    documents across various version of
+    [Pandoc](https://pandoc.org/index.html))
+
 ## Shiny applications
 
 -   [`{shinytest}`](https://rstudio.github.io/shinytest) (testing Shiny
@@ -350,10 +359,14 @@ respective sections for the sake of completeness).
 
 ## Code coverage
 
--   [`{covr}`](https://covr.r-lib.org) (computes code coverage)
+-   [`{covr}`](https://covr.r-lib.org) (to compute code coverage)
 
--   [`{covrpage}`](https://yonicd.github.io/covrpage) (provides summary
-    `README` of code coverage and corresponding tests)
+-   [`{covrpage}`](https://yonicd.github.io/covrpage) (to include
+    summary `README` of code coverage and more detailed information
+    about tests)
+
+-   [`{covtracer}`](https://github.com/Genentech/covtracer) (provides
+    tools for contextualizing tests)
 
 ## Lint detection
 
@@ -384,6 +397,14 @@ respective sections for the sake of completeness).
 -   [`{SimilaR}`](https://cran.r-project.org/web/packages/SimilaR/index.html)
     (quantifies the similarity of the code-base of R functions by means
     of program dependence graphs)
+
+## Compiled code
+
+-   [`{memtools}`](https://memtools.r-lib.org/) (to solve memory leaks)
+
+-   [`{cppcheckR}`](https://cran.r-project.org/web/packages/cppcheckR/index.html)
+    (to check `C` and `C++` code using
+    [`Cppcheck`](https://cppcheck.sourceforge.io/))
 
 ## Lines of code
 
@@ -636,8 +657,6 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{Rcpp}`](https://cran.r-project.org/web/packages/Rcpp/index.html)
 
 -   [`{cpp11}`](https://cpp11.r-lib.org/index.html)
-
--   [`{memtools}`](https://memtools.r-lib.org/) (to solve memory leaks)
 
 ## Python
 

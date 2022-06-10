@@ -715,8 +715,12 @@ manage environment specific configuration values)</li>
 <li><p><a href="https://cran.r-project.org/web/packages/Rdpack/index.html"><code>{Rdpack}</code></a>
 (for inserting references, figures, and evaluated examples in Rd
 docs)</p></li>
-<li><p><a href="https://roxygen2md.r-lib.org"><code>{roxygen2md}</code></a> (using
-Markdown syntax in package documentation)</p></li>
+<li><p><a href="https://roxygen2md.r-lib.org"><code>{roxygen2md}</code></a> (to
+allow Markdown syntax usage in <code>{roxygen2}</code>
+documentation)</p></li>
+<li><p><a href="https://github.com/Genentech/rd2markdown"><code>{rd2markdown}</code></a>
+(to convert <code>.Rd</code> package documentation files into markdown
+files)</p></li>
 <li><p><a href="https://github.com/coolbutuseless/rd2list"><code>{rd2list}</code></a>
 (converts Rd docs to a human-readable list)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/pasteAsComment/index.html"><code>{pasteAsComment}</code></a>
@@ -725,7 +729,7 @@ Markdown syntax in package documentation)</p></li>
 (Rstudio addin for adding and remove <code>{roxygen2}</code>
 comment)</p></li>
 </ul>
-<h2 id="math-in-package-manual">Math in package manual</h2>
+<h2 id="math-rendering-in-the-manual">Math rendering in the manual</h2>
 <ul>
 <li><p><a href="https://docs.ropensci.org/katex"><code>{katex}</code></a> (to
 convert latex math expressions to HTML for use in package manual
@@ -833,6 +837,11 @@ with earlier versions of those same objects)</p></li>
 <li><p><a href="https://docs.ropensci.org/autotest"><code>{autotest}</code></a>
 (automatic mutation testing of R packages)</p></li>
 </ul>
+<h2 id="markdown-documents">Markdown documents</h2>
+<ul>
+<li><a href="https://cderv.github.io/pandoc/"><code>{pandoc}</code></a>
+(to check Markdown documents across various version of <a href="https://pandoc.org/index.html">Pandoc</a>)</li>
+</ul>
 <h2 id="shiny-applications">Shiny applications</h2>
 <ul>
 <li><p><a href="https://rstudio.github.io/shinytest"><code>{shinytest}</code></a>
@@ -899,11 +908,13 @@ etc.)</p></li>
 </ul>
 <h2 id="code-coverage">Code coverage</h2>
 <ul>
-<li><p><a href="https://covr.r-lib.org"><code>{covr}</code></a>
-(computes code coverage)</p></li>
-<li><p><a href="https://yonicd.github.io/covrpage"><code>{covrpage}</code></a>
-(provides summary <code>README</code> of code coverage and corresponding
-tests)</p></li>
+<li><p><a href="https://covr.r-lib.org"><code>{covr}</code></a> (to
+compute code coverage)</p></li>
+<li><p><a href="https://yonicd.github.io/covrpage"><code>{covrpage}</code></a> (to
+include summary <code>README</code> of code coverage and more detailed
+information about tests)</p></li>
+<li><p><a href="https://github.com/Genentech/covtracer"><code>{covtracer}</code></a>
+(provides tools for contextualizing tests)</p></li>
 </ul>
 <h2 id="lint-detection">Lint detection</h2>
 <ul>
@@ -931,6 +942,13 @@ names)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/SimilaR/index.html"><code>{SimilaR}</code></a>
 (quantifies the similarity of the code-base of R functions by means of
 program dependence graphs)</p></li>
+</ul>
+<h2 id="compiled-code">Compiled code</h2>
+<ul>
+<li><p><a href="https://memtools.r-lib.org/"><code>{memtools}</code></a>
+(to solve memory leaks)</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/cppcheckR/index.html"><code>{cppcheckR}</code></a>
+(to check <code>C</code> and <code>C++</code> code using <a href="https://cppcheck.sourceforge.io/"><code>Cppcheck</code></a>)</p></li>
 </ul>
 <h2 id="lines-of-code">Lines of code</h2>
 <ul>
@@ -1141,8 +1159,6 @@ languages 🔗</h1>
 <ul>
 <li><p><a href="https://cran.r-project.org/web/packages/Rcpp/index.html"><code>{Rcpp}</code></a></p></li>
 <li><p><a href="https://cpp11.r-lib.org/index.html"><code>{cpp11}</code></a></p></li>
-<li><p><a href="https://memtools.r-lib.org/"><code>{memtools}</code></a>
-(to solve memory leaks)</p></li>
 </ul>
 <h2 id="python">Python</h2>
 <ul>
