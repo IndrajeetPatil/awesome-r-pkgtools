@@ -406,6 +406,12 @@ respective sections for the sake of completeness).
     (to check `C` and `C++` code using
     [`Cppcheck`](https://cppcheck.sourceforge.io/))
 
+## JavaScript code
+
+-   [`{jshintr}`](https://cran.r-project.org/web/packages/jshintr/index.html)
+    (to run [JSHint](https://jshint.com/about/) for static code analysis
+    for JavaScript code included in the package)
+
 ## Lines of code
 
 -   [`{cloc}`](https://github.com/hrbrmstr/cloc) (counts blank lines,

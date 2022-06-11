@@ -299,6 +299,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cppcheckR}`](https://cran.r-project.org/web/packages/cppcheckR/index.html) (to check `C` and `C++` code using [`Cppcheck`](https://cppcheck.sourceforge.io/))
 
+## JavaScript code
+
+- [`{jshintr}`](https://cran.r-project.org/web/packages/jshintr/index.html) (to run [JSHint](https://jshint.com/about/) for static code analysis for JavaScript code included in the package)
+
 ## Lines of code
 
 - [`{cloc}`](https://github.com/hrbrmstr/cloc) (counts blank lines, comment lines, and physical lines of source code in source files)
