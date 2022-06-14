@@ -664,6 +664,10 @@ To thank the contributors or maintainers of packages you rely on.
 
 -   [`{cpp11}`](https://cpp11.r-lib.org/index.html)
 
+## Fortran
+
+-   [`{RFI}`](https://github.com/t-kalinowski/RFI)
+
 ## Python
 
 -   [`{reticulate}`](https://cran.r-project.org/web/packages/reticulate/index.html)
