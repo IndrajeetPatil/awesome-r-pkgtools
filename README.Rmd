@@ -259,6 +259,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pkgcheck}`](https://docs.ropensci.org/pkgcheck) (checks if package follows good practices recommended for packages in the [`rOpenSci`](https://ropensci.org/) ecosystem)
 
+- [{pkgstats}](https://docs.ropensci.org/pkgstats/) (a static code analysis tool)
+
 - [`{rchk}`](https://github.com/kalibera/rchk) (provides several bug-finding tools that look for memory protection errors in C source code using R API)
 
 - [`{sourcetools}`](https://cran.r-project.org/web/packages/sourcetools/index.html) (tools for reading, tokenizing, and parsing R code)
