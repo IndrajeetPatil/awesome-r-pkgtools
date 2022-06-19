@@ -293,13 +293,16 @@ respective sections for the sake of completeness).
 -   [`{shinytest2}`](https://rstudio.github.io/shinytest2) (testing
     Shiny apps using a headless Chromium web browser)
 
-## Web applications
+## Web/database applications
 
 -   [`{httptest}`](https://enpiar.com/r/httptest/) (a test environment
     for HTTP requests in R)
 
 -   [`{httptest2}`](https://enpiar.com/httptest2/) (the same for
     `{httr2}` package)
+
+-   [`{dittodb}`](https://dittodb.jonkeane.com/) (makes testing against
+    databases easy)
 
 ## Visual regression testing
 
