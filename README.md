@@ -39,11 +39,14 @@ If you are not using **the latest** release of
 
 Tools useful across all stages of package development (some of these are
 meta-packages and their component packages are also included in
-respective sections for the sake of completeness).
+respective sections for the sake of completeness), irrespective of
+whether package is meant to be submitted to CRAN or to Bioconductor.
 
 -   [`{devtools}`](https://devtools.r-lib.org)
 
 -   [`{usethis}`](https://usethis.r-lib.org)
+
+-   [`{biocthis}`](https://lcolladotor.github.io/biocthis/index.html)
 
 -   [`{packager}`](https://cran.r-project.org/web/packages/packager/index.html)
 
