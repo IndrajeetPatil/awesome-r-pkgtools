@@ -207,6 +207,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{roxytest}`](https://github.com/mikldk/roxytest) (inline `{testthat}` tests with `{roxygen2}`)
 
+- [`{roxut}`](https://cran.r-project.org/web/packages/roxut/index.html) (to write the unit tests in the same file as the function)
+
 - [`{exampletestr}`](https://rorynolan.github.io/exampletestr) (tests based on package examples)
 
 - [`{unitizer}`](https://cran.r-project.org/web/packages/unitizer/index.html) (simplifies regression tests by comparing objects produced by test code with earlier versions of those same objects)

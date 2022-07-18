@@ -272,6 +272,9 @@ whether package is meant to be submitted to CRAN or to Bioconductor.
 -   [`{roxytest}`](https://github.com/mikldk/roxytest) (inline
     `{testthat}` tests with `{roxygen2}`)
 
+-   [`{roxut}`](https://cran.r-project.org/web/packages/roxut/index.html)
+    (to write the unit tests in the same file as the function)
+
 -   [`{exampletestr}`](https://rorynolan.github.io/exampletestr) (tests
     based on package examples)
 
