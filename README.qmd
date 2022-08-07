@@ -132,6 +132,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{rmarkdown}`](https://rmarkdown.rstudio.com) (to convert R Markdown documents to a variety of formats)
 
+- [`{quarto}`](https://quarto-dev.github.io/quarto-r/) (provides R interface to frequently used operations in the Quarto CLI)
+
 - [`{prettydoc}`](https://cran.rstudio.com/web/packages/prettydoc/index.html) (creates lightweight yet pretty vignettes)
 
 - [`{learnr}`](https://rstudio.github.io/learnr) (to turn any R Markdown document into an interactive tutorial)
