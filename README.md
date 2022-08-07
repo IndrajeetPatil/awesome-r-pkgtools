@@ -9,26 +9,26 @@ keep-md: true
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/) 
 
-A curated list of awesome tools to assist R 📦 development.
+A curated list of awesome tools to assist 📦 development in R programming language.
 
 :::{.callout-tip}
 
 ## What is included?
 
-- Only tools, and not other resources (e.g. books), helpful for package development are included.
-- All relevant tools, irrespective of whether available on [CRAN](https://cran.r-project.org/) or not are included.
-- Tools which are part of publicly archived/retired GitHub repositories are not included. 
+- Only *tools* helpful for package development are included, and not other resources (e.g. books).
+- All relevant tools are included, irrespective of their availability on [CRAN](https://cran.r-project.org/).
+- Tools which are part of publicly archived/retired GitHub repositories are *not* included. 
 :::
-
-# Contributing
 
 If you wish to suggest any additional tools, please make a PR or create an issue [here](https://github.com/IndrajeetPatil/awesome-r-pkgtools).
 
-Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+# Contributing
+
+Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
 :::{.callout-note}
 
-If you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases), please change only the `README.qmd` document.
+If you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases), please change only the `README.qmd` document to avoid possibly large irrelevant diffs.
 
 :::
 
@@ -523,6 +523,3 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{DIZutils}`](https://cran.r-project.org/web/packages/DIZutils/index.html) (helpers for packages dealing with database connections)
 
-# Code of Conduct
-
-Please note that the awesome-r-pkgtools project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
