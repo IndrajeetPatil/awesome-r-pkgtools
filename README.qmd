@@ -1,34 +1,34 @@
 ---
-output: 
-  github_document:
-    #toc: TRUE
-    #toc_depth: 1
-    keep_html: TRUE
+title: "Awesome R package development"
+format: gfm
+toc: true
+keep-md: true
 ---
 
-# Awesome R package development [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/) 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/) 
 
 A curated list of awesome tools to assist R 📦 development.
 
-Note before:
+:::{.callout-tip}
+
+## What is included?
 
 - Not all tools are available on [CRAN](https://cran.r-project.org/); some might be available only via GitHub or GitLab.
 - Only **tools** helpful for package development are included, and not other resources (like books, talks, presentations, etc.).
 - Tools which are part of publicly archived/retired GitHub repositories are not included. 
+:::
 
 # Contributing
 
-If you wish to suggest any additional tools, please make a PR request or raise an issue [here](https://github.com/IndrajeetPatil/awesome-r-pkgtools).
+If you wish to suggest any additional tools, please make a PR or create an issue [here](https://github.com/IndrajeetPatil/awesome-r-pkgtools).
 
 Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
----
+:::{.callout-note}
 
-<p align="center"> ⚠️⚠️  <b>Note Before</b>  ⚠️⚠️ </p>
+If you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases), please change only the `README.qmd` document.
 
-If you are not using **the latest** release of [pandoc](https://github.com/jgm/pandoc/releases), please change only the `README.Rmd` document.
-
----
+:::
 
 # Swiss army knives 🛠
 
@@ -277,6 +277,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 ## Lint detection
 
 - [`{lintr}`](https://github.com/jimhester/lintr) (static code analysis)
+
+- [`{adaptalint}`](https://cran.r-project.org/web/packages/adaptalint/index.html) (infer code style from one package and use it to check another)
 
 - [`{roger}`](https://cran.r-project.org/web/packages/roger/index.html) (provides tools for grading the coding style and documentation of R scripts)
 
