@@ -15,8 +15,8 @@ A curated list of awesome tools to assist R 📦 development.
 
 ## What is included?
 
-- Not all tools are available on [CRAN](https://cran.r-project.org/); some might be available only via GitHub or GitLab.
-- Only **tools** helpful for package development are included, and not other resources (like books, talks, presentations, etc.).
+- Only tools, and not other resources (e.g. books), helpful for package development are included.
+- All relevant tools, irrespective of whether available on [CRAN](https://cran.r-project.org/) or not are included.
 - Tools which are part of publicly archived/retired GitHub repositories are not included. 
 :::
 
