@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.29">
+<meta name="generator" content="quarto-1.1.113">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -36,7 +41,7 @@ ul.task-list{list-style: none;}
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc">
+  <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
@@ -526,6 +531,7 @@ Note
 <li><p><a href="https://github.com/r-lib/actions"><code>actions</code></a> (for <a href="https://github.com/features/actions">GitHub Actions</a>)</p></li>
 <li><p><a href="https://github.com/krlmlr/r-appveyor"><code>r-appveyor</code></a> (for <a href="https://www.appveyor.com/">AppVeyor</a>)</p></li>
 <li><p><a href="https://docs.ropensci.org/tic"><code>{tic}</code></a> (for <a href="https://circleci.com/">Circle CI</a> and <a href="https://github.com/features/actions">GitHub Actions</a>)</p></li>
+<li><p><a href="https://docs.ropensci.org/circle/"><code>{circle}</code></a> (for <a href="https://circleci.com/">Circle CI</a>)</p></li>
 <li><p><a href="https://docs.ropensci.org/jenkins"><code>{jenkins}</code></a> (for <a href="https://www.jenkins.io/">Jenkins CI</a>)</p></li>
 <li><p><a href="https://github.com/bnosac/cronR"><code>{cronR}</code></a> (to schedule R scripts/processes with the cron scheduler)</p></li>
 </ul>
@@ -740,7 +746,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

@@ -392,6 +392,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{tic}`](https://docs.ropensci.org/tic) (for [Circle CI](https://circleci.com/) and [GitHub Actions](https://github.com/features/actions))
 
+- [`{circle}`](https://docs.ropensci.org/circle/) (for [Circle CI](https://circleci.com/))
+
 - [`{jenkins}`](https://docs.ropensci.org/jenkins) (for [Jenkins CI](https://www.jenkins.io/))
 
 - [`{cronR}`](https://github.com/bnosac/cronR) (to schedule R scripts/processes with the cron scheduler)
