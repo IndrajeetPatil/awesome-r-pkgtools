@@ -228,6 +228,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{httptest2}`](https://enpiar.com/httptest2/) (the same for `{httr2}` package)
 
+- [`{webfakes}`](https://webfakes.r-lib.org/) (provides fake web apps for HTTP testing R packages)
+
 - [`{dittodb}`](https://dittodb.jonkeane.com/) (makes testing against databases easy)
 
 ## Visual regression testing
