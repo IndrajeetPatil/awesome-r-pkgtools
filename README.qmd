@@ -176,6 +176,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{newsmd}`](https://cran.r-project.org/web/packages/newsmd/index.html) (utilities to add updates to the `NEWS.md` file)
 
+- [`{autonewsmd}`](https://cran.r-project.org/web/packages/autonewsmd/index.html) (to auto-generate changelog using conventional commits)
+
 # Documentation quality ✒️
 
 - [`{docreview}`](https://thisisnic.github.io/docreview) (to check quality of docs)
@@ -249,6 +251,20 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{testthis}`](https://cran.r-project.org/web/packages/testthis) (RStudio addins for working with files that contain tests)
 
 - [`{xpectr}`](https://github.com/LudvigOlsen/xpectr) (builds unit tests with the `{testthat}` package by providing tools for generating expectations)
+
+# Code Formatting 🧽
+
+- [`{styler}`](https://styler.r-lib.org) (to format code according to a style guide)
+
+- [`{stylermd}`](https://github.com/lorenzwalthert/stylermd) (to format text in Markdown documents)
+
+- [`{formatR}`](https://yihui.org/formatr) (to format R source code)
+
+- [`AlignAssign`](https://github.com/seasmith/AlignAssign) (RStudio addin that aligns the assignment operators within a highlighted area)
+
+- [`{snakecase}`](https://tazinho.github.io/snakecase/) (helpful for having consistent case while naming objects in the package)
+
+- [`{dotInternals}`](https://indrajeetpatil.github.io/dotInternals/) (to distinguish non-exported package functions by prepending their names with a dot)
 
 # Code analysis 🗂⏱
 
@@ -331,18 +347,6 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{proffer}`](https://r-prof.github.io/proffer/) (to create friendlier, faster visualizations for profiling data)
 
 - [`{jointprof}`](https://r-prof.github.io/jointprof/) (to profile packages with native code in C, C++, Fortran, etc.)
-
-# Formatting 🧽
-
-- [`{styler}`](https://styler.r-lib.org) (to format code according to a style guide)
-
-- [`{stylermd}`](https://github.com/lorenzwalthert/stylermd) (to format text in Markdown documents)
-
-- [`{formatR}`](https://yihui.org/formatr) (to format R source code)
-
-- [`AlignAssign`](https://github.com/seasmith/AlignAssign) (RStudio addin that aligns the assignment operators within a highlighted area)
-
-- [`{snakecase}`](https://tazinho.github.io/snakecase/) (helpful for having consistent case while naming objects in the package)
 
 # Dependencies ⚖️
 

@@ -80,6 +80,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#mock-testing" id="toc-mock-testing" class="nav-link" data-scroll-target="#mock-testing">Mock testing</a></li>
   <li><a href="#helpers-for-testing-frameworks" id="toc-helpers-for-testing-frameworks" class="nav-link" data-scroll-target="#helpers-for-testing-frameworks">Helpers for testing frameworks</a></li>
   </ul></li>
+  <li><a href="#code-formatting" id="toc-code-formatting" class="nav-link" data-scroll-target="#code-formatting">Code Formatting 🧽</a></li>
   <li><a href="#code-analysis" id="toc-code-analysis" class="nav-link" data-scroll-target="#code-analysis">Code analysis 🗂⏱</a>
   <ul class="collapse">
   <li><a href="#general-1" id="toc-general-1" class="nav-link" data-scroll-target="#general-1">General</a></li>
@@ -96,7 +97,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#benchmarking" id="toc-benchmarking" class="nav-link" data-scroll-target="#benchmarking">Benchmarking</a></li>
   <li><a href="#profiling" id="toc-profiling" class="nav-link" data-scroll-target="#profiling">Profiling</a></li>
   </ul></li>
-  <li><a href="#formatting" id="toc-formatting" class="nav-link" data-scroll-target="#formatting">Formatting 🧽</a></li>
   <li><a href="#dependencies" id="toc-dependencies" class="nav-link" data-scroll-target="#dependencies">Dependencies ⚖️</a></li>
   <li><a href="#cran-checks-submission-and-status" id="toc-cran-checks-submission-and-status" class="nav-link" data-scroll-target="#cran-checks-submission-and-status">CRAN checks, submission, and status 📬</a></li>
   <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage 🙈</a></li>
@@ -324,6 +324,7 @@ Note
 <ul>
 <li><p><a href="https://cynkra.github.io/fledge/index.html"><code>{fledge}</code></a> (streamlines the process of updating change logs and versioning R packages developed in git repositories)</p></li>
 <li><p><a href="https://cran.r-project.org/web/packages/newsmd/index.html"><code>{newsmd}</code></a> (utilities to add updates to the <code>NEWS.md</code> file)</p></li>
+<li><p><a href="https://cran.r-project.org/web/packages/autonewsmd/index.html"><code>{autonewsmd}</code></a> (to auto-generate changelog using conventional commits)</p></li>
 </ul>
 </section>
 </section>
@@ -397,6 +398,17 @@ Note
 <li><p><a href="https://github.com/LudvigOlsen/xpectr"><code>{xpectr}</code></a> (builds unit tests with the <code>{testthat}</code> package by providing tools for generating expectations)</p></li>
 </ul>
 </section>
+</section>
+<section id="code-formatting" class="level1">
+<h1>Code Formatting 🧽</h1>
+<ul>
+<li><p><a href="https://styler.r-lib.org"><code>{styler}</code></a> (to format code according to a style guide)</p></li>
+<li><p><a href="https://github.com/lorenzwalthert/stylermd"><code>{stylermd}</code></a> (to format text in Markdown documents)</p></li>
+<li><p><a href="https://yihui.org/formatr"><code>{formatR}</code></a> (to format R source code)</p></li>
+<li><p><a href="https://github.com/seasmith/AlignAssign"><code>AlignAssign</code></a> (RStudio addin that aligns the assignment operators within a highlighted area)</p></li>
+<li><p><a href="https://tazinho.github.io/snakecase/"><code>{snakecase}</code></a> (helpful for having consistent case while naming objects in the package)</p></li>
+<li><p><a href="https://indrajeetpatil.github.io/dotInternals/"><code>{dotInternals}</code></a> (to distinguish non-exported package functions by prepending their names with a dot)</p></li>
+</ul>
 </section>
 <section id="code-analysis" class="level1">
 <h1>Code analysis 🗂⏱</h1>
@@ -482,16 +494,6 @@ Note
 <li><p><a href="https://r-prof.github.io/jointprof/"><code>{jointprof}</code></a> (to profile packages with native code in C, C++, Fortran, etc.)</p></li>
 </ul>
 </section>
-</section>
-<section id="formatting" class="level1">
-<h1>Formatting 🧽</h1>
-<ul>
-<li><p><a href="https://styler.r-lib.org"><code>{styler}</code></a> (to format code according to a style guide)</p></li>
-<li><p><a href="https://github.com/lorenzwalthert/stylermd"><code>{stylermd}</code></a> (to format text in Markdown documents)</p></li>
-<li><p><a href="https://yihui.org/formatr"><code>{formatR}</code></a> (to format R source code)</p></li>
-<li><p><a href="https://github.com/seasmith/AlignAssign"><code>AlignAssign</code></a> (RStudio addin that aligns the assignment operators within a highlighted area)</p></li>
-<li><p><a href="https://tazinho.github.io/snakecase/"><code>{snakecase}</code></a> (helpful for having consistent case while naming objects in the package)</p></li>
-</ul>
 </section>
 <section id="dependencies" class="level1">
 <h1>Dependencies ⚖️</h1>
