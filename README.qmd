@@ -529,7 +529,9 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{prefixer}`](https://github.com/dreamRs/prefixer) (prefix function with their namespace )
 
-- [`{rstudioapi}`](https://rstudio.github.io/rstudioapi/)(to conditionally access the RStudio API from CRAN packages)
+- [`{rstudioapi}`](https://rstudio.github.io/rstudioapi/) (to conditionally access the RStudio API from CRAN packages)
+
+- [`{rcheology}`](https://hughjonesd.shinyapps.io/rcheology/) (to access data on base packages for previous versions of R)
 
 - [`{gitignore}`](https://cran.r-project.org/web/packages/gitignore/index.html) (to fetch gitignore templates)
 
