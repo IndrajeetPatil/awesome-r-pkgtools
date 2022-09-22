@@ -224,6 +224,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{shinytest2}`](https://rstudio.github.io/shinytest2) (testing Shiny apps using a headless Chromium web browser)
 
+- [`{shinyloadtest}`](https://rstudio.github.io/shinyloadtest/) (to load test deployed Shiny apps)
+
 ## Web/database applications
 
 - [`{httptest}`](https://enpiar.com/r/httptest/) (a test environment for HTTP requests in R)
