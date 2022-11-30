@@ -41,7 +41,7 @@ jobs:
       - name: Render README
         run: |
           options(crayon.enabled = TRUE)
-          quarto::quarto_render("README.qmd")
+          quarto::quarto_render("README.qmd", output_format = "html")
           fs::file_copy("README.html", "index.html", overwrite = TRUE)
         shell: Rscript {0}
 
