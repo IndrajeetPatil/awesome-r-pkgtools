@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Indrajeet Patil">
+<meta name="dcterms.date" content="2022-11-30">
 <meta name="keywords" content="r packages, software development, software engineering, r">
 
 <title>Awesome R Package Development Tools</title>
@@ -96,13 +97,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#javascript-code" id="toc-javascript-code" class="nav-link" data-scroll-target="#javascript-code">JavaScript code</a></li>
   <li><a href="#lines-of-code" id="toc-lines-of-code" class="nav-link" data-scroll-target="#lines-of-code">Lines of code</a></li>
   </ul></li>
+  <li><a href="#refactoring" id="toc-refactoring" class="nav-link" data-scroll-target="#refactoring">Refactoring</a></li>
   <li><a href="#code-performance" id="toc-code-performance" class="nav-link" data-scroll-target="#code-performance">Code performance ⏱️</a>
   <ul class="collapse">
   <li><a href="#benchmarking" id="toc-benchmarking" class="nav-link" data-scroll-target="#benchmarking">Benchmarking</a></li>
   <li><a href="#profiling" id="toc-profiling" class="nav-link" data-scroll-target="#profiling">Profiling</a></li>
   </ul></li>
   <li><a href="#dependencies" id="toc-dependencies" class="nav-link" data-scroll-target="#dependencies">Dependencies ⚖️</a></li>
-  <li><a href="#cran-checks-submission-and-status" id="toc-cran-checks-submission-and-status" class="nav-link" data-scroll-target="#cran-checks-submission-and-status">CRAN checks, submission, and status 📬</a></li>
+  <li><a href="#cranbioconductor-checks-submission-and-status" id="toc-cranbioconductor-checks-submission-and-status" class="nav-link" data-scroll-target="#cranbioconductor-checks-submission-and-status">CRAN/Bioconductor checks, submission, and status 📬</a></li>
   <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage 🙈</a></li>
   <li><a href="#cicd" id="toc-cicd" class="nav-link" data-scroll-target="#cicd">CI/CD 📟</a></li>
   <li><a href="#securityprivacy" id="toc-securityprivacy" class="nav-link" data-scroll-target="#securityprivacy">Security/Privacy 👮</a></li>
@@ -147,6 +149,12 @@ ul.task-list li input[type="checkbox"] {
           </div>
   </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 30, 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -416,6 +424,7 @@ What is included?
 <li><p><a href="https://styler.r-lib.org"><code>{styler}</code></a> (to format code according to a style guide)</p></li>
 <li><p><a href="https://github.com/lorenzwalthert/stylermd/"><code>{stylermd}</code></a> (to format text in Markdown documents)</p></li>
 <li><p><a href="https://yihui.org/formatr"><code>{formatR}</code></a> (to format R source code)</p></li>
+<li><p><a href="https://github.com/Bioconductor/BiocStyle/"><code>{BiocStyle}</code></a> (provides standard formatting styles for Bioconductor PDF and HTML documents)</p></li>
 <li><p><a href="https://github.com/seasmith/AlignAssign"><code>AlignAssign</code></a> (RStudio addin that aligns the assignment operators within a highlighted area)</p></li>
 <li><p><a href="https://tazinho.github.io/snakecase/"><code>{snakecase}</code></a> (helpful for having consistent case while naming objects in the package)</p></li>
 <li><p><a href="https://indrajeetpatil.github.io/dotInternals/"><code>{dotInternals}</code></a> (to distinguish non-exported package functions by prepending their names with a dot)</p></li>
@@ -448,6 +457,7 @@ What is included?
 <h2 class="anchored" data-anchor-id="lint-detection">Lint detection</h2>
 <ul>
 <li><p><a href="https://github.com/r-lib/lintr/"><code>{lintr}</code></a> (static code analysis)</p></li>
+<li><p><a href="https://github.com/duncantl/CodeDepends"><code>{CodeDepends}</code></a> (analysis of R code for reproducible research and code view)</p></li>
 <li><p><a href="https://cran.r-project.org/package=adaptalint"><code>{adaptalint}</code></a> (infer code style from one package and use it to check another)</p></li>
 <li><p><a href="https://cran.r-project.org/package=roger"><code>{roger}</code></a> (provides tools for grading the coding style and documentation of R scripts)</p></li>
 <li><p><a href="https://cran.r-project.org/package=cleanr"><code>{cleanr}</code></a> (tests code for some of the most common code layout flaws)</p></li>
@@ -487,6 +497,12 @@ What is included?
 </ul>
 </section>
 </section>
+<section id="refactoring" class="level1">
+<h1>Refactoring</h1>
+<ul>
+<li><a href="https://github.com/moodymudskipper/refactor/"><code>{refactor}</code></a> (to check speed and performance of both the original and refactored version of code)</li>
+</ul>
+</section>
 <section id="code-performance" class="level1">
 <h1>Code performance ⏱️</h1>
 <section id="benchmarking" class="level2">
@@ -494,6 +510,7 @@ What is included?
 <ul>
 <li><p><a href="https://bench.r-lib.org/"><code>{bench}</code></a> (provides high precision benchmarks for R expressions)</p></li>
 <li><p><a href="https://cran.r-project.org/package=microbenchmark"><code>{microbenchmark}</code></a> (provides infrastructure to accurately measure and compare the execution time of R expressions)</p></li>
+<li><p><a href="https://CRAN.R-project.org/package=tictoc"><code>{tictoc}</code></a> (provides functions for timing R scripts)</p></li>
 <li><p><a href="https://lorenzwalthert.github.io/touchstone/"><code>{touchstone}</code></a> (benchmarking pull requests)</p></li>
 </ul>
 </section>
@@ -520,10 +537,11 @@ What is included?
 <li><p><a href="https://github.com/ThinkR-open/attachment/"><code>{attachment}</code></a> (to deal with package dependencies during package development)</p></li>
 </ul>
 </section>
-<section id="cran-checks-submission-and-status" class="level1">
-<h1>CRAN checks, submission, and status 📬</h1>
+<section id="cranbioconductor-checks-submission-and-status" class="level1">
+<h1>CRAN/Bioconductor checks, submission, and status 📬</h1>
 <ul>
 <li><p><a href="https://r-lib.github.io/rcmdcheck/"><code>{rcmdcheck}</code></a> (to run <code>R CMD check</code> form R programmatically)</p></li>
+<li><p><a href="https://github.com/Bioconductor/BiocCheck/"><code>{BiocCheck}</code></a> (to run Bioconductor-specific package checks)</p></li>
 <li><p><a href="https://cran.r-project.org/package=rhub"><code>{rhub}</code></a> (to run <code>R CMD check</code> on CRAN architectures)</p></li>
 <li><p><a href="https://thinkr-open.github.io/checkhelper/"><code>{checkhelper}</code></a> (to help avoid problems with CRAN submissions)</p></li>
 <li><p><a href="https://cran.r-project.org/package=foghorn"><code>{foghorn}</code></a> (to check for results and submission portal status)</p></li>
@@ -577,6 +595,7 @@ What is included?
 <li><p><a href="https://cran.r-project.org/package=debugr"><code>{debugr}</code></a> (tools to print out the value of R objects/expressions while running an R script)</p></li>
 <li><p><a href="https://r-prof.github.io/winch/"><code>{winch}</code></a> (provides stack traces for call chains that cross between R and C/C++ function calls)</p></li>
 <li><p><a href="https://moodymudskipper.github.io/flow/"><code>{flow}</code></a> (to visualize as flow diagrams the logic of functions, expressions, or scripts, which can ease debugging)</p></li>
+<li><p><a href="https://github.com/moodymudskipper/boomer/"><code>{boomer}</code></a> (provides debugging tools to inspect the intermediate steps of a call)</p></li>
 </ul>
 </section>
 <section id="input-validation" class="level1">
@@ -587,6 +606,7 @@ What is included?
 <li><p><a href="https://bitbucket.org/richierocks/assertive/src/master/"><code>{assertive}</code></a> (provides readable check functions to ensure code integrity)</p></li>
 <li><p><a href="https://github.com/RDocTaskForce/pkgcond/"><code>{pkgcond}</code></a> (better error messages for package users)</p></li>
 <li><p><a href="https://github.com/lrberge/dreamerr/"><code>{dreamerr}</code></a> (a simple and intuitive, yet powerful and flexible, way to check the arguments passed to a function and to offer informative error messages)</p></li>
+<li><p><a href="https://flujoo.github.io/erify/"><code>{erify}</code></a> (to check arguments and generate readable error messages)</p></li>
 </ul>
 </section>
 <section id="package-metadata" class="level1">

@@ -3,6 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
+date: "`r Sys.Date()`"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -270,6 +271,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{formatR}`](https://yihui.org/formatr) (to format R source code)
 
+- [`{BiocStyle}`](https://github.com/Bioconductor/BiocStyle/) (provides standard formatting styles for Bioconductor PDF and HTML documents)
+
 - [`AlignAssign`](https://github.com/seasmith/AlignAssign) (RStudio addin that aligns the assignment operators within a highlighted area)
 
 - [`{snakecase}`](https://tazinho.github.io/snakecase/) (helpful for having consistent case while naming objects in the package)
@@ -308,6 +311,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
 
+- [`{CodeDepends}`](https://github.com/duncantl/CodeDepends) (analysis of R code for reproducible research and code view)
+
 - [`{adaptalint}`](https://cran.r-project.org/package=adaptalint) (infer code style from one package and use it to check another)
 
 - [`{roger}`](https://cran.r-project.org/package=roger) (provides tools for grading the coding style and documentation of R scripts)
@@ -340,6 +345,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cloc}`](https://github.com/hrbrmstr/cloc/) (counts blank lines, comment lines, and physical lines of source code in source files)
 
+
+# Refactoring
+
+- [`{refactor}`](https://github.com/moodymudskipper/refactor/) (to check speed and performance of both the original and refactored version of code)
+
 # Code performance ⏱️
 
 ## Benchmarking
@@ -347,6 +357,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{bench}`](https://bench.r-lib.org/) (provides high precision benchmarks for R expressions)
 
 - [`{microbenchmark}`](https://cran.r-project.org/package=microbenchmark) (provides infrastructure to accurately measure and compare the execution time of R expressions)
+
+- [`{tictoc}`](https://CRAN.R-project.org/package=tictoc) (provides functions for timing R scripts)
 
 - [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/) (benchmarking pull requests)
 
@@ -378,9 +390,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{attachment}`](https://github.com/ThinkR-open/attachment/) (to deal with package dependencies during package development)
 
-# CRAN checks, submission, and status 📬
+# CRAN/Bioconductor checks, submission, and status 📬
 
 - [`{rcmdcheck}`](https://r-lib.github.io/rcmdcheck/) (to run `R CMD check` form R programmatically)
+
+- [`{BiocCheck}`](https://github.com/Bioconductor/BiocCheck/) (to run Bioconductor-specific package checks)
 
 - [`{rhub}`](https://cran.r-project.org/package=rhub) (to run `R CMD check` on CRAN architectures)
 
@@ -440,6 +454,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{flow}`](https://moodymudskipper.github.io/flow/) (to visualize as flow diagrams the logic of functions, expressions, or scripts, which can ease debugging)
 
+- [`{boomer}`](https://github.com/moodymudskipper/boomer/) (provides debugging tools to inspect the intermediate steps of a call)
+
 # Input validation 🔬
 
 - [`{checkmate}`](https://mllg.github.io/checkmate/) (fast and versatile argument checks)
@@ -451,6 +467,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 - [`{pkgcond}`](https://github.com/RDocTaskForce/pkgcond/) (better error messages for package users)
 
 - [`{dreamerr}`](https://github.com/lrberge/dreamerr/) (a simple and intuitive, yet powerful and flexible, way to check the arguments passed to a function and to offer informative error messages)
+
+- [`{erify}`](https://flujoo.github.io/erify/) (to check arguments and generate readable error messages)
 
 # Package metadata 🖨
 
