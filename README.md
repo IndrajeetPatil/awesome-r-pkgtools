@@ -1,5 +1,6 @@
 Awesome R Package Development Tools
 ================
+Indrajeet Patil
 
 - <a href="#contributing" id="toc-contributing">Contributing</a>
 - <a href="#swiss-army-knives" id="toc-swiss-army-knives">Swiss army
