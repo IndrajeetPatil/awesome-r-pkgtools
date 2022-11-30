@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#mock-testing" id="toc-mock-testing" class="nav-link" data-scroll-target="#mock-testing">Mock testing</a></li>
   <li><a href="#helpers-for-testing-frameworks" id="toc-helpers-for-testing-frameworks" class="nav-link" data-scroll-target="#helpers-for-testing-frameworks">Helpers for testing frameworks</a></li>
   </ul></li>
-  <li><a href="#code-formatting" id="toc-code-formatting" class="nav-link" data-scroll-target="#code-formatting">Code Formatting 🧽</a></li>
+  <li><a href="#codedocument-formatting" id="toc-codedocument-formatting" class="nav-link" data-scroll-target="#codedocument-formatting">Code/Document Formatting 🧽</a></li>
   <li><a href="#code-analysis" id="toc-code-analysis" class="nav-link" data-scroll-target="#code-analysis">Code analysis 🗂⏱</a>
   <ul class="collapse">
   <li><a href="#general-1" id="toc-general-1" class="nav-link" data-scroll-target="#general-1">General</a></li>
@@ -178,7 +178,7 @@ What is included?
 <div class="callout-body-container callout-body">
 <ul>
 <li>Only <em>tools</em> helpful for package development are included, and not other resources (e.g.&nbsp;books).</li>
-<li>All relevant tools are included, irrespective of their availability on <a href="https://cran.r-project.org/">CRAN</a>.</li>
+<li>All relevant tools are included, irrespective of their availability on <a href="https://cran.r-project.org/">CRAN</a>/<a href="https://www.bioconductor.org/">Bioconductor</a>.</li>
 <li>Tools which are part of publicly archived/retired GitHub repositories are <em>not</em> included.</li>
 </ul>
 </div>
@@ -339,9 +339,9 @@ What is included?
 <section id="change-log-and-versioning" class="level2">
 <h2 class="anchored" data-anchor-id="change-log-and-versioning">Change log and versioning</h2>
 <ul>
-<li><p><a href="https://fledge.cynkra.com/"><code>{fledge}</code></a> (streamlines the process of updating change logs and versioning R packages developed in git repositories)</p></li>
+<li><p><a href="https://fledge.cynkra.com/"><code>{fledge}</code></a> (to streamline the process of updating change logs and versioning R packages developed in git repositories)</p></li>
 <li><p><a href="https://cran.r-project.org/package=newsmd"><code>{newsmd}</code></a> (utilities to add updates to the <code>NEWS.md</code> file)</p></li>
-<li><p><a href="https://cran.r-project.org/package=autonewsmd"><code>{autonewsmd}</code></a> (to auto-generate changelog using conventional commits)</p></li>
+<li><p><a href="https://cran.r-project.org/package=autonewsmd"><code>{autonewsmd}</code></a> (to auto-generate change log using conventional commits)</p></li>
 </ul>
 </section>
 </section>
@@ -418,12 +418,13 @@ What is included?
 </ul>
 </section>
 </section>
-<section id="code-formatting" class="level1">
-<h1>Code Formatting 🧽</h1>
+<section id="codedocument-formatting" class="level1">
+<h1>Code/Document Formatting 🧽</h1>
 <ul>
 <li><p><a href="https://styler.r-lib.org"><code>{styler}</code></a> (to format code according to a style guide)</p></li>
 <li><p><a href="https://github.com/lorenzwalthert/stylermd/"><code>{stylermd}</code></a> (to format text in Markdown documents)</p></li>
 <li><p><a href="https://yihui.org/formatr"><code>{formatR}</code></a> (to format R source code)</p></li>
+<li><p><a href="https://github.com/lionel-/codegrip/"><code>{codegrip}</code></a> (addin for RStudio IDE to reshape R code and navigate across syntactic constructs)</p></li>
 <li><p><a href="https://github.com/Bioconductor/BiocStyle/"><code>{BiocStyle}</code></a> (provides standard formatting styles for Bioconductor PDF and HTML documents)</p></li>
 <li><p><a href="https://github.com/seasmith/AlignAssign"><code>AlignAssign</code></a> (RStudio addin that aligns the assignment operators within a highlighted area)</p></li>
 <li><p><a href="https://tazinho.github.io/snakecase/"><code>{snakecase}</code></a> (helpful for having consistent case while naming objects in the package)</p></li>
