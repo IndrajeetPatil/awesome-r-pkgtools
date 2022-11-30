@@ -1,4 +1,4 @@
-Awesome R package development
+Awesome R Package Development Tools
 ================
 
 - <a href="#contributing" id="toc-contributing">Contributing</a>
@@ -100,6 +100,10 @@ Awesome R package development
 
 A curated list of awesome tools to assist 📦 development in R
 programming language.
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re/) [![Track
+Awesome
+List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
 
 <!-- TODO: https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/ -->
 <!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
