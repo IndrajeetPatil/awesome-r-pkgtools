@@ -1,12 +1,13 @@
 ---
-title: "Awesome R package development"
-subtitle: "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)"
+title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
 ---
 
 A curated list of awesome tools to assist 📦 development in R programming language.
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re/) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
 
 <!-- TODO: https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/ -->
 <!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
