@@ -472,6 +472,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{erify}`](https://flujoo.github.io/erify/) (to check arguments and generate readable error messages)
 
+- [`{validate}`](https://github.com/data-cleaning/validate) (makes it super-easy to check whether data lives up to expectations you have based on domain knowledge)
+
 # Package metadata 🖨
 
 - [`{codemetar}`](https://docs.ropensci.org/codemetar/) (provides utilities to generate, parse, and modify `codemeta.jsonld` files automatically for R packages), or [`{codemeta}`](https://github.com/cboettig/codemeta/) (a leaner version of `{codemetar}`)

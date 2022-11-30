@@ -10,7 +10,6 @@ keywords: ["r packages", "software development", "software engineering", "r"]
 
 
 
-
 A curated list of awesome tools to assist 📦 development in R programming language.
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re/) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
@@ -474,6 +473,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 - [`{dreamerr}`](https://github.com/lrberge/dreamerr/) (a simple and intuitive, yet powerful and flexible, way to check the arguments passed to a function and to offer informative error messages)
 
 - [`{erify}`](https://flujoo.github.io/erify/) (to check arguments and generate readable error messages)
+
+- [`{validate}`](https://github.com/data-cleaning/validate) (makes it super-easy to check whether data lives up to expectations you have based on domain knowledge)
 
 # Package metadata 🖨
 
