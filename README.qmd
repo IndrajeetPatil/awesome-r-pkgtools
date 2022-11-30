@@ -21,7 +21,7 @@ A curated list of awesome tools to assist 📦 development in R programming lang
 ## What is included?
 
 - Only *tools* helpful for package development are included, and not other resources (e.g. books).
-- All relevant tools are included, irrespective of their availability on [CRAN](https://cran.r-project.org/).
+- All relevant tools are included, irrespective of their availability on [CRAN](https://cran.r-project.org/)/[Bioconductor](https://www.bioconductor.org/).
 - Tools which are part of publicly archived/retired GitHub repositories are *not* included. 
 :::
 
@@ -179,11 +179,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## Change log and versioning
 
-- [`{fledge}`](https://fledge.cynkra.com/) (streamlines the process of updating change logs and versioning R packages developed in git repositories)
+- [`{fledge}`](https://fledge.cynkra.com/) (to streamline the process of updating change logs and versioning R packages developed in git repositories)
 
 - [`{newsmd}`](https://cran.r-project.org/package=newsmd) (utilities to add updates to the `NEWS.md` file)
 
-- [`{autonewsmd}`](https://cran.r-project.org/package=autonewsmd) (to auto-generate changelog using conventional commits)
+- [`{autonewsmd}`](https://cran.r-project.org/package=autonewsmd) (to auto-generate change log using conventional commits)
 
 # Documentation quality ✒️
 
@@ -263,13 +263,15 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{xpectr}`](https://github.com/LudvigOlsen/xpectr/) (builds unit tests with the `{testthat}` package by providing tools for generating expectations)
 
-# Code Formatting 🧽
+# Code/Document Formatting 🧽
 
 - [`{styler}`](https://styler.r-lib.org) (to format code according to a style guide)
 
 - [`{stylermd}`](https://github.com/lorenzwalthert/stylermd/) (to format text in Markdown documents)
 
 - [`{formatR}`](https://yihui.org/formatr) (to format R source code)
+
+- [`{codegrip}`](https://github.com/lionel-/codegrip/) (addin for RStudio IDE to reshape R code and navigate across syntactic constructs)
 
 - [`{BiocStyle}`](https://github.com/Bioconductor/BiocStyle/) (provides standard formatting styles for Bioconductor PDF and HTML documents)
 
