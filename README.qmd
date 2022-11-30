@@ -3,6 +3,8 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
+author: "Indrajeet Patil"
+keywords: ["r packages", "software development", "software engineering", "r"]
 ---
 
 A curated list of awesome tools to assist 📦 development in R programming language.
@@ -10,6 +12,7 @@ A curated list of awesome tools to assist 📦 development in R programming lang
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re/) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
 
 <!-- TODO: https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/ -->
+
 <!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
 
 :::{.callout-tip}
