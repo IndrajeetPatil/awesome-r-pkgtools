@@ -271,6 +271,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{formatR}`](https://yihui.org/formatr) (to format R source code)
 
+- [`{grkstyle}`](https://github.com/gadenbuie/grkstyle/) (extension package for `{styler}` that supports author's personal code style preferences)
+
 - [`{codegrip}`](https://github.com/lionel-/codegrip/) (addin for RStudio IDE to reshape R code and navigate across syntactic constructs)
 
 - [`{BiocStyle}`](https://github.com/Bioconductor/BiocStyle/) (provides standard formatting styles for Bioconductor PDF and HTML documents)
