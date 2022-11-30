@@ -202,7 +202,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{testthat}`](https://testthat.r-lib.org) (a testing framework for R that is easy to learn and use; also provides snapshot testing)
 
-- [`{patrick}`](https://cran.r-project.org/package=patrick) (for parametrized unit testing with `{testthat}`)
+- [`{patrick}`](https://cran.r-project.org/package=patrick) (for parameterized unit testing with `{testthat}`)
 
 - [`{tinytest}`](https://cran.r-project.org/package=tinytest) (zero-dependency unit testing framework that installs tests with the package)
 
