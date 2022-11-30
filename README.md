@@ -47,13 +47,21 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pacs}`](https://polkas.github.io/pacs/index.html)
 
-# Package skeletons 💀 
+# Package templates 💀 
+
+## Generic
 
 - [`{pkgkitten}`](https://dirk.eddelbuettel.com/code/pkgkitten.html) (useful for creating new packages for R)
 
 - [`{rcompendium}`](https://frbcesab.github.io/rcompendium) (to make the creation of R package/research compendium easier)
 
 - [`{skeletor}`](https://github.com/nealrichardson/skeletor) (An R Package Skeleton Generator)
+
+## RMarkdown-based
+
+- [`{fusen}`](https://thinkr-open.github.io/fusen) (to build a package from RMarkdown files)
+
+- [`{litr}`](http://faculty.marshall.usc.edu/jacob-bien/litr/docs/index.html) (to write a complete R package in a single R markdown document)
 
 ## Shiny
 
@@ -62,8 +70,6 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{leprechaun}`](https://leprechaun.opifex.org/#/) (leaner framework for building shiny applications)
 
 - [`{rhino}`](https://appsilon.github.io/rhino/) (a framework to build high quality, enterprise-grade Shiny apps at speed)
-
-- [`{fusen}`](https://thinkr-open.github.io/fusen) (`{rmarkdown}`-based)
 
 ## Meta-packages
 
