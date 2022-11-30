@@ -1,3 +1,4 @@
+# if you want to build the README locally
 quarto::quarto_render("README.qmd", output_format = "html")
 
 # duplicate `README.html` as `index.html`
