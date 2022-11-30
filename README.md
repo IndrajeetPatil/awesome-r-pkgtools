@@ -98,14 +98,11 @@ Awesome R package development
 - <a href="#upkeep" id="toc-upkeep">Upkeep 🧹</a>
 - <a href="#sundry" id="toc-sundry">Sundry 🗒</a>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Track
-Awesome
-List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
-
-<!-- (https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/)  -->
-
 A curated list of awesome tools to assist 📦 development in R
 programming language.
+
+<!-- TODO: https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/ -->
+<!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
 
 <div>
 
