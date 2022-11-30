@@ -1,0 +1,25 @@
+Package: awesome-r-pkgtools
+Title: A curated list of awesome tools for R package development
+Version: 1.0
+Authors@R: 
+    person(given = "Indrajeet",
+           family = "Patil",
+           role = c("cre", "aut", "cph"),
+           email = "patilindrajeet.science@gmail.com",
+           comment = c(ORCID = "0000-0003-1995-6531", Twitter = "@patilindrajeets"))
+Description: This document contains a curated list of awesome tools to assist 
+    package development in R programming language. This is not a package, and 
+    the DESCRIPTION file is included to make it easier to install required 
+    packages in GitHub action workflows.
+License: CC0 1.0 Universal
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+URL: https://github.com/IndrajeetPatil/awesome-r-pkgtools/,
+    https://indrajeetpatil.github.io/awesome-r-pkgtools/
+BugReports: https://github.com/IndrajeetPatil/awesome-r-pkgtools/issues
+Depends:
+    knitr,
+    fs,
+    quarto,
+    reticulate
