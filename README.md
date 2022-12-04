@@ -32,7 +32,7 @@ If you wish to suggest any additional tools, please make a PR or create an issue
 
 # Contributing
 
-Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/). By contributing to this project, you agree to abide by its terms.
 
 # Swiss army knives 🛠
 
@@ -68,7 +68,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{golem}`](https://github.com/ThinkR-open/golem/) (framework for building shiny applications)
 
-- [`{leprechaun}`](https://leprechaun.opifex.org/#/) (leaner framework for building shiny applications)
+- [`{leprechaun}`](https://github.com/devOpifex/leprechaun/) (leaner framework for building shiny applications)
 
 - [`{rhino}`](https://appsilon.github.io/rhino/) (a framework to build high quality, enterprise-grade Shiny apps at speed)
 
@@ -140,7 +140,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{knitr}`](https://yihui.org/knitr) (a general-purpose tool for dynamic report generation to be used as a vignette builder for R package vignettes)
 
-- [`{rmarkdown}`](https://rmarkdown.rstudio.com) (to convert R Markdown documents to a variety of formats)
+- [`{rmarkdown}`](https://CRAN.R-project.org/package=rmarkdown) (to convert R Markdown documents to a variety of formats)
 
 - [`{quarto}`](https://quarto-dev.github.io/quarto-r/) (provides R interface to frequently used operations in the Quarto CLI)
 
@@ -154,7 +154,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{gitdown}`](https://github.com/ThinkR-open/gitdown/) (software changes as a gitbook)
 
-- [`{altdoc}`](https://altdoc.etiennebacher.com) (use [docute](https://docute.org/) or [docsify](https://docsify.js.org/) to create a static website for package documentation)
+- [`{altdoc}`](https://altdoc.etiennebacher.com) (use [docute](https://github.com/egoist/docute/) or [docsify](https://github.com/docsifyjs/docsify/) to create a static website for package documentation)
 
 ## Translation
 
@@ -178,7 +178,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## Book
 
-- [`{bookdown}`](https://pkgs.rstudio.com/bookdown/) (authoring framework for books and technical documents with R Markdown)
+- [`{bookdown}`](https://CRAN.R-project.org/package=bookdown) (authoring framework for books and technical documents with R Markdown)
 
 ## Change log and versioning
 
@@ -548,7 +548,7 @@ To thank the contributors or maintainers of packages you rely on.
 ## JavaScript/HTML/CSS
 
 - [`{htmltools}`](https://CRAN.R-project.org/package=htmltools)
-- [`{packer}`](https://packer.john-coene.com/)
+- [`{packer}`](https://CRAN.R-project.org/package=packer)
 
 ## Julia
 
