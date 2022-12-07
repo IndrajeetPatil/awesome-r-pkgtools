@@ -19,7 +19,8 @@ URL: https://github.com/IndrajeetPatil/awesome-r-pkgtools/,
     https://indrajeetpatil.github.io/awesome-r-pkgtools/
 BugReports: https://github.com/IndrajeetPatil/awesome-r-pkgtools/issues
 Depends:
-    knitr,
+    details,
     fs,
+    knitr,
     quarto,
     reticulate

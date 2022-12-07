@@ -567,3 +567,24 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{DIZutils}`](https://cran.r-project.org/package=DIZutils) (helpers for packages dealing with database connections)
 
+# Session information
+
+```{r}
+#| echo: false
+#| eval: true
+library(details)
+```
+
+```{details}
+#| echo: false
+#| eval: true
+#| details.summary: 'Quarto version'
+quarto::quarto_version()
+```
+
+```{details}
+#| echo: false
+#| eval: true
+#| details.summary: 'Session details'
+sessioninfo::session_info()
+```
