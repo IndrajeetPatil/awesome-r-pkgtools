@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2022-12-06"
+date-modified: "2022-12-07"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -570,3 +570,91 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{DIZutils}`](https://cran.r-project.org/package=DIZutils) (helpers for packages dealing with database connections)
 
+# Session information
+
+
+
+::: {.cell}
+
+:::
+
+::: {.cell details.summary='Quarto version'}
+<details closed>
+<summary> <span title='Click to Open'> Quarto version </span> </summary>
+
+```r
+
+[1] '1.3.34'
+
+```
+
+</details>
+<br>
+:::
+
+::: {.cell details.summary='Session details'}
+<details closed>
+<summary> <span title='Click to Open'> Session details </span> </summary>
+
+```r
+
+─ Session info ───────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.2.2 (2022-10-31)
+ os       Ubuntu 22.04.1 LTS
+ system   x86_64, linux-gnu
+ ui       X11
+ language (EN)
+ collate  C.UTF-8
+ ctype    C.UTF-8
+ tz       UTC
+ date     2022-12-07
+ pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
+
+─ Packages ───────────────────────────────────────────────────────────────────
+ package     * version    date (UTC) lib source
+ cli           3.4.1      2022-09-23 [1] RSPM
+ clipr         0.8.0      2022-02-22 [1] RSPM
+ desc          1.4.2      2022-09-08 [1] RSPM
+ details     * 0.3.0      2022-03-27 [1] RSPM
+ digest        0.6.30     2022-10-18 [1] RSPM
+ evaluate      0.18       2022-11-07 [1] RSPM
+ fastmap       1.1.0      2021-01-25 [1] RSPM
+ glue          1.6.2      2022-02-24 [1] RSPM
+ htmltools     0.5.3      2022-07-18 [1] RSPM
+ httr          1.4.4      2022-08-17 [1] RSPM
+ jsonlite      1.8.3      2022-10-21 [1] RSPM
+ knitr         1.41       2022-11-18 [1] RSPM
+ later         1.3.0      2021-08-18 [1] RSPM
+ lifecycle     1.0.3      2022-10-07 [1] RSPM
+ magrittr      2.0.3      2022-03-30 [1] RSPM
+ png           0.1-8      2022-11-29 [1] RSPM
+ processx      3.8.0      2022-10-26 [1] RSPM
+ ps            1.7.2      2022-10-26 [1] RSPM
+ quarto        1.2.0.9000 2022-11-30 [1] Github (quarto-dev/quarto-r@146bb4e)
+ R6            2.5.1      2021-08-19 [1] RSPM
+ Rcpp          1.0.9      2022-07-08 [1] RSPM
+ rlang         1.0.6      2022-09-24 [1] RSPM
+ rmarkdown     2.18       2022-11-09 [1] RSPM
+ rprojroot     2.0.3      2022-04-02 [1] RSPM
+ rstudioapi    0.14       2022-08-22 [1] RSPM
+ sessioninfo   1.2.2      2021-12-06 [1] any (@1.2.2)
+ stringi       1.7.8      2022-07-11 [1] RSPM
+ stringr       1.5.0      2022-12-02 [1] RSPM
+ vctrs         0.5.1      2022-11-16 [1] RSPM
+ withr         2.5.0      2022-03-03 [1] RSPM
+ xfun          0.35       2022-11-16 [1] RSPM
+ xml2          1.3.3      2021-11-30 [1] RSPM
+ yaml          2.3.6      2022-10-18 [1] RSPM
+
+ [1] /home/runner/work/_temp/Library
+ [2] /opt/R/4.2.2/lib/R/site-library
+ [3] /opt/R/4.2.2/lib/R/library
+
+──────────────────────────────────────────────────────────────────────────────
+
+```
+
+</details>
+<br>
+:::
