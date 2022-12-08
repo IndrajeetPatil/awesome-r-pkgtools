@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.34">
+<meta name="generator" content="quarto-1.3.47">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -165,7 +165,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <li><a href="#benchmarking" id="toc-benchmarking" class="nav-link" data-scroll-target="#benchmarking">Benchmarking</a></li>
   <li><a href="#profiling" id="toc-profiling" class="nav-link" data-scroll-target="#profiling">Profiling</a></li>
   </ul></li>
-  <li><a href="#dependencies" id="toc-dependencies" class="nav-link" data-scroll-target="#dependencies">Dependencies ⚖️</a></li>
+  <li><a href="#dependency-management" id="toc-dependency-management" class="nav-link" data-scroll-target="#dependency-management">Dependency Management ⚖️</a></li>
   <li><a href="#cranbioconductor-checks-submission-and-status" id="toc-cranbioconductor-checks-submission-and-status" class="nav-link" data-scroll-target="#cranbioconductor-checks-submission-and-status">CRAN/Bioconductor checks, submission, and status 📬</a></li>
   <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage 🙈</a></li>
   <li><a href="#cicd" id="toc-cicd" class="nav-link" data-scroll-target="#cicd">CI/CD 📟</a></li>
@@ -216,7 +216,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">December 7, 2022</p>
+      <p class="date-modified">December 8, 2022</p>
     </div>
   </div>
     
@@ -588,13 +588,14 @@ What is included?
 </ul>
 </section>
 </section>
-<section id="dependencies" class="level1">
-<h1>Dependencies ⚖️</h1>
+<section id="dependency-management" class="level1">
+<h1>Dependency Management ⚖️</h1>
 <ul>
 <li><p><a href="https://cran.r-project.org/package=pkgdepends"><code>{pkgdepends}</code></a> (to find recursive dependencies of from various sources)</p></li>
 <li><p><a href="https://cran.r-project.org/package=deepdep"><code>{deepdep}</code></a> (to visualize and explore package dependencies)</p></li>
 <li><p><a href="https://github.com/r-lib/itdepends/"><code>{itdepends}</code></a> (to assess usage, measure weights, visualize proportions, and assist removal of dependencies)</p></li>
 <li><p><a href="https://github.com/datastorm-open/DependenciesGraphs/"><code>{DependenciesGraphs}</code></a> (to visualize package dependencies)</p></li>
+<li><p><a href="https://CRAN.R-project.org/package=DependencyReviewer"><code>{DependencyReviewer}</code></a> (to investigate packages during code review by looking at their dependencies)</p></li>
 <li><p><a href="https://uptake.github.io/pkgnet/"><code>{pkgnet}</code></a> (to build a graph representation of a package and its dependencies)</p></li>
 <li><p><a href="https://cran.r-project.org/package=functiondepends"><code>{functiondepends}</code></a> (to find functions in an unstructured directory and explore their dependencies)</p></li>
 <li><p><a href="https://cran.r-project.org/package=pkgndep"><code>{pkgndep}</code></a> (checks the heaviness of the packages used)</p></li>
@@ -786,7 +787,7 @@ What is included?
 <span title="Click to Open"> Quarto version </span>
 </summary>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">'1.3.34'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">'1.3.47'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <p><br></p>
 </div>
@@ -806,7 +807,7 @@ What is included?
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a> collate  C.UTF<span class="dv">-8</span></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a> ctype    C.UTF<span class="dv">-8</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a> tz       UTC</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2022-12-07</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2022-12-08</span></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a> pandoc   <span class="dv">2</span>.<span class="fl">19.2</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>bin<span class="sc">/</span> (via rmarkdown)</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>─ Packages ───────────────────────────────────────────────────────────────────</span>
@@ -821,7 +822,7 @@ What is included?
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a> glue          <span class="dv">1</span>.<span class="fl">6.2</span>      <span class="dv">2022-02-24</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a> htmltools     <span class="dv">0</span>.<span class="fl">5.3</span>      <span class="dv">2022-07-18</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a> httr          <span class="dv">1</span>.<span class="fl">4.4</span>      <span class="dv">2022-08-17</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a> jsonlite      <span class="dv">1</span>.<span class="fl">8.3</span>      <span class="dv">2022-10-21</span> [<span class="dv">1</span>] RSPM</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a> jsonlite      <span class="dv">1</span>.<span class="fl">8.4</span>      <span class="dv">2022-12-06</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a> knitr         <span class="fl">1.41</span>       <span class="dv">2022-11-18</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a> later         <span class="dv">1</span>.<span class="fl">3.0</span>      <span class="dv">2021-08-18</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a> lifecycle     <span class="dv">1</span>.<span class="fl">0.3</span>      <span class="dv">2022-10-07</span> [<span class="dv">1</span>] RSPM</span>
