@@ -374,7 +374,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{jointprof}`](https://r-prof.github.io/jointprof/) (to profile packages with native code in C, C++, Fortran, etc.)
 
-# Dependencies ⚖️
+# Dependency Management ⚖️
 
 - [`{pkgdepends}`](https://cran.r-project.org/package=pkgdepends) (to find recursive dependencies of from various sources)
 
@@ -383,6 +383,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{itdepends}`](https://github.com/r-lib/itdepends/) (to assess usage, measure weights, visualize proportions, and assist removal of dependencies)
 
 - [`{DependenciesGraphs}`](https://github.com/datastorm-open/DependenciesGraphs/) (to visualize package dependencies)
+
+- [`{DependencyReviewer}`]( https://CRAN.R-project.org/package=DependencyReviewer) (to investigate packages during code review by looking at their dependencies)
 
 - [`{pkgnet}`](https://uptake.github.io/pkgnet/) (to build a graph representation of a package and its dependencies)
 
