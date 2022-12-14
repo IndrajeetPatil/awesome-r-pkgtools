@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2022-12-13"
+date-modified: "2022-12-14"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -427,7 +427,9 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`actions`](https://github.com/r-lib/actions/) (provides [GitHub Actions](https://github.com/features/actions) relevant for R)
 
-- [`actions-sync`][https://github.com/krlmlr/actions-sync/] (to manage GitHub Actions workflows across repositories)
+- [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage GitHub Actions workflows across repositories)
+
+- [`AzureR`](https://github.com/Azure/AzureR/) (a family of packages for working with [Azure](https://azure.microsoft.com/en-gb/) from R)
 
 - [`r-appveyor`](https://github.com/krlmlr/r-appveyor/) (for [AppVeyor](https://www.appveyor.com/)) 
 
@@ -588,7 +590,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.55'
+[1] '1.3.56'
 
 ```
 
@@ -612,7 +614,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2022-12-13
+ date     2022-12-14
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
