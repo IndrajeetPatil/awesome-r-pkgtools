@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2022-12-11"
+date-modified: "2022-12-15"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -254,17 +254,19 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## Mock testing
 
-- [`{mockthat}`](https://nbenn.github.io/mockthat/) (function mocking for unit testing to third-party packages)
+- [`{mockthat}`](https://nbenn.github.io/mockthat/) (provides a way to mock package function for unit testing, while coping with `S3` dispatch)
 
-- [`{mockr}`](https://krlmlr.github.io/mockr/) (allows mocking functions in the package under test)
+- [`{mockr}`](https://krlmlr.github.io/mockr/) (provides a way to mock package function for unit testing)
 
-- [`{testdown}`](https://github.com/ThinkR-open/testdown/) (turn `{testthat}` results into a `{bookdown}` project)
+- [`{mockery}`](https://CRAN.R-project.org/package=mockery) (provides a way to mock package function for unit testing and can be used with any testing framework)
 
 ## Helpers for testing frameworks
 
 - [`{testthis}`](https://cran.r-project.org/package=testthis) (RStudio addins for working with files that contain tests)
 
 - [`{xpectr}`](https://github.com/LudvigOlsen/xpectr/) (builds unit tests with the `{testthat}` package by providing tools for generating expectations)
+
+- [`{testdown}`](https://github.com/ThinkR-open/testdown/) (turn `{testthat}` results into a `{bookdown}` project)
 
 # Code/Document Formatting 🧽
 
@@ -425,7 +427,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 CI/CD: continuous integration and either continuous delivery or continuous deployment
 
-- [`actions`](https://github.com/r-lib/actions/) (for [GitHub Actions](https://github.com/features/actions))
+- [`actions`](https://github.com/r-lib/actions/) (provides [GitHub Actions](https://github.com/features/actions) relevant for R)
+
+- [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage GitHub Actions workflows across repositories)
+
+- [`AzureR`](https://github.com/Azure/AzureR/) (a family of packages for working with [Azure](https://azure.microsoft.com/en-gb/) from R)
 
 - [`r-appveyor`](https://github.com/krlmlr/r-appveyor/) (for [AppVeyor](https://www.appveyor.com/)) 
 
@@ -586,7 +592,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.49'
+[1] '1.3.56'
 
 ```
 
@@ -610,7 +616,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2022-12-11
+ date     2022-12-15
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -619,8 +625,8 @@ To thank the contributors or maintainers of packages you rely on.
  clipr         0.8.0      2022-02-22 [1] RSPM
  desc          1.4.2      2022-09-08 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
- digest        0.6.30     2022-10-18 [1] RSPM
- evaluate      0.18       2022-11-07 [1] RSPM
+ digest        0.6.31     2022-12-11 [1] RSPM
+ evaluate      0.19       2022-12-13 [1] RSPM
  fastmap       1.1.0      2021-01-25 [1] RSPM
  glue          1.6.2      2022-02-24 [1] RSPM
  htmltools     0.5.4      2022-12-07 [1] RSPM
