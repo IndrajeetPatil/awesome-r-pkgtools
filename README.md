@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2022-12-18"
+date-modified: "2022-12-21"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -431,6 +431,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage GitHub Actions workflows across repositories)
 
+- [`rworkflows`](https://github.com/neurogenomics/rworkflows/) (GitHub Actions to automates testing, documentation website building, and containerised deployment.)
+
 - [`AzureR`](https://github.com/Azure/AzureR/) (a family of packages for working with [Azure](https://azure.microsoft.com/en-gb/) from R)
 
 - [`r-appveyor`](https://github.com/krlmlr/r-appveyor/) (for [AppVeyor](https://www.appveyor.com/)) 
@@ -616,12 +618,12 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2022-12-18
+ date     2022-12-21
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
- cli           3.4.1      2022-09-23 [1] RSPM
+ cli           3.5.0      2022-12-20 [1] RSPM
  clipr         0.8.0      2022-02-22 [1] RSPM
  desc          1.4.2      2022-09-08 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
