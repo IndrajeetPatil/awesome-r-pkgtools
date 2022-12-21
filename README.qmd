@@ -428,6 +428,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage GitHub Actions workflows across repositories)
 
+- [`rworkflows`](https://github.com/neurogenomics/rworkflows/) (GitHub Actions to automates testing, documentation website building, and containerised deployment.)
+
 - [`AzureR`](https://github.com/Azure/AzureR/) (a family of packages for working with [Azure](https://azure.microsoft.com/en-gb/) from R)
 
 - [`r-appveyor`](https://github.com/krlmlr/r-appveyor/) (for [AppVeyor](https://www.appveyor.com/)) 
