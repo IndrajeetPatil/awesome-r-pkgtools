@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2022-12-21"
+date-modified: "2022-12-25"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -618,7 +618,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2022-12-21
+ date     2022-12-25
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -653,7 +653,7 @@ To thank the contributors or maintainers of packages you rely on.
  stringr       1.5.0      2022-12-02 [1] RSPM
  vctrs         0.5.1      2022-11-16 [1] RSPM
  withr         2.5.0      2022-03-03 [1] RSPM
- xfun          0.35       2022-11-16 [1] RSPM
+ xfun          0.36       2022-12-21 [1] RSPM
  xml2          1.3.3      2021-11-30 [1] RSPM
  yaml          2.3.6      2022-10-18 [1] RSPM
 
