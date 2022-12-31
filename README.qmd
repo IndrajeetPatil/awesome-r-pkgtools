@@ -35,9 +35,9 @@ Please note that the `awesome-r-pkgtools` project is released with a [Contributo
 
 Tools useful across all stages of package development (some of these are meta-packages and their component packages are also included in respective sections for the sake of completeness), irrespective of whether package is meant to be submitted to CRAN or to Bioconductor.
 
-- [`{devtools}`](https://devtools.r-lib.org)
-
 - [`{usethis}`](https://usethis.r-lib.org)
+
+- [`{devtools}`](https://devtools.r-lib.org)
 
 - [`{biocthis}`](https://lcolladotor.github.io/biocthis/)
 
@@ -45,7 +45,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pacs}`](https://polkas.github.io/pacs/)
 
-# Package templates 💀 
+# Package templates 💀
 
 ## Generic
 
@@ -566,6 +566,8 @@ To thank the contributors or maintainers of packages you rely on.
 - [`{TODOr}`](https://github.com/dokato/todor/) (RStudio addin to list things that you need to do or change)
 
 # Sundry 🗒
+
+- [`{gpttools}`](https://github.com/JamesHWade/gpttools/) (RStudio addin that allows using [chatGPT](https://openai.com/blog/chatgpt/) to automate writing documentation, tests, etc.)
 
 - [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix function with their namespace )
 
