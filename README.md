@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2022-12-25"
+date-modified: "2022-12-31"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -38,9 +38,9 @@ Please note that the `awesome-r-pkgtools` project is released with a [Contributo
 
 Tools useful across all stages of package development (some of these are meta-packages and their component packages are also included in respective sections for the sake of completeness), irrespective of whether package is meant to be submitted to CRAN or to Bioconductor.
 
-- [`{devtools}`](https://devtools.r-lib.org)
-
 - [`{usethis}`](https://usethis.r-lib.org)
+
+- [`{devtools}`](https://devtools.r-lib.org)
 
 - [`{biocthis}`](https://lcolladotor.github.io/biocthis/)
 
@@ -48,7 +48,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pacs}`](https://polkas.github.io/pacs/)
 
-# Package templates 💀 
+# Package templates 💀
 
 ## Generic
 
@@ -570,6 +570,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 # Sundry 🗒
 
+- [`{gpttools}`](https://github.com/JamesHWade/gpttools/) (RStudio addin that allows using [chatGPT](https://openai.com/blog/chatgpt/) to automate writing documentation, tests, etc.)
+
 - [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix function with their namespace )
 
 - [`{rstudioapi}`](https://rstudio.github.io/rstudioapi/) (to conditionally access the RStudio API from CRAN packages)
@@ -594,7 +596,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.56'
+[1] '1.3.78'
 
 ```
 
@@ -618,7 +620,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2022-12-25
+ date     2022-12-31
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
