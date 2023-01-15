@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-01-08"
+date-modified: "2023-01-15"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -596,7 +596,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.91'
+[1] '1.3.107'
 
 ```
 
@@ -620,12 +620,12 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-01-08
+ date     2023-01-15
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
- cli           3.5.0      2022-12-20 [1] RSPM
+ cli           3.6.0      2023-01-09 [1] RSPM
  clipr         0.8.0      2022-02-22 [1] RSPM
  desc          1.4.2      2022-09-08 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
@@ -643,7 +643,7 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.0      2022-10-26 [1] RSPM
  ps            1.7.2      2022-10-26 [1] RSPM
- quarto        1.2.0.9000 2022-11-30 [1] Github (quarto-dev/quarto-r@146bb4e)
+ quarto        1.2.0.9000 2023-01-15 [1] Github (quarto-dev/quarto-r@19aaccc)
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.9      2022-07-08 [1] RSPM
  rlang         1.0.6      2022-09-24 [1] RSPM
@@ -651,7 +651,7 @@ To thank the contributors or maintainers of packages you rely on.
  rprojroot     2.0.3      2022-04-02 [1] RSPM
  rstudioapi    0.14       2022-08-22 [1] RSPM
  sessioninfo   1.2.2      2021-12-06 [1] any (@1.2.2)
- stringi       1.7.8      2022-07-11 [1] RSPM
+ stringi       1.7.12     2023-01-11 [1] RSPM
  stringr       1.5.0      2022-12-02 [1] RSPM
  vctrs         0.5.1      2022-11-16 [1] RSPM
  withr         2.5.0      2022-03-03 [1] RSPM
