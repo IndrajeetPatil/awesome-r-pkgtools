@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-01-15"
+date-modified: "2023-01-19"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -130,11 +130,13 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`roxygen2Comment`](https://github.com/csgillespie/roxygen2Comment) (Rstudio addin for adding and remove `{roxygen2}` comment)
 
-## Math rendering in the manual
+## Math rendering in HTML/PDF manual
 
 - [`{katex}`](https://docs.ropensci.org/katex/) (to convert latex math expressions to HTML for use in package manual pages)
 
 - [`{mathjaxr}`](https://cran.r-project.org/package=mathjaxr) (provides 'MathJax' and macros to enable its use within `Rd` files for rendering equations in the HTML help files)
+
+- [`{mathml}`](https://CRAN.R-project.org/package=mathml) (translates R expressions to 'MathML' or 'MathJax' so that they can be rendered in HTML manual and Shiny apps)
 
 ## Vignettes
 
@@ -596,7 +598,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.107'
+[1] '1.3.117'
 
 ```
 
@@ -620,7 +622,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-01-15
+ date     2023-01-19
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -630,7 +632,7 @@ To thank the contributors or maintainers of packages you rely on.
  desc          1.4.2      2022-09-08 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
  digest        0.6.31     2022-12-11 [1] RSPM
- evaluate      0.19       2022-12-13 [1] RSPM
+ evaluate      0.20       2023-01-17 [1] RSPM
  fastmap       1.1.0      2021-01-25 [1] RSPM
  glue          1.6.2      2022-02-24 [1] RSPM
  htmltools     0.5.4      2022-12-07 [1] RSPM
