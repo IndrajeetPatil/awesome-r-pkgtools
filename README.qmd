@@ -127,11 +127,13 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`roxygen2Comment`](https://github.com/csgillespie/roxygen2Comment) (Rstudio addin for adding and remove `{roxygen2}` comment)
 
-## Math rendering in the manual
+## Math rendering in HTML/PDF manual
 
 - [`{katex}`](https://docs.ropensci.org/katex/) (to convert latex math expressions to HTML for use in package manual pages)
 
 - [`{mathjaxr}`](https://cran.r-project.org/package=mathjaxr) (provides 'MathJax' and macros to enable its use within `Rd` files for rendering equations in the HTML help files)
+
+- [`{mathml}`](https://CRAN.R-project.org/package=mathml) (translates R expressions to 'MathML' or 'MathJax' so that they can be rendered in HTML manual and Shiny apps)
 
 ## Vignettes
 
