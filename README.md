@@ -276,7 +276,9 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{stylermd}`](https://github.com/lorenzwalthert/stylermd/) (to format text in Markdown documents)
 
-- [`{formatR}`](https://yihui.org/formatr) (to format R source code)
+- [`{formatR}`](https://CRAN.R-project.org/package=formatR) (to format R source code)
+
+- [`{RFormatter}`](https://CRAN.R-project.org/package=RFormatter) (extension of `{formatR}` with slightly improved heuristics)
 
 - [`{grkstyle}`](https://github.com/gadenbuie/grkstyle/) (extension package for `{styler}` that supports author's personal code style preferences)
 
