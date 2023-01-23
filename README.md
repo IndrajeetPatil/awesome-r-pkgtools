@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-01-22"
+date-modified: "2023-01-23"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -156,7 +156,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{gitdown}`](https://github.com/ThinkR-open/gitdown/) (software changes as a gitbook)
 
-- [`{altdoc}`](https://altdoc.etiennebacher.com) (use [docute](https://github.com/egoist/docute/) or [docsify](https://github.com/docsifyjs/docsify/) to create a static website for package documentation)
+- [`{altdoc}`](https://altdoc.etiennebacher.com) (use [docute](https://github.com/egoist/docute/), [docsify](https://github.com/docsifyjs/docsify/), or [MkDocs](https://www.mkdocs.org/) to create a static website for package documentation)
 
 ## Translation
 
@@ -600,7 +600,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.121'
+[1] '1.3.124'
 
 ```
 
@@ -624,7 +624,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-01-22
+ date     2023-01-23
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
