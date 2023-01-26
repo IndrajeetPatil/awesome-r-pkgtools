@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-01-23"
+date-modified: "2023-01-26"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -499,6 +499,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{cffr}`](https://docs.ropensci.org/cffr/) (provides utilities to generate, parse, modify and validate `CITATION.cff` files automatically for R packages)
 
+- [`{citation}`](https://github.com/pik-piam/citation) (creates `CITATION.cff` from R package metadata)
+
 - [`{pkgapi}`](https://github.com/r-lib/pkgapi/) (to create the map of function calls in a package)
 
 - [`{packagemetrics}`](https://github.com/sfirke/packagemetrics/) (for comparing among packages)
@@ -600,7 +602,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.124'
+[1] '1.3.129'
 
 ```
 
@@ -624,7 +626,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-01-23
+ date     2023-01-26
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -636,32 +638,27 @@ To thank the contributors or maintainers of packages you rely on.
  digest        0.6.31     2022-12-11 [1] RSPM
  evaluate      0.20       2023-01-17 [1] RSPM
  fastmap       1.1.0      2021-01-25 [1] RSPM
- glue          1.6.2      2022-02-24 [1] RSPM
  htmltools     0.5.4      2022-12-07 [1] RSPM
  httr          1.4.4      2022-08-17 [1] RSPM
  jsonlite      1.8.4      2022-12-06 [1] RSPM
- knitr         1.41       2022-11-18 [1] RSPM
+ knitr         1.42       2023-01-25 [1] RSPM
  later         1.3.0      2021-08-18 [1] RSPM
- lifecycle     1.0.3      2022-10-07 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.0      2022-10-26 [1] RSPM
  ps            1.7.2      2022-10-26 [1] RSPM
  quarto        1.2.0.9000 2023-01-15 [1] Github (quarto-dev/quarto-r@19aaccc)
  R6            2.5.1      2021-08-19 [1] RSPM
- Rcpp          1.0.9      2022-07-08 [1] RSPM
+ Rcpp          1.0.10     2023-01-22 [1] RSPM
  rlang         1.0.6      2022-09-24 [1] RSPM
  rmarkdown     2.20       2023-01-19 [1] RSPM
  rprojroot     2.0.3      2022-04-02 [1] RSPM
  rstudioapi    0.14       2022-08-22 [1] RSPM
  sessioninfo   1.2.2      2021-12-06 [1] any (@1.2.2)
- stringi       1.7.12     2023-01-11 [1] RSPM
- stringr       1.5.0      2022-12-02 [1] RSPM
- vctrs         0.5.1      2022-11-16 [1] RSPM
  withr         2.5.0      2022-03-03 [1] RSPM
  xfun          0.36       2022-12-21 [1] RSPM
  xml2          1.3.3      2021-11-30 [1] RSPM
- yaml          2.3.6      2022-10-18 [1] RSPM
+ yaml          2.3.7      2023-01-23 [1] RSPM
 
  [1] /home/runner/work/_temp/Library
  [2] /opt/R/4.2.2/lib/R/site-library
