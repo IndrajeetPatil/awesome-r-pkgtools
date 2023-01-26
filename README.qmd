@@ -496,6 +496,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{cffr}`](https://docs.ropensci.org/cffr/) (provides utilities to generate, parse, modify and validate `CITATION.cff` files automatically for R packages)
 
+- [`{citation}`](https://github.com/pik-piam/citation) (creates `CITATION.cff` from R package metadata)
+
 - [`{pkgapi}`](https://github.com/r-lib/pkgapi/) (to create the map of function calls in a package)
 
 - [`{packagemetrics}`](https://github.com/sfirke/packagemetrics/) (for comparing among packages)
