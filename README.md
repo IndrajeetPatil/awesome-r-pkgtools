@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-01-29"
+date-modified: "2023-02-01"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -171,6 +171,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{badger}`](https://cran.r-project.org/package=badger) (query information and generate badges for using in `README` and `GitHub Pages`)
 
 - [`{hexSticker}`](https://cran.r-project.org/package=hexSticker) (helper functions for creating reproducible hexagon sticker purely in R)
+
+- [`{hexFinder}`](https://CRAN.R-project.org/package=hexFinder) (to scavenge the web for possible hex logos for packages)
 
 - [`hexwall`](https://github.com/mitchelloharawild/hexwall/) (to create a wall of hexstickers)
 
@@ -602,7 +604,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.140'
+[1] '1.3.146'
 
 ```
 
@@ -626,7 +628,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-01-29
+ date     2023-02-01
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
