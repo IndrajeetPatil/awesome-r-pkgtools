@@ -169,6 +169,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{hexSticker}`](https://cran.r-project.org/package=hexSticker) (helper functions for creating reproducible hexagon sticker purely in R)
 
+- [`{hexFinder}`](https://CRAN.R-project.org/package=hexFinder) (to scavenge the web for possible hex logos for packages)
+
 - [`hexwall`](https://github.com/mitchelloharawild/hexwall/) (to create a wall of hexstickers)
 
 ## Presentation
