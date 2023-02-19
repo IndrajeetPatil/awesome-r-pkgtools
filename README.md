@@ -409,7 +409,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 # CRAN/Bioconductor checks, submission, and status 📬
 
-- [`{rcmdcheck}`](https://r-lib.github.io/rcmdcheck/) (to run `R CMD check` form R programmatically)
+- [`{rcmdcheck}`](https://rcmdcheck.r-lib.org/) (to run `R CMD check` form R programmatically)
 
 - [`{BiocCheck}`](https://github.com/Bioconductor/BiocCheck/) (to run Bioconductor-specific package checks)
 
@@ -513,11 +513,11 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{foreman}`](https://github.com/yonicd/foreman/) (for unpacking, interrogating and subsetting R packages)
 
-- [`{sessioninfo}`](https://r-lib.github.io/sessioninfo/) (to include R session information)
+- [`{sessioninfo}`](https://sessioninfo.r-lib.org/) (to include R session information)
 
 # Reverse dependency checks 📡⚰️
 
-- [`{revdepcheck}`](https://r-lib.github.io/revdepcheck/) (for automated, isolated, reverse dependency checking)
+- [`{revdepcheck}`](https://revdepcheck.r-lib.org/) (for automated, isolated, reverse dependency checking)
 
 - [`{xfun}`](https://yihui.org/xfun/) (specifically, `xfun::rev_check()`)
 
