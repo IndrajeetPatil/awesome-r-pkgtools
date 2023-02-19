@@ -33,7 +33,7 @@ Please note that the `awesome-r-pkgtools` project is released with a [Contributo
 
 # Swiss army knives 🛠
 
-Tools useful across all stages of package development (some of these are meta-packages and their component packages are also included in respective sections for the sake of completeness), irrespective of whether package is meant to be submitted to CRAN or to Bioconductor.
+Tools useful across all stages of package development (some of these are meta-packages and their component packages are also included in respective sections for the sake of completeness), irrespective of whether the package is meant to be submitted to CRAN or Bioconductor.
 
 - [`{usethis}`](https://usethis.r-lib.org)
 
@@ -165,7 +165,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## Badges and stickers
 
-- [`{badger}`](https://cran.r-project.org/package=badger) (query information and generate badges for using in `README` and `GitHub Pages`)
+- [`{badger}`](https://cran.r-project.org/package=badger) (to query information and generate badges for use in `README`)
 
 - [`{hexSticker}`](https://cran.r-project.org/package=hexSticker) (helper functions for creating reproducible hexagon sticker purely in R)
 
