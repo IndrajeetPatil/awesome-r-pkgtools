@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-02-19"
+date-modified: "2023-02-22"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -271,6 +271,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{xpectr}`](https://github.com/LudvigOlsen/xpectr/) (builds unit tests with the `{testthat}` package by providing tools for generating expectations)
 
 - [`{testdown}`](https://github.com/ThinkR-open/testdown/) (turn `{testthat}` results into a `{bookdown}` project)
+
+- [`{ttdo}`](https://CRAN.R-project.org/package=ttdo) (provides 'diff'-style comparison of R objects for `{tinytest}` framework)
 
 # Code/Document Formatting 🧽
 
@@ -604,7 +606,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.208'
+[1] '1.3.217'
 
 ```
 
@@ -628,7 +630,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-02-19
+ date     2023-02-22
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -649,7 +651,7 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.0      2022-10-26 [1] RSPM
  ps            1.7.2      2022-10-26 [1] RSPM
- quarto        1.2.0.9000 2023-02-19 [1] Github (quarto-dev/quarto-r@08caf0f)
+ quarto        1.2.0.9000 2023-02-22 [1] Github (quarto-dev/quarto-r@08caf0f)
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.10     2023-01-22 [1] RSPM
  rlang         1.0.6      2022-09-24 [1] RSPM
