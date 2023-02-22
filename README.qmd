@@ -269,6 +269,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{testdown}`](https://github.com/ThinkR-open/testdown/) (turn `{testthat}` results into a `{bookdown}` project)
 
+- [`{ttdo}`](https://CRAN.R-project.org/package=ttdo) (provides 'diff'-style comparison of R objects for `{tinytest}` framework)
+
 # Code/Document Formatting 🧽
 
 - [`{styler}`](https://styler.r-lib.org) (to format code according to a style guide)
