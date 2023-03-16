@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-03-12"
+date-modified: "2023-03-16"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -55,6 +55,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{pkgkitten}`](https://dirk.eddelbuettel.com/code/pkgkitten.html) (useful for creating new packages for R)
 
 - [`{rcompendium}`](https://frbcesab.github.io/rcompendium/) (to make the creation of R package/research compendium easier)
+
+- [`{r.pkg.template}`](https://github.com/insightsengineering/r.pkg.template/) (an opinionated R package template with CI/CD built-in)
 
 - [`{skeletor}`](https://github.com/nealrichardson/skeletor/) (An R Package Skeleton Generator)
 
@@ -439,7 +441,7 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage GitHub Actions workflows across repositories)
 
-- [`rworkflows`](https://github.com/neurogenomics/rworkflows/) (GitHub Actions to automates testing, documentation website building, and containerised deployment.)
+- [`rworkflows`](https://github.com/neurogenomics/rworkflows/) (GitHub Actions to automates testing, documentation website building, and containerised deployment)
 
 - [`AzureR`](https://github.com/Azure/AzureR/) (a family of packages for working with [Azure](https://azure.microsoft.com/en-gb/) from R)
 
@@ -606,7 +608,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.257'
+[1] '1.3.272'
 
 ```
 
@@ -622,7 +624,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
- version  R version 4.2.2 (2022-10-31)
+ version  R version 4.2.3 (2023-03-15)
  os       Ubuntu 22.04.2 LTS
  system   x86_64, linux-gnu
  ui       X11
@@ -630,7 +632,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-03-12
+ date     2023-03-16
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -651,10 +653,10 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.0      2022-10-26 [1] RSPM
  ps            1.7.2      2022-10-26 [1] RSPM
- quarto        1.2.0.9000 2023-03-12 [1] Github (quarto-dev/quarto-r@6175d76)
+ quarto        1.2.0.9000 2023-03-16 [1] Github (quarto-dev/quarto-r@6175d76)
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.10     2023-01-22 [1] RSPM
- rlang         1.0.6      2022-09-24 [1] RSPM
+ rlang         1.1.0      2023-03-14 [1] RSPM
  rmarkdown     2.20       2023-01-19 [1] RSPM
  rprojroot     2.0.3      2022-04-02 [1] RSPM
  rstudioapi    0.14       2022-08-22 [1] RSPM
@@ -665,8 +667,8 @@ To thank the contributors or maintainers of packages you rely on.
  yaml          2.3.7      2023-01-23 [1] RSPM
 
  [1] /home/runner/work/_temp/Library
- [2] /opt/R/4.2.2/lib/R/site-library
- [3] /opt/R/4.2.2/lib/R/library
+ [2] /opt/R/4.2.3/lib/R/site-library
+ [3] /opt/R/4.2.3/lib/R/library
 
 ──────────────────────────────────────────────────────────────────────────────
 
