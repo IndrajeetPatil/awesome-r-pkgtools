@@ -53,6 +53,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{rcompendium}`](https://frbcesab.github.io/rcompendium/) (to make the creation of R package/research compendium easier)
 
+- [`{r.pkg.template}`](https://github.com/insightsengineering/r.pkg.template/) (an opinionated R package template with CI/CD built-in)
+
 - [`{skeletor}`](https://github.com/nealrichardson/skeletor/) (An R Package Skeleton Generator)
 
 ## RMarkdown-based
@@ -436,7 +438,7 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage GitHub Actions workflows across repositories)
 
-- [`rworkflows`](https://github.com/neurogenomics/rworkflows/) (GitHub Actions to automates testing, documentation website building, and containerised deployment.)
+- [`rworkflows`](https://github.com/neurogenomics/rworkflows/) (GitHub Actions to automates testing, documentation website building, and containerised deployment)
 
 - [`AzureR`](https://github.com/Azure/AzureR/) (a family of packages for working with [Azure](https://azure.microsoft.com/en-gb/) from R)
 
