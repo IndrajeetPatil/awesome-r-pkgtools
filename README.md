@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-03-16"
+date-modified: "2023-03-17"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -145,6 +145,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{knitr}`](https://yihui.org/knitr) (a general-purpose tool for dynamic report generation to be used as a vignette builder for R package vignettes)
 
 - [`{rmarkdown}`](https://CRAN.R-project.org/package=rmarkdown) (to convert R Markdown documents to a variety of formats)
+
+- [`{RmdConcord}`](https://dmurdoch.github.io/RmdConcord/) (to provide support for concordances in R Markdown files)
 
 - [`{quarto}`](https://quarto-dev.github.io/quarto-r/) (provides R interface to frequently used operations in the Quarto CLI)
 
@@ -586,6 +588,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix function with their namespace )
 
+- [`{options}`](https://dgkf.github.io/options/) (provides simple mechanisms for defining and interpreting package options)
+
 - [`{rstudioapi}`](https://rstudio.github.io/rstudioapi/) (to conditionally access the RStudio API from CRAN packages)
 
 - [`{rcheology}`](https://hughjonesd.shinyapps.io/rcheology/) (to access data on base packages for previous versions of R)
@@ -608,7 +612,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.272'
+[1] '1.3.275'
 
 ```
 
@@ -632,7 +636,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-03-16
+ date     2023-03-17
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
