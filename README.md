@@ -639,7 +639,7 @@ To thank the contributors or maintainers of packages you rely on.
  ctype    C.UTF-8
  tz       UTC
  date     2023-03-25
- pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
+ pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
