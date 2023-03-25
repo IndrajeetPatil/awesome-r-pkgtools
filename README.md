@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-03-19"
+date-modified: "2023-03-25"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -403,6 +403,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{DependencyReviewer}`]( https://CRAN.R-project.org/package=DependencyReviewer) (to investigate packages during code review by looking at their dependencies)
 
+- [`{deps}`](https://hub.analythium.io/deps/) (to manage source code dependencies by decorating R code with roxygen-style comments)
+
 - [`{pkgnet}`](https://uptake.github.io/pkgnet/) (to build a graph representation of a package and its dependencies)
 
 - [`{functiondepends}`](https://cran.r-project.org/package=functiondepends) (to find functions in an unstructured directory and explore their dependencies)
@@ -612,7 +614,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.276'
+[1] '1.3.287'
 
 ```
 
@@ -636,19 +638,19 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-03-19
+ date     2023-03-25
  pandoc   2.19.2 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
- cli           3.6.0      2023-01-09 [1] RSPM
+ cli           3.6.1      2023-03-23 [1] RSPM
  clipr         0.8.0      2022-02-22 [1] RSPM
  desc          1.4.2      2022-09-08 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
  digest        0.6.31     2022-12-11 [1] RSPM
  evaluate      0.20       2023-01-17 [1] RSPM
  fastmap       1.1.1      2023-02-24 [1] RSPM
- htmltools     0.5.4      2022-12-07 [1] RSPM
+ htmltools     0.5.5      2023-03-23 [1] RSPM
  httr          1.4.5      2023-02-24 [1] RSPM
  jsonlite      1.8.4      2022-12-06 [1] RSPM
  knitr         1.42       2023-01-25 [1] RSPM
@@ -656,7 +658,7 @@ To thank the contributors or maintainers of packages you rely on.
  magrittr      2.0.3      2022-03-30 [1] RSPM
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.0      2022-10-26 [1] RSPM
- ps            1.7.2      2022-10-26 [1] RSPM
+ ps            1.7.3      2023-03-21 [1] RSPM
  quarto        1.2.0.9000 2023-03-16 [1] Github (quarto-dev/quarto-r@6175d76)
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.10     2023-01-22 [1] RSPM
