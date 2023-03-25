@@ -400,6 +400,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{DependencyReviewer}`]( https://CRAN.R-project.org/package=DependencyReviewer) (to investigate packages during code review by looking at their dependencies)
 
+- [`{deps}`](https://hub.analythium.io/deps/) (to manage source code dependencies by decorating R code with roxygen-style comments)
+
 - [`{pkgnet}`](https://uptake.github.io/pkgnet/) (to build a graph representation of a package and its dependencies)
 
 - [`{functiondepends}`](https://cran.r-project.org/package=functiondepends) (to find functions in an unstructured directory and explore their dependencies)
