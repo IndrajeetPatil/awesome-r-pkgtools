@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-04-02"
+date-modified: "2023-04-04"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -160,7 +160,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{gitdown}`](https://github.com/ThinkR-open/gitdown/) (software changes as a gitbook)
 
-- [`{altdoc}`](https://altdoc.etiennebacher.com) (use [`docute`](https://github.com/egoist/docute/), `docsify`, or [`MkDocs`](https://www.mkdocs.org/) to create a static website for package documentation)
+- [`{altdoc}`](https://altdoc.etiennebacher.com) (use `docute`, `docsify`, or `MkDocs` to create a static website for package documentation)
 
 ## Translation
 
@@ -433,7 +433,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cranlogs}`](https://r-hub.github.io/cranlogs/) (for computing CRAN download counts)
 
-- [`{packageRank}`](https://cran.r-project.org/package=packageRank) (for visualizing CRAN download counts)
+- [`{packageRank}`](https://gitlab.com/fvafrcu/packager/) (for visualizing CRAN download counts)
 
 - [`{dlstats}`](https://guangchuangyu.github.io/dlstats/) (provides download statistics for packages)
 
@@ -614,7 +614,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.302'
+[1] '1.3.306'
 
 ```
 
@@ -638,7 +638,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-04-02
+ date     2023-04-04
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -658,7 +658,7 @@ To thank the contributors or maintainers of packages you rely on.
  magrittr      2.0.3      2022-03-30 [1] RSPM
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.0      2022-10-26 [1] RSPM
- ps            1.7.3      2023-03-21 [1] RSPM
+ ps            1.7.4      2023-04-02 [1] RSPM
  quarto        1.2.0.9000 2023-03-16 [1] Github (quarto-dev/quarto-r@6175d76)
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.10     2023-01-22 [1] RSPM
