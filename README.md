@@ -160,7 +160,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{gitdown}`](https://github.com/ThinkR-open/gitdown/) (software changes as a gitbook)
 
-- [`{altdoc}`](https://altdoc.etiennebacher.com) (use `docute`, `docsify`, or `MkDocs` to create a static website for package documentation)
+- [`{altdoc}`](https://altdoc.etiennebacher.com/#/) (use `docute`, `docsify`, or `MkDocs` to create a static website for package documentation)
 
 ## Translation
 
