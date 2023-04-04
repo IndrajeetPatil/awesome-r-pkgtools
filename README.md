@@ -214,7 +214,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{tinytest}`](https://cran.r-project.org/package=tinytest) (zero-dependency unit testing framework that installs tests with the package)
 
-- [`{RUnit}`](https://cran.r-project.org/package=RUnit) (a standard Unit Testing framework, with additional code inspection and report generation tools)
+- [`{RUnit}`](https://cran.r-project.org/package=RUnit) (a standard unit testing framework, with additional code inspection and report generation tools)
 
 - [`{testit}`](https://CRAN.R-project.org/package=testit) (a simple package for testing R packages)
 
