@@ -630,50 +630,51 @@ To thank the contributors or maintainers of packages you rely on.
 
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
- version  R version 4.2.2 (2022-10-31)
- os       macOS Ventura 13.2.1
- system   aarch64, darwin20
+ version  R version 4.2.3 (2023-03-15)
+ os       Ubuntu 22.04.2 LTS
+ system   x86_64, linux-gnu
  ui       X11
  language (EN)
- collate  en_US.UTF-8
- ctype    en_US.UTF-8
- tz       Europe/Berlin
+ collate  C.UTF-8
+ ctype    C.UTF-8
+ tz       UTC
  date     2023-04-04
- pandoc   3.1.1 @ /Applications/RStudio.app/Contents/Resources/app/quarto/bin/tools/ (via rmarkdown)
+ pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
- cli           3.6.1      2023-03-23 [1] CRAN (R 4.2.2)
- clipr         0.8.0      2022-02-22 [1] CRAN (R 4.2.0)
- desc          1.4.2      2022-09-08 [1] CRAN (R 4.2.1)
- details     * 0.3.0      2022-03-27 [1] CRAN (R 4.2.0)
- digest        0.6.31     2022-12-11 [1] CRAN (R 4.2.2)
- evaluate      0.20       2023-01-17 [1] CRAN (R 4.2.0)
- fastmap       1.1.1      2023-02-24 [1] CRAN (R 4.2.0)
- htmltools     0.5.5      2023-03-23 [1] CRAN (R 4.2.2)
- htmlwidgets   1.6.2      2023-03-17 [1] CRAN (R 4.2.2)
- httr          1.4.5      2023-02-24 [1] CRAN (R 4.2.2)
- jsonlite      1.8.4      2022-12-06 [1] CRAN (R 4.2.2)
- knitr         1.42       2023-01-25 [1] CRAN (R 4.2.2)
- later         1.3.0      2021-08-18 [1] CRAN (R 4.2.0)
- magrittr      2.0.3      2022-03-30 [1] CRAN (R 4.2.0)
- png           0.1-8      2022-11-29 [1] CRAN (R 4.2.2)
- processx      3.8.0      2022-10-26 [1] CRAN (R 4.2.1)
- ps            1.7.4      2023-04-02 [1] CRAN (R 4.2.2)
- quarto        1.2        2022-07-06 [1] CRAN (R 4.2.0)
- R6            2.5.1.9000 2022-10-27 [1] local
- Rcpp          1.0.10     2023-01-22 [1] CRAN (R 4.2.0)
- rlang         1.1.0      2023-03-14 [1] CRAN (R 4.2.0)
- rmarkdown     2.21       2023-03-26 [1] CRAN (R 4.2.2)
- rprojroot     2.0.3      2022-04-02 [1] CRAN (R 4.2.0)
- rstudioapi    0.14       2022-08-22 [1] CRAN (R 4.2.1)
- sessioninfo   1.2.2      2021-12-06 [1] CRAN (R 4.2.0)
- withr         2.5.0      2022-03-03 [1] CRAN (R 4.2.0)
- xfun          0.38       2023-03-24 [1] CRAN (R 4.2.2)
- xml2          1.3.3      2021-11-30 [1] CRAN (R 4.2.0)
- yaml          2.3.7      2023-01-23 [1] CRAN (R 4.2.2)
+ cli           3.6.1      2023-03-23 [1] RSPM
+ clipr         0.8.0      2022-02-22 [1] RSPM
+ desc          1.4.2      2022-09-08 [1] RSPM
+ details     * 0.3.0      2022-03-27 [1] RSPM
+ digest        0.6.31     2022-12-11 [1] RSPM
+ evaluate      0.20       2023-01-17 [1] RSPM
+ fastmap       1.1.1      2023-02-24 [1] RSPM
+ htmltools     0.5.5      2023-03-23 [1] RSPM
+ httr          1.4.5      2023-02-24 [1] RSPM
+ jsonlite      1.8.4      2022-12-06 [1] RSPM
+ knitr         1.42       2023-01-25 [1] RSPM
+ later         1.3.0      2021-08-18 [1] RSPM
+ magrittr      2.0.3      2022-03-30 [1] RSPM
+ png           0.1-8      2022-11-29 [1] RSPM
+ processx      3.8.0      2022-10-26 [1] RSPM
+ ps            1.7.4      2023-04-02 [1] RSPM
+ quarto        1.2.0.9000 2023-03-16 [1] Github (quarto-dev/quarto-r@6175d76)
+ R6            2.5.1      2021-08-19 [1] RSPM
+ Rcpp          1.0.10     2023-01-22 [1] RSPM
+ rlang         1.1.0      2023-03-14 [1] RSPM
+ rmarkdown     2.21       2023-03-26 [1] RSPM
+ rprojroot     2.0.3      2022-04-02 [1] RSPM
+ rstudioapi    0.14       2022-08-22 [1] RSPM
+ sessioninfo   1.2.2      2021-12-06 [1] any (@1.2.2)
+ withr         2.5.0      2022-03-03 [1] RSPM
+ xfun          0.38       2023-03-24 [1] RSPM
+ xml2          1.3.3      2021-11-30 [1] RSPM
+ yaml          2.3.7      2023-01-23 [1] RSPM
 
- [1] /Library/Frameworks/R.framework/Versions/4.2-arm64/Resources/library
+ [1] /home/runner/work/_temp/Library
+ [2] /opt/R/4.2.3/lib/R/site-library
+ [3] /opt/R/4.2.3/lib/R/library
 
 ──────────────────────────────────────────────────────────────────────────────
 
