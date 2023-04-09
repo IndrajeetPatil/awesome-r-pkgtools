@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-04-04"
+date-modified: "2023-04-09"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -614,7 +614,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.3.306'
+[1] '1.3.313'
 
 ```
 
@@ -638,7 +638,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-04-04
+ date     2023-04-09
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
