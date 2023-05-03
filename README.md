@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-04-30"
+date-modified: "2023-05-03"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -47,6 +47,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{packager}`](https://cran.r-project.org/package=packager)
 
 - [`{pacs}`](https://polkas.github.io/pacs/)
+
+- [`{pkgmaker}`](https://renozao.github.io/pkgmaker/index.html)
 
 # Package templates 💀
 
@@ -616,7 +618,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.14'
+[1] '1.4.25'
 
 ```
 
@@ -640,7 +642,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-04-30
+ date     2023-05-03
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -664,7 +666,7 @@ To thank the contributors or maintainers of packages you rely on.
  quarto        1.2.0.9000 2023-04-30 [1] Github (quarto-dev/quarto-r@c30da82)
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.10     2023-01-22 [1] RSPM
- rlang         1.1.0      2023-03-14 [1] RSPM
+ rlang         1.1.1      2023-04-28 [1] RSPM
  rmarkdown     2.21       2023-03-26 [1] RSPM
  rprojroot     2.0.3      2022-04-02 [1] RSPM
  rstudioapi    0.14       2022-08-22 [1] RSPM
