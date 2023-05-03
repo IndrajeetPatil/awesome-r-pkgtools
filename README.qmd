@@ -45,6 +45,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pacs}`](https://polkas.github.io/pacs/)
 
+- [`{pkgmaker}`](https://renozao.github.io/pkgmaker/index.html)
+
 # Package templates 💀
 
 ## Generic
