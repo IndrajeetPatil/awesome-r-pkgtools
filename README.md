@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-05-03"
+date-modified: "2023-05-07"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -618,7 +618,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.25'
+[1] '1.4.37'
 
 ```
 
@@ -642,7 +642,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-05-03
+ date     2023-05-07
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -658,7 +658,7 @@ To thank the contributors or maintainers of packages you rely on.
  httr          1.4.5      2023-02-24 [1] RSPM
  jsonlite      1.8.4      2022-12-06 [1] RSPM
  knitr         1.42       2023-01-25 [1] RSPM
- later         1.3.0      2021-08-18 [1] RSPM
+ later         1.3.1      2023-05-02 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
  png           0.1-8      2022-11-29 [1] RSPM
  processx      3.8.1      2023-04-18 [1] RSPM
