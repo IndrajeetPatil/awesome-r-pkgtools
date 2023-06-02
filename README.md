@@ -326,7 +326,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 ## Code review
 
-- [`{PaRe}`](https://cran.r-project.org/web/packages/PaRe/index.html) (reviews other packages during code review by looking at their dependencies, code style, code complexity, and how internally defined functions interact with one another)
+- [`{PaRe}`](https://CRAN.R-project.org/package=PaRe) (reviews other packages during code review by looking at their dependencies, code style, code complexity, and how internally defined functions interact with one another)
 
 ## Code coverage 
 
