@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-05-28"
+date-modified: "2023-06-02"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -324,6 +324,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{precommit}`](https://lorenzwalthert.github.io/precommit/) (git hooks for common tasks like formatting files, spell checking, etc.)
 
+## Code review
+
+- [`{PaRe}`](https://cran.r-project.org/web/packages/PaRe/index.html) (reviews other packages during code review by looking at their dependencies, code style, code complexity, and how internally defined functions interact with one another)
+
 ## Code coverage 
 
 - [`{covr}`](https://covr.r-lib.org) (to compute code coverage)
@@ -618,7 +622,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.100'
+[1] '1.4.117'
 
 ```
 
@@ -642,7 +646,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-05-28
+ date     2023-06-02
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
