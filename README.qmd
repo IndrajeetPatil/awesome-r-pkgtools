@@ -337,6 +337,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
 
+- [`{checkglobals}`](https://jorischau.github.io/checkglobals/index.html) (to check R-packages for globals and imports)
+
 - [`{CodeDepends}`](https://github.com/duncantl/CodeDepends) (analysis of R code for reproducible research and code view)
 
 - [`{adaptalint}`](https://cran.r-project.org/package=adaptalint) (infer code style from one package and use it to check another)
