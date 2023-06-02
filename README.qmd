@@ -321,6 +321,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{precommit}`](https://lorenzwalthert.github.io/precommit/) (git hooks for common tasks like formatting files, spell checking, etc.)
 
+## Code review
+
+- [`{PaRe}`](https://cran.r-project.org/web/packages/PaRe/index.html) (reviews other packages during code review by looking at their dependencies, code style, code complexity, and how internally defined functions interact with one another)
+
 ## Code coverage 
 
 - [`{covr}`](https://covr.r-lib.org) (to compute code coverage)
