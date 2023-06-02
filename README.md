@@ -340,6 +340,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
 
+- [`{checkglobals}`](https://jorischau.github.io/checkglobals/index.html) (to check R-packages for globals and imports)
+
 - [`{CodeDepends}`](https://github.com/duncantl/CodeDepends) (analysis of R code for reproducible research and code view)
 
 - [`{adaptalint}`](https://cran.r-project.org/package=adaptalint) (infer code style from one package and use it to check another)
@@ -671,7 +673,7 @@ To thank the contributors or maintainers of packages you rely on.
  R6            2.5.1      2021-08-19 [1] RSPM
  Rcpp          1.0.10     2023-01-22 [1] RSPM
  rlang         1.1.1      2023-04-28 [1] RSPM
- rmarkdown     2.21       2023-03-26 [1] RSPM
+ rmarkdown     2.22       2023-06-01 [1] RSPM
  rprojroot     2.0.3      2022-04-02 [1] RSPM
  rstudioapi    0.14       2022-08-22 [1] RSPM
  sessioninfo   1.2.2      2021-12-06 [1] any (@1.2.2)
