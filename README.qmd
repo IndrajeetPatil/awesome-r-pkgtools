@@ -215,6 +215,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{tinysnapshot}`](https://github.com/vincentarelbundock/tinysnapshot) (snapshots for unit tests using the [`{tinytest}`](https://cran.r-project.org/package=tinytest) framework)
 
+- [`{tinytest2JUnit}`](https://CRAN.R-project.org/package=tinytest2JUnit) (to convert [`{tinytest}`](https://cran.r-project.org/package=tinytest) output to JUnit XML needed by CI/CD)
+
 - [`{RUnit}`](https://cran.r-project.org/package=RUnit) (a standard unit testing framework, with additional code inspection and report generation tools)
 
 - [`{testit}`](https://CRAN.R-project.org/package=testit) (a simple package for testing R packages)
