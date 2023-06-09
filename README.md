@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-06-04"
+date-modified: "2023-06-09"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -217,6 +217,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{tinytest}`](https://cran.r-project.org/package=tinytest) (zero-dependency unit testing framework that installs tests with the package)
 
 - [`{tinysnapshot}`](https://github.com/vincentarelbundock/tinysnapshot) (snapshots for unit tests using the [`{tinytest}`](https://cran.r-project.org/package=tinytest) framework)
+
+- [`{tinytest2JUnit}`](https://CRAN.R-project.org/package=tinytest2JUnit) (to convert [`{tinytest}`](https://cran.r-project.org/package=tinytest) output to JUnit XML needed by CI/CD)
 
 - [`{RUnit}`](https://cran.r-project.org/package=RUnit) (a standard unit testing framework, with additional code inspection and report generation tools)
 
@@ -624,7 +626,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.122'
+[1] '1.4.130'
 
 ```
 
@@ -648,7 +650,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-06-04
+ date     2023-06-09
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -662,7 +664,7 @@ To thank the contributors or maintainers of packages you rely on.
  fastmap       1.1.1      2023-02-24 [1] RSPM
  htmltools     0.5.5      2023-03-23 [1] RSPM
  httr          1.4.6      2023-05-08 [1] RSPM
- jsonlite      1.8.4      2022-12-06 [1] RSPM
+ jsonlite      1.8.5      2023-06-05 [1] RSPM
  knitr         1.43       2023-05-25 [1] RSPM
  later         1.3.1      2023-05-02 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
