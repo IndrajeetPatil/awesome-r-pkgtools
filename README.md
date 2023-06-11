@@ -368,6 +368,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{memtools}`](https://memtools.r-lib.org/) (to solve memory leaks)
 
+- [`{sanitizers}`](https://CRAN.R-project.org/package=sanitizers) (to test for memory violations and other undefined behaviour)
+
 - [`{cppcheckR}`](https://cran.r-project.org/package=cppcheckR) (to check `C` and `C++` code using [`Cppcheck`](https://cppcheck.sourceforge.io/))
 
 ## JavaScript code
