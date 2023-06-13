@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-06-11"
+date-modified: "2023-06-13"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -44,7 +44,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{biocthis}`](https://lcolladotor.github.io/biocthis/)
 
-- [`{packager}`](https://cran.r-project.org/package=packager)
+- [`{packager}`](https://gitlab.com/fvafrcu/packager)
 
 - [`{pacs}`](https://polkas.github.io/pacs/)
 
@@ -447,7 +447,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cranlogs}`](https://r-hub.github.io/cranlogs/) (for computing CRAN download counts)
 
-- [`{packageRank}`](https://gitlab.com/fvafrcu/packager/) (for visualizing CRAN download counts)
+- [`{packageRank}`](https://github.com/lindbrook/packageRank/) (for visualizing CRAN download counts)
 
 - [`{dlstats}`](https://guangchuangyu.github.io/dlstats/) (provides download statistics for packages)
 
@@ -628,7 +628,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.134'
+[1] '1.4.146'
 
 ```
 
@@ -652,7 +652,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-06-11
+ date     2023-06-13
  pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
