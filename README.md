@@ -645,49 +645,50 @@ To thank the contributors or maintainers of packages you rely on.
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.3.0 (2023-04-21)
- os       macOS Ventura 13.4
- system   aarch64, darwin20
+ os       Ubuntu 22.04.2 LTS
+ system   x86_64, linux-gnu
  ui       X11
  language (EN)
- collate  en_US.UTF-8
- ctype    en_US.UTF-8
- tz       Europe/Berlin
+ collate  C.UTF-8
+ ctype    C.UTF-8
+ tz       UTC
  date     2023-06-14
- pandoc   3.1.3 @ /usr/local/bin/ (via rmarkdown)
+ pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
- package     * version date (UTC) lib source
- cli           3.6.1   2023-03-23 [1] CRAN (R 4.3.0)
- clipr         0.8.0   2022-02-22 [1] CRAN (R 4.3.0)
- desc          1.4.2   2022-09-08 [1] CRAN (R 4.3.0)
- details     * 0.3.0   2022-03-27 [1] CRAN (R 4.3.0)
- digest        0.6.31  2022-12-11 [1] CRAN (R 4.3.0)
- evaluate      0.21    2023-05-05 [1] CRAN (R 4.3.0)
- fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.3.0)
- htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.3.0)
- htmlwidgets   1.6.2   2023-03-17 [1] CRAN (R 4.3.0)
- httr          1.4.6   2023-05-08 [1] CRAN (R 4.3.0)
- jsonlite      1.8.5   2023-06-05 [1] CRAN (R 4.3.0)
- knitr         1.43    2023-05-25 [1] CRAN (R 4.3.0)
- later         1.3.1   2023-05-02 [1] CRAN (R 4.3.0)
- magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.3.0)
- png           0.1-8   2022-11-29 [1] CRAN (R 4.3.0)
- processx      3.8.1   2023-04-18 [1] CRAN (R 4.3.0)
- ps            1.7.5   2023-04-18 [1] CRAN (R 4.3.0)
- quarto        1.2     2022-07-06 [1] CRAN (R 4.3.0)
- R6            2.5.1   2021-08-19 [1] CRAN (R 4.3.0)
- Rcpp          1.0.10  2023-01-22 [1] CRAN (R 4.3.0)
- rlang         1.1.1   2023-04-28 [1] CRAN (R 4.3.0)
- rmarkdown     2.22    2023-06-01 [1] CRAN (R 4.3.0)
- rprojroot     2.0.3   2022-04-02 [1] CRAN (R 4.3.0)
- rstudioapi    0.14    2022-08-22 [1] CRAN (R 4.3.0)
- sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.3.0)
- withr         2.5.0   2022-03-03 [1] CRAN (R 4.3.0)
- xfun          0.39    2023-04-20 [1] CRAN (R 4.3.0)
- xml2          1.3.4   2023-04-27 [1] CRAN (R 4.3.0)
- yaml          2.3.7   2023-01-23 [1] CRAN (R 4.3.0)
+ package     * version    date (UTC) lib source
+ cli           3.6.1      2023-03-23 [1] RSPM
+ clipr         0.8.0      2022-02-22 [1] RSPM
+ desc          1.4.2      2022-09-08 [1] RSPM
+ details     * 0.3.0      2022-03-27 [1] RSPM
+ digest        0.6.31     2022-12-11 [1] RSPM
+ evaluate      0.21       2023-05-05 [1] RSPM
+ fastmap       1.1.1      2023-02-24 [1] RSPM
+ htmltools     0.5.5      2023-03-23 [1] RSPM
+ httr          1.4.6      2023-05-08 [1] RSPM
+ jsonlite      1.8.5      2023-06-05 [1] RSPM
+ knitr         1.43       2023-05-25 [1] RSPM
+ later         1.3.1      2023-05-02 [1] RSPM
+ magrittr      2.0.3      2022-03-30 [1] RSPM
+ png           0.1-8      2022-11-29 [1] RSPM
+ processx      3.8.1      2023-04-18 [1] RSPM
+ ps            1.7.5      2023-04-18 [1] RSPM
+ quarto        1.2.0.9000 2023-05-21 [1] Github (quarto-dev/quarto-r@a4b4f93)
+ R6            2.5.1      2021-08-19 [1] RSPM
+ Rcpp          1.0.10     2023-01-22 [1] RSPM
+ rlang         1.1.1      2023-04-28 [1] RSPM
+ rmarkdown     2.22       2023-06-01 [1] RSPM
+ rprojroot     2.0.3      2022-04-02 [1] RSPM
+ rstudioapi    0.14       2022-08-22 [1] RSPM
+ sessioninfo   1.2.2      2021-12-06 [1] any (@1.2.2)
+ withr         2.5.0      2022-03-03 [1] RSPM
+ xfun          0.39       2023-04-20 [1] RSPM
+ xml2          1.3.4      2023-04-27 [1] RSPM
+ yaml          2.3.7      2023-01-23 [1] RSPM
 
- [1] /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/library
+ [1] /home/runner/work/_temp/Library
+ [2] /opt/R/4.3.0/lib/R/site-library
+ [3] /opt/R/4.3.0/lib/R/library
 
 ──────────────────────────────────────────────────────────────────────────────
 
