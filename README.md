@@ -653,7 +653,7 @@ To thank the contributors or maintainers of packages you rely on.
  ctype    C.UTF-8
  tz       UTC
  date     2023-06-14
- pandoc   3.1.1 @ /usr/bin/ (via rmarkdown)
+ pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
