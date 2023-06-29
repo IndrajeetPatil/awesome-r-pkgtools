@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.169">
+<meta name="generator" content="quarto-1.4.176">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -110,7 +110,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#documentation-quality" id="toc-documentation-quality" class="nav-link" data-scroll-target="#documentation-quality">Documentation quality ✒️</a></li>
   <li><a href="#unit-testing" id="toc-unit-testing" class="nav-link" data-scroll-target="#unit-testing">Unit testing 🧪</a>
   <ul class="collapse">
-  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
+  <li><a href="#generic-r-packages" id="toc-generic-r-packages" class="nav-link" data-scroll-target="#generic-r-packages">Generic R Packages</a></li>
   <li><a href="#markdown-documents" id="toc-markdown-documents" class="nav-link" data-scroll-target="#markdown-documents">Markdown documents</a></li>
   <li><a href="#shiny-applications" id="toc-shiny-applications" class="nav-link" data-scroll-target="#shiny-applications">Shiny applications</a></li>
   <li><a href="#webdatabase-applications" id="toc-webdatabase-applications" class="nav-link" data-scroll-target="#webdatabase-applications">Web/database applications</a></li>
@@ -121,7 +121,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#codedocument-formatting" id="toc-codedocument-formatting" class="nav-link" data-scroll-target="#codedocument-formatting">Code/Document Formatting 🧽</a></li>
   <li><a href="#code-analysis" id="toc-code-analysis" class="nav-link" data-scroll-target="#code-analysis">Code analysis 🗂⏱</a>
   <ul class="collapse">
-  <li><a href="#general-1" id="toc-general-1" class="nav-link" data-scroll-target="#general-1">General</a></li>
+  <li><a href="#general" id="toc-general" class="nav-link" data-scroll-target="#general">General</a></li>
   <li><a href="#code-review" id="toc-code-review" class="nav-link" data-scroll-target="#code-review">Code review</a></li>
   <li><a href="#code-coverage" id="toc-code-coverage" class="nav-link" data-scroll-target="#code-coverage">Code coverage</a></li>
   <li><a href="#lint-detection" id="toc-lint-detection" class="nav-link" data-scroll-target="#lint-detection">Lint detection</a></li>
@@ -188,7 +188,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">June 25, 2023</p>
+      <p class="date-modified">June 29, 2023</p>
     </div>
   </div>
     
@@ -395,8 +395,8 @@ What is included?
 </section>
 <section id="unit-testing" class="level1">
 <h1>Unit testing 🧪</h1>
-<section id="general" class="level2">
-<h2 class="anchored" data-anchor-id="general">General</h2>
+<section id="generic-r-packages" class="level2">
+<h2 class="anchored" data-anchor-id="generic-r-packages">Generic R Packages</h2>
 <ul>
 <li><p><a href="https://testthat.r-lib.org"><code>{testthat}</code></a> (a testing framework for R that is easy to learn and use; also provides snapshot testing)</p></li>
 <li><p><a href="https://cran.r-project.org/package=patrick"><code>{patrick}</code></a> (for parameterized unit testing with <code>{testthat}</code>)</p></li>
@@ -479,8 +479,8 @@ What is included?
 </section>
 <section id="code-analysis" class="level1">
 <h1>Code analysis 🗂⏱</h1>
-<section id="general-1" class="level2">
-<h2 class="anchored" data-anchor-id="general-1">General</h2>
+<section id="general" class="level2">
+<h2 class="anchored" data-anchor-id="general">General</h2>
 <ul>
 <li><p><a href="https://cran.r-project.org/package=codetools"><code>{codetools}</code></a> (code analysis tools for R)</p></li>
 <li><p><a href="http://mangothecat.github.io/goodpractice/"><code>{goodpractice}</code></a> (Swiss army knife for good practices)</p></li>
@@ -677,6 +677,7 @@ What is included?
 <li><p><a href="https://docs.ropensci.org/cffr/"><code>{cffr}</code></a> (provides utilities to generate, parse, modify and validate <code>CITATION.cff</code> files automatically for R packages)</p></li>
 <li><p><a href="https://github.com/pik-piam/citation"><code>{citation}</code></a> (creates <code>CITATION.cff</code> from R package metadata)</p></li>
 <li><p><a href="https://github.com/r-lib/pkgapi/"><code>{pkgapi}</code></a> (to create the map of function calls in a package)</p></li>
+<li><p><a href="https://pharmar.github.io/riskmetric/"><code>{riskmetric}</code></a> (provides a collection of risk metrics to evaluate the quality of R packages)</p></li>
 <li><p><a href="https://github.com/sfirke/packagemetrics/"><code>{packagemetrics}</code></a> (for comparing among packages)</p></li>
 <li><p><a href="https://martinctc.github.io/devtoolbox/"><code>{devtoolbox}</code></a> (to create a summary report for R package and to extract dependency statistics in a tidy data frame)</p></li>
 <li><p><a href="https://rich-iannone.github.io/pkgattrs/"><code>{pkgattrs}</code></a> (useful for getting information on the contents of any R package)</p></li>
@@ -781,7 +782,7 @@ What is included?
 <span title="Click to Open"> Quarto version </span>
 </summary>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">'1.4.169'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">'1.4.176'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <p><br></p>
 </div>
@@ -801,7 +802,7 @@ What is included?
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a> collate  C.UTF<span class="dv">-8</span></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a> ctype    C.UTF<span class="dv">-8</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a> tz       UTC</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2023-06-25</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2023-06-29</span></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a> pandoc   <span class="dv">3</span>.<span class="fl">1.3</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>bin<span class="sc">/</span> (via rmarkdown)</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>─ Packages ───────────────────────────────────────────────────────────────────</span>
@@ -810,7 +811,7 @@ What is included?
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a> clipr         <span class="dv">0</span>.<span class="fl">8.0</span>      <span class="dv">2022-02-22</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a> desc          <span class="dv">1</span>.<span class="fl">4.2</span>      <span class="dv">2022-09-08</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a> details     <span class="sc">*</span> <span class="dv">0</span>.<span class="fl">3.0</span>      <span class="dv">2022-03-27</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a> digest        <span class="dv">0</span>.<span class="fl">6.31</span>     <span class="dv">2022-12-11</span> [<span class="dv">1</span>] RSPM</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a> digest        <span class="dv">0</span>.<span class="fl">6.32</span>     <span class="dv">2023-06-26</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a> evaluate      <span class="fl">0.21</span>       <span class="dv">2023-05-05</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a> fastmap       <span class="dv">1</span>.<span class="fl">1.1</span>      <span class="dv">2023-02-24</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a> htmltools     <span class="dv">0</span>.<span class="fl">5.5</span>      <span class="dv">2023-03-23</span> [<span class="dv">1</span>] RSPM</span>

@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-06-25"
+date-modified: "2023-06-29"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -208,7 +208,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 # Unit testing 🧪
 
-## General
+## Generic R Packages
 
 - [`{testthat}`](https://testthat.r-lib.org) (a testing framework for R that is easy to learn and use; also provides snapshot testing)
 
@@ -527,6 +527,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{pkgapi}`](https://github.com/r-lib/pkgapi/) (to create the map of function calls in a package)
 
+- [`{riskmetric}`](https://pharmar.github.io/riskmetric/) (provides a collection of risk metrics to evaluate the quality of R packages)
+
 - [`{packagemetrics}`](https://github.com/sfirke/packagemetrics/) (for comparing among packages)
 
 - [`{devtoolbox}`](https://martinctc.github.io/devtoolbox/) (to create a summary report for R package and to extract dependency statistics in a tidy data frame)
@@ -628,7 +630,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.169'
+[1] '1.4.176'
 
 ```
 
@@ -652,7 +654,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-06-25
+ date     2023-06-29
  pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -661,7 +663,7 @@ To thank the contributors or maintainers of packages you rely on.
  clipr         0.8.0      2022-02-22 [1] RSPM
  desc          1.4.2      2022-09-08 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
- digest        0.6.31     2022-12-11 [1] RSPM
+ digest        0.6.32     2023-06-26 [1] RSPM
  evaluate      0.21       2023-05-05 [1] RSPM
  fastmap       1.1.1      2023-02-24 [1] RSPM
  htmltools     0.5.5      2023-03-23 [1] RSPM
