@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-07-19"
+date-modified: "2023-07-21"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -117,6 +117,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{roxygen2}`](https://roxygen2.r-lib.org) (to generate R package documentation from inline R comments)
 
 - [`{Rd2roxygen}`](https://cran.r-project.org/package=Rd2roxygen) (in case you inherit a project where documentation was not written using `{roxygen2}`)
+
+- [`{roxyglobals}`](https://github.com/anthonynorth/roxyglobals) (to generate global variables with `{roxygen2}` documentation)
 
 - [`{sinew}`](https://yonicd.github.io/sinew/) (generate `{roxygen2}` skeletons)
 
@@ -632,7 +634,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.236'
+[1] '1.4.245'
 
 ```
 
@@ -656,7 +658,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-07-19
+ date     2023-07-21
  pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
