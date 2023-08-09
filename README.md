@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-08-06"
+date-modified: "2023-08-09"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -342,9 +342,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{covtracer}`](https://github.com/Genentech/covtracer/) (provides tools for contextualizing tests)
 
-## Lint detection
+## Code quality
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
+
+- [`{roxylint}`](https://openpharma.github.io/roxylint/index.html) (to lint `{roxygen2}`-generated documentation)
 
 - [`{checkglobals}`](https://jorischau.github.io/checkglobals/index.html) (to check R-packages for globals and imports)
 
@@ -634,7 +636,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.294'
+[1] '1.4.309'
 
 ```
 
@@ -658,7 +660,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-08-06
+ date     2023-08-09
  pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
