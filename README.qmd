@@ -339,9 +339,11 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{covtracer}`](https://github.com/Genentech/covtracer/) (provides tools for contextualizing tests)
 
-## Lint detection
+## Code quality
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
+
+- [`{roxylint}`](https://openpharma.github.io/roxylint/index.html) (to lint `{roxygen2}`-generated documentation)
 
 - [`{checkglobals}`](https://jorischau.github.io/checkglobals/index.html) (to check R-packages for globals and imports)
 
