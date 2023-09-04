@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-09-03"
+date-modified: "2023-09-04"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -217,6 +217,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 - [`{testthat}`](https://testthat.r-lib.org) (a testing framework for R that is easy to learn and use; also provides snapshot testing)
 
 - [`{patrick}`](https://cran.r-project.org/package=patrick) (for parameterized unit testing with `{testthat}`)
+
+- [`{testdat}`](https://socialresearchcentre.github.io/testdat/) (a family of functions and reporting tools focused on checking of data)
 
 - [`{tinytest}`](https://cran.r-project.org/package=tinytest) (zero-dependency unit testing framework that installs tests with the package)
 
@@ -660,7 +662,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-09-03
+ date     2023-09-04
  pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
