@@ -610,7 +610,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 # Sundry 🗒
 
-- [`{gpttools}`](https://github.com/JamesHWade/gpttools/) (RStudio addin that allows using [chatGPT](https://chat.openai.com/) to automate writing documentation, tests, etc.)
+- [`{gpttools}`](https://github.com/JamesHWade/gpttools/) (RStudio addin that allows using [chatGPT](https://openai.com/blog/chatgpt/) to automate writing documentation, tests, etc.)
 
 - [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix function with their namespace )
 
