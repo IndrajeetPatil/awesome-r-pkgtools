@@ -215,6 +215,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{patrick}`](https://cran.r-project.org/package=patrick) (for parameterized unit testing with `{testthat}`)
 
+- [`{testdat}`](https://socialresearchcentre.github.io/testdat/) (a family of functions and reporting tools focused on checking of data)
+
 - [`{tinytest}`](https://cran.r-project.org/package=tinytest) (zero-dependency unit testing framework that installs tests with the package)
 
 - [`{tinysnapshot}`](https://github.com/vincentarelbundock/tinysnapshot) (snapshots for unit tests using the [`{tinytest}`](https://cran.r-project.org/package=tinytest) framework)
