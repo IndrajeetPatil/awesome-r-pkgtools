@@ -616,6 +616,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{options}`](https://dgkf.github.io/options/) (provides simple mechanisms for defining and interpreting package options)
 
+- [`{onetime}`](https://hughjonesd.github.io/onetime/) (for package authors to run code only once for a given user on a given computer)
+
 - [`{rstudioapi}`](https://rstudio.github.io/rstudioapi/) (to conditionally access the RStudio API from CRAN packages)
 
 - [`{rcheology}`](https://hughjonesd.shinyapps.io/rcheology/) (to access data on base packages for previous versions of R)
