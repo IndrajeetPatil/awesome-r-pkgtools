@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-09-04"
+date-modified: "2023-09-06"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -423,7 +423,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{DependenciesGraphs}`](https://github.com/datastorm-open/DependenciesGraphs/) (to visualize package dependencies)
 
-- [`{DependencyReviewer}`]( https://CRAN.R-project.org/package=DependencyReviewer) (to investigate packages during code review by looking at their dependencies)
+- [`{DependencyReviewer}`](https://github.com/darwin-eu-dev/DependencyReviewer/) (to investigate packages during code review by looking at their dependencies)
 
 - [`{deps}`](https://hub.analythium.io/deps/) (to manage source code dependencies by decorating R code with roxygen-style comments)
 
@@ -640,7 +640,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.339'
+[1] '1.4.346'
 
 ```
 
@@ -664,7 +664,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-09-04
+ date     2023-09-06
  pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
