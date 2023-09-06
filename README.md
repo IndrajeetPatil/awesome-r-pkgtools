@@ -423,8 +423,6 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{DependenciesGraphs}`](https://github.com/datastorm-open/DependenciesGraphs/) (to visualize package dependencies)
 
-- [`{DependencyReviewer}`]( https://CRAN.R-project.org/package=DependencyReviewer) (to investigate packages during code review by looking at their dependencies)
-
 - [`{deps}`](https://hub.analythium.io/deps/) (to manage source code dependencies by decorating R code with roxygen-style comments)
 
 - [`{pkgnet}`](https://uptake.github.io/pkgnet/) (to build a graph representation of a package and its dependencies)
