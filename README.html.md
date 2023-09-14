@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-09-10"
+date-modified: "2023-09-14"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -150,11 +150,15 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{rmarkdown}`](https://CRAN.R-project.org/package=rmarkdown) (to convert R Markdown documents to a variety of formats)
 
-- [`{RmdConcord}`](https://dmurdoch.github.io/RmdConcord/) (to provide support for concordances in R Markdown files)
-
 - [`{quarto}`](https://quarto-dev.github.io/quarto-r/) (provides R interface to frequently used operations in the Quarto CLI)
 
+- [`{R.rsp}`](https://CRAN.R-project.org/package=R.rsp) (for incorporating static and dynamic vignettes)
+
+- [`{RmdConcord}`](https://dmurdoch.github.io/RmdConcord/) (to provide support for concordances in R Markdown files)
+
 - [`{prettydoc}`](https://CRAN.R-project.org/package=prettydoc) (creates lightweight yet pretty vignettes)
+
+## Tutorials
 
 - [`{learnr}`](https://rstudio.github.io/learnr/) (to turn any R Markdown document into an interactive tutorial)
 
@@ -664,7 +668,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-09-10
+ date     2023-09-14
  pandoc   3.1.3 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -679,7 +683,7 @@ To thank the contributors or maintainers of packages you rely on.
  htmltools     0.5.6      2023-08-10 [1] RSPM
  httr          1.4.7      2023-08-15 [1] RSPM
  jsonlite      1.8.7      2023-06-29 [1] RSPM
- knitr         1.43       2023-05-25 [1] RSPM
+ knitr         1.44       2023-09-11 [1] RSPM
  later         1.3.1      2023-05-02 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
  png           0.1-8      2022-11-29 [1] RSPM
