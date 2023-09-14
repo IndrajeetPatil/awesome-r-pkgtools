@@ -147,11 +147,15 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{rmarkdown}`](https://CRAN.R-project.org/package=rmarkdown) (to convert R Markdown documents to a variety of formats)
 
-- [`{RmdConcord}`](https://dmurdoch.github.io/RmdConcord/) (to provide support for concordances in R Markdown files)
-
 - [`{quarto}`](https://quarto-dev.github.io/quarto-r/) (provides R interface to frequently used operations in the Quarto CLI)
 
+- [`{R.rsp}`](https://CRAN.R-project.org/package=R.rsp) (for incorporating static and dynamic vignettes)
+
+- [`{RmdConcord}`](https://dmurdoch.github.io/RmdConcord/) (to provide support for concordances in R Markdown files)
+
 - [`{prettydoc}`](https://CRAN.R-project.org/package=prettydoc) (creates lightweight yet pretty vignettes)
+
+## Tutorials
 
 - [`{learnr}`](https://rstudio.github.io/learnr/) (to turn any R Markdown document into an interactive tutorial)
 
