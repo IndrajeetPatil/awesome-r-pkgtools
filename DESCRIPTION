@@ -1,4 +1,5 @@
 Package: awesome-r-pkgtools
+Type: Document
 Title: A curated list of awesome tools for R package development
 Version: 1.0
 Authors@R: 
