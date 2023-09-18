@@ -448,6 +448,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{checkhelper}`](https://thinkr-open.github.io/checkhelper/) (to help avoid problems with CRAN submissions)
 
+- [`{extrachecks}`](https://github.com/JosiahParry/extrachecks/) (to run some additional CRAN checks)
+
 - [`{foghorn}`](https://cran.r-project.org/package=foghorn) (to check for results and submission portal status)
 
 - [`{urlchecker}`](https://github.com/r-lib/urlchecker/) (to checks for URL rot)
