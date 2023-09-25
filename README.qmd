@@ -414,6 +414,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{jointprof}`](https://r-prof.github.io/jointprof/) (to profile packages with native code in C, C++, Fortran, etc.)
 
+- [`{xrprof}`](https://github.com/atheriel/xrprof) (an external sampling profiler for R programs)
+
 # Dependency Management ⚖️
 
 - [`{pkgdepends}`](https://cran.r-project.org/package=pkgdepends) (to find recursive dependencies of from various sources)
