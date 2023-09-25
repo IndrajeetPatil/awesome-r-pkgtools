@@ -3,7 +3,7 @@ title: "Awesome R Package Development Tools"
 format: gfm
 toc: true
 keep-md: true
-date-modified: "2023-09-24"
+date-modified: "2023-09-25"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -417,6 +417,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{jointprof}`](https://r-prof.github.io/jointprof/) (to profile packages with native code in C, C++, Fortran, etc.)
 
+- [`{xrprof}`](https://github.com/atheriel/xrprof) (an external sampling profiler for R programs)
+
 # Dependency Management ⚖️
 
 - [`{pkgdepends}`](https://cran.r-project.org/package=pkgdepends) (to find recursive dependencies of from various sources)
@@ -646,7 +648,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ```r
 
-[1] '1.4.376'
+[1] '1.4.382'
 
 ```
 
@@ -670,7 +672,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-09-24
+ date     2023-09-25
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
