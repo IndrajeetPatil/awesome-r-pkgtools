@@ -2,7 +2,6 @@
 title: "Awesome R Package Development Tools"
 format: 
   html: default
-  gfm: default
   md: default
 toc: true
 keep-md: true

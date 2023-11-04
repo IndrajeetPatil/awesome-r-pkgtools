@@ -38,3 +38,6 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 .DS_Store
+README.commonmark.md
+README.gfm.md
+README.html.md
