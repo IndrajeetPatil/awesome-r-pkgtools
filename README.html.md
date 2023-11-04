@@ -1,9 +1,11 @@
 ---
 title: "Awesome R Package Development Tools"
-format: gfm
+format: 
+  html: default
+  gfm: default
 toc: true
 keep-md: true
-date-modified: "2023-11-03"
+date-modified: "2023-11-04"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
@@ -674,7 +676,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-11-03
+ date     2023-11-04
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -684,7 +686,7 @@ To thank the contributors or maintainers of packages you rely on.
  desc          1.4.2   2022-09-08 [1] RSPM
  details     * 0.3.0   2022-03-27 [1] RSPM
  digest        0.6.33  2023-07-07 [1] RSPM
- evaluate      0.22    2023-09-29 [1] RSPM
+ evaluate      0.23    2023-11-01 [1] RSPM
  fastmap       1.1.1   2023-02-24 [1] RSPM
  htmltools     0.5.6.1 2023-10-06 [1] RSPM
  httr          1.4.7   2023-08-15 [1] RSPM
@@ -704,7 +706,7 @@ To thank the contributors or maintainers of packages you rely on.
  rstudioapi    0.15.0  2023-07-07 [1] RSPM
  sessioninfo   1.2.2   2021-12-06 [1] any (@1.2.2)
  withr         2.5.2   2023-10-30 [1] RSPM
- xfun          0.40    2023-08-09 [1] RSPM
+ xfun          0.41    2023-11-01 [1] RSPM
  xml2          1.3.5   2023-07-06 [1] RSPM
  yaml          2.3.7   2023-01-23 [1] RSPM
 
