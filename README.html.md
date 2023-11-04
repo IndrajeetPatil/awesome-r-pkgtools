@@ -2,7 +2,6 @@
 title: "Awesome R Package Development Tools"
 format: 
   html: default
-  gfm: default
   md: default
 toc: true
 keep-md: true
@@ -10,7 +9,6 @@ date-modified: "2023-11-04"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "software engineering", "r"]
 ---
-
 
 
 
@@ -641,7 +639,6 @@ To thank the contributors or maintainers of packages you rely on.
 - [`{DIZutils}`](https://cran.r-project.org/package=DIZutils) (helpers for packages dealing with database connections)
 
 # Session information
-
 
 
 
