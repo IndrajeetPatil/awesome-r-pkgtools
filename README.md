@@ -985,7 +985,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.480'
+[1] '1.4.489'
 ```
 
 </details>
@@ -1009,7 +1009,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-11-05
+ date     2023-11-12
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1021,7 +1021,7 @@ To thank the contributors or maintainers of packages you rely on.
  digest        0.6.33  [90m2023-07-07[39m [90m[1][39m [1m[35mRSPM[39m[22m
  evaluate      0.23    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
  fastmap       1.1.1   [90m2023-02-24[39m [90m[1][39m [1m[35mRSPM[39m[22m
- htmltools     0.5.6.1 [90m2023-10-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ htmltools     0.5.7   [90m2023-11-03[39m [90m[1][39m [1m[35mRSPM[39m[22m
  httr          1.4.7   [90m2023-08-15[39m [90m[1][39m [1m[35mRSPM[39m[22m
  jsonlite      1.8.7   [90m2023-06-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
  knitr         1.45    [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
@@ -1033,9 +1033,9 @@ To thank the contributors or maintainers of packages you rely on.
  quarto        1.3.4   [90m2023-11-03[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@8173583)[39m[22m
  R6            2.5.1   [90m2021-08-19[39m [90m[1][39m [1m[35mRSPM[39m[22m
  Rcpp          1.0.11  [90m2023-07-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
- rlang         1.1.1   [90m2023-04-28[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ rlang         1.1.2   [90m2023-11-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rmarkdown     2.25    [90m2023-09-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
- rprojroot     2.0.3   [90m2022-04-02[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ rprojroot     2.0.4   [90m2023-11-05[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rstudioapi    0.15.0  [90m2023-07-07[39m [90m[1][39m [1m[35mRSPM[39m[22m
  sessioninfo   1.2.2   [90m2021-12-06[39m [90m[1][39m [1m[35many (@1.2.2)[39m[22m
  withr         2.5.2   [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
