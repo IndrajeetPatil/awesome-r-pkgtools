@@ -985,7 +985,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.489'
+[1] '1.4.506'
 ```
 
 </details>
@@ -1009,7 +1009,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-11-12
+ date     2023-11-19
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
