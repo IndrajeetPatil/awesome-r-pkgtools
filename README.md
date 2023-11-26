@@ -985,7 +985,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.506'
+[1] '1.4.510'
 ```
 
 </details>
@@ -1009,7 +1009,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-11-19
+ date     2023-11-26
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1030,7 +1030,7 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
  processx      3.8.2   [90m2023-06-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  ps            1.7.5   [90m2023-04-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
- quarto        1.3.4   [90m2023-11-03[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@8173583)[39m[22m
+ quarto        1.3.4   [90m2023-11-26[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@1c8dc29)[39m[22m
  R6            2.5.1   [90m2021-08-19[39m [90m[1][39m [1m[35mRSPM[39m[22m
  Rcpp          1.0.11  [90m2023-07-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rlang         1.1.2   [90m2023-11-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
