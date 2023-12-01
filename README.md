@@ -33,6 +33,7 @@ Indrajeet Patil
     -   [Web/database applications](#webdatabase-applications)
     -   [Visual regression testing](#visual-regression-testing)
     -   [Mock testing](#mock-testing)
+    -   [Mutation testing](#mutation-testing)
     -   [Helpers for testing
         frameworks](#helpers-for-testing-frameworks)
 -   [Code/Document Formatting 🧽](#codedocument-formatting)
@@ -466,6 +467,11 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{mockery}`](https://CRAN.R-project.org/package=mockery) (provides
     a way to mock package function for unit testing and can be used with
     any testing framework)
+
+## Mutation testing
+
+-   [`{mutant}`](https://github.com/sckott/mutant) (mutation testing for
+    R)
 
 ## Helpers for testing frameworks
 
@@ -985,7 +991,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.510'
+[1] '1.4.515'
 ```
 
 </details>
@@ -1009,7 +1015,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-11-26
+ date     2023-12-01
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
