@@ -283,6 +283,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{mockery}`](https://CRAN.R-project.org/package=mockery) (provides a way to mock package function for unit testing and can be used with any testing framework)
 
+## Mutation testing
+
+- [`{mutant}`](https://github.com/sckott/mutant) (mutation testing for R)
+
 ## Helpers for testing frameworks
 
 - [`{testthis}`](https://cran.r-project.org/package=testthis) (RStudio addins for working with files that contain tests)
