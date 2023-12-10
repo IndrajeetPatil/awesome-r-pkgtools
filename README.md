@@ -991,7 +991,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.515'
+[1] '1.4.523'
 ```
 
 </details>
@@ -1015,7 +1015,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-12-03
+ date     2023-12-10
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1029,9 +1029,9 @@ To thank the contributors or maintainers of packages you rely on.
  fastmap       1.1.1   [90m2023-02-24[39m [90m[1][39m [1m[35mRSPM[39m[22m
  htmltools     0.5.7   [90m2023-11-03[39m [90m[1][39m [1m[35mRSPM[39m[22m
  httr          1.4.7   [90m2023-08-15[39m [90m[1][39m [1m[35mRSPM[39m[22m
- jsonlite      1.8.7   [90m2023-06-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ jsonlite      1.8.8   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  knitr         1.45    [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
- later         1.3.1   [90m2023-05-02[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ later         1.3.2   [90m2023-12-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  magrittr      2.0.3   [90m2022-03-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
  processx      3.8.2   [90m2023-06-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
@@ -1046,7 +1046,7 @@ To thank the contributors or maintainers of packages you rely on.
  sessioninfo   1.2.2   [90m2021-12-06[39m [90m[1][39m [1m[35many (@1.2.2)[39m[22m
  withr         2.5.2   [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  xfun          0.41    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
- xml2          1.3.5   [90m2023-07-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ xml2          1.3.6   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  yaml          2.3.7   [90m2023-01-23[39m [90m[1][39m [1m[35mRSPM[39m[22m
 
 [90m [1] /home/runner/work/_temp/Library[39m
