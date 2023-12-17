@@ -991,7 +991,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.523'
+[1] '1.4.528'
 ```
 
 </details>
@@ -1015,14 +1015,14 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2023-12-10
+ date     2023-12-17
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
  [3m[90mpackage    [39m[23m [3m[90m*[39m[23m [3m[90mversion[39m[23m [3m[90mdate (UTC)[39m[23m [3m[90mlib[39m[23m [3m[90msource[39m[23m
- cli           3.6.1   [90m2023-03-23[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ cli           3.6.2   [90m2023-12-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
  clipr         0.8.0   [90m2022-02-22[39m [90m[1][39m [1m[35mRSPM[39m[22m
- desc          1.4.2   [90m2022-09-08[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ desc          1.4.3   [90m2023-12-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
  details     * 0.3.0   [90m2022-03-27[39m [90m[1][39m [1m[35mRSPM[39m[22m
  digest        0.6.33  [90m2023-07-07[39m [90m[1][39m [1m[35mRSPM[39m[22m
  evaluate      0.23    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
@@ -1034,20 +1034,19 @@ To thank the contributors or maintainers of packages you rely on.
  later         1.3.2   [90m2023-12-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  magrittr      2.0.3   [90m2022-03-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
- processx      3.8.2   [90m2023-06-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ processx      3.8.3   [90m2023-12-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
  ps            1.7.5   [90m2023-04-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
  quarto        1.3.4   [90m2023-11-26[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@1c8dc29)[39m[22m
  R6            2.5.1   [90m2021-08-19[39m [90m[1][39m [1m[35mRSPM[39m[22m
  Rcpp          1.0.11  [90m2023-07-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rlang         1.1.2   [90m2023-11-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rmarkdown     2.25    [90m2023-09-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
- rprojroot     2.0.4   [90m2023-11-05[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rstudioapi    0.15.0  [90m2023-07-07[39m [90m[1][39m [1m[35mRSPM[39m[22m
  sessioninfo   1.2.2   [90m2021-12-06[39m [90m[1][39m [1m[35many (@1.2.2)[39m[22m
  withr         2.5.2   [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  xfun          0.41    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
  xml2          1.3.6   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
- yaml          2.3.7   [90m2023-01-23[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ yaml          2.3.8   [90m2023-12-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
 
 [90m [1] /home/runner/work/_temp/Library[39m
 [90m [2] /opt/R/4.3.2/lib/R/site-library[39m
