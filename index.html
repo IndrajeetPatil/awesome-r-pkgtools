@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.542">
+<meta name="generator" content="quarto-1.4.543">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -190,7 +190,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 14, 2024</p>
+      <p class="date-modified">January 16, 2024</p>
     </div>
   </div>
     
@@ -795,6 +795,7 @@ What is included?
 <ul>
 <li><p><a href="https://github.com/JamesHWade/gpttools/"><code>{gpttools}</code></a> (RStudio addin that allows using <a href="https://en.wikipedia.org/wiki/ChatGPT">chatGPT</a> to automate writing documentation, tests, etc.)</p></li>
 <li><p><a href="https://CRAN.R-project.org/package=rfold"><code>{rfold}</code></a> (to work with many R folders within an R package)</p></li>
+<li><p><a href="https://github.com/the-y-company/many"><code>{many}</code></a> (to create R packages from many directories)</p></li>
 <li><p><a href="https://github.com/dreamRs/prefixer/"><code>{prefixer}</code></a> (prefix function with their namespace )</p></li>
 <li><p><a href="https://dgkf.github.io/options/"><code>{options}</code></a> (provides simple mechanisms for defining and interpreting package options)</p></li>
 <li><p><a href="https://hughjonesd.github.io/onetime/"><code>{onetime}</code></a> (for package authors to run code only once for a given user on a given computer)</p></li>
@@ -812,7 +813,7 @@ What is included?
 <span title="Click to Open"> Quarto version </span>
 </summary>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">'1.4.542'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>] <span class="st">'1.4.543'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <p><br></p>
 </div>
@@ -832,7 +833,7 @@ What is included?
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a> collate  C.UTF<span class="dv">-8</span></span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a> ctype    C.UTF<span class="dv">-8</span></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a> tz       UTC</span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-01-14</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-01-16</span></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a> pandoc   <span class="dv">3</span>.<span class="fl">1.8</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>bin<span class="sc">/</span> (via rmarkdown)</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>[<span class="dv">1</span>m[<span class="dv">36</span>m─ Packages ───────────────────────────────────────────────────────────────────[<span class="dv">39</span>m[<span class="dv">22</span>m</span>
@@ -1038,7 +1039,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

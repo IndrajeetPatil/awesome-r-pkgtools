@@ -961,6 +961,9 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{rfold}`](https://CRAN.R-project.org/package=rfold) (to work with
     many R folders within an R package)
 
+-   [`{many}`](https://github.com/the-y-company/many) (to create R
+    packages from many directories)
+
 -   [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix
     function with their namespace )
 
@@ -991,7 +994,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.4.542'
+[1] '1.4.543'
 ```
 
 </details>
@@ -1015,7 +1018,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-01-14
+ date     2024-01-16
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
