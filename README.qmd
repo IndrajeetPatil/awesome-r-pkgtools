@@ -625,6 +625,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{rfold}`](https://CRAN.R-project.org/package=rfold) (to work with many R folders within an R package)
 
+- [`{many}`](https://github.com/the-y-company/many) (to create R packages from many directories)
+
 - [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix function with their namespace )
 
 - [`{options}`](https://dgkf.github.io/options/) (provides simple mechanisms for defining and interpreting package options)
