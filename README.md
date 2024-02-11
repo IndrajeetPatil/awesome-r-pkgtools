@@ -994,7 +994,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.7'
+[1] '1.5.9'
 ```
 
 </details>
@@ -1018,7 +1018,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-02-04
+ date     2024-02-11
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1047,7 +1047,7 @@ To thank the contributors or maintainers of packages you rely on.
  rstudioapi    0.15.0  [90m2023-07-07[39m [90m[1][39m [1m[35mRSPM[39m[22m
  sessioninfo   1.2.2   [90m2021-12-06[39m [90m[1][39m [1m[35many (@1.2.2)[39m[22m
  withr         3.0.0   [90m2024-01-16[39m [90m[1][39m [1m[35mRSPM[39m[22m
- xfun          0.41    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ xfun          0.42    [90m2024-02-08[39m [90m[1][39m [1m[35mRSPM[39m[22m
  xml2          1.3.6   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  yaml          2.3.8   [90m2023-12-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
 
