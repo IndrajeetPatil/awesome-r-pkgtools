@@ -994,7 +994,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.14'
+[1] '1.5.21'
 ```
 
 </details>
@@ -1011,14 +1011,14 @@ To thank the contributors or maintainers of packages you rely on.
 [1m[36m─ Session info ───────────────────────────────────────────────────────────────[39m[22m
  [3m[90msetting [39m[23m [3m[90mvalue[39m[23m
  version  R version 4.3.2 (2023-10-31)
- os       Ubuntu 22.04.3 LTS
+ os       Ubuntu 22.04.4 LTS
  system   x86_64, linux-gnu
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-02-18
+ date     2024-02-25
  pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1039,7 +1039,7 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
  processx      3.8.3   [90m2023-12-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
  ps            1.7.6   [90m2024-01-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
- quarto        1.3.12  [90m2024-02-04[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@fc18963)[39m[22m
+ quarto        1.3.12  [90m2024-02-25[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@335622a)[39m[22m
  R6            2.5.1   [90m2021-08-19[39m [90m[1][39m [1m[35mRSPM[39m[22m
  Rcpp          1.0.12  [90m2024-01-09[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rlang         1.1.3   [90m2024-01-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
