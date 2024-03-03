@@ -994,7 +994,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.21'
+[1] '1.5.22'
 ```
 
 </details>
@@ -1010,7 +1010,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 [1m[36m─ Session info ───────────────────────────────────────────────────────────────[39m[22m
  [3m[90msetting [39m[23m [3m[90mvalue[39m[23m
- version  R version 4.3.2 (2023-10-31)
+ version  R version 4.3.3 (2024-02-29)
  os       Ubuntu 22.04.4 LTS
  system   x86_64, linux-gnu
  ui       X11
@@ -1018,8 +1018,8 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-02-25
- pandoc   3.1.8 @ /usr/bin/ (via rmarkdown)
+ date     2024-03-03
+ pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
  [3m[90mpackage    [39m[23m [3m[90m*[39m[23m [3m[90mversion[39m[23m [3m[90mdate (UTC)[39m[23m [3m[90mlib[39m[23m [3m[90msource[39m[23m
@@ -1039,7 +1039,7 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
  processx      3.8.3   [90m2023-12-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
  ps            1.7.6   [90m2024-01-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
- quarto        1.3.12  [90m2024-02-25[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@335622a)[39m[22m
+ quarto        1.3.12  [90m2024-03-03[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@335622a)[39m[22m
  R6            2.5.1   [90m2021-08-19[39m [90m[1][39m [1m[35mRSPM[39m[22m
  Rcpp          1.0.12  [90m2024-01-09[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rlang         1.1.3   [90m2024-01-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
@@ -1052,8 +1052,8 @@ To thank the contributors or maintainers of packages you rely on.
  yaml          2.3.8   [90m2023-12-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
 
 [90m [1] /home/runner/work/_temp/Library[39m
-[90m [2] /opt/R/4.3.2/lib/R/site-library[39m
-[90m [3] /opt/R/4.3.2/lib/R/library[39m
+[90m [2] /opt/R/4.3.3/lib/R/site-library[39m
+[90m [3] /opt/R/4.3.3/lib/R/library[39m
 
 [1m[36m──────────────────────────────────────────────────────────────────────────────[39m[22m
 ```
