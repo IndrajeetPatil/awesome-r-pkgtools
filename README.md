@@ -417,6 +417,10 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{autotest}`](https://docs.ropensci.org/autotest/) (automatic
     mutation testing of R packages)
 
+-   [`{cucumber}`](https://jakubsob.github.io/cucumber/) (an
+    implementation of the [Cucumber testing
+    framework](https://cucumber.io/) in R)
+
 ## Markdown documents
 
 -   [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown
@@ -1018,7 +1022,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-03-10
+ date     2024-03-14
  pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1027,7 +1031,7 @@ To thank the contributors or maintainers of packages you rely on.
  clipr         0.8.0   [90m2022-02-22[39m [90m[1][39m [1m[35mRSPM[39m[22m
  desc          1.4.3   [90m2023-12-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
  details     * 0.3.0   [90m2022-03-27[39m [90m[1][39m [1m[35mRSPM[39m[22m
- digest        0.6.34  [90m2024-01-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ digest        0.6.35  [90m2024-03-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
  evaluate      0.23    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
  fastmap       1.1.1   [90m2023-02-24[39m [90m[1][39m [1m[35mRSPM[39m[22m
  htmltools     0.5.7   [90m2023-11-03[39m [90m[1][39m [1m[35mRSPM[39m[22m
