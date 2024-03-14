@@ -247,6 +247,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{autotest}`](https://docs.ropensci.org/autotest/) (automatic mutation testing of R packages)
 
+- [`{cucumber}`](https://jakubsob.github.io/cucumber/) (an implementation of the [Cucumber testing framework](https://cucumber.io/) in R)
+
 ## Markdown documents
 
 - [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown documents across various version of [Pandoc](https://pandoc.org))
