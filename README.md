@@ -998,7 +998,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.25'
+[1] '1.5.26'
 ```
 
 </details>
@@ -1022,7 +1022,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-03-17
+ date     2024-03-24
  pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1041,7 +1041,7 @@ To thank the contributors or maintainers of packages you rely on.
  later         1.3.2   [90m2023-12-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  magrittr      2.0.3   [90m2022-03-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
- processx      3.8.3   [90m2023-12-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ processx      3.8.4   [90m2024-03-16[39m [90m[1][39m [1m[35mRSPM[39m[22m
  ps            1.7.6   [90m2024-01-18[39m [90m[1][39m [1m[35mRSPM[39m[22m
  quarto        1.4.1   [90m2024-03-10[39m [90m[1][39m [1m[35mGithub (quarto-dev/quarto-r@ba8485a)[39m[22m
  R6            2.5.1   [90m2021-08-19[39m [90m[1][39m [1m[35mRSPM[39m[22m
