@@ -957,6 +957,9 @@ To thank the contributors or maintainers of packages you rely on.
 
 # Sundry 🗒
 
+-   [`{pkglite}`](https://merck.github.io/pkglite/) (tools to represent
+    and exchange R package source code as text files)
+
 -   [`{gpttools}`](https://github.com/JamesHWade/gpttools/) (RStudio
     addin that allows using
     [chatGPT](https://en.wikipedia.org/wiki/ChatGPT) to automate writing
@@ -998,7 +1001,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.26'
+[1] '1.5.27'
 ```
 
 </details>
@@ -1022,7 +1025,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-03-24
+ date     2024-03-29
  pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1034,7 +1037,7 @@ To thank the contributors or maintainers of packages you rely on.
  digest        0.6.35  [90m2024-03-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
  evaluate      0.23    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
  fastmap       1.1.1   [90m2023-02-24[39m [90m[1][39m [1m[35mRSPM[39m[22m
- htmltools     0.5.7   [90m2023-11-03[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ htmltools     0.5.8   [90m2024-03-25[39m [90m[1][39m [1m[35mRSPM[39m[22m
  httr          1.4.7   [90m2023-08-15[39m [90m[1][39m [1m[35mRSPM[39m[22m
  jsonlite      1.8.8   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  knitr         1.45    [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
@@ -1048,10 +1051,10 @@ To thank the contributors or maintainers of packages you rely on.
  Rcpp          1.0.12  [90m2024-01-09[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rlang         1.1.3   [90m2024-01-10[39m [90m[1][39m [1m[35mRSPM[39m[22m
  rmarkdown     2.26    [90m2024-03-05[39m [90m[1][39m [1m[35mRSPM[39m[22m
- rstudioapi    0.15.0  [90m2023-07-07[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ rstudioapi    0.16.0  [90m2024-03-24[39m [90m[1][39m [1m[35mRSPM[39m[22m
  sessioninfo   1.2.2   [90m2021-12-06[39m [90m[1][39m [1m[35many (@1.2.2)[39m[22m
  withr         3.0.0   [90m2024-01-16[39m [90m[1][39m [1m[35mRSPM[39m[22m
- xfun          0.42    [90m2024-02-08[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ xfun          0.43    [90m2024-03-25[39m [90m[1][39m [1m[35mRSPM[39m[22m
  xml2          1.3.6   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  yaml          2.3.8   [90m2023-12-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
 
