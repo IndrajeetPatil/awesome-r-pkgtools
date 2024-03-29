@@ -623,6 +623,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 # Sundry 🗒
 
+- [`{pkglite}`](https://merck.github.io/pkglite/) (tools to represent and exchange R package source code as text files)
+
 - [`{gpttools}`](https://github.com/JamesHWade/gpttools/) (RStudio addin that allows using [chatGPT](https://en.wikipedia.org/wiki/ChatGPT) to automate writing documentation, tests, etc.)
 
 - [`{rfold}`](https://CRAN.R-project.org/package=rfold) (to work with many R folders within an R package)
