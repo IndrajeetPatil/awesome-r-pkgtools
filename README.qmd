@@ -373,6 +373,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cyclocomp}`](https://cran.r-project.org/package=cyclocomp) (to index the complexity of a function)
 
+- [`{pkgGraphR}`](https://gitlab.com/doliv071/pkggraphr) (to visualize the relationship between functions in an R package)
+
 ## Code similarity
 
 - [`{dupree}`](https://github.com/russHyde/dupree/) (identifies code blocks that have a high level of similarity within a set of R files)
@@ -396,7 +398,6 @@ Tools useful across all stages of package development (some of these are meta-pa
 ## Lines of code
 
 - [`{cloc}`](https://github.com/hrbrmstr/cloc/) (counts blank lines, comment lines, and physical lines of source code in source files)
-
 
 # Refactoring
 
