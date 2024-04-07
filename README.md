@@ -1028,7 +1028,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-04-03
+ date     2024-04-07
  pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1040,7 +1040,7 @@ To thank the contributors or maintainers of packages you rely on.
  digest        0.6.35  [90m2024-03-11[39m [90m[1][39m [1m[35mRSPM[39m[22m
  evaluate      0.23    [90m2023-11-01[39m [90m[1][39m [1m[35mRSPM[39m[22m
  fastmap       1.1.1   [90m2023-02-24[39m [90m[1][39m [1m[35mRSPM[39m[22m
- htmltools     0.5.8   [90m2024-03-25[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ htmltools     0.5.8.1 [90m2024-04-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  httr          1.4.7   [90m2023-08-15[39m [90m[1][39m [1m[35mRSPM[39m[22m
  jsonlite      1.8.8   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  knitr         1.45    [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
