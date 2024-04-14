@@ -1004,7 +1004,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.28'
+[1] '1.5.29'
 ```
 
 </details>
@@ -1028,7 +1028,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-04-07
+ date     2024-04-14
  pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
@@ -1043,7 +1043,7 @@ To thank the contributors or maintainers of packages you rely on.
  htmltools     0.5.8.1 [90m2024-04-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  httr          1.4.7   [90m2023-08-15[39m [90m[1][39m [1m[35mRSPM[39m[22m
  jsonlite      1.8.8   [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
- knitr         1.45    [90m2023-10-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ knitr         1.46    [90m2024-04-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  later         1.3.2   [90m2023-12-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
  magrittr      2.0.3   [90m2022-03-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  png           0.1-8   [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
