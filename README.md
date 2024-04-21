@@ -1004,7 +1004,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ``` r
 
-[1] '1.5.29'
+[1] '1.5.30'
 ```
 
 </details>
@@ -1028,7 +1028,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-04-14
+ date     2024-04-21
  pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
