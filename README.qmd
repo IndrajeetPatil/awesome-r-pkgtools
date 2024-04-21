@@ -652,8 +652,8 @@ To thank the contributors or maintainers of packages you rely on.
 #| echo: false
 #| eval: true
 #| details.summary: 'Session details'
-withr::local_options(list(crayon.enabled = TRUE))
+withr::local_options(list(crayon.enabled = FALSE))
 
 library(details)
-sessioninfo::session_info()
+sessioninfo::session_info(include_base = TRUE)
 ```
