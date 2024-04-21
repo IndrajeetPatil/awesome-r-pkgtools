@@ -652,6 +652,7 @@ To thank the contributors or maintainers of packages you rely on.
 #| echo: false
 #| eval: true
 library(details)
+options(crayon.enabled = TRUE)
 ```
 
 ```{details}

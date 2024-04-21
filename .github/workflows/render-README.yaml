@@ -20,7 +20,7 @@ jobs:
 
       - uses: r-lib/actions/setup-pandoc@v2
         with:
-          pandoc-version: "3.1.8"
+          pandoc-version: "3.1.13"
 
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
@@ -35,6 +35,7 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           pak-version: devel
+          upgrade: 'TRUE'
           extra-packages: |
             quarto-dev/quarto-r
 
