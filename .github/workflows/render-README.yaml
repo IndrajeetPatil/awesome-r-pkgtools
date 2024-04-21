@@ -38,6 +38,7 @@ jobs:
           upgrade: 'TRUE'
           extra-packages: |
             quarto-dev/quarto-r
+            r-lib/sessioninfo
 
       - name: Render README
         run: |
