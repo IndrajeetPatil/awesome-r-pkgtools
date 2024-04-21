@@ -651,20 +651,9 @@ To thank the contributors or maintainers of packages you rely on.
 ```{r}
 #| echo: false
 #| eval: true
-library(details)
-options(crayon.enabled = TRUE)
-```
-
-```{details}
-#| echo: false
-#| eval: true
-#| details.summary: 'Quarto version'
-quarto::quarto_version()
-```
-
-```{details}
-#| echo: false
-#| eval: true
 #| details.summary: 'Session details'
+withr::local_options(list(crayon.enabled = TRUE))
+
+library(details)
 sessioninfo::session_info()
 ```
