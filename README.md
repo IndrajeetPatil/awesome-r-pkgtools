@@ -1029,7 +1029,7 @@ To thank the contributors or maintainers of packages you rely on.
  ctype    C.UTF-8
  tz       UTC
  date     2024-04-21
- pandoc   3.1.8 @ /opt/hostedtoolcache/pandoc/3.1.8/x64/ (via rmarkdown)
+ pandoc   3.1.13 @ /opt/hostedtoolcache/pandoc/3.1.13/x64/ (via rmarkdown)
 
 [1m[36m─ Packages ───────────────────────────────────────────────────────────────────[39m[22m
  [3m[90mpackage    [39m[23m [3m[90m*[39m[23m [3m[90mversion[39m[23m [3m[90mdate (UTC)[39m[23m [3m[90mlib[39m[23m [3m[90msource[39m[23m
