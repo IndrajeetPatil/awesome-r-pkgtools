@@ -239,9 +239,9 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{doctest}`](https://hughjonesd.github.io/doctest/) (to write `{testthat}` tests by adding `{roxygen2}` tags)
 
-- [`{roxut}`](https://cran.r-project.org/package=roxut) (to write the unit tests in the same file as the function)
-
 - [`{exampletestr}`](https://rorynolan.github.io/exampletestr/) (tests based on package examples)
+
+- [`{roxut}`](https://cran.r-project.org/package=roxut) (to write the unit tests in the same file as the function)
 
 - [`{unitizer}`](https://cran.r-project.org/package=unitizer) (simplifies regression tests by comparing objects produced by test code with earlier versions of those same objects)
 
@@ -251,17 +251,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{cucumber}`](https://jakubsob.github.io/cucumber/) (an implementation of the [Cucumber testing framework](https://cucumber.io/) in R)
 
-## Markdown documents
-
-- [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown documents across various version of [Pandoc](https://pandoc.org))
-
-## Shiny applications
-
-- [`{shinytest}`](https://rstudio.github.io/shinytest/) (testing Shiny apps)
-
-- [`{shinytest2}`](https://rstudio.github.io/shinytest2/) (testing Shiny apps using a headless Chromium web browser)
-
-- [`{shinyloadtest}`](https://rstudio.github.io/shinyloadtest/) (to load test deployed Shiny apps)
+- [`{quickcheck}`](https://armcn.github.io/quickcheck/) (provides property-based testing in `{testthat}` framework)
 
 ## Web/database applications
 
@@ -290,6 +280,18 @@ Tools useful across all stages of package development (some of these are meta-pa
 ## Mutation testing
 
 - [`{mutant}`](https://github.com/sckott/mutant) (mutation testing for R)
+
+## Markdown documents
+
+- [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown documents across various version of [Pandoc](https://pandoc.org))
+
+## Shiny applications
+
+- [`{shinytest}`](https://rstudio.github.io/shinytest/) (testing Shiny apps)
+
+- [`{shinytest2}`](https://rstudio.github.io/shinytest2/) (testing Shiny apps using a headless Chromium web browser)
+
+- [`{shinyloadtest}`](https://rstudio.github.io/shinyloadtest/) (to load test deployed Shiny apps)
 
 ## Helpers for testing frameworks
 
