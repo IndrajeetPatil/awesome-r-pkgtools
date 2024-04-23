@@ -78,12 +78,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#unit-testing" id="toc-unit-testing" class="nav-link" data-scroll-target="#unit-testing">Unit testing 🧪</a>
   <ul class="collapse">
   <li><a href="#generic-r-packages" id="toc-generic-r-packages" class="nav-link" data-scroll-target="#generic-r-packages">Generic R Packages</a></li>
-  <li><a href="#markdown-documents" id="toc-markdown-documents" class="nav-link" data-scroll-target="#markdown-documents">Markdown documents</a></li>
-  <li><a href="#shiny-applications" id="toc-shiny-applications" class="nav-link" data-scroll-target="#shiny-applications">Shiny applications</a></li>
   <li><a href="#webdatabase-applications" id="toc-webdatabase-applications" class="nav-link" data-scroll-target="#webdatabase-applications">Web/database applications</a></li>
   <li><a href="#visual-regression-testing" id="toc-visual-regression-testing" class="nav-link" data-scroll-target="#visual-regression-testing">Visual regression testing</a></li>
   <li><a href="#mock-testing" id="toc-mock-testing" class="nav-link" data-scroll-target="#mock-testing">Mock testing</a></li>
   <li><a href="#mutation-testing" id="toc-mutation-testing" class="nav-link" data-scroll-target="#mutation-testing">Mutation testing</a></li>
+  <li><a href="#markdown-documents" id="toc-markdown-documents" class="nav-link" data-scroll-target="#markdown-documents">Markdown documents</a></li>
+  <li><a href="#shiny-applications" id="toc-shiny-applications" class="nav-link" data-scroll-target="#shiny-applications">Shiny applications</a></li>
   <li><a href="#helpers-for-testing-frameworks" id="toc-helpers-for-testing-frameworks" class="nav-link" data-scroll-target="#helpers-for-testing-frameworks">Helpers for testing frameworks</a></li>
   </ul></li>
   <li><a href="#codedocument-formatting" id="toc-codedocument-formatting" class="nav-link" data-scroll-target="#codedocument-formatting">Code/Document Formatting 🧽</a></li>
@@ -393,26 +393,13 @@ What is included?
 <li><p><a href="https://CRAN.R-project.org/package=realtest"><code>{realtest}</code></a> (a framework unit testing that distinguishes between expected, acceptable, current, fallback, ideal, or regressive behaviours)</p></li>
 <li><p><a href="https://github.com/mikldk/roxytest/"><code>{roxytest}</code></a> (to inline <code>{testthat}</code> tests with <code>{roxygen2}</code>)</p></li>
 <li><p><a href="https://hughjonesd.github.io/doctest/"><code>{doctest}</code></a> (to write <code>{testthat}</code> tests by adding <code>{roxygen2}</code> tags)</p></li>
-<li><p><a href="https://cran.r-project.org/package=roxut"><code>{roxut}</code></a> (to write the unit tests in the same file as the function)</p></li>
 <li><p><a href="https://rorynolan.github.io/exampletestr/"><code>{exampletestr}</code></a> (tests based on package examples)</p></li>
+<li><p><a href="https://cran.r-project.org/package=roxut"><code>{roxut}</code></a> (to write the unit tests in the same file as the function)</p></li>
 <li><p><a href="https://cran.r-project.org/package=unitizer"><code>{unitizer}</code></a> (simplifies regression tests by comparing objects produced by test code with earlier versions of those same objects)</p></li>
 <li><p><a href="https://github.com/hedgehogqa/r-hedgehog"><code>{r-hedgehog}</code></a> (property based testing)</p></li>
 <li><p><a href="https://docs.ropensci.org/autotest/"><code>{autotest}</code></a> (automatic mutation testing of R packages)</p></li>
 <li><p><a href="https://jakubsob.github.io/cucumber/"><code>{cucumber}</code></a> (an implementation of the <a href="https://cucumber.io/">Cucumber testing framework</a> in R)</p></li>
-</ul>
-</section>
-<section id="markdown-documents" class="level2">
-<h2 class="anchored" data-anchor-id="markdown-documents">Markdown documents</h2>
-<ul>
-<li><a href="https://cderv.github.io/pandoc/"><code>{pandoc}</code></a> (to check Markdown documents across various version of <a href="https://pandoc.org">Pandoc</a>)</li>
-</ul>
-</section>
-<section id="shiny-applications" class="level2">
-<h2 class="anchored" data-anchor-id="shiny-applications">Shiny applications</h2>
-<ul>
-<li><p><a href="https://rstudio.github.io/shinytest/"><code>{shinytest}</code></a> (testing Shiny apps)</p></li>
-<li><p><a href="https://rstudio.github.io/shinytest2/"><code>{shinytest2}</code></a> (testing Shiny apps using a headless Chromium web browser)</p></li>
-<li><p><a href="https://rstudio.github.io/shinyloadtest/"><code>{shinyloadtest}</code></a> (to load test deployed Shiny apps)</p></li>
+<li><p><a href="https://armcn.github.io/quickcheck/"><code>{quickcheck}</code></a> (provides property-based testing in <code>{testthat}</code> framework)</p></li>
 </ul>
 </section>
 <section id="webdatabase-applications" class="level2">
@@ -443,6 +430,20 @@ What is included?
 <h2 class="anchored" data-anchor-id="mutation-testing">Mutation testing</h2>
 <ul>
 <li><a href="https://github.com/sckott/mutant"><code>{mutant}</code></a> (mutation testing for R)</li>
+</ul>
+</section>
+<section id="markdown-documents" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-documents">Markdown documents</h2>
+<ul>
+<li><a href="https://cderv.github.io/pandoc/"><code>{pandoc}</code></a> (to check Markdown documents across various version of <a href="https://pandoc.org">Pandoc</a>)</li>
+</ul>
+</section>
+<section id="shiny-applications" class="level2">
+<h2 class="anchored" data-anchor-id="shiny-applications">Shiny applications</h2>
+<ul>
+<li><p><a href="https://rstudio.github.io/shinytest/"><code>{shinytest}</code></a> (testing Shiny apps)</p></li>
+<li><p><a href="https://rstudio.github.io/shinytest2/"><code>{shinytest2}</code></a> (testing Shiny apps using a headless Chromium web browser)</p></li>
+<li><p><a href="https://rstudio.github.io/shinyloadtest/"><code>{shinyloadtest}</code></a> (to load test deployed Shiny apps)</p></li>
 </ul>
 </section>
 <section id="helpers-for-testing-frameworks" class="level2">

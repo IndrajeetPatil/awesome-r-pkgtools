@@ -28,12 +28,12 @@ Indrajeet Patil
 -   [Documentation quality ✒️](#documentation-quality)
 -   [Unit testing 🧪](#unit-testing)
     -   [Generic R Packages](#generic-r-packages)
-    -   [Markdown documents](#markdown-documents)
-    -   [Shiny applications](#shiny-applications)
     -   [Web/database applications](#webdatabase-applications)
     -   [Visual regression testing](#visual-regression-testing)
     -   [Mock testing](#mock-testing)
     -   [Mutation testing](#mutation-testing)
+    -   [Markdown documents](#markdown-documents)
+    -   [Shiny applications](#shiny-applications)
     -   [Helpers for testing
         frameworks](#helpers-for-testing-frameworks)
 -   [Code/Document Formatting 🧽](#codedocument-formatting)
@@ -404,11 +404,11 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{doctest}`](https://hughjonesd.github.io/doctest/) (to write
     `{testthat}` tests by adding `{roxygen2}` tags)
 
--   [`{roxut}`](https://cran.r-project.org/package=roxut) (to write the
-    unit tests in the same file as the function)
-
 -   [`{exampletestr}`](https://rorynolan.github.io/exampletestr/) (tests
     based on package examples)
+
+-   [`{roxut}`](https://cran.r-project.org/package=roxut) (to write the
+    unit tests in the same file as the function)
 
 -   [`{unitizer}`](https://cran.r-project.org/package=unitizer)
     (simplifies regression tests by comparing objects produced by test
@@ -424,21 +424,8 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
     implementation of the [Cucumber testing
     framework](https://cucumber.io/) in R)
 
-## Markdown documents
-
--   [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown
-    documents across various version of [Pandoc](https://pandoc.org))
-
-## Shiny applications
-
--   [`{shinytest}`](https://rstudio.github.io/shinytest/) (testing Shiny
-    apps)
-
--   [`{shinytest2}`](https://rstudio.github.io/shinytest2/) (testing
-    Shiny apps using a headless Chromium web browser)
-
--   [`{shinyloadtest}`](https://rstudio.github.io/shinyloadtest/) (to
-    load test deployed Shiny apps)
+-   [`{quickcheck}`](https://armcn.github.io/quickcheck/) (provides
+    property-based testing in `{testthat}` framework)
 
 ## Web/database applications
 
@@ -479,6 +466,22 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 -   [`{mutant}`](https://github.com/sckott/mutant) (mutation testing for
     R)
+
+## Markdown documents
+
+-   [`{pandoc}`](https://cderv.github.io/pandoc/) (to check Markdown
+    documents across various version of [Pandoc](https://pandoc.org))
+
+## Shiny applications
+
+-   [`{shinytest}`](https://rstudio.github.io/shinytest/) (testing Shiny
+    apps)
+
+-   [`{shinytest2}`](https://rstudio.github.io/shinytest2/) (testing
+    Shiny apps using a headless Chromium web browser)
+
+-   [`{shinyloadtest}`](https://rstudio.github.io/shinyloadtest/) (to
+    load test deployed Shiny apps)
 
 ## Helpers for testing frameworks
 
