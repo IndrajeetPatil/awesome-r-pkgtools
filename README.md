@@ -398,8 +398,11 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
     framework unit testing that distinguishes between expected,
     acceptable, current, fallback, ideal, or regressive behaviours)
 
--   [`{roxytest}`](https://github.com/mikldk/roxytest/) (inline
+-   [`{roxytest}`](https://github.com/mikldk/roxytest/) (to inline
     `{testthat}` tests with `{roxygen2}`)
+
+-   [`{doctest}`](https://hughjonesd.github.io/doctest/) (to write
+    `{testthat}` tests by adding `{roxygen2}` tags)
 
 -   [`{roxut}`](https://cran.r-project.org/package=roxut) (to write the
     unit tests in the same file as the function)
@@ -1007,9 +1010,9 @@ To thank the contributors or maintainers of packages you rely on.
      collate  C.UTF-8
      ctype    C.UTF-8
      tz       UTC
-     date     2024-04-22
+     date     2024-04-23
      pandoc   3.1.13 @ /opt/hostedtoolcache/pandoc/3.1.13/x64/ (via rmarkdown)
-     quarto   1.5.30 @ /usr/local/bin/quarto
+     quarto   1.5.31 @ /usr/local/bin/quarto
 
     ─ Packages ───────────────────────────────────────────────────────────────────
      package     * version    date (UTC) lib source
