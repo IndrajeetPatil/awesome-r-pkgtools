@@ -235,7 +235,9 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{realtest}`](https://CRAN.R-project.org/package=realtest) (a framework unit testing that distinguishes between expected, acceptable, current, fallback, ideal, or regressive behaviours)
 
-- [`{roxytest}`](https://github.com/mikldk/roxytest/) (inline `{testthat}` tests with `{roxygen2}`)
+- [`{roxytest}`](https://github.com/mikldk/roxytest/) (to inline `{testthat}` tests with `{roxygen2}`)
+
+- [`{doctest}`](https://hughjonesd.github.io/doctest/) (to write `{testthat}` tests by adding `{roxygen2}` tags)
 
 - [`{roxut}`](https://cran.r-project.org/package=roxut) (to write the unit tests in the same file as the function)
 
