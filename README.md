@@ -1013,39 +1013,39 @@ To thank the contributors or maintainers of packages you rely on.
      collate  C.UTF-8
      ctype    C.UTF-8
      tz       UTC
-     date     2024-05-05
-     pandoc   3.1.13 @ /opt/hostedtoolcache/pandoc/3.1.13/x64/ (via rmarkdown)
-     quarto   1.5.32 @ /usr/local/bin/quarto
+     date     2024-05-12
+     pandoc   3.2 @ /opt/hostedtoolcache/pandoc/3.2/x64/ (via rmarkdown)
+     quarto   1.5.33 @ /usr/local/bin/quarto
 
     ─ Packages ───────────────────────────────────────────────────────────────────
      package     * version    date (UTC) lib source
-     base        * 4.4.0      2024-04-24 [3] local
+     base        * 4.4.0      2024-05-06 [3] local
      cli           3.6.2      2023-12-11 [1] RSPM
      clipr         0.8.0      2022-02-22 [1] RSPM
-     compiler      4.4.0      2024-04-24 [3] local
-     datasets    * 4.4.0      2024-04-24 [3] local
+     compiler      4.4.0      2024-05-06 [3] local
+     datasets    * 4.4.0      2024-05-06 [3] local
      desc          1.4.3      2023-12-10 [1] RSPM
      details     * 0.3.0      2022-03-27 [1] RSPM
      digest        0.6.35     2024-03-11 [1] RSPM
      evaluate      0.23       2023-11-01 [1] RSPM
      fastmap       1.1.1      2023-02-24 [1] RSPM
-     graphics    * 4.4.0      2024-04-24 [3] local
-     grDevices   * 4.4.0      2024-04-24 [3] local
-     grid          4.4.0      2024-04-24 [3] local
+     graphics    * 4.4.0      2024-05-06 [3] local
+     grDevices   * 4.4.0      2024-05-06 [3] local
+     grid          4.4.0      2024-05-06 [3] local
      htmltools     0.5.8.1    2024-04-04 [1] RSPM
      httr          1.4.7      2023-08-15 [1] RSPM
      jsonlite      1.8.8      2023-12-04 [1] RSPM
      knitr         1.46       2024-04-06 [1] RSPM
      magrittr      2.0.3      2022-03-30 [1] RSPM
-     methods     * 4.4.0      2024-04-24 [3] local
+     methods     * 4.4.0      2024-05-06 [3] local
      png           0.1-8      2022-11-29 [1] RSPM
      R6            2.5.1      2021-08-19 [1] RSPM
      rlang         1.1.3      2024-01-10 [1] RSPM
      rmarkdown     2.26       2024-03-05 [1] RSPM
      sessioninfo   1.2.2.9000 2024-04-28 [1] Github (r-lib/sessioninfo@064bc38)
-     stats       * 4.4.0      2024-04-24 [3] local
-     tools         4.4.0      2024-04-24 [3] local
-     utils       * 4.4.0      2024-04-24 [3] local
+     stats       * 4.4.0      2024-05-06 [3] local
+     tools         4.4.0      2024-05-06 [3] local
+     utils       * 4.4.0      2024-05-06 [3] local
      withr         3.0.0      2024-01-16 [1] RSPM
      xfun          0.43       2024-03-25 [1] RSPM
      xml2          1.3.6      2023-12-04 [1] RSPM
