@@ -652,7 +652,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 # Session information
 
-```{r}
+```{details}
 #| echo: false
 #| eval: true
 #| details.summary: 'Session details'
