@@ -661,7 +661,8 @@ library(details)
 ```{details}
 #| echo: false
 #| eval: true
-#| details.summary: 'Session details'
+#| comment: "#>"
+#| details.summary: "Session details"
 withr::local_options(list(crayon.enabled = FALSE))
 sessioninfo::session_info(include_base = TRUE)
 ```
