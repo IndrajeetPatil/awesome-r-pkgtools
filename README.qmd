@@ -449,8 +449,6 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{pkgndep}`](https://cran.r-project.org/package=pkgndep) (checks the heaviness of the packages used)
 
-- [`{oysteR}`](https://sonatype-nexus-community.github.io/oysteR/) (to secure package against insecure dependencies)
-
 - [`{attachment}`](https://github.com/ThinkR-open/attachment/) (to deal with package dependencies during package development)
 
 # CRAN/Bioconductor checks, submission, and status 📬
@@ -501,11 +499,9 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 # Security/Privacy 👮
 
-- [`{digest}`](https://cran.r-project.org/package=digest) (for the creation of hash digests of arbitrary R objects)
-
-- [`{hash}`](https://cran.r-project.org/package=hash) (implements a data structure similar to hashes in Perl and dictionaries in Python but with a purposefully R flavor)
-
 - [`{gpg}`](https://cran.r-project.org/package=gpg) (GNU privacy guard for R)
+
+- [`{oysteR}`](https://sonatype-nexus-community.github.io/oysteR/) (to secure package against insecure dependencies)
 
 # Build systems
 
