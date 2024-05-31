@@ -542,8 +542,8 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{codetools}`](https://cran.r-project.org/package=codetools) (code
     analysis tools for R)
 
--   [`{goodpractice}`](http://mangothecat.github.io/goodpractice/)
-    (Swiss army knife for good practices)
+-   [`{goodpractice}`](https://docs.ropensci.org/goodpractice/) (Swiss
+    army knife for good practices)
 
 -   [`{inteRgrate}`](https://github.com/jumpingrivers/inteRgrate/)
     (provides an opinionated set of rules for R package development)
