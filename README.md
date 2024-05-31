@@ -716,9 +716,6 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{pkgndep}`](https://cran.r-project.org/package=pkgndep) (checks
     the heaviness of the packages used)
 
--   [`{oysteR}`](https://sonatype-nexus-community.github.io/oysteR/) (to
-    secure package against insecure dependencies)
-
 -   [`{attachment}`](https://github.com/ThinkR-open/attachment/) (to
     deal with package dependencies during package development)
 
@@ -792,15 +789,11 @@ continuous deployment
 
 # Security/Privacy 👮
 
--   [`{digest}`](https://cran.r-project.org/package=digest) (for the
-    creation of hash digests of arbitrary R objects)
-
--   [`{hash}`](https://cran.r-project.org/package=hash) (implements a
-    data structure similar to hashes in Perl and dictionaries in Python
-    but with a purposefully R flavor)
-
 -   [`{gpg}`](https://cran.r-project.org/package=gpg) (GNU privacy guard
     for R)
+
+-   [`{oysteR}`](https://sonatype-nexus-community.github.io/oysteR/) (to
+    secure package against insecure dependencies)
 
 # Build systems
 
@@ -1020,7 +1013,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-05-26
+ date     2024-05-31
  pandoc   3.2 @ /opt/hostedtoolcache/pandoc/3.2/x64/ (via rmarkdown)
  quarto   1.5.39 @ /usr/local/bin/quarto
 
@@ -1042,7 +1035,7 @@ To thank the contributors or maintainers of packages you rely on.
  htmltools     0.5.8.1    [90m2024-04-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
  httr          1.4.7      [90m2023-08-15[39m [90m[1][39m [1m[35mRSPM[39m[22m
  jsonlite      1.8.8      [90m2023-12-04[39m [90m[1][39m [1m[35mRSPM[39m[22m
- knitr         1.46       [90m2024-04-06[39m [90m[1][39m [1m[35mRSPM[39m[22m
+ knitr         1.47       [90m2024-05-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
  magrittr      2.0.3      [90m2022-03-30[39m [90m[1][39m [1m[35mRSPM[39m[22m
  methods     * 4.4.0      [90m2024-05-25[39m [90m[3][39m [1m[35mlocal[39m[22m
  png           0.1-8      [90m2022-11-29[39m [90m[1][39m [1m[35mRSPM[39m[22m
