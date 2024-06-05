@@ -117,6 +117,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{Rd2roxygen}`](https://cran.r-project.org/package=Rd2roxygen) (in case you inherit a project where documentation was not written using `{roxygen2}`)
 
+- [`{rdoxygen}`](https://github.com/mlysy/rdoxygen) (to create Doxygen documentation for R package C++ code)
+
 - [`{roxyglobals}`](https://github.com/anthonynorth/roxyglobals) (to generate global variables with `{roxygen2}` documentation)
 
 - [`{sinew}`](https://yonicd.github.io/sinew/) (generate `{roxygen2}` skeletons)
