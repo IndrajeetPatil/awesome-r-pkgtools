@@ -968,7 +968,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 # Sundry 🗒
 
--   [`{lazyData}`](https://cran.r-project.org/web/packages/lazyData/index.html)
+-   [`{lazyData}`](https://CRAN.R-project.org/package=lazyData)
     (supplies a lazy data loading for packages with datasets that do not
     provide `LazyData: true`)
 
