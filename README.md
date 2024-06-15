@@ -767,6 +767,9 @@ continuous deployment
 -   [`actions`](https://github.com/r-lib/actions/) (provides [GitHub
     Actions](https://github.com/features/actions) relevant for R)
 
+-   [`{gha}`](https://github.com/r-lib/gha) (Useful functions for GitHub
+    Actions)
+
 -   [`actions-sync`](https://github.com/krlmlr/actions-sync/) (to manage
     GitHub Actions workflows across repositories)
 
