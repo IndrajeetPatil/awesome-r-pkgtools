@@ -61,7 +61,6 @@ Indrajeet Patil
 -   [Validation frameworks](#validation-frameworks)
 -   [Debugging 🔭](#debugging)
 -   [Input validation 🔬](#input-validation)
--   [Package metadata 🖨](#package-metadata)
 -   [Reverse dependency checks 📡⚰️](#reverse-dependency-checks)
 -   [Gratitude 🙏💌](#gratitude)
 -   [Docker container 🛍](#docker-container)
@@ -849,12 +848,18 @@ continuous deployment
 -   [`{assertive}`](https://bitbucket.org/richierocks/assertive/src/master/)
     (provides readable check functions to ensure code integrity)
 
--   [`{pkgcond}`](https://github.com/RDocTaskForce/pkgcond/) (better
-    error messages for package users)
+-   [`{assertr}`](https://docs.ropensci.org/assertr/) (to verify
+    assumptions about data early)
 
--   [`{dreamerr}`](https://github.com/lrberge/dreamerr/) (a simple and
-    intuitive, yet powerful and flexible, way to check the arguments
-    passed to a function and to offer informative error messages)
+-   [`{ensurer}`](https://cran.r-project.org/package=ensurer) (to ensure
+    values are as expected at runtime)
+
+-   [`{valaddin}`](https://CRAN.R-project.org/package=valaddin)
+    (functional input validation)
+
+-   [`{dreamerr}`](https://github.com/lrberge/dreamerr/) (to check the
+    arguments passed to a function and to offer informative error
+    messages)
 
 -   [`{erify}`](https://flujoo.github.io/erify/) (to check arguments and
     generate readable error messages)
@@ -863,7 +868,8 @@ continuous deployment
     whether data lives up to expectations based on the domain-specific
     knowledge)
 
-# Package metadata 🖨
+-   [`{pkgcond}`](https://github.com/RDocTaskForce/pkgcond/) (better
+    error messages for package users) \# Package metadata 🖨
 
 -   [`{codemetar}`](https://docs.ropensci.org/codemetar/) (provides
     utilities to generate, parse, and modify `codemeta.jsonld` files
