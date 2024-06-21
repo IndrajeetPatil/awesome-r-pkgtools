@@ -145,9 +145,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#cicd" id="toc-cicd" class="nav-link" data-scroll-target="#cicd">CI/CD 📟</a></li>
   <li><a href="#securityprivacy" id="toc-securityprivacy" class="nav-link" data-scroll-target="#securityprivacy">Security/Privacy 👮</a></li>
   <li><a href="#build-systems" id="toc-build-systems" class="nav-link" data-scroll-target="#build-systems">Build systems</a></li>
-  <li><a href="#validation-frameworks" id="toc-validation-frameworks" class="nav-link" data-scroll-target="#validation-frameworks">Validation frameworks</a></li>
   <li><a href="#debugging" id="toc-debugging" class="nav-link" data-scroll-target="#debugging">Debugging 🔭</a></li>
-  <li><a href="#input-validation" id="toc-input-validation" class="nav-link" data-scroll-target="#input-validation">Input validation 🔬</a></li>
+  <li><a href="#input-validation" id="toc-input-validation" class="nav-link" data-scroll-target="#input-validation">Input validation 🔬</a>
+  <ul class="collapse">
+  <li><a href="#function-argument-validation" id="toc-function-argument-validation" class="nav-link" data-scroll-target="#function-argument-validation">Function argument validation</a></li>
+  <li><a href="#data-validation" id="toc-data-validation" class="nav-link" data-scroll-target="#data-validation">Data validation</a></li>
+  </ul></li>
+  <li><a href="#package-metadata" id="toc-package-metadata" class="nav-link" data-scroll-target="#package-metadata">Package metadata 🖨</a></li>
   <li><a href="#reverse-dependency-checks" id="toc-reverse-dependency-checks" class="nav-link" data-scroll-target="#reverse-dependency-checks">Reverse dependency checks 📡⚰️</a></li>
   <li><a href="#gratitude" id="toc-gratitude" class="nav-link" data-scroll-target="#gratitude">Gratitude 🙏💌</a></li>
   <li><a href="#docker-container" id="toc-docker-container" class="nav-link" data-scroll-target="#docker-container">Docker container 🛍</a></li>
@@ -675,12 +679,6 @@ What is included?
 <li><a href="https://cran.r-project.org/package=fakemake"><code>{fakemake}</code></a> (to mock Unix Make build system in case it is unavailable)</li>
 </ul>
 </section>
-<section id="validation-frameworks" class="level1">
-<h1>Validation frameworks</h1>
-<ul>
-<li><a href="https://phuse-org.github.io/valtools/"><code>{valtools}</code></a> (in clinical research and drug development)</li>
-</ul>
-</section>
 <section id="debugging" class="level1">
 <h1>Debugging 🔭</h1>
 <ul>
@@ -693,17 +691,29 @@ What is included?
 </section>
 <section id="input-validation" class="level1">
 <h1>Input validation 🔬</h1>
+<section id="function-argument-validation" class="level2">
+<h2 class="anchored" data-anchor-id="function-argument-validation">Function argument validation</h2>
 <ul>
 <li><p><a href="https://mllg.github.io/checkmate/"><code>{checkmate}</code></a> (fast and versatile argument checks)</p></li>
 <li><p><a href="https://cran.r-project.org/package=assertthat"><code>{assertthat}</code></a> (to declare the pre and post conditions that you code should satisfy and to produce friendly error messages)</p></li>
 <li><p><a href="https://bitbucket.org/richierocks/assertive/src/master/"><code>{assertive}</code></a> (provides readable check functions to ensure code integrity)</p></li>
-<li><p><a href="https://docs.ropensci.org/assertr/"><code>{assertr}</code></a> (to verify assumptions about data early)</p></li>
-<li><p><a href="https://cran.r-project.org/package=ensurer"><code>{ensurer}</code></a> (to ensure values are as expected at runtime)</p></li>
 <li><p><a href="https://CRAN.R-project.org/package=valaddin"><code>{valaddin}</code></a> (functional input validation)</p></li>
 <li><p><a href="https://github.com/lrberge/dreamerr/"><code>{dreamerr}</code></a> (to check the arguments passed to a function and to offer informative error messages)</p></li>
 <li><p><a href="https://flujoo.github.io/erify/"><code>{erify}</code></a> (to check arguments and generate readable error messages)</p></li>
+</ul>
+</section>
+<section id="data-validation" class="level2">
+<h2 class="anchored" data-anchor-id="data-validation">Data validation</h2>
+<ul>
+<li><p><a href="https://docs.ropensci.org/assertr/"><code>{assertr}</code></a> (to verify assumptions about data early)</p></li>
+<li><p><a href="https://cran.r-project.org/package=ensurer"><code>{ensurer}</code></a> (to ensure values are as expected at runtime)</p></li>
 <li><p><a href="https://github.com/data-cleaning/validate/"><code>{validate}</code></a> (to check whether data lives up to expectations based on the domain-specific knowledge)</p></li>
-<li><p><a href="https://github.com/RDocTaskForce/pkgcond/"><code>{pkgcond}</code></a> (better error messages for package users) # Package metadata 🖨</p></li>
+</ul>
+</section>
+</section>
+<section id="package-metadata" class="level1">
+<h1>Package metadata 🖨</h1>
+<ul>
 <li><p><a href="https://docs.ropensci.org/codemetar/"><code>{codemetar}</code></a> (provides utilities to generate, parse, and modify <code>codemeta.jsonld</code> files automatically for R packages), or <a href="https://github.com/cboettig/codemeta/"><code>{codemeta}</code></a> (a leaner version of <code>{codemetar}</code>)</p></li>
 <li><p><a href="https://docs.ropensci.org/cffr/"><code>{cffr}</code></a> (provides utilities to generate, parse, modify and validate <code>CITATION.cff</code> files automatically for R packages)</p></li>
 <li><p><a href="https://github.com/pik-piam/citation"><code>{citation}</code></a> (creates <code>CITATION.cff</code> from R package metadata)</p></li>

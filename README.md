@@ -58,9 +58,11 @@ Indrajeet Patil
 -   [CI/CD 📟](#cicd)
 -   [Security/Privacy 👮](#securityprivacy)
 -   [Build systems](#build-systems)
--   [Validation frameworks](#validation-frameworks)
 -   [Debugging 🔭](#debugging)
 -   [Input validation 🔬](#input-validation)
+    -   [Function argument validation](#function-argument-validation)
+    -   [Data validation](#data-validation)
+-   [Package metadata 🖨](#package-metadata)
 -   [Reverse dependency checks 📡⚰️](#reverse-dependency-checks)
 -   [Gratitude 🙏💌](#gratitude)
 -   [Docker container 🛍](#docker-container)
@@ -811,11 +813,6 @@ continuous deployment
 -   [`{fakemake}`](https://cran.r-project.org/package=fakemake) (to mock
     Unix Make build system in case it is unavailable)
 
-# Validation frameworks
-
--   [`{valtools}`](https://phuse-org.github.io/valtools/) (in clinical
-    research and drug development)
-
 # Debugging 🔭
 
 -   [`{debugme}`](https://github.com/r-lib/debugme/) (provides helpers
@@ -838,6 +835,8 @@ continuous deployment
 
 # Input validation 🔬
 
+## Function argument validation
+
 -   [`{checkmate}`](https://mllg.github.io/checkmate/) (fast and
     versatile argument checks)
 
@@ -847,12 +846,6 @@ continuous deployment
 
 -   [`{assertive}`](https://bitbucket.org/richierocks/assertive/src/master/)
     (provides readable check functions to ensure code integrity)
-
--   [`{assertr}`](https://docs.ropensci.org/assertr/) (to verify
-    assumptions about data early)
-
--   [`{ensurer}`](https://cran.r-project.org/package=ensurer) (to ensure
-    values are as expected at runtime)
 
 -   [`{valaddin}`](https://CRAN.R-project.org/package=valaddin)
     (functional input validation)
@@ -864,12 +857,19 @@ continuous deployment
 -   [`{erify}`](https://flujoo.github.io/erify/) (to check arguments and
     generate readable error messages)
 
+## Data validation
+
+-   [`{assertr}`](https://docs.ropensci.org/assertr/) (to verify
+    assumptions about data early)
+
+-   [`{ensurer}`](https://cran.r-project.org/package=ensurer) (to ensure
+    values are as expected at runtime)
+
 -   [`{validate}`](https://github.com/data-cleaning/validate/) (to check
     whether data lives up to expectations based on the domain-specific
     knowledge)
 
--   [`{pkgcond}`](https://github.com/RDocTaskForce/pkgcond/) (better
-    error messages for package users) \# Package metadata 🖨
+# Package metadata 🖨
 
 -   [`{codemetar}`](https://docs.ropensci.org/codemetar/) (provides
     utilities to generate, parse, and modify `codemeta.jsonld` files
