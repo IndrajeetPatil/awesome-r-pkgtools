@@ -515,10 +515,6 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{fakemake}`](https://cran.r-project.org/package=fakemake) (to mock Unix Make build system in case it is unavailable)
 
-# Validation frameworks
-
-- [`{valtools}`](https://phuse-org.github.io/valtools/) (in clinical research and drug development)
-
 # Debugging 🔭
 
 - [`{debugme}`](https://github.com/r-lib/debugme/) (provides helpers to specify debug messages as special string constants, and control debugging of packages via environment variables)
@@ -533,15 +529,13 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 # Input validation 🔬
 
+## Function argument validation
+
 - [`{checkmate}`](https://mllg.github.io/checkmate/) (fast and versatile argument checks)
 
 - [`{assertthat}`](https://cran.r-project.org/package=assertthat) (to declare the pre and post conditions that you code should satisfy and to produce friendly error messages)
 
 - [`{assertive}`](https://bitbucket.org/richierocks/assertive/src/master/) (provides readable check functions to ensure code integrity)
-
-- [`{assertr}`](https://docs.ropensci.org/assertr/) (to verify assumptions about data early)
-
-- [`{ensurer}`](https://cran.r-project.org/package=ensurer) (to ensure values are as expected at runtime)
 
 - [`{valaddin}`](https://CRAN.R-project.org/package=valaddin) (functional input validation)
 
@@ -549,9 +543,14 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 - [`{erify}`](https://flujoo.github.io/erify/) (to check arguments and generate readable error messages)
 
+## Data validation
+
+- [`{assertr}`](https://docs.ropensci.org/assertr/) (to verify assumptions about data early)
+
+- [`{ensurer}`](https://cran.r-project.org/package=ensurer) (to ensure values are as expected at runtime)
+
 - [`{validate}`](https://github.com/data-cleaning/validate/) (to check whether data lives up to expectations based on the domain-specific knowledge)
 
-- [`{pkgcond}`](https://github.com/RDocTaskForce/pkgcond/) (better error messages for package users)
 # Package metadata 🖨
 
 - [`{codemetar}`](https://docs.ropensci.org/codemetar/) (provides utilities to generate, parse, and modify `codemeta.jsonld` files automatically for R packages), or [`{codemeta}`](https://github.com/cboettig/codemeta/) (a leaner version of `{codemetar}`)
