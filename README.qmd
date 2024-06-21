@@ -423,6 +423,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/) (benchmarking pull requests)
 
+- [`{benchmarkme}`](https://CRAN.R-project.org/package=benchmarkme) (crowd-sourced system benchmarking)
+
 ## Profiling
 
 - [`{profvis}`](https://cran.r-project.org/package=profvis) (to profile and visualize profiling data)
