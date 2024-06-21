@@ -676,6 +676,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/)
     (benchmarking pull requests)
 
+-   [`{benchmarkme}`](https://CRAN.R-project.org/package=benchmarkme)
+    (crowd-sourced system benchmarking)
+
 ## Profiling
 
 -   [`{profvis}`](https://cran.r-project.org/package=profvis) (to
@@ -1026,9 +1029,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-06-16
+ date     2024-06-21
  pandoc   3.2 @ /opt/hostedtoolcache/pandoc/3.2/x64/ (via rmarkdown)
- quarto   1.5.45 @ /usr/local/bin/quarto
+ quarto   1.5.46 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
@@ -1060,7 +1063,7 @@ To thank the contributors or maintainers of packages you rely on.
  tools         4.4.1      2024-06-14 [3] local
  utils       * 4.4.1      2024-06-14 [3] local
  withr         3.0.0      2024-01-16 [1] RSPM
- xfun          0.44       2024-05-15 [1] RSPM
+ xfun          0.45       2024-06-16 [1] RSPM
  xml2          1.3.6      2023-12-04 [1] RSPM
  yaml          2.3.8      2023-12-11 [1] RSPM
 
