@@ -1035,14 +1035,14 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-06-21
+ date     2024-06-23
  pandoc   3.2 @ /opt/hostedtoolcache/pandoc/3.2/x64/ (via rmarkdown)
- quarto   1.5.46 @ /usr/local/bin/quarto
+ quarto   1.5.47 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
  base        * 4.4.1      2024-06-14 [3] local
- cli           3.6.2      2023-12-11 [1] RSPM
+ cli           3.6.3      2024-06-21 [1] RSPM
  clipr         0.8.0      2022-02-22 [1] RSPM
  compiler      4.4.1      2024-06-14 [3] local
  datasets    * 4.4.1      2024-06-14 [3] local
