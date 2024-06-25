@@ -1016,6 +1016,9 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{DIZutils}`](https://cran.r-project.org/package=DIZutils) (helpers
     for packages dealing with database connections)
 
+-   [`{dang}`](https://CRAN.R-project.org/package=dang) (Miscellaneous
+    utilities for CRAN packages)
+
 # Session information
 
 <details closed>
@@ -1035,8 +1038,8 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-06-23
- pandoc   3.2 @ /opt/hostedtoolcache/pandoc/3.2/x64/ (via rmarkdown)
+ date     2024-06-25
+ pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
  quarto   1.5.47 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -1048,7 +1051,7 @@ To thank the contributors or maintainers of packages you rely on.
  datasets    * 4.4.1      2024-06-14 [3] local
  desc          1.4.3      2023-12-10 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
- digest        0.6.35     2024-03-11 [1] RSPM
+ digest        0.6.36     2024-06-23 [1] RSPM
  evaluate      0.24.0     2024-06-10 [1] RSPM
  fastmap       1.2.0      2024-05-15 [1] RSPM
  graphics    * 4.4.1      2024-06-14 [3] local
