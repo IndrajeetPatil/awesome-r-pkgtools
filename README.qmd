@@ -660,6 +660,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{DIZutils}`](https://cran.r-project.org/package=DIZutils) (helpers for packages dealing with database connections)
 
+- [`{dang}`](https://CRAN.R-project.org/package=dang) (Miscellaneous utilities for CRAN packages)
+
 # Session information
 
 ```{r}
