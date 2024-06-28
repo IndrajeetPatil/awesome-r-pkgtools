@@ -286,6 +286,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{prettydoc}`](https://CRAN.R-project.org/package=prettydoc)
     (creates lightweight yet pretty vignettes)
 
+-   [`{readme2vignette}`](https://github.com/indenkun/readme2vignette)
+    (to convert README to vignette during package installation)
+
 ## Tutorials
 
 -   [`{learnr}`](https://rstudio.github.io/learnr/) (to turn any R
@@ -1038,9 +1041,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-06-25
+ date     2024-06-28
  pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
- quarto   1.5.47 @ /usr/local/bin/quarto
+ quarto   1.5.52 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
