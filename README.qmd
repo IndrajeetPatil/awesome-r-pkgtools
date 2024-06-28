@@ -161,6 +161,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{prettydoc}`](https://CRAN.R-project.org/package=prettydoc) (creates lightweight yet pretty vignettes)
 
+- [`{readme2vignette}`](https://github.com/indenkun/readme2vignette) (to convert README to vignette during package installation)
+
 ## Tutorials
 
 - [`{learnr}`](https://rstudio.github.io/learnr/) (to turn any R Markdown document into an interactive tutorial)
