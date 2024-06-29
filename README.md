@@ -397,6 +397,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
     [`{tinytest}`](https://cran.r-project.org/package=tinytest) output
     to JUnit XML needed by CI/CD)
 
+-   [`{checkmate.tinytest}`](https://github.com/mllg/checkmate.tinytest)
+    (additional expectations for `{tinytest}` framework)
+
 -   [`{RUnit}`](https://cran.r-project.org/package=RUnit) (a standard
     unit testing framework, with additional code inspection and report
     generation tools)
@@ -1041,7 +1044,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-06-28
+ date     2024-06-29
  pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
  quarto   1.5.52 @ /usr/local/bin/quarto
 
