@@ -235,6 +235,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{tinytest2JUnit}`](https://CRAN.R-project.org/package=tinytest2JUnit) (to convert [`{tinytest}`](https://cran.r-project.org/package=tinytest) output to JUnit XML needed by CI/CD)
 
+- [`{checkmate.tinytest}`](https://github.com/mllg/checkmate.tinytest) (additional expectations for `{tinytest}` framework)
+
 - [`{RUnit}`](https://cran.r-project.org/package=RUnit) (a standard unit testing framework, with additional code inspection and report generation tools)
 
 - [`{testit}`](https://CRAN.R-project.org/package=testit) (a simple package for testing R packages)
