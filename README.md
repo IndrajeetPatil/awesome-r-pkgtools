@@ -1044,9 +1044,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-06-30
+ date     2024-07-07
  pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
- quarto   1.5.52 @ /usr/local/bin/quarto
+ quarto   1.6.1 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
@@ -1080,7 +1080,7 @@ To thank the contributors or maintainers of packages you rely on.
  withr         3.0.0      2024-01-16 [1] RSPM
  xfun          0.45       2024-06-16 [1] RSPM
  xml2          1.3.6      2023-12-04 [1] RSPM
- yaml          2.3.8      2023-12-11 [1] RSPM
+ yaml          2.3.9      2024-07-05 [1] RSPM
 
  [1] /home/runner/work/_temp/Library
  [2] /opt/R/4.4.1/lib/R/site-library
