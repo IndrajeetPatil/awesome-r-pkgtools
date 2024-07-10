@@ -535,6 +535,8 @@ CI/CD: continuous integration and either continuous delivery or continuous deplo
 
 ## Function argument validation
 
+- [`{chk}`](https://poissonconsulting.github.io/chk/) (to check user-supplied function arguments)
+
 - [`{checkmate}`](https://mllg.github.io/checkmate/) (fast and versatile argument checks)
 
 - [`{assertthat}`](https://cran.r-project.org/package=assertthat) (to declare the pre and post conditions that you code should satisfy and to produce friendly error messages)
