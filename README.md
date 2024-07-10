@@ -936,6 +936,9 @@ To thank the contributors or maintainers of packages you rely on.
     script/session/workspace and all dependencies as a `Docker`
     container by generating a suitable `Dockerfile`)
 
+-   [`{dockerfiler}`](https://github.com/ThinkR-open/dockerfiler) (to
+    generate `Dockerfile` for R projects)
+
 -   [`{usethat}`](https://tidylab.github.io/usethat/) (to automate
     analytic project setup tasks)
 
@@ -1044,7 +1047,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-07-07
+ date     2024-07-10
  pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
  quarto   1.6.1 @ /usr/local/bin/quarto
 
@@ -1066,7 +1069,7 @@ To thank the contributors or maintainers of packages you rely on.
  htmltools     0.5.8.1    2024-04-04 [1] RSPM
  httr          1.4.7      2023-08-15 [1] RSPM
  jsonlite      1.8.8      2023-12-04 [1] RSPM
- knitr         1.47       2024-05-29 [1] RSPM
+ knitr         1.48       2024-07-07 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
  methods     * 4.4.1      2024-06-14 [3] local
  png           0.1-8      2022-11-29 [1] RSPM
