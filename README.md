@@ -843,6 +843,9 @@ continuous deployment
 
 ## Function argument validation
 
+-   [`{chk}`](https://poissonconsulting.github.io/chk/) (to check
+    user-supplied function arguments)
+
 -   [`{checkmate}`](https://mllg.github.io/checkmate/) (fast and
     versatile argument checks)
 
