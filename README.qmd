@@ -461,13 +461,15 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{attachment}`](https://github.com/ThinkR-open/attachment/) (to deal with package dependencies during package development)
 
-# CRAN/Bioconductor checks, submission, and status 📬
+# CRAN/Bioconductor checks 📬
 
 - [`{rcmdcheck}`](https://rcmdcheck.r-lib.org/) (to run `R CMD check` form R programmatically)
 
 - [`{BiocCheck}`](https://github.com/Bioconductor/BiocCheck/) (to run Bioconductor-specific package checks)
 
 - [`{rhub}`](https://cran.r-project.org/package=rhub) (to run `R CMD check` on CRAN architectures)
+
+- [`{checked}`](https://CRAN.R-project.org/package=checked) (systematically run `R CMD check` against multiple packages)
 
 - [`{checkhelper}`](https://thinkr-open.github.io/checkhelper/) (to help avoid problems with CRAN submissions)
 
