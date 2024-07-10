@@ -52,8 +52,7 @@ Indrajeet Patil
     -   [Benchmarking](#benchmarking)
     -   [Profiling](#profiling)
 -   [Dependency Management ⚖️](#dependency-management)
--   [CRAN/Bioconductor checks, submission, and status
-    📬](#cranbioconductor-checks-submission-and-status)
+-   [CRAN/Bioconductor checks 📬](#cranbioconductor-checks)
 -   [Usage 🙈](#usage)
 -   [CI/CD 📟](#cicd)
 -   [Security/Privacy 👮](#securityprivacy)
@@ -735,7 +734,7 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{attachment}`](https://github.com/ThinkR-open/attachment/) (to
     deal with package dependencies during package development)
 
-# CRAN/Bioconductor checks, submission, and status 📬
+# CRAN/Bioconductor checks 📬
 
 -   [`{rcmdcheck}`](https://rcmdcheck.r-lib.org/) (to run `R CMD check`
     form R programmatically)
@@ -745,6 +744,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 -   [`{rhub}`](https://cran.r-project.org/package=rhub) (to run
     `R CMD check` on CRAN architectures)
+
+-   [`{checked}`](https://CRAN.R-project.org/package=checked)
+    (systematically run `R CMD check` against multiple packages)
 
 -   [`{checkhelper}`](https://thinkr-open.github.io/checkhelper/) (to
     help avoid problems with CRAN submissions)

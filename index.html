@@ -140,7 +140,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#profiling" id="toc-profiling" class="nav-link" data-scroll-target="#profiling">Profiling</a></li>
   </ul></li>
   <li><a href="#dependency-management" id="toc-dependency-management" class="nav-link" data-scroll-target="#dependency-management">Dependency Management ⚖️</a></li>
-  <li><a href="#cranbioconductor-checks-submission-and-status" id="toc-cranbioconductor-checks-submission-and-status" class="nav-link" data-scroll-target="#cranbioconductor-checks-submission-and-status">CRAN/Bioconductor checks, submission, and status 📬</a></li>
+  <li><a href="#cranbioconductor-checks" id="toc-cranbioconductor-checks" class="nav-link" data-scroll-target="#cranbioconductor-checks">CRAN/Bioconductor checks 📬</a></li>
   <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage 🙈</a></li>
   <li><a href="#cicd" id="toc-cicd" class="nav-link" data-scroll-target="#cicd">CI/CD 📟</a></li>
   <li><a href="#securityprivacy" id="toc-securityprivacy" class="nav-link" data-scroll-target="#securityprivacy">Security/Privacy 👮</a></li>
@@ -632,12 +632,13 @@ What is included?
 <li><p><a href="https://github.com/ThinkR-open/attachment/"><code>{attachment}</code></a> (to deal with package dependencies during package development)</p></li>
 </ul>
 </section>
-<section id="cranbioconductor-checks-submission-and-status" class="level1">
-<h1>CRAN/Bioconductor checks, submission, and status 📬</h1>
+<section id="cranbioconductor-checks" class="level1">
+<h1>CRAN/Bioconductor checks 📬</h1>
 <ul>
 <li><p><a href="https://rcmdcheck.r-lib.org/"><code>{rcmdcheck}</code></a> (to run <code>R CMD check</code> form R programmatically)</p></li>
 <li><p><a href="https://github.com/Bioconductor/BiocCheck/"><code>{BiocCheck}</code></a> (to run Bioconductor-specific package checks)</p></li>
 <li><p><a href="https://cran.r-project.org/package=rhub"><code>{rhub}</code></a> (to run <code>R CMD check</code> on CRAN architectures)</p></li>
+<li><p><a href="https://CRAN.R-project.org/package=checked"><code>{checked}</code></a> (systematically run <code>R CMD check</code> against multiple packages)</p></li>
 <li><p><a href="https://thinkr-open.github.io/checkhelper/"><code>{checkhelper}</code></a> (to help avoid problems with CRAN submissions)</p></li>
 <li><p><a href="https://github.com/JosiahParry/extrachecks/"><code>{extrachecks}</code></a> (to run some additional CRAN checks)</p></li>
 <li><p><a href="https://cran.r-project.org/package=foghorn"><code>{foghorn}</code></a> (to check for results and submission portal status)</p></li>
