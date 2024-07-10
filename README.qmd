@@ -595,6 +595,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{containerit}`](https://o2r.info/containerit/) (to package R script/session/workspace and all dependencies as a `Docker` container by generating a suitable `Dockerfile`)
 
+- [`{dockerfiler}`](https://github.com/ThinkR-open/dockerfiler) (to generate `Dockerfile` for R projects)
+
 - [`{usethat}`](https://tidylab.github.io/usethat/) (to automate analytic project setup tasks)
 
 # Integration with other languages 🔗
