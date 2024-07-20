@@ -205,6 +205,13 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{dotenv}`](https://cran.r-project.org/package=dotenv) (to load
     environment variables from `.env` files)
 
+-   [`{options}`](https://dgkf.github.io/options/) (provides simple
+    mechanisms for defining and interpreting package options)
+
+-   [`{potions}`](https://cran.r-project.org/package=potions) (to update
+    and retrieve options, either in the workspace or during package
+    development, without overwriting global options)
+
 # Package management tools
 
 -   [`{pkgcache}`](https://cran.r-project.org/package=pkgcache) (to
@@ -598,6 +605,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 ## Code quality
 
 -   [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
+
+-   [`{flint}`](https://flint.etiennebacher.com/) (to fix lints found by
+    `{lintr}`)
 
 -   [`{roxylint}`](https://openpharma.github.io/roxylint/index.html) (to
     lint `{roxygen2}`-generated documentation)
@@ -1012,9 +1022,6 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix
     function with their namespace )
 
--   [`{options}`](https://dgkf.github.io/options/) (provides simple
-    mechanisms for defining and interpreting package options)
-
 -   [`{onetime}`](https://hughjonesd.github.io/onetime/) (for package
     authors to run code only once for a given user on a given computer)
 
@@ -1052,9 +1059,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-07-14
+ date     2024-07-20
  pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
- quarto   1.6.1 @ /usr/local/bin/quarto
+ quarto   1.6.3 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
@@ -1086,7 +1093,7 @@ To thank the contributors or maintainers of packages you rely on.
  tools         4.4.1      2024-06-14 [3] local
  utils       * 4.4.1      2024-06-14 [3] local
  withr         3.0.0      2024-01-16 [1] RSPM
- xfun          0.45       2024-06-16 [1] RSPM
+ xfun          0.46       2024-07-18 [1] RSPM
  xml2          1.3.6      2023-12-04 [1] RSPM
  yaml          2.3.9      2024-07-05 [1] RSPM
 

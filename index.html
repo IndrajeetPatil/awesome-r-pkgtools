@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.1">
+<meta name="generator" content="quarto-1.6.3">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -193,7 +193,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">July 14, 2024</p>
+      <p class="date-modified">July 20, 2024</p>
     </div>
   </div>
     
@@ -305,6 +305,8 @@ What is included?
 <ul>
 <li><p><a href="https://rstudio.github.io/config/"><code>{config}</code></a> (to manage environment specific configuration values)</p></li>
 <li><p><a href="https://cran.r-project.org/package=dotenv"><code>{dotenv}</code></a> (to load environment variables from <code>.env</code> files)</p></li>
+<li><p><a href="https://dgkf.github.io/options/"><code>{options}</code></a> (provides simple mechanisms for defining and interpreting package options)</p></li>
+<li><p><a href="https://cran.r-project.org/package=potions"><code>{potions}</code></a> (to update and retrieve options, either in the workspace or during package development, without overwriting global options)</p></li>
 </ul>
 </section>
 <section id="package-management-tools" class="level1">
@@ -545,6 +547,7 @@ What is included?
 <h2 class="anchored" data-anchor-id="code-quality">Code quality</h2>
 <ul>
 <li><p><a href="https://github.com/r-lib/lintr/"><code>{lintr}</code></a> (static code analysis)</p></li>
+<li><p><a href="https://flint.etiennebacher.com/"><code>{flint}</code></a> (to fix lints found by <code>{lintr}</code>)</p></li>
 <li><p><a href="https://openpharma.github.io/roxylint/index.html"><code>{roxylint}</code></a> (to lint <code>{roxygen2}</code>-generated documentation)</p></li>
 <li><p><a href="https://jorischau.github.io/checkglobals/index.html"><code>{checkglobals}</code></a> (to check R-packages for globals and imports)</p></li>
 <li><p><a href="https://github.com/duncantl/CodeDepends"><code>{CodeDepends}</code></a> (analysis of R code for reproducible research and code view)</p></li>
@@ -817,7 +820,6 @@ What is included?
 <li><p><a href="https://CRAN.R-project.org/package=rfold"><code>{rfold}</code></a> (to work with many R folders within an R package)</p></li>
 <li><p><a href="https://github.com/the-y-company/many"><code>{many}</code></a> (to create R packages from many directories)</p></li>
 <li><p><a href="https://github.com/dreamRs/prefixer/"><code>{prefixer}</code></a> (prefix function with their namespace )</p></li>
-<li><p><a href="https://dgkf.github.io/options/"><code>{options}</code></a> (provides simple mechanisms for defining and interpreting package options)</p></li>
 <li><p><a href="https://hughjonesd.github.io/onetime/"><code>{onetime}</code></a> (for package authors to run code only once for a given user on a given computer)</p></li>
 <li><p><a href="https://rstudio.github.io/rstudioapi/"><code>{rstudioapi}</code></a> (to conditionally access the RStudio API from CRAN packages)</p></li>
 <li><p><a href="https://hughjonesd.shinyapps.io/rcheology/"><code>{rcheology}</code></a> (to access data on base packages for previous versions of R)</p></li>
@@ -844,9 +846,9 @@ What is included?
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> collate  C.UTF<span class="dv">-8</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a> ctype    C.UTF<span class="dv">-8</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a> tz       UTC</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-07-14</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-07-20</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a> pandoc   <span class="dv">3</span>.<span class="fl">2.1</span> <span class="sc">@</span> <span class="er">/</span>opt<span class="sc">/</span>hostedtoolcache<span class="sc">/</span>pandoc<span class="sc">/</span><span class="dv">3</span>.<span class="fl">2.1</span><span class="sc">/</span>x64<span class="sc">/</span> (via rmarkdown)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> quarto   <span class="dv">1</span>.<span class="fl">6.1</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>local<span class="sc">/</span>bin<span class="sc">/</span>quarto</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> quarto   <span class="dv">1</span>.<span class="fl">6.3</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>local<span class="sc">/</span>bin<span class="sc">/</span>quarto</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>─ Packages ───────────────────────────────────────────────────────────────────</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a> package     <span class="sc">*</span> version    <span class="fu">date</span> (UTC) lib source</span>
@@ -878,7 +880,7 @@ What is included?
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a> tools         <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-06-14</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a> utils       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-06-14</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a> withr         <span class="dv">3</span>.<span class="fl">0.0</span>      <span class="dv">2024-01-16</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a> xfun          <span class="fl">0.45</span>       <span class="dv">2024-06-16</span> [<span class="dv">1</span>] RSPM</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a> xfun          <span class="fl">0.46</span>       <span class="dv">2024-07-18</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a> xml2          <span class="dv">1</span>.<span class="fl">3.6</span>      <span class="dv">2023-12-04</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a> yaml          <span class="dv">2</span>.<span class="fl">3.9</span>      <span class="dv">2024-07-05</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
