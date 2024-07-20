@@ -107,6 +107,10 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{dotenv}`](https://cran.r-project.org/package=dotenv) (to load environment variables from `.env` files)
 
+- [`{options}`](https://dgkf.github.io/options/) (provides simple mechanisms for defining and interpreting package options)
+
+- [`{potions}`](https://cran.r-project.org/package=potions) (to update and retrieve options, either in the workspace or during package development, without overwriting global options)
+
 # Package management tools
 
 - [`{pkgcache}`](https://cran.r-project.org/package=pkgcache) (to cache 'CRAN'-like metadata and packages)
@@ -368,6 +372,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 ## Code quality
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
+
+- [`{flint}`](https://flint.etiennebacher.com/) (to fix lints found by `{lintr}`)
 
 - [`{roxylint}`](https://openpharma.github.io/roxylint/index.html) (to lint `{roxygen2}`-generated documentation)
 
@@ -657,8 +663,6 @@ To thank the contributors or maintainers of packages you rely on.
 - [`{many}`](https://github.com/the-y-company/many) (to create R packages from many directories)
 
 - [`{prefixer}`](https://github.com/dreamRs/prefixer/) (prefix function with their namespace )
-
-- [`{options}`](https://dgkf.github.io/options/) (provides simple mechanisms for defining and interpreting package options)
 
 - [`{onetime}`](https://hughjonesd.github.io/onetime/) (for package authors to run code only once for a given user on a given computer)
 
