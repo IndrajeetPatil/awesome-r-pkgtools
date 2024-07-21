@@ -689,11 +689,6 @@ library(details)
 #| eval: true
 #| comment: "#>"
 #| details.summary: "Session details"
-options(
-  crayon.enabled = FALSE,
-  cli.num_colors = 0,
-  cli.hyperlink = FALSE
-)
 
 sessioninfo::session_info(include_base = TRUE)
 ```

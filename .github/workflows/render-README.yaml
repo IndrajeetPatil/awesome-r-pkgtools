@@ -42,6 +42,7 @@ jobs:
 
       - name: Render README
         run: |
+          options(crayon.enabled = FALSE)
           callr::rscript("renderer.R")
         shell: Rscript {0}
 
