@@ -448,14 +448,14 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 ## Web/database applications
 
--   [`{httptest}`](https://enpiar.com/r/httptest/) (a test environment
-    for HTTP requests in R)
+-   [`{httptest}`](https://enpiar.com/r/httptest/)/[`{httptest2}`](https://enpiar.com/httptest2/)
+    (a test environment for HTTP requests in R)
 
--   [`{httptest2}`](https://enpiar.com/httptest2/) (the same for
-    `{httr2}` package)
+-   [`{webfakes}`](https://webfakes.r-lib.org/) (to fake web apps for
+    HTTP testing)
 
--   [`{webfakes}`](https://webfakes.r-lib.org/) (provides fake web apps
-    for HTTP testing R packages)
+-   [`{vcr}`](https://github.com/ropensci/vcr) (to record HTTP requests
+    and responses on disk and replay them for the unit tests)
 
 -   [`{dittodb}`](https://dittodb.jonkeane.com/) (makes testing against
     databases easy)
@@ -1059,9 +1059,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-07-21
+ date     2024-07-25
  pandoc   3.2.1 @ /opt/hostedtoolcache/pandoc/3.2.1/x64/ (via rmarkdown)
- quarto   1.6.3 @ /usr/local/bin/quarto
+ quarto   1.6.4 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
