@@ -139,6 +139,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#benchmarking" id="toc-benchmarking" class="nav-link" data-scroll-target="#benchmarking">Benchmarking</a></li>
   <li><a href="#profiling" id="toc-profiling" class="nav-link" data-scroll-target="#profiling">Profiling</a></li>
   </ul></li>
+  <li><a href="#reproducible-environments" id="toc-reproducible-environments" class="nav-link" data-scroll-target="#reproducible-environments">Reproducible Environments 🌐</a>
+  <ul class="collapse">
+  <li><a href="#package-management" id="toc-package-management" class="nav-link" data-scroll-target="#package-management">Package management</a></li>
+  <li><a href="#containerization" id="toc-containerization" class="nav-link" data-scroll-target="#containerization">Containerization 🛍</a></li>
+  </ul></li>
   <li><a href="#dependency-management" id="toc-dependency-management" class="nav-link" data-scroll-target="#dependency-management">Dependency Management ⚖️</a></li>
   <li><a href="#cranbioconductor-checks" id="toc-cranbioconductor-checks" class="nav-link" data-scroll-target="#cranbioconductor-checks">CRAN/Bioconductor checks 📬</a></li>
   <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage 🙈</a></li>
@@ -154,7 +159,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#package-metadata" id="toc-package-metadata" class="nav-link" data-scroll-target="#package-metadata">Package metadata 🖨</a></li>
   <li><a href="#reverse-dependency-checks" id="toc-reverse-dependency-checks" class="nav-link" data-scroll-target="#reverse-dependency-checks">Reverse dependency checks 📡⚰️</a></li>
   <li><a href="#gratitude" id="toc-gratitude" class="nav-link" data-scroll-target="#gratitude">Gratitude 🙏💌</a></li>
-  <li><a href="#docker-container" id="toc-docker-container" class="nav-link" data-scroll-target="#docker-container">Docker container 🛍</a></li>
   <li><a href="#integration-with-other-languages" id="toc-integration-with-other-languages" class="nav-link" data-scroll-target="#integration-with-other-languages">Integration with other languages 🔗</a>
   <ul class="collapse">
   <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">C++</a></li>
@@ -193,7 +197,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 4, 2024</p>
+      <p class="date-modified">August 7, 2024</p>
     </div>
   </div>
     
@@ -616,7 +620,27 @@ What is included?
 <li><p><a href="https://cran.r-project.org/package=profvis"><code>{profvis}</code></a> (to profile and visualize profiling data)</p></li>
 <li><p><a href="https://r-prof.github.io/proffer/"><code>{proffer}</code></a> (to create friendlier, faster visualizations for profiling data)</p></li>
 <li><p><a href="https://r-prof.github.io/jointprof/"><code>{jointprof}</code></a> (to profile packages with native code in C, C++, Fortran, etc.)</p></li>
-<li><p><a href="https://github.com/atheriel/xrprof"><code>{xrprof}</code></a> (an external sampling profiler for R programs)</p></li>
+<li><p><a href="https://github.com/atheriel/xrprof"><code>{xrprof}</code></a> (an external sampling profiler)</p></li>
+</ul>
+</section>
+</section>
+<section id="reproducible-environments" class="level1">
+<h1>Reproducible Environments 🌐</h1>
+<section id="package-management" class="level2">
+<h2 class="anchored" data-anchor-id="package-management">Package management</h2>
+<ul>
+<li><p><a href="https://rstudio.github.io/renv/"><code>{renv}</code></a> (to create project-local environments)</p></li>
+<li><p><a href="https://cran4linux.github.io/bspm/index.html"><code>{bspm}</code></a> (to enable binary package installations via Linux distribution’s package manager)</p></li>
+<li><p><a href="https://cran4linux.github.io/rspm/"><code>{rspm}</code></a> (to access <a href="https://packagemanager.posit.co/client/">Posit Public Package Manager</a> for binary package installations on Linux)</p></li>
+<li><p><a href="https://groundhogr.com/">groundhogr</a>) (to load packages and their dependencies as available on chosen date on CRAN)</p></li>
+</ul>
+</section>
+<section id="containerization" class="level2">
+<h2 class="anchored" data-anchor-id="containerization">Containerization 🛍</h2>
+<ul>
+<li><p><a href="https://o2r.info/containerit/"><code>{containerit}</code></a> (to package R script/session/workspace and all dependencies as a <code>Docker</code> container by generating a suitable <code>Dockerfile</code>)</p></li>
+<li><p><a href="https://github.com/ThinkR-open/dockerfiler"><code>{dockerfiler}</code></a> (to generate <code>Dockerfile</code> for R projects)</p></li>
+<li><p><a href="https://tidylab.github.io/usethat/"><code>{usethat}</code></a> (to automate analytic project setup tasks)</p></li>
 </ul>
 </section>
 </section>
@@ -748,14 +772,6 @@ What is included?
 <li><p><a href="https://docs.ropensci.org/allcontributors/"><code>{allcontributors}</code></a> (to help acknowledge all contributions)</p></li>
 </ul>
 </section>
-<section id="docker-container" class="level1">
-<h1>Docker container 🛍</h1>
-<ul>
-<li><p><a href="https://o2r.info/containerit/"><code>{containerit}</code></a> (to package R script/session/workspace and all dependencies as a <code>Docker</code> container by generating a suitable <code>Dockerfile</code>)</p></li>
-<li><p><a href="https://github.com/ThinkR-open/dockerfiler"><code>{dockerfiler}</code></a> (to generate <code>Dockerfile</code> for R projects)</p></li>
-<li><p><a href="https://tidylab.github.io/usethat/"><code>{usethat}</code></a> (to automate analytic project setup tasks)</p></li>
-</ul>
-</section>
 <section id="integration-with-other-languages" class="level1">
 <h1>Integration with other languages 🔗</h1>
 <section id="c" class="level2">
@@ -846,7 +862,7 @@ What is included?
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> collate  C.UTF<span class="dv">-8</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a> ctype    C.UTF<span class="dv">-8</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a> tz       UTC</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-08-04</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-08-07</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a> pandoc   <span class="fl">3.3</span> <span class="sc">@</span> <span class="er">/</span>opt<span class="sc">/</span>hostedtoolcache<span class="sc">/</span>pandoc<span class="sc">/</span><span class="fl">3.3</span><span class="sc">/</span>x64<span class="sc">/</span> (via rmarkdown)</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> quarto   <span class="dv">1</span>.<span class="fl">6.4</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>local<span class="sc">/</span>bin<span class="sc">/</span>quarto</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
@@ -875,7 +891,7 @@ What is included?
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a> R6            <span class="dv">2</span>.<span class="fl">5.1</span>      <span class="dv">2021-08-19</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a> rlang         <span class="dv">1</span>.<span class="fl">1.4</span>      <span class="dv">2024-06-04</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a> rmarkdown     <span class="fl">2.27</span>       <span class="dv">2024-05-17</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a> sessioninfo   <span class="dv">1</span>.<span class="dv">2</span>.<span class="fl">2.9000</span> <span class="dv">2024-08-04</span> [<span class="dv">1</span>] <span class="fu">Github</span> (r<span class="sc">-</span>lib<span class="sc">/</span>sessioninfo<span class="sc">@</span><span class="dv">064</span>bc38)</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a> sessioninfo   <span class="dv">1</span>.<span class="dv">2</span>.<span class="fl">2.9000</span> <span class="dv">2024-08-07</span> [<span class="dv">1</span>] <span class="fu">Github</span> (r<span class="sc">-</span>lib<span class="sc">/</span>sessioninfo<span class="sc">@</span><span class="dv">96</span>bdc9b)</span>
 <span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a> stats       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a> tools         <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-01</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a> utils       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>

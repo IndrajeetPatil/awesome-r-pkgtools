@@ -51,6 +51,9 @@ Indrajeet Patil
 -   [Code performance ⏱️](#code-performance)
     -   [Benchmarking](#benchmarking)
     -   [Profiling](#profiling)
+-   [Reproducible Environments 🌐](#reproducible-environments)
+    -   [Package management](#package-management)
+    -   [Containerization 🛍](#containerization)
 -   [Dependency Management ⚖️](#dependency-management)
 -   [CRAN/Bioconductor checks 📬](#cranbioconductor-checks)
 -   [Usage 🙈](#usage)
@@ -64,7 +67,6 @@ Indrajeet Patil
 -   [Package metadata 🖨](#package-metadata)
 -   [Reverse dependency checks 📡⚰️](#reverse-dependency-checks)
 -   [Gratitude 🙏💌](#gratitude)
--   [Docker container 🛍](#docker-container)
 -   [Integration with other languages
     🔗](#integration-with-other-languages)
     -   [C++](#c)
@@ -707,7 +709,37 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
     packages with native code in C, C++, Fortran, etc.)
 
 -   [`{xrprof}`](https://github.com/atheriel/xrprof) (an external
-    sampling profiler for R programs)
+    sampling profiler)
+
+# Reproducible Environments 🌐
+
+## Package management
+
+-   [`{renv}`](https://rstudio.github.io/renv/) (to create project-local
+    environments)
+
+-   [`{bspm}`](https://cran4linux.github.io/bspm/index.html) (to enable
+    binary package installations via Linux distribution’s package
+    manager)
+
+-   [`{rspm}`](https://cran4linux.github.io/rspm/) (to access [Posit
+    Public Package Manager](https://packagemanager.posit.co/client/) for
+    binary package installations on Linux)
+
+-   [groundhogr](https://groundhogr.com/)) (to load packages and their
+    dependencies as available on chosen date on CRAN)
+
+## Containerization 🛍
+
+-   [`{containerit}`](https://o2r.info/containerit/) (to package R
+    script/session/workspace and all dependencies as a `Docker`
+    container by generating a suitable `Dockerfile`)
+
+-   [`{dockerfiler}`](https://github.com/ThinkR-open/dockerfiler) (to
+    generate `Dockerfile` for R projects)
+
+-   [`{usethat}`](https://tidylab.github.io/usethat/) (to automate
+    analytic project setup tasks)
 
 # Dependency Management ⚖️
 
@@ -945,18 +977,6 @@ To thank the contributors or maintainers of packages you rely on.
 -   [`{allcontributors}`](https://docs.ropensci.org/allcontributors/)
     (to help acknowledge all contributions)
 
-# Docker container 🛍
-
--   [`{containerit}`](https://o2r.info/containerit/) (to package R
-    script/session/workspace and all dependencies as a `Docker`
-    container by generating a suitable `Dockerfile`)
-
--   [`{dockerfiler}`](https://github.com/ThinkR-open/dockerfiler) (to
-    generate `Dockerfile` for R projects)
-
--   [`{usethat}`](https://tidylab.github.io/usethat/) (to automate
-    analytic project setup tasks)
-
 # Integration with other languages 🔗
 
 ## C++
@@ -1059,7 +1079,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-08-04
+ date     2024-08-07
  pandoc   3.3 @ /opt/hostedtoolcache/pandoc/3.3/x64/ (via rmarkdown)
  quarto   1.6.4 @ /usr/local/bin/quarto
 
@@ -1088,7 +1108,7 @@ To thank the contributors or maintainers of packages you rely on.
  R6            2.5.1      2021-08-19 [1] RSPM
  rlang         1.1.4      2024-06-04 [1] RSPM
  rmarkdown     2.27       2024-05-17 [1] RSPM
- sessioninfo   1.2.2.9000 2024-08-04 [1] Github (r-lib/sessioninfo@064bc38)
+ sessioninfo   1.2.2.9000 2024-08-07 [1] Github (r-lib/sessioninfo@96bdc9b)
  stats       * 4.4.1      2024-08-02 [3] local
  tools         4.4.1      2024-08-01 [3] local
  utils       * 4.4.1      2024-08-02 [3] local
