@@ -223,6 +223,22 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{gramr}`](https://github.com/jasdumas/gramr/) (for grammar suggestions)
 
+# Logging 📝
+
+- [`{logger}`](https://cran.r-project.org/package=logger) (provides a flexible and extensible logging framework for R)
+
+- [`{loggit}`](https://cran.r-project.org/package=loggit) (effortless newline-delimited JSON logger, with two primary log-writing interfaces)
+
+- [`{log4r}`](https://cran.r-project.org/package=log4r) (logging in R based on the widely-emulated 'log4j' system and etymology)
+
+- [`{lgr}`](https://cran.r-project.org/package=lgr) (a flexible, feature-rich yet light-weight logging framework based on 'R6' classes)
+
+- [`{rsyslog}`](https://cran.r-project.org/package=rsyslog) (write messages to the 'syslog' system logger API)
+
+- [`{logging}`](https://cran.r-project.org/package=logging) (pure R implementation of the ubiquitous 'log4j' package)
+
+- [`{lumberjack}`](https://cran.r-project.org/package=lumberjack) (to log changes in data)
+
 # Unit testing 🧪
 
 ## Generic R Packages
