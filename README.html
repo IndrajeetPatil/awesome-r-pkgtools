@@ -109,6 +109,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#change-log-and-versioning" id="toc-change-log-and-versioning" class="nav-link" data-scroll-target="#change-log-and-versioning">Change log and versioning</a></li>
   </ul></li>
   <li><a href="#documentation-quality" id="toc-documentation-quality" class="nav-link" data-scroll-target="#documentation-quality">Documentation quality ✒️</a></li>
+  <li><a href="#logging" id="toc-logging" class="nav-link" data-scroll-target="#logging">Logging 📝</a></li>
   <li><a href="#unit-testing" id="toc-unit-testing" class="nav-link" data-scroll-target="#unit-testing">Unit testing 🧪</a>
   <ul class="collapse">
   <li><a href="#generic-r-packages" id="toc-generic-r-packages" class="nav-link" data-scroll-target="#generic-r-packages">Generic R Packages</a></li>
@@ -197,7 +198,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">August 7, 2024</p>
+      <p class="date-modified">August 9, 2024</p>
     </div>
   </div>
     
@@ -421,6 +422,18 @@ What is included?
 <li><p><a href="https://thisisnic.github.io/docreview/"><code>{docreview}</code></a> (to check quality of docs)</p></li>
 <li><p><a href="https://docs.ropensci.org/spelling/"><code>{spelling}</code></a> (to check for spelling mistakes)</p></li>
 <li><p><a href="https://github.com/jasdumas/gramr/"><code>{gramr}</code></a> (for grammar suggestions)</p></li>
+</ul>
+</section>
+<section id="logging" class="level1">
+<h1>Logging 📝</h1>
+<ul>
+<li><p><a href="https://cran.r-project.org/package=logger"><code>{logger}</code></a> (provides a flexible and extensible logging framework for R)</p></li>
+<li><p><a href="https://cran.r-project.org/package=loggit"><code>{loggit}</code></a> (effortless newline-delimited JSON logger, with two primary log-writing interfaces)</p></li>
+<li><p><a href="https://cran.r-project.org/package=log4r"><code>{log4r}</code></a> (logging in R based on the widely-emulated ‘log4j’ system and etymology)</p></li>
+<li><p><a href="https://cran.r-project.org/package=lgr"><code>{lgr}</code></a> (a flexible, feature-rich yet light-weight logging framework based on ‘R6’ classes)</p></li>
+<li><p><a href="https://cran.r-project.org/package=rsyslog"><code>{rsyslog}</code></a> (write messages to the ‘syslog’ system logger API)</p></li>
+<li><p><a href="https://cran.r-project.org/package=logging"><code>{logging}</code></a> (pure R implementation of the ubiquitous ‘log4j’ package)</p></li>
+<li><p><a href="https://cran.r-project.org/package=lumberjack"><code>{lumberjack}</code></a> (to log changes in data)</p></li>
 </ul>
 </section>
 <section id="unit-testing" class="level1">
@@ -862,39 +875,39 @@ What is included?
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a> collate  C.UTF<span class="dv">-8</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a> ctype    C.UTF<span class="dv">-8</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a> tz       UTC</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-08-07</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a> date     <span class="dv">2024-08-09</span></span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a> pandoc   <span class="fl">3.3</span> <span class="sc">@</span> <span class="er">/</span>opt<span class="sc">/</span>hostedtoolcache<span class="sc">/</span>pandoc<span class="sc">/</span><span class="fl">3.3</span><span class="sc">/</span>x64<span class="sc">/</span> (via rmarkdown)</span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> quarto   <span class="dv">1</span>.<span class="fl">6.4</span> <span class="sc">@</span> <span class="er">/</span>usr<span class="sc">/</span>local<span class="sc">/</span>bin<span class="sc">/</span>quarto</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>─ Packages ───────────────────────────────────────────────────────────────────</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a> package     <span class="sc">*</span> version    <span class="fu">date</span> (UTC) lib source</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> base        <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a> base        <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a> cli           <span class="dv">3</span>.<span class="fl">6.3</span>      <span class="dv">2024-06-21</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a> clipr         <span class="dv">0</span>.<span class="fl">8.0</span>      <span class="dv">2022-02-22</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a> compiler      <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-01</span> [<span class="dv">3</span>] local</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a> datasets    <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a> compiler      <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a> datasets    <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a> desc          <span class="dv">1</span>.<span class="fl">4.3</span>      <span class="dv">2023-12-10</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a> details     <span class="sc">*</span> <span class="dv">0</span>.<span class="fl">3.0</span>      <span class="dv">2022-03-27</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a> digest        <span class="dv">0</span>.<span class="fl">6.36</span>     <span class="dv">2024-06-23</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a> evaluate      <span class="dv">0</span>.<span class="fl">24.0</span>     <span class="dv">2024-06-10</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a> fastmap       <span class="dv">1</span>.<span class="fl">2.0</span>      <span class="dv">2024-05-15</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a> graphics    <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a> grDevices   <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a> grid          <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a> graphics    <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a> grDevices   <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a> grid          <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a> htmltools     <span class="dv">0</span>.<span class="dv">5</span>.<span class="fl">8.1</span>    <span class="dv">2024-04-04</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a> httr          <span class="dv">1</span>.<span class="fl">4.7</span>      <span class="dv">2023-08-15</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a> jsonlite      <span class="dv">1</span>.<span class="fl">8.8</span>      <span class="dv">2023-12-04</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a> knitr         <span class="fl">1.48</span>       <span class="dv">2024-07-07</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a> magrittr      <span class="dv">2</span>.<span class="fl">0.3</span>      <span class="dv">2022-03-30</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a> methods     <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a> methods     <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a> png           <span class="fl">0.1</span><span class="dv">-8</span>      <span class="dv">2022-11-29</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a> R6            <span class="dv">2</span>.<span class="fl">5.1</span>      <span class="dv">2021-08-19</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a> rlang         <span class="dv">1</span>.<span class="fl">1.4</span>      <span class="dv">2024-06-04</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a> rmarkdown     <span class="fl">2.27</span>       <span class="dv">2024-05-17</span> [<span class="dv">1</span>] RSPM</span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a> sessioninfo   <span class="dv">1</span>.<span class="dv">2</span>.<span class="fl">2.9000</span> <span class="dv">2024-08-07</span> [<span class="dv">1</span>] <span class="fu">Github</span> (r<span class="sc">-</span>lib<span class="sc">/</span>sessioninfo<span class="sc">@</span><span class="dv">96</span>bdc9b)</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a> stats       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a> tools         <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-01</span> [<span class="dv">3</span>] local</span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a> utils       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-02</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a> sessioninfo   <span class="dv">1</span>.<span class="dv">2</span>.<span class="fl">2.9000</span> <span class="dv">2024-08-09</span> [<span class="dv">1</span>] <span class="fu">Github</span> (r<span class="sc">-</span>lib<span class="sc">/</span>sessioninfo<span class="sc">@</span><span class="dv">96</span>bdc9b)</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a> stats       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a> tools         <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a> utils       <span class="sc">*</span> <span class="dv">4</span>.<span class="fl">4.1</span>      <span class="dv">2024-08-06</span> [<span class="dv">3</span>] local</span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a> withr         <span class="dv">3</span>.<span class="fl">0.1</span>      <span class="dv">2024-07-31</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a> xfun          <span class="fl">0.46</span>       <span class="dv">2024-07-18</span> [<span class="dv">1</span>] RSPM</span>
 <span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a> xml2          <span class="dv">1</span>.<span class="fl">3.6</span>      <span class="dv">2023-12-04</span> [<span class="dv">1</span>] RSPM</span>

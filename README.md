@@ -26,6 +26,7 @@ Indrajeet Patil
     -   [Book](#book)
     -   [Change log and versioning](#change-log-and-versioning)
 -   [Documentation quality ✒️](#documentation-quality)
+-   [Logging 📝](#logging)
 -   [Unit testing 🧪](#unit-testing)
     -   [Generic R Packages](#generic-r-packages)
     -   [Web/database applications](#webdatabase-applications)
@@ -377,6 +378,31 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 -   [`{gramr}`](https://github.com/jasdumas/gramr/) (for grammar
     suggestions)
+
+# Logging 📝
+
+-   [`{logger}`](https://cran.r-project.org/package=logger) (provides a
+    flexible and extensible logging framework for R)
+
+-   [`{loggit}`](https://cran.r-project.org/package=loggit) (effortless
+    newline-delimited JSON logger, with two primary log-writing
+    interfaces)
+
+-   [`{log4r}`](https://cran.r-project.org/package=log4r) (logging in R
+    based on the widely-emulated ‘log4j’ system and etymology)
+
+-   [`{lgr}`](https://cran.r-project.org/package=lgr) (a flexible,
+    feature-rich yet light-weight logging framework based on ‘R6’
+    classes)
+
+-   [`{rsyslog}`](https://cran.r-project.org/package=rsyslog) (write
+    messages to the ‘syslog’ system logger API)
+
+-   [`{logging}`](https://cran.r-project.org/package=logging) (pure R
+    implementation of the ubiquitous ‘log4j’ package)
+
+-   [`{lumberjack}`](https://cran.r-project.org/package=lumberjack) (to
+    log changes in data)
 
 # Unit testing 🧪
 
@@ -1079,39 +1105,39 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-08-07
+ date     2024-08-09
  pandoc   3.3 @ /opt/hostedtoolcache/pandoc/3.3/x64/ (via rmarkdown)
  quarto   1.6.4 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
- base        * 4.4.1      2024-08-02 [3] local
+ base        * 4.4.1      2024-08-06 [3] local
  cli           3.6.3      2024-06-21 [1] RSPM
  clipr         0.8.0      2022-02-22 [1] RSPM
- compiler      4.4.1      2024-08-01 [3] local
- datasets    * 4.4.1      2024-08-02 [3] local
+ compiler      4.4.1      2024-08-06 [3] local
+ datasets    * 4.4.1      2024-08-06 [3] local
  desc          1.4.3      2023-12-10 [1] RSPM
  details     * 0.3.0      2022-03-27 [1] RSPM
  digest        0.6.36     2024-06-23 [1] RSPM
  evaluate      0.24.0     2024-06-10 [1] RSPM
  fastmap       1.2.0      2024-05-15 [1] RSPM
- graphics    * 4.4.1      2024-08-02 [3] local
- grDevices   * 4.4.1      2024-08-02 [3] local
- grid          4.4.1      2024-08-02 [3] local
+ graphics    * 4.4.1      2024-08-06 [3] local
+ grDevices   * 4.4.1      2024-08-06 [3] local
+ grid          4.4.1      2024-08-06 [3] local
  htmltools     0.5.8.1    2024-04-04 [1] RSPM
  httr          1.4.7      2023-08-15 [1] RSPM
  jsonlite      1.8.8      2023-12-04 [1] RSPM
  knitr         1.48       2024-07-07 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
- methods     * 4.4.1      2024-08-02 [3] local
+ methods     * 4.4.1      2024-08-06 [3] local
  png           0.1-8      2022-11-29 [1] RSPM
  R6            2.5.1      2021-08-19 [1] RSPM
  rlang         1.1.4      2024-06-04 [1] RSPM
  rmarkdown     2.27       2024-05-17 [1] RSPM
- sessioninfo   1.2.2.9000 2024-08-07 [1] Github (r-lib/sessioninfo@96bdc9b)
- stats       * 4.4.1      2024-08-02 [3] local
- tools         4.4.1      2024-08-01 [3] local
- utils       * 4.4.1      2024-08-02 [3] local
+ sessioninfo   1.2.2.9000 2024-08-09 [1] Github (r-lib/sessioninfo@96bdc9b)
+ stats       * 4.4.1      2024-08-06 [3] local
+ tools         4.4.1      2024-08-06 [3] local
+ utils       * 4.4.1      2024-08-06 [3] local
  withr         3.0.1      2024-07-31 [1] RSPM
  xfun          0.46       2024-07-18 [1] RSPM
  xml2          1.3.6      2023-12-04 [1] RSPM
