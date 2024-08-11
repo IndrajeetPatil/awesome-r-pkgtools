@@ -1105,7 +1105,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-08-09
+ date     2024-08-11
  pandoc   3.3 @ /opt/hostedtoolcache/pandoc/3.3/x64/ (via rmarkdown)
  quarto   1.6.4 @ /usr/local/bin/quarto
 
