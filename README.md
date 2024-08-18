@@ -757,9 +757,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 ## Containerization 🛍
 
--   [`{containerit}`](https://o2r.info/containerit/) (to package R
-    script/session/workspace and all dependencies as a `Docker`
-    container by generating a suitable `Dockerfile`)
+-   [`{containerit}`](https://github.com/o2r-project/containerit) (to
+    package R script/session/workspace and all dependencies as a
+    `Docker` container by generating a suitable `Dockerfile`)
 
 -   [`{dockerfiler}`](https://github.com/ThinkR-open/dockerfiler) (to
     generate `Dockerfile` for R projects)
