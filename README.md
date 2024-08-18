@@ -1105,7 +1105,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-08-11
+ date     2024-08-18
  pandoc   3.3 @ /opt/hostedtoolcache/pandoc/3.3/x64/ (via rmarkdown)
  quarto   1.6.4 @ /usr/local/bin/quarto
 
@@ -1133,13 +1133,13 @@ To thank the contributors or maintainers of packages you rely on.
  png           0.1-8      2022-11-29 [1] RSPM
  R6            2.5.1      2021-08-19 [1] RSPM
  rlang         1.1.4      2024-06-04 [1] RSPM
- rmarkdown     2.27       2024-05-17 [1] RSPM
- sessioninfo   1.2.2.9000 2024-08-09 [1] Github (r-lib/sessioninfo@96bdc9b)
+ rmarkdown     2.28       2024-08-17 [1] CRAN (R 4.4.1)
+ sessioninfo   1.2.2.9000 2024-08-18 [1] Github (r-lib/sessioninfo@821f0b4)
  stats       * 4.4.1      2024-08-06 [3] local
  tools         4.4.1      2024-08-06 [3] local
  utils       * 4.4.1      2024-08-06 [3] local
  withr         3.0.1      2024-07-31 [1] RSPM
- xfun          0.46       2024-07-18 [1] RSPM
+ xfun          0.47       2024-08-17 [1] CRAN (R 4.4.1)
  xml2          1.3.6      2023-12-04 [1] RSPM
  yaml          2.3.10     2024-07-26 [1] RSPM
 
