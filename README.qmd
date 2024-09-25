@@ -399,6 +399,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{adaptalint}`](https://cran.r-project.org/package=adaptalint) (infer code style from one package and use it to check another)
 
+- [`{box.linters}`](https://appsilon.github.io/box.linters/) (linters for [`{box}`](https://klmr.me/box/) modules)
+
 - [`{roger}`](https://cran.r-project.org/package=roger) (provides tools for grading the coding style and documentation of R scripts)
 
 - [`{cleanr}`](https://cran.r-project.org/package=cleanr) (tests code for some of the most common code layout flaws)
