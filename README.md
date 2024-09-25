@@ -649,6 +649,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{adaptalint}`](https://cran.r-project.org/package=adaptalint)
     (infer code style from one package and use it to check another)
 
+-   [`{box.linters}`](https://appsilon.github.io/box.linters/) (linters
+    for [`{box}`](https://klmr.me/box/) modules)
+
 -   [`{roger}`](https://cran.r-project.org/package=roger) (provides
     tools for grading the coding style and documentation of R scripts)
 
@@ -1105,9 +1108,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-09-22
+ date     2024-09-25
  pandoc   3.4 @ /opt/hostedtoolcache/pandoc/3.4/x64/ (via rmarkdown)
- quarto   1.6.11 @ /usr/local/bin/quarto
+ quarto   1.6.13 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
