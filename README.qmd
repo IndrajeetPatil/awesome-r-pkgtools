@@ -363,6 +363,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{inteRgrate}`](https://github.com/jumpingrivers/inteRgrate/) (provides an opinionated set of rules for R package development)
 
+- [`{checklist}`](https://inbo.github.io/checklist/) (to provide an elaborate and strict set of checks for R packages and R code)
+
 - [`{pkgcheck}`](https://docs.ropensci.org/pkgcheck/) (checks if package follows good practices recommended for packages in the [`rOpenSci`](https://ropensci.org/) ecosystem)
 
 - [{pkgstats}](https://docs.ropensci.org/pkgstats/) (a static code analysis tool)
