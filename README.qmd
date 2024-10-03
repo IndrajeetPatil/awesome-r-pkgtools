@@ -447,13 +447,15 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{bench}`](https://bench.r-lib.org/) (provides high precision benchmarks for R expressions)
 
-- [`{microbenchmark}`](https://cran.r-project.org/package=microbenchmark) (provides infrastructure to accurately measure and compare the execution time of R expressions)
+- [`{microbenchmark}`](https://cran.r-project.org/package=microbenchmark) (infrastructure to accurately measure and compare the execution time of R expressions)
 
-- [`{tictoc}`](https://CRAN.R-project.org/package=tictoc) (provides functions for timing R scripts)
+- [`{tictoc}`](https://CRAN.R-project.org/package=tictoc) (functions for timing R scripts)
 
-- [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/) (benchmarking pull requests)
+- [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/) (to benchmark pull requests)
 
-- [`{benchmarkme}`](https://CRAN.R-project.org/package=benchmarkme) (crowd-sourced system benchmarking)
+- [`{benchmarkme}`](https://CRAN.R-project.org/package=benchmarkme) (to crowd-source system benchmarking)
+
+- [`{comparer}`](https://github.com/CollinErickson/comparer) (to compare the results of different code chunks)
 
 ## Profiling
 
