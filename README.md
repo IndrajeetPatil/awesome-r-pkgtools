@@ -717,17 +717,20 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
     benchmarks for R expressions)
 
 -   [`{microbenchmark}`](https://cran.r-project.org/package=microbenchmark)
-    (provides infrastructure to accurately measure and compare the
-    execution time of R expressions)
+    (infrastructure to accurately measure and compare the execution time
+    of R expressions)
 
--   [`{tictoc}`](https://CRAN.R-project.org/package=tictoc) (provides
-    functions for timing R scripts)
+-   [`{tictoc}`](https://CRAN.R-project.org/package=tictoc) (functions
+    for timing R scripts)
 
--   [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/)
-    (benchmarking pull requests)
+-   [`{touchstone}`](https://lorenzwalthert.github.io/touchstone/) (to
+    benchmark pull requests)
 
 -   [`{benchmarkme}`](https://CRAN.R-project.org/package=benchmarkme)
-    (crowd-sourced system benchmarking)
+    (to crowd-source system benchmarking)
+
+-   [`{comparer}`](https://github.com/CollinErickson/comparer) (to
+    compare the results of different code chunks)
 
 ## Profiling
 
@@ -1106,14 +1109,15 @@ To thank the contributors or maintainers of packages you rely on.
  version  R version 4.4.1 (2024-06-14)
  os       Ubuntu 22.04.5 LTS
  system   x86_64, linux-gnu
+ hostname fv-az1146-490
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-09-29
+ date     2024-10-03
  pandoc   3.4 @ /opt/hostedtoolcache/pandoc/3.4/x64/ (via rmarkdown)
- quarto   1.6.15 @ /usr/local/bin/quarto
+ quarto   1.6.19 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
@@ -1140,7 +1144,7 @@ To thank the contributors or maintainers of packages you rely on.
  R6            2.5.1      2021-08-19 [1] RSPM
  rlang         1.1.4      2024-06-04 [1] RSPM
  rmarkdown     2.28       2024-08-17 [1] RSPM
- sessioninfo   1.2.2.9000 2024-09-22 [1] Github (r-lib/sessioninfo@442a686)
+ sessioninfo   1.2.2.9000 2024-10-03 [1] Github (r-lib/sessioninfo@bc05e08)
  stats       * 4.4.1      2024-08-22 [3] local
  tools         4.4.1      2024-08-22 [3] local
  utils       * 4.4.1      2024-08-22 [3] local
