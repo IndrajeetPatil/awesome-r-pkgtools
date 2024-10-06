@@ -1109,15 +1109,15 @@ To thank the contributors or maintainers of packages you rely on.
  version  R version 4.4.1 (2024-06-14)
  os       Ubuntu 22.04.5 LTS
  system   x86_64, linux-gnu
- hostname fv-az1146-490
+ hostname fv-az1543-140
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-10-03
- pandoc   3.4 @ /opt/hostedtoolcache/pandoc/3.4/x64/ (via rmarkdown)
- quarto   1.6.19 @ /usr/local/bin/quarto
+ date     2024-10-06
+ pandoc   3.5 @ /opt/hostedtoolcache/pandoc/3.5/x64/ (via rmarkdown)
+ quarto   1.6.21 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
@@ -1149,7 +1149,7 @@ To thank the contributors or maintainers of packages you rely on.
  tools         4.4.1      2024-08-22 [3] local
  utils       * 4.4.1      2024-08-22 [3] local
  withr         3.0.1      2024-07-31 [1] RSPM
- xfun          0.47       2024-08-17 [1] RSPM
+ xfun          0.48       2024-10-03 [1] RSPM
  xml2          1.3.6      2023-12-04 [1] RSPM
  yaml          2.3.10     2024-07-26 [1] RSPM
 
