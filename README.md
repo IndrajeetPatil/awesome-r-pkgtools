@@ -753,6 +753,8 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{renv}`](https://rstudio.github.io/renv/) (to create project-local
     environments)
 
+-   [`{rix}`](https://cran.r-project.org/package=rix) (to create reproducible data science environments using the Nix package manager)
+
 -   [`{bspm}`](https://cran4linux.github.io/bspm/index.html) (to enable
     binary package installations via Linux distribution’s package
     manager)
@@ -761,7 +763,7 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
     Public Package Manager](https://packagemanager.posit.co/client/) for
     binary package installations on Linux)
 
--   [groundhogr](https://groundhogr.com/)) (to load packages and their
+-   [`{groundhogr}`](https://groundhogr.com/) (to load packages and their
     dependencies as available on chosen date on CRAN)
 
 ## Containerization 🛍
