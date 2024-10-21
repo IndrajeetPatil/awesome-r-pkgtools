@@ -487,6 +487,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{dockerfiler}`](https://github.com/ThinkR-open/dockerfiler) (to generate `Dockerfile` for R projects)
 
+- [`{pracpac}`](https://signaturescience.github.io/pracpac/) (a [`{usethis}`](https://usethis.r-lib.org/)-like interface to create Docker images from R packages under development)
+
 - [`{usethat}`](https://tidylab.github.io/usethat/) (to automate analytic project setup tasks)
 
 # Dependency Management ⚖️
