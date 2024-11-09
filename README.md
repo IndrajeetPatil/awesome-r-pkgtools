@@ -853,6 +853,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 -   [`{packageRank}`](https://github.com/lindbrook/packageRank/) (for
     visualizing CRAN download counts)
 
+-   [`{Visualize.CRAN.Downloads}`](https://CRAN.R-project.org/package=Visualize.CRAN.Downloads)
+    (to visualize CRAN downloads)
+
 -   [`{dlstats}`](https://guangchuangyu.github.io/dlstats/) (provides
     download statistics for packages)
 
@@ -1117,15 +1120,15 @@ To thank the contributors or maintainers of packages you rely on.
  version  R version 4.4.2 (2024-10-31)
  os       Ubuntu 22.04.5 LTS
  system   x86_64, linux-gnu
- hostname fv-az1499-278
+ hostname fv-az1242-902
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-11-03
+ date     2024-11-09
  pandoc   3.5 @ /opt/hostedtoolcache/pandoc/3.5/x64/ (via rmarkdown)
- quarto   1.6.32 @ /usr/local/bin/quarto
+ quarto   1.6.33 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
@@ -1145,13 +1148,13 @@ To thank the contributors or maintainers of packages you rely on.
  htmltools     0.5.8.1    2024-04-04 [1] RSPM
  httr          1.4.7      2023-08-15 [1] RSPM
  jsonlite      1.8.9      2024-09-20 [1] RSPM
- knitr         1.48       2024-07-07 [1] RSPM
+ knitr         1.49       2024-11-08 [1] RSPM
  magrittr      2.0.3      2022-03-30 [1] RSPM
  methods     * 4.4.2      2024-10-31 [3] local
  png           0.1-8      2022-11-29 [1] RSPM
  R6            2.5.1      2021-08-19 [1] RSPM
  rlang         1.1.4      2024-06-04 [1] RSPM
- rmarkdown     2.28       2024-08-17 [1] RSPM
+ rmarkdown     2.29       2024-11-04 [1] RSPM
  sessioninfo   1.2.2.9000 2024-11-03 [1] Github (r-lib/sessioninfo@37c81af)
  stats       * 4.4.2      2024-10-31 [3] local
  tools         4.4.2      2024-10-31 [3] local
