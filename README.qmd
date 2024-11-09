@@ -684,7 +684,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ## Julia
 
-- [`{JuliaCall}`](https://non-contradiction.github.io/JuliaCall/)
+- [`{JuliaCall}`](https://CRAN.R-project.org/package=JuliaCall)
 
 # Upkeep 🧹
 
