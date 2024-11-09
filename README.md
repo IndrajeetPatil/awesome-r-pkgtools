@@ -1058,7 +1058,7 @@ To thank the contributors or maintainers of packages you rely on.
 
 ## Julia
 
--   [`{JuliaCall}`](https://non-contradiction.github.io/JuliaCall/)
+-   [`{JuliaCall}`](https://CRAN.R-project.org/package=JuliaCall)
 
 # Upkeep 🧹
 
@@ -1120,7 +1120,7 @@ To thank the contributors or maintainers of packages you rely on.
  version  R version 4.4.2 (2024-10-31)
  os       Ubuntu 22.04.5 LTS
  system   x86_64, linux-gnu
- hostname fv-az1242-902
+ hostname fv-az1789-101
  ui       X11
  language (EN)
  collate  C.UTF-8
