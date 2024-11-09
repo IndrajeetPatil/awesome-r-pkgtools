@@ -537,6 +537,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{packageRank}`](https://github.com/lindbrook/packageRank/) (for visualizing CRAN download counts)
 
+- [`{Visualize.CRAN.Downloads}`](https://CRAN.R-project.org/package=Visualize.CRAN.Downloads) (to visualize CRAN downloads)
+
 - [`{dlstats}`](https://guangchuangyu.github.io/dlstats/) (provides download statistics for packages)
 
 # CI/CD 📟
