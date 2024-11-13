@@ -129,6 +129,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{sinew}`](https://yonicd.github.io/sinew/) (generate `{roxygen2}` skeletons)
 
+- [`{autoimport}`](https://github.com/DanChaltiel/autoimport) (to automatically generate @importFrom roxygen tags from R files)
+
 - [`{roclang}`](https://cran.r-project.org/package=roclang) (helpers for diffusing content across function documentation)
 
 - [`{Rdpack}`](https://cran.r-project.org/package=Rdpack) (for inserting references, figures, and evaluated examples in Rd docs)
