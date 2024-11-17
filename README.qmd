@@ -1,13 +1,14 @@
 ---
 title: "Awesome R Package Development Tools"
 format: 
-  html: default
+  html: 
+    embed-resources: true
   md: default
 toc: true
 keep-md: true
 date-modified: "`r Sys.Date()`"
 author: "Indrajeet Patil"
-keywords: ["r packages", "software development", "software engineering", "r"]
+keywords: ["r packages", "software development", "developer tools", "r"]
 ---
 
 A curated list of awesome tools to assist 📦 development in R programming language.
