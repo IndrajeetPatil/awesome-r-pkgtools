@@ -1123,15 +1123,15 @@ To thank the contributors or maintainers of packages you rely on.
  version  R version 4.4.2 (2024-10-31)
  os       Ubuntu 22.04.5 LTS
  system   x86_64, linux-gnu
- hostname fv-az1116-512
+ hostname fv-az711-122
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2024-11-13
+ date     2024-11-17
  pandoc   3.5 @ /opt/hostedtoolcache/pandoc/3.5/x64/ (via rmarkdown)
- quarto   1.6.33 @ /usr/local/bin/quarto
+ quarto   1.6.36 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
