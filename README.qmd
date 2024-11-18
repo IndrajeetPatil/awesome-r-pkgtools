@@ -506,6 +506,8 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{DependencyReviewer}`](https://github.com/darwin-eu-dev/DependencyReviewer/) (to investigate packages during code review by looking at their dependencies)
 
+- [`{pkgdepR}`](https://pkgdepr.org/) (to visualize dependencies between functions for a group of R packages)
+
 - [`{deps}`](https://hub.analythium.io/deps/) (to manage source code dependencies by decorating R code with roxygen-style comments)
 
 - [`{pkgnet}`](https://uptake.github.io/pkgnet/) (to build a graph representation of a package and its dependencies)
