@@ -1,21 +1,21 @@
 ---
 title: "Awesome R Package Development Tools"
 format: 
+  gfm: default
   html: 
     embed-resources: true
-  md: default
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    highlight-style: github
 toc: true
-keep-md: true
 date-modified: "`r Sys.Date()`"
 author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "developer tools", "r"]
 ---
 
 A curated list of awesome tools to assist 📦 development in R programming language.
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re/) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
-
-<!-- TODO: https://www.trackawesomelist.com/IndrajeetPatil/awesome-r-pkgtools/ -->
 
 <!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
 
