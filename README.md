@@ -1118,13 +1118,12 @@ To thank the contributors or maintainers of packages you rely on.
  version  R version 4.4.2 (2024-10-31)
  os       Ubuntu 24.04.1 LTS
  system   x86_64, linux-gnu
- hostname fv-az1959-81
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-02-02
+ date     2025-02-09
  pandoc   3.6.2 @ /opt/hostedtoolcache/pandoc/3.6.2/x64/ (via rmarkdown)
  quarto   1.7.13 @ /usr/local/bin/quarto
 
@@ -1153,7 +1152,7 @@ To thank the contributors or maintainers of packages you rely on.
  R6            2.5.1      2021-08-19 [1] RSPM
  rlang         1.1.5      2025-01-17 [1] RSPM
  rmarkdown     2.29       2024-11-04 [1] RSPM
- sessioninfo   1.2.2.9000 2025-01-12 [1] Github (r-lib/sessioninfo@37c81af)
+ sessioninfo   1.2.3.9000 2025-02-09 [1] Github (r-lib/sessioninfo@f4909c4)
  stats       * 4.4.2      2024-11-07 [3] local
  tools         4.4.2      2024-11-07 [3] local
  utils       * 4.4.2      2024-11-07 [3] local
