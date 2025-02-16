@@ -1123,19 +1123,19 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-02-09
- pandoc   3.6.2 @ /opt/hostedtoolcache/pandoc/3.6.2/x64/ (via rmarkdown)
+ date     2025-02-16
+ pandoc   3.6.3 @ /opt/hostedtoolcache/pandoc/3.6.3/x64/ (via rmarkdown)
  quarto   1.7.13 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version    date (UTC) lib source
  base        * 4.4.2      2024-11-07 [3] local
- cli           3.6.3      2024-06-21 [1] RSPM
+ cli           3.6.4      2025-02-13 [1] RSPM
  clipr         0.8.0      2022-02-22 [1] RSPM
  compiler      4.4.2      2024-11-07 [3] local
  datasets    * 4.4.2      2024-11-07 [3] local
  desc          1.4.3      2023-12-10 [1] RSPM
- details     * 0.3.0      2022-03-27 [1] RSPM
+ details     * 0.4.0      2025-02-09 [1] RSPM
  digest        0.6.37     2024-08-19 [1] RSPM
  evaluate      1.0.3      2025-01-10 [1] RSPM
  fastmap       1.2.0      2024-05-15 [1] RSPM
@@ -1146,19 +1146,17 @@ To thank the contributors or maintainers of packages you rely on.
  httr          1.4.7      2023-08-15 [1] RSPM
  jsonlite      1.8.9      2024-09-20 [1] RSPM
  knitr         1.49       2024-11-08 [1] RSPM
- magrittr      2.0.3      2022-03-30 [1] RSPM
  methods     * 4.4.2      2024-11-07 [3] local
  png           0.1-8      2022-11-29 [1] RSPM
- R6            2.5.1      2021-08-19 [1] RSPM
+ R6            2.6.1      2025-02-15 [1] RSPM
  rlang         1.1.5      2025-01-17 [1] RSPM
  rmarkdown     2.29       2024-11-04 [1] RSPM
- sessioninfo   1.2.3.9000 2025-02-09 [1] Github (r-lib/sessioninfo@f4909c4)
+ sessioninfo   1.2.3.9000 2025-02-16 [1] Github (r-lib/sessioninfo@f4909c4)
  stats       * 4.4.2      2024-11-07 [3] local
  tools         4.4.2      2024-11-07 [3] local
  utils       * 4.4.2      2024-11-07 [3] local
  withr         3.0.2      2024-10-28 [1] RSPM
  xfun          0.50       2025-01-07 [1] RSPM
- xml2          1.3.6      2023-12-04 [1] RSPM
  yaml          2.3.10     2024-07-26 [1] RSPM
 
  [1] /home/runner/work/_temp/Library
