@@ -1123,7 +1123,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-02-16
+ date     2025-02-23
  pandoc   3.6.3 @ /opt/hostedtoolcache/pandoc/3.6.3/x64/ (via rmarkdown)
  quarto   1.7.13 @ /usr/local/bin/quarto
 
@@ -1144,7 +1144,7 @@ To thank the contributors or maintainers of packages you rely on.
  grid          4.4.2      2024-11-07 [3] local
  htmltools     0.5.8.1    2024-04-04 [1] RSPM
  httr          1.4.7      2023-08-15 [1] RSPM
- jsonlite      1.8.9      2024-09-20 [1] RSPM
+ jsonlite      1.9.0      2025-02-19 [1] RSPM
  knitr         1.49       2024-11-08 [1] RSPM
  methods     * 4.4.2      2024-11-07 [3] local
  png           0.1-8      2022-11-29 [1] RSPM
@@ -1156,7 +1156,7 @@ To thank the contributors or maintainers of packages you rely on.
  tools         4.4.2      2024-11-07 [3] local
  utils       * 4.4.2      2024-11-07 [3] local
  withr         3.0.2      2024-10-28 [1] RSPM
- xfun          0.50       2025-01-07 [1] RSPM
+ xfun          0.51       2025-02-19 [1] RSPM
  yaml          2.3.10     2024-07-26 [1] RSPM
 
  [1] /home/runner/work/_temp/Library
