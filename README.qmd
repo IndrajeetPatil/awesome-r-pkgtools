@@ -395,7 +395,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
 
-- [`{flint}`](https://flint.etiennebacher.com/) (to fix lints found by `{lintr}`)
+- [`{flir}`](https://flir.etiennebacher.com/) (to fix lints found by `{lintr}`)
 
 - [`{roxylint}`](https://openpharma.github.io/roxylint/index.html) (to lint `{roxygen2}`-generated documentation)
 
