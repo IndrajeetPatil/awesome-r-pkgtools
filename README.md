@@ -633,7 +633,7 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 - [`{lintr}`](https://github.com/r-lib/lintr/) (static code analysis)
 
-- [`{flint}`](https://flint.etiennebacher.com/) (to fix lints found by
+- [`{flir}`](https://flir.etiennebacher.com/) (to fix lints found by
   `{lintr}`)
 
 - [`{roxylint}`](https://openpharma.github.io/roxylint/index.html) (to
@@ -1040,6 +1040,8 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{rextendr}`](https://cran.r-project.org/package=rextendr)
 
+- [`{savvy}`](https://yutannihilation.github.io/savvy/guide/intro.html)
+
 - [`{cargo}`](https://cran.r-project.org/package=cargo)
 
 - [`{hellorust}`](https://github.com/r-rust/hellorust)
@@ -1123,8 +1125,8 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-03-16
- pandoc   3.6.3 @ /opt/hostedtoolcache/pandoc/3.6.3/x64/ (via rmarkdown)
+ date     2025-03-18
+ pandoc   3.6.4 @ /opt/hostedtoolcache/pandoc/3.6.4/x64/ (via rmarkdown)
  quarto   1.7.17 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
@@ -1145,7 +1147,7 @@ To thank the contributors or maintainers of packages you rely on.
  htmltools     0.5.8.1    2024-04-04 [1] RSPM
  httr          1.4.7      2023-08-15 [1] RSPM
  jsonlite      1.9.1      2025-03-03 [1] RSPM
- knitr         1.49       2024-11-08 [1] RSPM
+ knitr         1.50       2025-03-16 [1] RSPM
  methods     * 4.4.3      2025-02-28 [3] local
  png           0.1-8      2022-11-29 [1] RSPM
  R6            2.6.1      2025-02-15 [1] RSPM
