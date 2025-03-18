@@ -4,6 +4,7 @@ format:
   gfm: default
   html: 
     embed-resources: true
+    link-external-newwindow: true
   pdf:
     toc: true
     number-sections: true
@@ -673,6 +674,8 @@ To thank the contributors or maintainers of packages you rely on.
 ## Rust
 
 - [`{rextendr}`](https://cran.r-project.org/package=rextendr)
+
+- [`{savvy}`](https://yutannihilation.github.io/savvy/guide/intro.html)
 
 - [`{cargo}`](https://cran.r-project.org/package=cargo)
 
