@@ -1125,7 +1125,7 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-06-15
+ date     2025-06-22
  pandoc   3.7.0.2 @ /opt/hostedtoolcache/pandoc/3.7.0.2/x64/ (via rmarkdown)
  quarto   1.8.14 @ /usr/local/bin/quarto
 
@@ -1139,7 +1139,7 @@ To thank the contributors or maintainers of packages you rely on.
  desc          1.4.3      2023-12-10 [1] RSPM
  details     * 0.4.0      2025-02-09 [1] RSPM
  digest        0.6.37     2024-08-19 [1] RSPM
- evaluate      1.0.3      2025-01-10 [1] RSPM
+ evaluate      1.0.4      2025-06-18 [1] RSPM
  fastmap       1.2.0      2024-05-15 [1] RSPM
  graphics    * 4.5.1      2025-06-13 [3] local
  grDevices   * 4.5.1      2025-06-13 [3] local
