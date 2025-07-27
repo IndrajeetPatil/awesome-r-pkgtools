@@ -279,7 +279,7 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{r-hedgehog}`](https://github.com/hedgehogqa/r-hedgehog) (property based testing)
 
-- [`{autotest}`](https://docs.ropensci.org/autotest/) (automatic mutation testing of R packages)
+- [`{muttest}`](https://jakubsobolewski.com/muttest/) (automatic mutation testing of R packages)
 
 - [`{cucumber}`](https://jakubsob.github.io/cucumber/) (an implementation of the [Cucumber testing framework](https://cucumber.io/) in R)
 
