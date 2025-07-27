@@ -463,7 +463,7 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 - [`{r-hedgehog}`](https://github.com/hedgehogqa/r-hedgehog) (property
   based testing)
 
-- [`{autotest}`](https://docs.ropensci.org/autotest/) (automatic
+- [`{muttest}`](https://jakubsobolewski.com/muttest/) (automatic
   mutation testing of R packages)
 
 - [`{cucumber}`](https://jakubsob.github.io/cucumber/) (an
