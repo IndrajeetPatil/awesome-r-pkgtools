@@ -1118,14 +1118,14 @@ To thank the contributors or maintainers of packages you rely on.
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
  version  R version 4.5.1 (2025-06-13)
- os       Ubuntu 24.04.2 LTS
+ os       Ubuntu 24.04.3 LTS
  system   x86_64, linux-gnu
  ui       X11
  language (EN)
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-08-24
+ date     2025-08-31
  pandoc   3.7.0.2 @ /opt/hostedtoolcache/pandoc/3.7.0.2/x64/ (via rmarkdown)
  quarto   1.8.21 @ /usr/local/bin/quarto
 
@@ -1139,7 +1139,7 @@ To thank the contributors or maintainers of packages you rely on.
  desc          1.4.3      2023-12-10 [1] RSPM
  details     * 0.4.0      2025-02-09 [1] RSPM
  digest        0.6.37     2024-08-19 [1] RSPM
- evaluate      1.0.4      2025-06-18 [1] RSPM
+ evaluate      1.0.5      2025-08-27 [1] RSPM
  fastmap       1.2.0      2024-05-15 [1] RSPM
  graphics    * 4.5.1      2025-06-13 [3] local
  grDevices   * 4.5.1      2025-06-13 [3] local
@@ -1153,7 +1153,7 @@ To thank the contributors or maintainers of packages you rely on.
  R6            2.6.1      2025-02-15 [1] RSPM
  rlang         1.1.6      2025-04-11 [1] RSPM
  rmarkdown     2.29       2024-11-04 [1] RSPM
- sessioninfo   1.2.3.9000 2025-06-15 [1] Github (r-lib/sessioninfo@5d07442)
+ sessioninfo   1.2.3.9000 2025-08-31 [1] Github (r-lib/sessioninfo@5d07442)
  stats       * 4.5.1      2025-06-13 [3] local
  tools         4.5.1      2025-06-13 [3] local
  utils       * 4.5.1      2025-06-13 [3] local
