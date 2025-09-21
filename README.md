@@ -334,7 +334,7 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
   information and generate badges for use in `README`)
 
 - [`{badgen}`](https://cran.r-project.org/package=badgen) (provides
-  bindings to [`badgen`](https://www.npmjs.com/package/badgen) to
+  bindings to [`badgen`](https://github.com/badgen/badgen#readme) to
   generate beautiful ‘svg’ badges in R without internet access)
 
 - [`{hexSticker}`](https://cran.r-project.org/package=hexSticker)
