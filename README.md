@@ -599,8 +599,8 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
   follows good practices recommended for packages in the
   [`rOpenSci`](https://ropensci.org/) ecosystem)
 
-- [`{pkgstats}`](https://docs.ropensci.org/pkgstats/) (a static code
-  analysis tool)
+- [`{pkgstats}`](https://docs.ropensci.org/pkgstats/) (provides metrics
+  of R Packages)
 
 - [`{rchk}`](https://github.com/kalibera/rchk/) (provides several
   bug-finding tools that look for memory protection errors in C source
@@ -1130,36 +1130,36 @@ To thank the contributors or maintainers of packages you rely on.
  quarto   1.9.2 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
- package     * version    date (UTC) lib source
- base        * 4.5.1      2025-06-13 [3] local
- cli           3.6.5      2025-04-23 [1] RSPM
- clipr         0.8.0      2022-02-22 [1] RSPM
- compiler      4.5.1      2025-06-13 [3] local
- datasets    * 4.5.1      2025-06-13 [3] local
- desc          1.4.3      2023-12-10 [1] RSPM
- details     * 0.4.0      2025-02-09 [1] RSPM
- digest        0.6.37     2024-08-19 [1] RSPM
- evaluate      1.0.5      2025-08-27 [1] RSPM
- fastmap       1.2.0      2024-05-15 [1] RSPM
- graphics    * 4.5.1      2025-06-13 [3] local
- grDevices   * 4.5.1      2025-06-13 [3] local
- grid          4.5.1      2025-06-13 [3] local
- htmltools     0.5.8.1    2024-04-04 [1] RSPM
- httr          1.4.7      2023-08-15 [1] RSPM
- jsonlite      2.0.0      2025-03-27 [1] RSPM
- knitr         1.50       2025-03-16 [1] RSPM
- methods     * 4.5.1      2025-06-13 [3] local
- png           0.1-8      2022-11-29 [1] RSPM
- R6            2.6.1      2025-02-15 [1] RSPM
- rlang         1.1.6      2025-04-11 [1] RSPM
- rmarkdown     2.30       2025-09-28 [1] RSPM
- sessioninfo   1.2.3.9000 2025-09-14 [1] Github (r-lib/sessioninfo@ec4dd0c)
- stats       * 4.5.1      2025-06-13 [3] local
- tools         4.5.1      2025-06-13 [3] local
- utils       * 4.5.1      2025-06-13 [3] local
- withr         3.0.2      2024-10-28 [1] RSPM
- xfun          0.53       2025-08-19 [1] RSPM
- yaml          2.3.10     2024-07-26 [1] RSPM
+ package     * version date (UTC) lib source
+ base        * 4.5.1   2025-06-13 [3] local
+ cli           3.6.5   2025-04-23 [1] RSPM
+ clipr         0.8.0   2022-02-22 [1] RSPM
+ compiler      4.5.1   2025-06-13 [3] local
+ datasets    * 4.5.1   2025-06-13 [3] local
+ desc          1.4.3   2023-12-10 [1] RSPM
+ details     * 0.4.0   2025-02-09 [1] RSPM
+ digest        0.6.37  2024-08-19 [1] RSPM
+ evaluate      1.0.5   2025-08-27 [1] RSPM
+ fastmap       1.2.0   2024-05-15 [1] RSPM
+ graphics    * 4.5.1   2025-06-13 [3] local
+ grDevices   * 4.5.1   2025-06-13 [3] local
+ grid          4.5.1   2025-06-13 [3] local
+ htmltools     0.5.8.1 2024-04-04 [1] RSPM
+ httr          1.4.7   2023-08-15 [1] RSPM
+ jsonlite      2.0.0   2025-03-27 [1] RSPM
+ knitr         1.50    2025-03-16 [1] RSPM
+ methods     * 4.5.1   2025-06-13 [3] local
+ png           0.1-8   2022-11-29 [1] RSPM
+ R6            2.6.1   2025-02-15 [1] RSPM
+ rlang         1.1.6   2025-04-11 [1] RSPM
+ rmarkdown     2.30    2025-09-28 [1] RSPM
+ sessioninfo   1.2.3   2025-02-05 [1] any (@1.2.3)
+ stats       * 4.5.1   2025-06-13 [3] local
+ tools         4.5.1   2025-06-13 [3] local
+ utils       * 4.5.1   2025-06-13 [3] local
+ withr         3.0.2   2024-10-28 [1] RSPM
+ xfun          0.53    2025-08-19 [1] RSPM
+ yaml          2.3.10  2024-07-26 [1] RSPM
 
  [1] /home/runner/work/_temp/Library
  [2] /opt/R/4.5.1/lib/R/site-library
