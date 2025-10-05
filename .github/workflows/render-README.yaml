@@ -22,13 +22,10 @@ jobs:
         with:
           pandoc-version: "latest"
 
-      - uses: r-lib/actions/setup-tinytex@v2
-      - run: |
-          tlmgr --version
-
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: pre-release
+          tinytex: true
       - run: |
           quarto --version
 
@@ -40,9 +37,6 @@ jobs:
         with:
           pak-version: devel
           upgrade: 'TRUE'
-          extra-packages: |
-            quarto-dev/quarto-r
-            r-lib/sessioninfo
 
       - name: Render README
         run: |
