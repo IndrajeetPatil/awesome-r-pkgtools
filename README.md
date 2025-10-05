@@ -599,7 +599,7 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
   follows good practices recommended for packages in the
   [`rOpenSci`](https://ropensci.org/) ecosystem)
 
-- [{pkgstats}](https://docs.ropensci.org/pkgstats/) (a static code
+- [`{pkgstats}`](https://docs.ropensci.org/pkgstats/) (a static code
   analysis tool)
 
 - [`{rchk}`](https://github.com/kalibera/rchk/) (provides several
