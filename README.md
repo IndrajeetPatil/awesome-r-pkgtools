@@ -26,7 +26,8 @@ Indrajeet Patil
   - [Book](#book)
   - [Change log and versioning](#change-log-and-versioning)
 - [Documentation quality ✒️](#documentation-quality-black_nib)
-- [Logging 📝](#logging-pencil)
+- [Observability and Monitoring
+  📝](#observability-and-monitoring-pencil)
 - [Unit testing 🧪](#unit-testing-test_tube)
   - [Generic R Packages](#generic-r-packages)
   - [Web/database applications](#webdatabase-applications)
@@ -380,7 +381,9 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 - [`{gramr}`](https://github.com/jasdumas/gramr/) (for grammar
   suggestions)
 
-# Logging 📝
+# Observability and Monitoring 📝
+
+- [`{otelsdk}`](https://otelsdk.r-lib.org/) (R SDK for OpenTelemetry)
 
 - [`{logger}`](https://cran.r-project.org/package=logger) (provides a
   flexible and extensible logging framework for R)
@@ -1125,8 +1128,8 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2025-10-05
- pandoc   3.8.1 @ /opt/hostedtoolcache/pandoc/3.8.1/x64/ (via rmarkdown)
+ date     2025-10-06
+ pandoc   3.8.2 @ /opt/hostedtoolcache/pandoc/3.8.2/x64/ (via rmarkdown)
  quarto   1.9.2 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
