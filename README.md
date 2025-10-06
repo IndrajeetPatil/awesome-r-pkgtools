@@ -134,8 +134,8 @@ whether the package is meant to be submitted to CRAN or Bioconductor.
 
 ## Generic
 
-- [`{pkgkitten}`](https://dirk.eddelbuettel.com/code/pkgkitten.html)
-  (useful for creating new packages for R)
+- [`{pkgkitten}`](https://eddelbuettel.github.io/pkgkitten/) (useful for
+  creating new packages for R)
 
 - [`{rcompendium}`](https://frbcesab.github.io/rcompendium/) (to make
   the creation of R package/research compendium easier)
