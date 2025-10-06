@@ -227,7 +227,9 @@ Tools useful across all stages of package development (some of these are meta-pa
 
 - [`{gramr}`](https://github.com/jasdumas/gramr/) (for grammar suggestions)
 
-# Logging 📝
+# Observability and Monitoring 📝
+
+- [`{otelsdk}`](https://otelsdk.r-lib.org/) (R SDK for OpenTelemetry)
 
 - [`{logger}`](https://cran.r-project.org/package=logger) (provides a flexible and extensible logging framework for R)
 
