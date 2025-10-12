@@ -18,8 +18,6 @@ keywords: ["r packages", "software development", "developer tools", "r"]
 
 A curated list of awesome tools to assist 📦 development in R programming language.
 
-<!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
-
 :::{.callout-tip}
 
 ## What is included?

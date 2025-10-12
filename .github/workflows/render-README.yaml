@@ -36,12 +36,14 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           pak-version: devel
-          upgrade: 'TRUE'
+          upgrade: "TRUE"
 
       - name: Render README
         run: |
           options(crayon.enabled = FALSE)
-          callr::rscript("renderer.R")
+          quarto::quarto_render("README.qmd", output_format = "all")
+          fs::file_copy("README.html", "index.html", overwrite = TRUE)
+          fs::file_delete("README.html")
         shell: Rscript {0}
 
       - uses: stefanzweifel/git-auto-commit-action@v6
