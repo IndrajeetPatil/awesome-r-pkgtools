@@ -87,8 +87,6 @@ Indrajeet Patil
 A curated list of awesome tools to assist 📦 development in R
 programming language.
 
-<!-- Don't render this file manually. Run `renderer.R` script locally instead. -->
-
 > [!TIP]
 >
 > ### What is included?
