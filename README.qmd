@@ -31,7 +31,7 @@ If you wish to suggest any additional tools, please make a PR or create an issue
 
 # Code of Conduct
 
-Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://github.com/IndrajeetPatil/awesome-r-pkgtools/blob/main/.github/CODE_OF_CONDUCT.md/). By contributing to this project, you agree to abide by its terms.
+Please note that the `awesome-r-pkgtools` project is released with a [Contributor Code of Conduct](https://www.contributor-covenant.org/version/3/0/code_of_conduct/). By contributing to this project, you agree to abide by its terms.
 
 # Swiss army knives 🛠
 

@@ -106,7 +106,7 @@ an issue [here](https://github.com/IndrajeetPatil/awesome-r-pkgtools/).
 
 Please note that the `awesome-r-pkgtools` project is released with a
 [Contributor Code of
-Conduct](https://github.com/IndrajeetPatil/awesome-r-pkgtools/blob/main/.github/CODE_OF_CONDUCT.md/).
+Conduct](https://www.contributor-covenant.org/version/3/0/code_of_conduct/).
 By contributing to this project, you agree to abide by its terms.
 
 # Swiss army knives 🛠
@@ -1118,53 +1118,52 @@ To thank the contributors or maintainers of packages you rely on.
 
 ─ Session info ───────────────────────────────────────────────────────────────
  setting  value
- version  R version 4.5.2 (2025-10-31)
- os       Ubuntu 24.04.3 LTS
- system   x86_64, linux-gnu
+ version  R version 4.5.0 (2025-04-11)
+ os       macOS Sequoia 15.6.1
+ system   aarch64, darwin20
  ui       X11
  language (EN)
- collate  C.UTF-8
- ctype    C.UTF-8
- tz       UTC
- date     2025-11-25
- pandoc   3.8.2.1 @ /opt/hostedtoolcache/pandoc/3.8.2.1/x64/ (via rmarkdown)
- quarto   1.9.12 @ /usr/local/bin/quarto
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       Asia/Kolkata
+ date     2025-12-28
+ pandoc   3.8.3 @ /opt/homebrew/bin/ (via rmarkdown)
+ quarto   1.8.26 @ /Applications/quarto/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version date (UTC) lib source
- base        * 4.5.2   2025-10-31 [3] local
- cli           3.6.5   2025-04-23 [1] RSPM
- clipr         0.8.0   2022-02-22 [1] RSPM
- compiler      4.5.2   2025-10-31 [3] local
- datasets    * 4.5.2   2025-10-31 [3] local
- desc          1.4.3   2023-12-10 [1] RSPM
- details     * 0.4.0   2025-02-09 [1] RSPM
- digest        0.6.39  2025-11-19 [1] RSPM
- evaluate      1.0.5   2025-08-27 [1] RSPM
- fastmap       1.2.0   2024-05-15 [1] RSPM
- graphics    * 4.5.2   2025-10-31 [3] local
- grDevices   * 4.5.2   2025-10-31 [3] local
- grid          4.5.2   2025-10-31 [3] local
- htmltools     0.5.8.1 2024-04-04 [1] RSPM
- httr          1.4.7   2023-08-15 [1] RSPM
- jsonlite      2.0.0   2025-03-27 [1] RSPM
- knitr         1.50    2025-03-16 [1] RSPM
- methods     * 4.5.2   2025-10-31 [3] local
- png           0.1-8   2022-11-29 [1] RSPM
- R6            2.6.1   2025-02-15 [1] RSPM
- rlang         1.1.6   2025-04-11 [1] RSPM
- rmarkdown     2.30    2025-09-28 [1] RSPM
- sessioninfo   1.2.3   2025-02-05 [1] any (@1.2.3)
- stats       * 4.5.2   2025-10-31 [3] local
- tools         4.5.2   2025-10-31 [3] local
- utils       * 4.5.2   2025-10-31 [3] local
- withr         3.0.2   2024-10-28 [1] RSPM
- xfun          0.54    2025-10-30 [1] RSPM
- yaml          2.3.10  2024-07-26 [1] RSPM
+ base        * 4.5.0   2025-04-11 [2] local
+ cli           3.6.5   2025-04-23 [1] CRAN (R 4.5.0)
+ clipr         0.8.0   2022-02-22 [1] CRAN (R 4.5.0)
+ compiler      4.5.0   2025-04-11 [2] local
+ datasets    * 4.5.0   2025-04-11 [2] local
+ desc          1.4.3   2023-12-10 [1] CRAN (R 4.5.0)
+ details     * 0.4.0   2025-02-09 [1] CRAN (R 4.5.0)
+ digest        0.6.39  2025-11-19 [1] CRAN (R 4.5.0)
+ evaluate      1.0.5   2025-08-27 [1] CRAN (R 4.5.0)
+ fastmap       1.2.0   2024-05-15 [1] CRAN (R 4.5.0)
+ graphics    * 4.5.0   2025-04-11 [2] local
+ grDevices   * 4.5.0   2025-04-11 [2] local
+ grid          4.5.0   2025-04-11 [2] local
+ htmltools     0.5.9   2025-12-04 [1] CRAN (R 4.5.2)
+ httr          1.4.7   2023-08-15 [1] CRAN (R 4.5.0)
+ jsonlite      2.0.0   2025-03-27 [1] CRAN (R 4.5.0)
+ knitr         1.50    2025-03-16 [1] CRAN (R 4.5.0)
+ methods     * 4.5.0   2025-04-11 [2] local
+ png           0.1-8   2022-11-29 [1] CRAN (R 4.5.0)
+ R6            2.6.1   2025-02-15 [1] CRAN (R 4.5.0)
+ rlang         1.1.6   2025-04-11 [1] CRAN (R 4.5.0)
+ rmarkdown     2.30    2025-09-28 [1] CRAN (R 4.5.0)
+ sessioninfo   1.2.3   2025-02-05 [1] CRAN (R 4.5.0)
+ stats       * 4.5.0   2025-04-11 [2] local
+ tools         4.5.0   2025-04-11 [2] local
+ utils       * 4.5.0   2025-04-11 [2] local
+ withr         3.0.2   2024-10-28 [1] CRAN (R 4.5.0)
+ xfun          0.54    2025-10-30 [1] CRAN (R 4.5.0)
+ yaml          2.3.11  2025-11-28 [1] CRAN (R 4.5.2)
 
- [1] /home/runner/work/_temp/Library
- [2] /opt/R/4.5.2/lib/R/site-library
- [3] /opt/R/4.5.2/lib/R/library
+ [1] /Users/indrajeetpatil/Library/R/arm64/4.5/library
+ [2] /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
  * ── Packages attached to the search path.
 
 ──────────────────────────────────────────────────────────────────────────────
