@@ -45,4 +45,5 @@ jobs:
         shell: Rscript {0}
 
       - name: Commit changes
+        if: github.event_name == 'push'
         uses: stefanzweifel/git-auto-commit-action@v7
