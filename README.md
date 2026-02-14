@@ -1,5 +1,5 @@
 # Awesome R Package Development Tools
-Indrajeet Patil
+
 
 > [!WARNING]
 >
@@ -1020,72 +1020,3 @@ To thank the contributors or maintainers of packages you rely on.
 
 - [`{dang}`](https://CRAN.R-project.org/package=dang) (Miscellaneous
   utilities for CRAN packages)
-
-# Session information
-
-<details closed>
-
-<summary>
-
-<span title="Click to Open"> Session details </span>
-</summary>
-
-``` r
-
-─ Session info ───────────────────────────────────────────────────────────────
- setting  value
- version  R version 4.5.2 (2025-10-31)
- os       Ubuntu 24.04.3 LTS
- system   x86_64, linux-gnu
- ui       X11
- language (EN)
- collate  C.UTF-8
- ctype    C.UTF-8
- tz       UTC
- date     2026-02-14
- pandoc   3.9 @ /opt/hostedtoolcache/pandoc/3.9/x64/ (via rmarkdown)
- quarto   1.9.20 @ /usr/local/bin/quarto
-
-─ Packages ───────────────────────────────────────────────────────────────────
- package     * version date (UTC) lib source
- base        * 4.5.2   2025-10-31 [3] local
- cli           3.6.5   2025-04-23 [1] RSPM
- clipr         0.8.0   2022-02-22 [1] RSPM
- compiler      4.5.2   2025-10-31 [3] local
- datasets    * 4.5.2   2025-10-31 [3] local
- desc          1.4.3   2023-12-10 [1] RSPM
- details     * 0.4.0   2025-02-09 [1] RSPM
- digest        0.6.39  2025-11-19 [1] RSPM
- evaluate      1.0.5   2025-08-27 [1] RSPM
- fastmap       1.2.0   2024-05-15 [1] RSPM
- graphics    * 4.5.2   2025-10-31 [3] local
- grDevices   * 4.5.2   2025-10-31 [3] local
- grid          4.5.2   2025-10-31 [3] local
- htmltools     0.5.9   2025-12-04 [1] RSPM
- httr          1.4.7   2023-08-15 [1] RSPM
- jsonlite      2.0.0   2025-03-27 [1] RSPM
- knitr         1.51    2025-12-20 [1] RSPM
- methods     * 4.5.2   2025-10-31 [3] local
- png           0.1-8   2022-11-29 [1] RSPM
- R6            2.6.1   2025-02-15 [1] RSPM
- rlang         1.1.7   2026-01-09 [1] RSPM
- rmarkdown     2.30    2025-09-28 [1] RSPM
- sessioninfo   1.2.3   2025-02-05 [1] any (@1.2.3)
- stats       * 4.5.2   2025-10-31 [3] local
- tools         4.5.2   2025-10-31 [3] local
- utils       * 4.5.2   2025-10-31 [3] local
- withr         3.0.2   2024-10-28 [1] RSPM
- xfun          0.56    2026-01-18 [1] RSPM
- yaml          2.3.12  2025-12-10 [1] RSPM
-
- [1] /home/runner/work/_temp/Library
- [2] /opt/R/4.5.2/lib/R/site-library
- [3] /opt/R/4.5.2/lib/R/library
- * ── Packages attached to the search path.
-
-──────────────────────────────────────────────────────────────────────────────
-```
-
-</details>
-
-<br>
