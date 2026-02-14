@@ -16,6 +16,18 @@ author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "developer tools", "r"]
 ---
 
+:::{.callout-warning}
+
+## ⚠️ Repository Archived
+
+This repository is no longer maintained and has been archived in favour of the CRAN Task View on Package Development. 
+
+**Contributors:** Please direct your contributions to the [CRAN Task View](https://github.com/hturner/pkg-dev-ctv/) instead.
+
+:::
+
+---
+
 A curated list of awesome tools to assist 📦 development in R programming language.
 
 :::{.callout-warning}
