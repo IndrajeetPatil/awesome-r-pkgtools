@@ -11,7 +11,6 @@ format:
     colorlinks: true
     highlight-style: github
 date-modified: "`r Sys.Date()`"
-author: "Indrajeet Patil"
 keywords: ["r packages", "software development", "developer tools", "r"]
 ---
 
@@ -725,20 +724,3 @@ To thank the contributors or maintainers of packages you rely on.
 - [`{DIZutils}`](https://cran.r-project.org/package=DIZutils) (helpers for packages dealing with database connections)
 
 - [`{dang}`](https://CRAN.R-project.org/package=dang) (Miscellaneous utilities for CRAN packages)
-
-# Session information
-
-```{r}
-#| echo: false
-library(details)
-```
-
-
-```{details}
-#| echo: false
-#| eval: true
-#| comment: "#>"
-#| details.summary: "Session details"
-
-sessioninfo::session_info(include_base = TRUE)
-```
