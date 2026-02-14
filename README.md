@@ -84,6 +84,18 @@ Indrajeet Patil
 - [Sundry 🗒](#sundry-)
 - [Session information](#session-information)
 
+> [!WARNING]
+>
+> ### ⚠️ Repository Archived
+>
+> This repository is no longer maintained and has been archived in
+> favour of the CRAN Task View on Package Development.
+>
+> **Contributors:** Please direct your contributions to the [CRAN Task
+> View](https://github.com/hturner/pkg-dev-ctv/) instead.
+
+------------------------------------------------------------------------
+
 A curated list of awesome tools to assist 📦 development in R
 programming language.
 
@@ -1137,9 +1149,9 @@ To thank the contributors or maintainers of packages you rely on.
  collate  C.UTF-8
  ctype    C.UTF-8
  tz       UTC
- date     2026-02-07
+ date     2026-02-14
  pandoc   3.9 @ /opt/hostedtoolcache/pandoc/3.9/x64/ (via rmarkdown)
- quarto   1.9.19 @ /usr/local/bin/quarto
+ quarto   1.9.20 @ /usr/local/bin/quarto
 
 ─ Packages ───────────────────────────────────────────────────────────────────
  package     * version date (UTC) lib source
